@@ -5,9 +5,6 @@ tags:
 created: 2024-08-21 15:09
 publish: "true"
 ---
-```table-of-contents
-```
-
 ## final 키워드
 
 ### final 변수

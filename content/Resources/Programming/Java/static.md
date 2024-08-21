@@ -5,8 +5,7 @@ tags:
 created: 2024-08-21 15:09
 publish: "true"
 ---
-```table-of-contents
-```
+
 ## static 키워드
 
 ### 정적 변수

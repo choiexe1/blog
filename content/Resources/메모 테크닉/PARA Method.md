@@ -6,8 +6,6 @@ tags:
 created: 2024-08-09 17:19
 publish: "false"
 ---
-```table-of-contents
-```
 ## PARA Method
 파라 메소드란 메모를 체계적으로 관리하는 방법 중 하나이다.
 PARA란 각각 Project, Area, Resource, Archive의 앞 글자를 따서 만들어졌다.

@@ -5,8 +5,6 @@ tags:
 created: 2024-08-13 20:55
 publish: "true"
 ---
-```table-of-contents
-```
 
 ## 스택 자료구조
 ![[stack.png]]
