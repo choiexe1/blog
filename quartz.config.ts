@@ -8,11 +8,11 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 제이의 지식 정원 🪴",
+    pageTitle: "🪴 제이의 지식 정원",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google", tagId: "G-ZZDKF588M9"
     },
     locale: "ko-KR",
     baseUrl: "devjay.blog",
