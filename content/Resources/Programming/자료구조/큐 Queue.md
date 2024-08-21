@@ -3,7 +3,7 @@ tags:
   - data-structure
   - programming
 created: 2024-08-13 20:59
-draft: "true"
+publish: "true"
 ---
 ```table-of-contents
 ```
