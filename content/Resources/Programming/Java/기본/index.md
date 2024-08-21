@@ -5,7 +5,7 @@ tags:
   - index
 created: 2024-08-11 02:42
 publish: "true"
-title: 색인
+title: 기본
 ---
 - [[클래스]]
 - [[기본 타입과 참조형 타입]]

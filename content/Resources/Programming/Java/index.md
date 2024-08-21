@@ -1,5 +1,5 @@
 ---
-title: 
+title: 색인
 tags: 
 created: 2024-08-09 17:02
 publish: true
@@ -10,6 +10,6 @@ publish: true
 [[들어가기 앞서]]
 
 ## 자바 기본
-[[Resources/Programming/Java/1. 기본/index|색인]]
+[[Resources/Programming/Java/기본/index|색인]]
 
 ---
