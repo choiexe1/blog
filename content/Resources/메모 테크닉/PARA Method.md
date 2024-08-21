@@ -4,7 +4,7 @@ tags:
   - memo
   - technique
 created: 2024-08-09 17:19
-publish: "false"
+publish: true
 ---
 ## PARA Method
 파라 메소드란 메모를 체계적으로 관리하는 방법 중 하나이다.
