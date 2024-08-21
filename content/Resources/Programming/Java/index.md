@@ -4,6 +4,7 @@ tags:
   - programming
 created: 2024-08-09 16:23
 publish: "true"
+title: 자바를 입문 해보자
 ---
 ## 컴파일 언어에, 가비지 컬렉션이?
 
