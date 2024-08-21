@@ -1,5 +1,5 @@
 ---
-title: 색인
+title: Java
 tags: 
 created: 2024-08-09 17:02
 publish: true
