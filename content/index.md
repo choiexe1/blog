@@ -1,7 +1,7 @@
 ---
 tags: 
 created: 2024-08-21 16:27
-draft: "true"
+draft: "false"
 ---
 안녕하세요!
 
