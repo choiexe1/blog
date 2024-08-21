@@ -4,7 +4,7 @@ tags:
   - memo
   - technique
 created: 2024-08-09 17:19
-publish: "true"
+draft: "false"
 ---
 ```table-of-contents
 ```
