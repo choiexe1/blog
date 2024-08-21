@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "ko-KR",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "devjay.blog",
     ignorePatterns: ["private", "templates", ".obsidian", "Templates"],
     defaultDateType: "created",
     theme: {
