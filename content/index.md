@@ -29,6 +29,9 @@ publish: true
 - 봇을 통한 서버 헬스체크 자동화
 - 웹 뷰 기반의 Flutter 앱 개발
 
+###### 링크
+[Github](https://github.com/choiexe1)
+
 ---
 ##### 공개 게시글 색인
 [[Resources/메모 테크닉/index|메모 테크닉]] 
