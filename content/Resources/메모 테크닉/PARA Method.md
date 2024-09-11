@@ -31,7 +31,7 @@ PARA란 각각 Project, Area, Resource, Archive의 앞 글자를 따서 만들�
 ---
 Origin:
 
-References: 유튜브
+References:
 
 Links: 
 
