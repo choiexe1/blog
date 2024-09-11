@@ -4,7 +4,7 @@ tags:
   - programming
   - index
 created: 2024-08-11 02:42
-publish: "true"
+publish: true
 title: 기본
 ---
 - [[클래스]]
@@ -26,7 +26,7 @@ title: 기본
 		- [[추상 클래스와 추상 메서드]]
 		- [[인터페이스]]
 			- [[인터페이스 다중 구현(다중 상속)]]
-- 좋은 객체지향 프로그래밍
+- [[좋은 객체지향 프로그래밍]]
 
 ---
 Origin:
