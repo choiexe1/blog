@@ -19,7 +19,7 @@ title: 기본
 - [[final]]
 - [[상속]]
 - [[상속과 메서드 오버라이딩]]
-- [[객체 지향 프로그래밍]]
+- [[Resources/Programming/Java/기본/객체 지향 프로그래밍]]
 	- [[Resources/Programming/Java/기본/캡슐화]]
 	- [[Resources/Programming/Java/기본/다형성]]
 		- [[캐스팅과 그 종류들]]
