@@ -47,7 +47,7 @@ publish: "true"
 ---
 Origin: 
 
-References: [[Resources/Programming/Java/기본/캡슐화]]
+References: [[Resources/프로그래밍/Java/기본/캡슐화|캡슐화]]
 
 Links: [[static]] [[자바의 메모리 구조]]
 
