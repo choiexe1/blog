@@ -19,15 +19,15 @@ title: 기본
 - [[final]]
 - [[상속]]
 - [[상속과 메서드 오버라이딩]]
-- [[Resources/Programming/Java/기본/객체 지향 프로그래밍]]
-	- [[Resources/Programming/Java/기본/캡슐화]]
-	- [[Resources/Programming/Java/기본/다형성]]
+- [[Resources/Programming/Java/기본/객체 지향 프로그래밍|객체 지향 프로그래밍]]
+	- [[Resources/Programming/Java/기본/캡슐화|캡슐화]]
+	- [[Resources/Programming/Java/기본/다형성|다형성]]
 		- [[캐스팅과 그 종류들]]
 		- [[추상 클래스와 추상 메서드]]
 		- [[인터페이스]]
 			- [[인터페이스 다중 구현(다중 상속)]]
 - [[좋은 객체 지향 프로그래밍이란]]
-- [[리뷰]]
+- [[복습]]
 
 ---
 Origin:
