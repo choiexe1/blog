@@ -69,7 +69,7 @@ public class Dog {
 > [!tip]
 > `System.out.println()` 메서드는 내부에서 `Object` 클래스의 `toString()` 메서드를 호출한다.
 
-
+## 동일성과 동등성 equals()
 
 ---
 Origin: 
