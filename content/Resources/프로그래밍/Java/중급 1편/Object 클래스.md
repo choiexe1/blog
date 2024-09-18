@@ -90,7 +90,29 @@ User b = new User("id-100");
 ```
 위 예시 코드에서, `User` 객체인 `a`와 `b`는 참조값이 같지 않으므로 동일하지 않다. 그러나 논리적으로 보았을 때는 두 객체가 모두 `User` 객체이므로 동등하다.
 
+그러나 실제로 아래 코드를 실행해보면 예상과는 다른 결과가 출력된다.
+```java
+public class EqualsMainV1 {  
+  
+  public static void main(String[] args) {  
+    UserV1 user1 = new UserV1("id-100");  
+    UserV1 user2 = new UserV1("10-100");  
+  
+    System.out.println("identity = " + (user1 == user2));  
+    System.out.println("equality = " + (user1.equals(user2)));  
+  }  
+}
 
+// 출력 결과
+// identity = false
+// equality = false
+```
+
+이유는, `Object` 클래스에서 기본으로 제공하는 `equals()`의 내부에서 `==` 연산자를 사용한 결과를 출력하기 때문이다.
+
+동등성이라는 개념은 각각의 클래스마다 다르다. 어떤 클래스는 주민등록번호를 기반으로 동등성을 처리할 수 있고 어떤 클래스는 고객의 연락처를 기반으로 동등성을 처리할 수 있다.
+
+따라서 동등성 비교를 사용하고 싶으면 `equals()`를 재정의 해야한다. 그렇지 않으면 `Object`는 동일성 비교를 기본으로 제공한다.
 
 ---
 Origin: 
