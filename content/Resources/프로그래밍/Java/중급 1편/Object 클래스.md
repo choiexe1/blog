@@ -85,10 +85,10 @@ public class Dog {
 반면 동등성은 논리적으로 두 객체가 같은 것인지를 확인한다.
 
 ```java
-User a = new User("id-100");
-User b = new User("id-100");
+User user1 = new UserV1("id-100");
+User user2 = new UserV1("id-100");
 ```
-위 예시 코드에서, `User` 객체인 `a`와 `b`는 참조값이 같지 않으므로 동일하지 않다. 그러나 논리적으로 보았을 때는 두 객체가 모두 `User` 객체이므로 동등하다.
+위 예시 코드에서, `User` 객체인 `user1`과 `user2`는 참조값이 같지 않으므로 동일하지 않다. 그러나 논리적으로 보았을 때는 두 객체가 모두 `User` 객체이므로 동등하다.
 
 그러나 실제로 아래 코드를 실행해보면 예상과는 다른 결과가 출력된다.
 ```java
@@ -113,6 +113,23 @@ public class EqualsMainV1 {
 동등성이라는 개념은 각각의 클래스마다 다르다. 어떤 클래스는 주민등록번호를 기반으로 동등성을 처리할 수 있고 어떤 클래스는 고객의 연락처를 기반으로 동등성을 처리할 수 있다.
 
 따라서 동등성 비교를 사용하고 싶으면 `equals()`를 재정의 해야한다. 그렇지 않으면 `Object`는 동일성 비교를 기본으로 제공한다.
+
+```java
+public class UserV2 {  
+  private String id;  
+  
+  public UserV2(String id) {  
+    this.id = id;  
+  }  
+  
+  @Override  
+  public boolean equals(Object obj) {  
+    UserV2 user = (UserV2) obj;  
+  
+    return id.equals(user.id);  
+  }  
+}
+```
 
 ---
 Origin: 
