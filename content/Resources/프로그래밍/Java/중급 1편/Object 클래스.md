@@ -71,8 +71,6 @@ public class Dog {
 
 ## 동일성(Identity)과 동등성(Equality)
 
-
-
 > [!note]
 > **자바는 두 객체가 같다라는 표현을 두가지로 분리해서 제공한다.**
 > 
@@ -90,7 +88,9 @@ public class Dog {
 User a = new User("id-100");
 User b = new User("id-100");
 ```
-위 예시 코드에서, 유저 객체인 `a` 
+위 예시 코드에서, `User` 객체인 `a`와 `b`는 참조값이 같지 않으므로 동일하지 않다. 그러나 논리적으로 보았을 때는 두 객체가 모두 `User` 객체이므로 동등하다.
+
+
 
 ---
 Origin: 
