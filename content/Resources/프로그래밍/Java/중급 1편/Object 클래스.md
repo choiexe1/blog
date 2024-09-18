@@ -41,8 +41,33 @@ publish: true
 
 ## .toString()
 `Object` 클래스에서 제공하는 메서드 중 하나이며 객체의 정보를 출력해준다. 클래스 정보와 참조값을 제공하지만 이 정보만으로는 객체의 상태를 적절히 나타내지 못한다. 그래서 보통 `toString()`을 재정의해서 보다 유용한 정보를 제공하는 것이 일반적이다.
+```java
+public class Dog {  
+  private String dogName;  
+  private int age;  
+  
+  public Dog(String dogName, int age) {  
+    this.dogName = dogName;  
+    this.age = age;  
+  }  
+  
+  @Override  
+  public String toString() {  
+    return "Dog{" +  
+        "dogName='" + dogName + '\'' +  
+        ", age=" + age +  
+        '}';  
+  }  
+}
 
+// 출력
+// Dog{dogName='멍멍이1', age=2}
+// Dog{dogName='멍멍이2', age=5}
 
+```
+
+> [!tip]
+> `System.out.println()` 메서드는 내부에서 `Object` 클래스의 `toString()` 메서드를 호출한다.
 
 
 
