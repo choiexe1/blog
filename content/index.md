@@ -9,7 +9,9 @@ publish: true
 
 이 웹사이트는 [quartz](https://quartz.jzhao.xyz)로 생성된 마크다운 기반의 정적 블로그입니다.
 
-제가 사용하는 노트 앱인 [obsidian](https://obsidian.md)을 통해 요약, 메모 또는 공부한 내용들을 저장하고 자동으로 퍼블리싱 하는 용도로 사용 됩니다.
+제가 사용하는 노트 앱인 [obsidian](https://obsidian.md)을 통해 기록하고 싶은 것들을 자동으로 퍼블리싱 하는 용도로 사용 됩니다.
+
+공개적이지만 개인적인 블로그입니다.
 
 ---
 ##### 저에 대해서
