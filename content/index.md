@@ -9,12 +9,13 @@ publish: true
 
 이 웹사이트는 [quartz](https://quartz.jzhao.xyz)로 생성된 마크다운 기반의 정적 블로그입니다.
 
-제가 사용하는 노트 앱인 [obsidian](https://obsidian.md)을 통해 요약, 메모 또는 공부한 내용들을 저장하고 퍼블리싱 하는 용도로 사용 됩니다.
+제가 사용하는 노트 앱인 [obsidian](https://obsidian.md)을 통해 요약, 메모 또는 공부한 내용들을 저장하고 자동으로 퍼블리싱 하는 용도로 사용 됩니다.
 
 ---
 ##### 저에 대해서
 
-오버워치 프로게이머로 한국과 미국([LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators), [Toronto Defiants]())에서 애셔(Asher)라는 닉네임으로 활동 했던 경험이 있습니다.
+오버워치 프로게이머로 한국([Conbox Gaming](https://liquipedia.net/overwatch/CONBOX))과 미국([LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators), [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant))에서 애셔(Asher)라는 닉네임으로 코치, 선수 활동 경험이 있습니다.
+
 Node.js 주니어 백엔드 개발자로 일한 경험이 있습니다.
 
 - CentOS 기반 서버에서 쉘 스크립트로 서버 배포 자동화
