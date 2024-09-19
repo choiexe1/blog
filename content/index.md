@@ -16,16 +16,7 @@ publish: true
 
 오버워치 프로게이머로 한국([Conbox Gaming](https://liquipedia.net/overwatch/CONBOX))과 미국([LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators), [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant))에서 애셔(Asher)라는 닉네임으로 코치, 선수 활동 경험이 있습니다.
 
-Node.js 주니어 백엔드 개발자로 일한 경험이 있습니다.
-
-- CentOS 기반 서버에서 쉘 스크립트로 서버 배포 자동화
-- 파이썬을 통한 업무 자동화 (엑셀 및 웹 업무 자동화)
-- MVC 구조의 서버 개발 및 웹 UI 개발
-- Restful API 백엔드 서버 개발
-- 봇을 통한 서버 헬스체크 자동화
-- 웹 뷰 기반의 Flutter 앱 개발등
-
-현재는 자바를 이용한 백엔드 개발자가 되고 싶어서 공부하고 있습니다.
+현재는 자바를 이용한 백엔드 개발자를 목표로 공부하고 있습니다.
 
 ###### 링크
 [Github](https://github.com/choiexe1)
