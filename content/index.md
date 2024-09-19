@@ -14,14 +14,8 @@ publish: true
 ---
 ##### 저에 대해서
 
-저는 오버워치 프로게이머로 한국과 미국에서 애셔(Asher)라는 닉네임으로 활동 하였습니다.
-###### 간단한 약력
-- Conbox Gaming (Main DPS)
-- Los Angeles Gladiators (Main DPS)
-- Toronto Defiant (Main DPS)
-- 펀익스 (Junior Backend Engineer)
-
-한국으로 돌아와서는 자바스크립트 런타임인 Node.js를 통해 백엔드 프로그래밍에 입문하여 5명으로 이루어진 작은 개발팀에서 주니어 백엔드 개발자로 일 하였습니다.
+오버워치 프로게이머로 한국과 미국([LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators), [Toronto Defiants]())에서 애셔(Asher)라는 닉네임으로 활동 했던 경험이 있습니다.
+Node.js 주니어 백엔드 개발자로 일한 경험이 있습니다.
 
 - CentOS 기반 서버에서 쉘 스크립트로 서버 배포 자동화
 - 파이썬을 통한 업무 자동화 (엑셀 및 웹 업무 자동화)
@@ -30,7 +24,7 @@ publish: true
 - 봇을 통한 서버 헬스체크 자동화
 - 웹 뷰 기반의 Flutter 앱 개발등
 
-현재는 자바 백엔드 개발자가 되고 싶어서 공부하고 있습니다.
+현재는 자바를 이용한 백엔드 개발자가 되고 싶어서 공부하고 있습니다.
 
 ###### 링크
 [Github](https://github.com/choiexe1)
