@@ -3,7 +3,7 @@ title:
 tags:
   - java
   - programming
-created: 2024-09-17 20:09
+date: 2024-09-17
 publish: true
 ---
 자바에서 모든 클래스의 최상위 부모 클래스는 항상 Object 클래스이다.
@@ -138,10 +138,7 @@ public class UserV2 {
 다행히도 실무에선 일반적으론 인텔리제이 IDE가 해당 코드를 생성하는 기능을 사용한다고 한다.
 
 ---
-Origin: 
 
 References: 김영한의 실전 자바 - 중급 1편
 
 Links: 
-
-Created 2024-09-17 20:09

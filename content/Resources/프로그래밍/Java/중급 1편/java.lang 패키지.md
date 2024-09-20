@@ -3,7 +3,7 @@ title:
 tags:
   - java
   - programming
-created: 2024-09-17 20:03
+date: 2024-09-17
 publish: true
 ---
 자바가 기본으로 제공하는 라이브러리(클래스 모음) 중에 가장 기본이 되는 패키지다.
@@ -20,10 +20,7 @@ publish: true
 java.lang 패키지는 모든 자바 어플리케이션에 자동으로 임포트된다. 따라서 임포트 구문을 사용하지 않아도 된다.
 
 ---
-Origin: 
 
 References: 김영한의 실전 자바 - 중급 1편
 
 Links: 
-
-Created 2024-09-17 20:03
