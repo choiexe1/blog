@@ -27,7 +27,8 @@ publish: true
 - [[Resources/메모 테크닉/index|메모 테크닉]]
 
 - [[Resources/사진과 기억/index|사진과 기억]]
-- [[Resources/프로그래밍/index|프로그래밍]]
+- [[Resources/프로그래밍/Java/index|Java]]
+- [[Resources/프로그래밍/자료구조/index|자료구조]]
 
 ---
 
