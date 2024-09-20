@@ -2,8 +2,8 @@
 tags:
   - java
   - programming
-created: 2024-08-21 15:09
-publish: "true"
+date: 2024-08-21
+publish: true
 ---
 ## final 키워드
 
@@ -45,10 +45,6 @@ publish: "true"
 자바스크립트에서 const로 선언한 객체도 동일하게 동작한다고 볼 수 있겠다. 자바스크립트의 상수 객체 또한 상수 객체 자체는 변경할 수 있으나 해당 변수에 다시 다른 객체, 정확히는 다른 객체의 참조값을 담을 수 없다.
 
 ---
-Origin: 
-
 References: [[Resources/프로그래밍/Java/기본/캡슐화|캡슐화]]
 
 Links: [[static]] [[자바의 메모리 구조]]
-
-Created 2024-08-21 15:09

@@ -2,7 +2,7 @@
 tags:
   - java
   - programming
-created: 2024-08-21 15:05
+date: 2024-08-21
 publish: "true"
 ---
 ## 생성자 오버로딩과 this 키워드
@@ -73,10 +73,6 @@ public class Constructor {
 - 만약 생성자가 하나라도 있으면, 기본 생성자가 제공되지 않는다.
 
 ---
-Origin: 
-
 References: [[메서드 오버로딩]]
 
 Links: [[생성자]] 
-
-Created 2024-08-21 15:05

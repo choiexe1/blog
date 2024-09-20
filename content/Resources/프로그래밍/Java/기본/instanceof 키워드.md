@@ -2,7 +2,7 @@
 tags:
   - java
   - programming
-created: 2024-08-21 20:40
+date: 2024-08-21
 publish: true
 ---
 ## instanceof
@@ -26,10 +26,6 @@ private static void call(Parent parent) {
 ```
 
 ---
-Origin: 
-
 References: 
 
 Links: [[캐스팅과 그 종류들]]
-
-Created 2024-08-21 20:40

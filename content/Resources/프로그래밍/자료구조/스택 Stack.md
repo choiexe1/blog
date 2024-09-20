@@ -2,8 +2,8 @@
 tags:
   - programming
   - data-structure
-created: 2024-08-13 20:55
-publish: "true"
+date: 2024-08-13
+publish: true
 ---
 
 ## 스택 자료구조
@@ -18,10 +18,6 @@ publish: "true"
 가장 먼저 들어간 것이 마지막에 빠져 나온다.
 
 ---
-Origin: 
-
 References: 김영한의 실전 자바 - 기본편
 
 Links: 
-
-Created 2024-08-13 20:55

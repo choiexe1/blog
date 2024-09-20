@@ -2,8 +2,8 @@
 tags:
   - java
   - programming
-created: 2024-08-21 15:09
-publish: "true"
+date: 2024-08-21
+publish: true
 ---
 
 ## static 키워드
@@ -78,10 +78,6 @@ staticCall();
 특정 클래스의 정적 메서드를 자주 호출해야 한다면, static import를 통하여 위처럼 사용할 수 있다.
 
 ---
-Origin: 
-
 References: 
 
 Links: [[final]] [[자바의 메모리 구조]]
-
-Created 2024-08-21 15:09
