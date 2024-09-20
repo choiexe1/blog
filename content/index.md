@@ -23,6 +23,12 @@ publish: true
 ###### 링크
 [Github](https://github.com/choiexe1)
 
+###### 공개 폴더
+- [[Resources/메모 테크닉/index|메모 테크닉]]
+
+- [[Resources/사진과 기억/index|사진과 기억]]
+- [[Resources/프로그래밍/index|프로그래밍]]
+
 ---
 
 ___블로그 내용 중 틀린 부분을 발견하시게 되면 [메일 보내기](mailto:choiexe1@gmail.com)를 눌러 메일을 보내주세요. 소정의 커피라도 보내드리겠습니다.___
