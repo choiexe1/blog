@@ -129,6 +129,35 @@ String result = new StringBuilder().append(str1).append(str2).toString();
 
 이런 경우 예를 들면 위와 같이 최적화를 수행 한다. 다만 최적화 방식은 자바 버전에 따라 달라진다.
 
+**String 최적화가 어려운 경우**
+
+```java
+public static void main(String[] args) {  
+  long startTime = System.currentTimeMillis();  
+  String result = "";  
+  
+  for (int i = 0; i < 100_000; i++) {  
+    result += "Hello, Java ";  
+  }  
+  
+  long endTime = System.currentTimeMillis();  
+  
+  System.out.println("result = "+ result);  
+  System.out.println("time = " + (endTime - startTime) + "ms");  
+}
+```
+
+위와 같이 루프 안에서 문자열을 더하는 경우에는 최적화가 이루어지지 않는다. 대략 다음과 같이 최적화가 된다.
+
+```java
+
+```
+
+
+
+
+왜냐하면 컴파일러 입장에서는 얼마나 많은 반복이 일어날지, 각 반복에서 문자열이 어떻게 변할지 예측할 수 없다. 따라서 이런 상황에서는 최적화가 어렵다.
+
 ---
 References: 김영한의 실전 자바 - 중급 1편
 
