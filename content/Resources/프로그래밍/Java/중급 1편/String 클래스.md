@@ -105,10 +105,10 @@ public static void main(String[] args) {
 **문자열 리터럴 최적화**
 
 ```java
-// 컴파일 전
+// Before compile
 String helloWorld = "Hello, " + "World!";
 
-// 컴파일 후
+// After compile
 String helloWorld = "Hello, World!";
 ```
 
@@ -116,10 +116,18 @@ String helloWorld = "Hello, World!";
 
 **String 변수 최적화**
 
+```java
+// Before
+String result = str1 + str2;
+
+// After
+String result = new StringBuilder().append(str1).append(str2).toString();
+```
+
+
 문자열 변수의 경우, 그 안에 어떤 값이 들어있는지 컴파일 시점에는 알 수 없기 때문에 단순하게 합칠 수 없다.
 
-`String result = str1 + str2;`
-
+이런 경우 예를 들면 위와 같이 최적화를 수행 한다. 다만 최적화 방식은 자바 버전에 따라 달라진다.
 
 ---
 References: 김영한의 실전 자바 - 중급 1편
