@@ -77,7 +77,9 @@ public static void main(String[] args) {
 
 만약 문자열 풀에 있는 `String` 인스턴스의 값이 중간에 변경되면 같은 문자열을 참조하고 있는 변수들의 값도 함께 변경되는 [[사이드 이펙트]]를 방지한다.
 
+## 주요 메서드
+
 ---
-References: 
+References: 김영한의 실전 자바 - 중급 1편
 
 Links: 
