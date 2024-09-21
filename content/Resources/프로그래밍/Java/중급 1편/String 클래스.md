@@ -37,7 +37,26 @@ public static void main(String[] args) {
 하지만 문자열은 너무 자주 다루어지기 때문에 자바 언어에서 편의상 특별히 `+` 연산을 제공한다.
 
 ## 비교
-`String` 클래스를 비교할 때는 `==` 연산자가 아니라, 항상 `equals()`를 사용하여 비교해야한다.
+`String` 객체를 비교할 때는 `==` 연산자가 아니라, 항상 `equals()`를 사용하여 비교해야한다. 왜냐하면 `String` 타입은 참조형이기 때문에 해당 유형의 변수는 참조값을 가지기 때문이다.
+
+위 내용은 [[Object 클래스#동일성(Identity)과 동등성(Equality)|Object 클래스 > 동일성과 동등성]]을 참고할 수 있다.
+
+```java
+public static void main(String[] args) {  
+  String str1 = "hello";  
+  String str2 = "hello";  
+  
+  System.out.println("리터럴 == 비교: " + (str1 == str2));  
+  System.out.println("리터럴 equals 비교: " + (str1.equals(str2)));  
+}
+
+// 출력 결과
+// 리터럴 == 비교: true
+// 리터럴 equals 비교: true
+```
+
+그러나 위 코드는 이런 추측대로 작동하지 않는다.
+
 
 
 ---
