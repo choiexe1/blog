@@ -78,9 +78,26 @@ public class MyInteger {
 
 이런 형태로 기본형을 내부에 품고, 메서드를 통해 다양한 기능을 추가할 수 있다. 이를 [[래퍼 클래스]]라고 한다.
 
+쉽게 말해, 래퍼 클래스는 기본형의 객체 버전이다.
 
+**기본 제공 래퍼 클래스**
+
+자바는 기본형에 대응하는 래퍼 클래스를 기본으로 제공한다.
+
+- `byte` > `Byte`
+- `short` > `Short`
+- `int` > `Integer`
+- `long` > `Long`
+- `float` > `Float`
+- `double` > `Double`
+- `char` > `Character`
+- `boolean` > `Boolean`
+
+이런 기본 래퍼 클래스는, 다음과 같은 특징을 가진다.
+- 불변 객체이다
+- `equals`로 비교해야 한다.
 
 ---
 References: 김영한의 실전 자바 - 중급 1편
 
-Links: 
+Links: [[래퍼 클래스]], 
