@@ -20,6 +20,40 @@ date: 2024-09-23
 
 예를 들어, `String.class`는 `String`에 대한 `Class` 객체를 나타내며, 이를 통해 `String` 클래스에 대한 메타데이터를 조회하거나 조작할 수 있다.
 
+```java
+package lang.clazz;  
+  
+import java.lang.reflect.Field;  
+import java.lang.reflect.Method;  
+  
+public class ClassMetaMain {  
+  
+  public static void main(String[] args) throws Exception {  
+    // Class 조회  
+    Class clazz = String.class; // 1. 클래스에서 조회  
+    Class clazz1 = new String().getClass(); // 2. 인스턴스에서 조회  
+    Class clazz2 = Class.forName("java.lang.String"); // 3. 문자열로 조회  
+  
+    // 모든 필드 출력  
+    Field[] fields = clazz.getDeclaredFields();  
+    for (Field field : fields) {  
+      System.out.println(field.getType() + " " + field.getName());  
+    }  
+  
+    Method[] declaredMethods = clazz.getDeclaredMethods();  
+    for (Method declaredMethod : declaredMethods) {  
+      System.out.println(declaredMethod);  
+    }  
+  
+    System.out.println("SuperClass = " + clazz.getSuperclass().getName());  
+    Class[] interfaces = clazz.getInterfaces();  
+    for (Class i : interfaces) {  
+      System.out.println("interface = "+ i.getName());  
+    }  
+  }  
+}
+```
+위의 예제를 실행해보면, `Class` 클래스로 메타데이터를 모두 조회할 수 있다는 것을 알 수 있다.
 
 
 ---
