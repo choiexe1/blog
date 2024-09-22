@@ -112,6 +112,25 @@ public class MyInteger {
 
 많은 개발자들이 이로 인해 불편함을 호소 했다. 자바는 이런 문제를 해결하기 위해 자바 5부터 오토 박싱, 오토 언박싱(Auto-Unboxing)을 지원한다.
 
+**오토 박싱**
+
+단순히 기본형의 데이터를 래퍼 클래스 타입의 변수에 할당하면 된다.
+
+**오토 언박싱**
+
+반대로, 래퍼 클래스 타입의 변수를 기본형에 할당하면 된다.
+
+```java
+// Primitive -> Wrapper  
+int value = 7;  
+Integer boxedValue = value;
+  
+// Wrapper -> Primitive  
+int unboxedValue = boxedValue;
+```
+
+오토 박싱과 오토 언박싱은 컴파일러가 개발자 대신 래퍼 클래스의 `valueOf()`, `xxxValue()` 등의 메서드로 코드를 변환해주는 것이다.
+
 ---
 References: 김영한의 실전 자바 - 중급 1편
 
