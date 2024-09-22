@@ -32,9 +32,39 @@ System.out.println("random() = " + Math.random()); // 0.0 ~ 1.0 사이의 double
 - `Math.random()`도 내부에서 `Random` 클래스를 사용한다.
 - `Random` 클래스는 `java.util` 패키지 소속이다.
 
+실행 결과는 항상 다르다.
 
+```java
+package lang.math;  
+  
+import java.util.Random;  
+  
+public class RandomMain {  
+  
+  public static void main(String[] args) {  
+    Random random = new Random();  
+  
+    int randomInt = random.nextInt();  
+    System.out.println(randomInt);  
+  
+    double randomDouble = random.nextDouble();  
+    System.out.println(randomDouble);  
+  
+    boolean randomBoolean = random.nextBoolean();  
+    System.out.println(randomBoolean);  
+  
+    // 범위 조회  
+    int randomRange1 = random.nextInt(10); // 0 ~ 9까지 출력  
+    System.out.println(randomRange1);  
+    int randomRange2 = random.nextInt(10) + 1; // 1 ~ 10까지 출력  
+    System.out.println(randomRange2);  
+  }  
+}
+```
 
+랜덤은 내부에서 시드(Seed) 값을 사용해서 랜덤 값을 구한다. 그런데 이 시드의 값이 같으면 항상 같은 결과가 출력된다.
 
+`new Random(int seed)` 생성자를 사용하여 시드 값을 직접 전달할 수 있다. 그러나 시드 값이 같으면 항상 결과가 같아지기 때문에, 테스트 코드 같은 곳에서 사용 된다.
 
 ---
 References: 
