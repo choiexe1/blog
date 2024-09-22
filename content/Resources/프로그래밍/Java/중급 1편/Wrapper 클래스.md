@@ -97,6 +97,10 @@ public class MyInteger {
 - 불변 객체이다
 - `equals`로 비교해야 한다.
 
+> [!note]
+> `Integer.valueOf()` 메서드를 사용하면 `-127`부터 `128`까지 캐싱 해놓고 반환한다. 즉, 문자열 풀처럼 재사용 되는 것이다. 만약 `129`의 값을 가지는 `Integer`를 생성하려고 하면, `new Integ`
+
+
 ---
 References: 김영한의 실전 자바 - 중급 1편
 
