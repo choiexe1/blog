@@ -140,6 +140,50 @@ int unboxedValue = boxedValue;
 
 래퍼 클래스는 객체이기 때문에, 기본형보다 다양한 기능을 제공한다. 그렇다면 더 좋은 래퍼 클래스만 제공하면 되지 기본형을 제공하는 이유는 무엇일까?
 
+```java
+public static void main(String[] args) {  
+  // 기본형 long  
+  int iterations = 1_000_000_000; // 반복 횟수, 10억  
+  long startTime, endTime;  
+  
+  long sumPrimitive = 0;  
+  startTime = System.currentTimeMillis();  
+  for (int i = 0; i < iterations; i++) {  
+    sumPrimitive += i;  
+  }  
+  
+  endTime = System.currentTimeMillis();  
+  System.out.println("sumPrimitive = " + sumPrimitive);  
+  System.out.println((endTime - startTime) + "ms");  
+  
+  // 래퍼 클래스 Long  Long sumWrapper = 0L;  
+  startTime = System.currentTimeMillis();  
+  for (int i = 0; i < iterations; i++) {  
+    sumWrapper += i;  
+  }  
+  
+  endTime = System.currentTimeMillis();  
+  System.out.println("sumWrapper = " + sumWrapper);  
+  System.out.println((endTime - startTime) + "ms");  
+}
+
+// 출력 결과
+// sumPrimitive = 499999999500000000
+// 229ms
+// sumWrapper = 499999999500000000
+// 2159ms
+```
+
+내 컴퓨터 기준, 기본형의 연산이 래퍼 클래스 연산보다 대략 10배 정도 빠르다.
+
+기본형은 메모리에서 단순히 그 크기만큼의 공간을 차지한다. 예를 들어 `int`는 보통 4바이트의 메모리를 사용한다.
+
+래퍼 클래스의 인스턴스는 내부에 필드를 가지고 있는 기본형의 값 뿐만 아니라 자바에서 객체를 다루는데 필요한 객체 메타데이터를 포함하므로 더 많은 메모리를 사용한다. 대략 8~16바이트의 메모리를 추가로 사용한다.
+
+**기본형, 래퍼 클래스 어떤 것을 사용?**
+
+기본형이든 래퍼 클래스든 이것을 1횟
+
 ---
 References: 김영한의 실전 자바 - 중급 1편
 
