@@ -42,10 +42,38 @@ public static int compareTo(int value, int target) {
 위와 같은 경우, 만약 `value`가 객체였다면 `value` 객체 스스로 자기 자신의 값과 다른 값을 비교하는 메서드를 제공하는 것이 더 유용할 것이다.
 
 **직접 만든 래퍼 클래스**
-`int`
 
+```java
+public class MyInteger {  
+  private final int value;  
+  
+  public MyInteger(int value) {  
+    this.value = value;  
+  }  
+  
+  public int getValue() {  
+    return value;  
+  }  
+  
+  public int compareTo(int target) {  
+    if (value < target) {  
+      return -1;  
+    } else if (value > target) {  
+      return 1;  
+    } else {  
+      return 0;  
+    }  
+  }  
+  
+  @Override  
+  public String toString() {  
+    return String.valueOf(value);  
+  }  
+}
+```
+
+`int` 값을 가지는 래퍼 클래스 `MyInteger` 클래스다. 캡슐화 되어 있고, 불변 객체이다.
+
+자기 자신의 갑
 
 ---
-References: 
-
-Links: 
