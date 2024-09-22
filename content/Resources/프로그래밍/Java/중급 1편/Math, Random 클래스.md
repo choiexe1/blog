@@ -68,12 +68,65 @@ public class RandomMain {
 
 ## 문제와 풀이 (로또 번호 생성기)
 
-요구사항
+**요구사항**
 - 로또 번호는 1~45 사이의 숫자를 6개 뽑아야 한다. 
 - 각 숫자는 중복되면 안된다. 
 - 실행할 때 마다 결과가 달라야 한다.
 
+**`LottoGenerator` 클래스 정의**
+```java
+public class LottoGenerator {  
+  private Random random = new Random();  
+  private int[] lottoNumbers;  
+  private int count;  
+  
+  public int[] generate() {  
+    lottoNumbers = new int[6];  
+  
+    while (count < 6) {  
+      int n = random.nextInt(45) + 1;  
+  
+      if (!isExist(n)) {  
+        lottoNumbers[count] = n;  
+        count++;  
+      }  
+    }  
+  
+    return lottoNumbers;  
+  }  
+  
+  private boolean isExist(int n) {  
+    for (int lottoNumber : lottoNumbers) {  
+      if (n == lottoNumber) {  
+        return true;  
+      }  
+    }  
+  
+    return false;  
+  }  
+}
+```
+
+**실행 결과**
+
+```java
+import java.util.Arrays;  
+  
+public class RandomMain {  
+  public static void main(String[] args) {  
+    LottoGenerator lotto = new LottoGenerator();  
+    int[] numbers = lotto.generate();  
+  
+    System.out.println(Arrays.toString(numbers));  
+  }  
+}
+
+// 출력 결과
+// [2, 22, 24, 4, 13, 14]
+```
+
+
 ---
-References: 
+References: 김영한의 실전 자바 - 중급 1편
 
 Links: 
