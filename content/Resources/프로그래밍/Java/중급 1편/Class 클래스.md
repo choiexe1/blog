@@ -58,10 +58,27 @@ public class ClassMetaMain {
 아래 예제를 확인하면 객체를 생성하는 것도 가능하다는 것을 알 수 있다.
 
 ```java
+public class ClassCreateMain {  
+  
+  public static void main(String[] args) throws Exception {  
+    //Class helloClass = Hello.class;  
+    Class helloClass = Class.forName("lang.clazz.Hello");  
+  
+  
+    Hello hello = (Hello) helloClass.getDeclaredConstructor().newInstance();  
+    String result = hello.hello();  
+  
+    System.out.println(result);  
+  }  
+}
 ```
 
+이런 작업을 [[리플렉션]]이라고 한다.
+
+> [!note]
+> `Class` 클래스는 클래스의 정보를 조회하고 조작하는 등의 리플렉션 기능을 제공한다.
 
 ---
-References: 
+References: 김영한의 실전 자바 - 중급 1편
 
-Links: 
+Links: [[리플렉션]]
