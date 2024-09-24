@@ -189,7 +189,41 @@ public enum Grade {
 > - 열거형에 추상 메서드를 선언하고, 구현할 수 있다.
 
 ## 리팩토링
-앞서 정의했던 
+회원의 할인율은, 회원의 등급에 따라 변한다. 앞서 정의했던 `ClassGrade` 클래스를 수정해서 `ClassGrade` 자체가 할인율을 갖도록 변경하자.
+
+```java title="ClassGrade.java"
+public class ClassGrade {  
+  public static final ClassGrade BASIC = new ClassGrade(10);  
+  public static final ClassGrade GOLD = new ClassGrade(20);  
+  public static final ClassGrade DIAMOND = new ClassGrade(30);  
+  
+  private final int discountPercent;  
+  
+  private ClassGrade(int discountPercent) {  
+    this.discountPercent = discountPercent;  
+  }  
+  
+  public int getDiscountPercent() {  
+    return discountPercent;  
+  }   
+}
+```
+
+`ClassGrade`에 `discountPercent` 필드를 추가했다. 마찬가지로 할인율을 조회하는 메서드인 `getDiscountPercent()`도 추가했다.
+
+생성자를 통해서만 `discountPercent`를 설정하도록 했고, 중간에 이 값이 변하지 않도록 불변으로 설계했다.
+
+정리하면, 상수를 정의할 때 각각의 등급에 따라 할인율이 정해진다.
+
+```java title="DiscountService.java"
+public class DiscountService {  
+  public int discount(ClassGrade grade, int price) {  
+    return price * grade.getDiscountPercent() / 100;  
+  }  
+}
+```
+
+기존의 `if`문이 제거되고, 단순한 할인율 계산 로직만 남았다.
 
 ---
 References: 김영한의 실전 자바 - 중급 1편
