@@ -168,7 +168,8 @@ public enum Grade {
 - **간결성 및 일관성**: 열거형을 사용하면 코드가 더 간결하고 명확해지며, 데이터의 일관성이 보장된다.
 - **확장성**: 새로운 회원 등급 타입을 추가하고 싶을 때, `Enum`에 새로운 상수를 추가하기만 하면 된다.
 
-또, `Enum`을 사용하면 `static import`를 사용할 수 있다. [[static#static import]]
+> [!tip]
+> `Enum`에 나열된 항목들은 모두 상수이기 때문에 [[static#static import|static import]]를 사용할 수 있다.
 
 ---
 References: 김영한의 실전 자바 - 중급 1편

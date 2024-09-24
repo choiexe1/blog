@@ -1,7 +1,6 @@
 ---
-title: Java
-tags:
-  - MOCs
+title: 
+tags: MOCs
 ---
 ```folder-index-content
 ```

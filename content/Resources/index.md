@@ -1,7 +1,6 @@
 ---
-title: Resources
-tags:
-  - MOCs
+title: 
+tags: MOCs
 ---
 ```folder-index-content
 ```
