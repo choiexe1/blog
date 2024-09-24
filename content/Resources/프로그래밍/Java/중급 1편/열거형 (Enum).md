@@ -171,6 +171,9 @@ public enum Grade {
 > [!tip]
 > `Enum`에 나열된 항목들은 모두 상수이기 때문에 [[static#static import|static import]]를 사용할 수 있다.
 
+## 열거형의 주요 메서드들
+
+
 ---
 References: 김영한의 실전 자바 - 중급 1편
 
