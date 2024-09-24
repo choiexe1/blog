@@ -98,11 +98,14 @@ public class DiscountService {
 public class ClassGrade {  
   public static final ClassGrade BASIC = new ClassGrade();  
   public static final ClassGrade GOLD = new ClassGrade();  
-  public static final ClassGrade DIAMOND = new ClassGrade();  
+  public static final ClassGrade DIAMOND = new ClassGrade();
+
+  private ClassGrade() {}
 }
 ```
 
 - 위에 열거된 각각의 항목들은 `static`이므로 어플리케이션 로딩 시점에 각각의 인스턴스가 생성되고, `final` 키워드로 인해 참조값을 변경할 수 없는 상수가 된다.
+- 다른 개발자가 객체를 직접 생성하여 전달 할 수 있으므로, `private` 키워드의 생성자를 정의하여 객체 생성에 접근을 제한 한다.
 - 각각의 상수는 같은 `ClassGrade` 타입이지만, 서로 다른 참조값을 가진다.
 
 ```java title="DiscountService.java"
@@ -130,6 +133,16 @@ public class DiscountService {
 수정된 `DiscountService`의 `discount()` 메서드는 이제 인자로 `ClassGrade` 타입을 받아서 타입 안정성을 갖추게 되었다.
 
 조건문에는 `==` 연산자를 사용하여 참조값을 비교한다.
+
+> [!note]
+> Enum 사용 시 객체를 직접 생성할 수 없도록 생성자를 `private`으로 접근 제한 해야한다.
+> 
+> 열거할 항목들을 상수로 정의 해야한다.
+> 
+> 
+
+
+
 
 
 
