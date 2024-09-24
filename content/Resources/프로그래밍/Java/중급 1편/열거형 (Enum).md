@@ -102,8 +102,33 @@ public class ClassGrade {
 }
 ```
 
-- 위에 열거된 각각의 항목들은 `static`이므로 어플리케이션 로딩 시점에 각각의 인스턴스가 생성된다.
+- 위에 열거된 각각의 항목들은 `static`이므로 어플리케이션 로딩 시점에 각각의 인스턴스가 생성되고, `final` 키워드로 인해 참조값을 변경할 수 없는 상수가 된다.
 - 각각의 상수는 같은 `ClassGrade` 타입이지만, 서로 다른 참조값을 가진다.
+
+```java title="DiscountService.java"
+public class DiscountService {  
+  public int discount(ClassGrade grade, int price) {  
+    int discountPercent = 0;  
+  
+    if (grade == ClassGrade.BASIC) {  
+      discountPercent = 10;  
+    } else if (grade == ClassGrade.GOLD) {  
+      discountPercent = 20;  
+    } else if (grade == ClassGrade.DIAMOND) {  
+      discountPercent = 30;  
+    } else {  
+      System.out.println("할인 X");  
+    }  
+  
+    return price * discountPercent / 100;  
+  }  
+}
+```
+
+`DiscountService`의 `discount()`를 수정해서 이제 인자로 `ClassGrade` 타입을 받는다. 조건문에는 `==` 연산자를 사용하여 참조값을 비교한다.
+
+앞서 말했듯 실행 시점에 [[자바의 메모리 구조#메서드 영역]]
+
 
 ---
 References: 김영한의 실전 자바 - 중급 1편
