@@ -285,6 +285,64 @@ public enum Grade {
 
 `discount(int price)` 메서드가 추가 되면서, 기존에 있던 `DiscountService`는 필요하지 않게 되었다.
 
+## 문제와 풀이 HttpStatus
+**요구 사항**
+
+enumeration.test.http 패키지를 사용하자. 
+HttpStatus 열거형을 만들어라.
+
+**HTTP 상태 코드 정의** 
+
+- **OK** 
+	code: 200 message: "OK" 
+- **BAD_REQUEST** code: 400 message: "Bad Request" 
+- **NOT_FOUND** code: 404 message: "Not Found" 
+- **INTERNAL_SERVER_ERROR** code: 500 message: "Internal Server Error" 
+
+참고: HTTP 상태 코드는 200 ~ 299사이의 숫자를 성공으로 인정한다.
+
+```java title="HttpStatus.java"
+package enumeration.test.http;  
+  
+public enum HttpStatus {  
+  OK(200, "OK"),  
+  BAD_REQUEST(400, "Bad Request"),  
+  NOT_FOUND(404, "Not Found"),  
+  INTERNAL_SERVER_ERROR(500, "Internal Server Error");  
+  
+  private final int code;  
+  private final String message;  
+  
+  HttpStatus(int code, String message) {  
+    this.code = code;  
+    this.message = message;  
+  }  
+  
+  public static HttpStatus findByCode(int code) {  
+    for (HttpStatus status : HttpStatus.values()) {  
+      if (status.getCode() == code) {  
+        return status;  
+      }  
+    }  
+  
+    return null;  
+  }  
+  
+  public int getCode() {  
+    return code;  
+  }  
+  
+  public String getMessage() {  
+    return message;  
+  }  
+  
+  public boolean isSuccess() {  
+    return code >= 200 && code <= 299;  
+  }  
+}
+```
+
+
 ---
 References: 김영한의 실전 자바 - 중급 1편
 
