@@ -2,6 +2,7 @@
 title: 
 tags:
   - obsidian
+  - syntax
 publish: true
 date: 2024-09-24
 ---
