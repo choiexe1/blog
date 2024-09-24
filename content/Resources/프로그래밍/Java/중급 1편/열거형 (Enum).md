@@ -51,7 +51,41 @@ public class DiscountService {
 이런 문제를 해결하기 위해서는 특정 범위로 값을 제한해야 한다.
 
 ## 상수로 해결해보기
+```java title="StringGrade.java"
+public class StringGrade {  
+  public static final String BASIC = "BASIC";  
+  public static final String GOLD = "GOLD";  
+  public static final String DIAMOND = "DIAMOND";  
+}
+```
 
+```java title="DiscountService.java"
+public class DiscountService {  
+  public int discount(String grade, int price) {  
+    int discountPercent = 0;  
+  
+    if (grade.equals(StringGrade.BASIC)) {  
+      discountPercent = 10;  
+    } else if (grade.equals(StringGrade.GOLD)) {  
+      discountPercent = 20;  
+    } else if (grade.equals(StringGrade.DIAMOND)) {  
+      discountPercent = 30;  
+    } else {  
+      System.out.println(grade + " 할인 X");  
+    }  
+  
+    return price * discountPercent / 100;  
+  }  
+}
+```
+
+문자열 상수를 사용한 덕분에 전체적으로 코드가 더 명확해졌다. 그리고 `discount()`에 인자를 전달할 때도 `StringGrade`가 제공하는 상수를 사용하면 된다.
+
+더 좋은 점은, 실수로 상수의 이름을 잘못 입력하면 컴파일 시점에 오류가 발생한다는 점이다.
+
+하지만 문자열 상수를 사용해도 지금까지 발생한 문제들을 근본적으로 해결할 수는 없다. 왜냐하면 `String`타입은 어떤 문자열이든 입력할 수 있기 때문이다.
+
+즉, 어떤 개발자가 실수로 `StringGrade`의 상수를 사용하지 않고 직접 문자열을 사용해도 막을 수 있는 방법이 없는 것이다. 근본적인 문제가 해결되지 않은 것이다.
 
 ---
 References: 김영한의 실전 자바 - 중급 1편
