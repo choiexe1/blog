@@ -153,6 +153,18 @@ public class DiscountService {
 
 열거형을 한번 정의하고 사용해보면서 학습해보자.
 
+```java title="Grade.java"
+public enum Grade {  
+  BASIC, GOLD, DIAMOND  
+}
+```
+
+열거형을 정의할 때는 `class` 대신에 `enum`을 사용하고, 원하는 상수의 이름을 나열하면 된다.
+위에 작성된 코드는 앞서 구현했던 `ClassGrade`와 거의 같다.
+
+- 열거형도 클래스다.
+- 열거형은 자동으로 `java.lang.Enum`을 상속 받는다.
+- 외부에서 임의로 생성할 수 없다.
 
 ---
 References: 김영한의 실전 자바 - 중급 1편
