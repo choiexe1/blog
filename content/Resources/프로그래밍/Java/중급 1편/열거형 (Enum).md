@@ -4,7 +4,7 @@ tags:
   - java
   - programming
 publish: true
-date: 2024-09-23
+date: 2024-09-24
 ---
 ## 열거형 (Enum)
 
