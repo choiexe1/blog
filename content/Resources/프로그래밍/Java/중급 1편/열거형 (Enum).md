@@ -173,6 +173,11 @@ public enum Grade {
 
 ## 열거형의 주요 메서드들
 
+- **values()**: 모든 Enum 상수를 포함하는 배열 반환
+- **valueOf(String name)**: name 인자와 일치하는 Enum 상수 반환
+- name(): Enum 상수의 이름을 문자열로 반환
+- ordinal(): Enum 상수의 선언 순서 인덱스를 반환 (0부터 시작)
+- toString(): Enum 상수의 이름을 문자열로 반환한다. name() 메서드와 유사하지만 toString()은 직접 오버라이드 할 수 있다.
 
 ---
 References: 김영한의 실전 자바 - 중급 1편
