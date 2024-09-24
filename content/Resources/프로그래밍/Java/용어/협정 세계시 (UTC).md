@@ -2,9 +2,10 @@
 title: 
 tags: 
 publish: true
-date: "{{date}}"
+date: 2024-09-24
 ---
 
+## 협정 세계시(Universal Time Coordinated, UTC)
 
 
 ---
