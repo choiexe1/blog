@@ -188,8 +188,8 @@ public enum Grade {
 > - 열거형은 인터페이스를 구현할 수 있다.
 > - 열거형에 추상 메서드를 선언하고, 구현할 수 있다.
 
-## 리팩토링
-회원의 할인율은, 회원의 등급에 따라 변한다. 앞서 정의했던 `ClassGrade` 클래스를 수정해서 `ClassGrade` 자체가 할인율을 갖도록 변경하자.
+## 클래스 Enum 패턴 리팩토링
+회원의 할인율은 회원의 등급에 따라 변한다. 앞서 정의했던 `ClassGrade` 클래스를 수정해서 `ClassGrade` 자체가 할인율을 갖도록 변경하자.
 
 ```java title="ClassGrade.java"
 public class ClassGrade {  
@@ -224,6 +224,28 @@ public class DiscountService {
 ```
 
 기존의 `if`문이 제거되고, 단순한 할인율 계산 로직만 남았다.
+
+## 열거형 리팩토링
+열거형도 클래스이다. 앞서 했던 리팩토링을 열거형인 `Grade`에 동일하게 적용한다.
+
+```java title="Grade.java"
+public enum Grade {  
+  BASIC(10), GOLD(20), DIAMOND(30);  
+  
+  private final int discountPercent;  
+  
+  Grade(int discountPercent) {  
+    this.discountPercent = discountPercent;  
+  }  
+  
+  public int getDiscountPercent() {  
+    return discountPercent;  
+  }  
+}
+```
+
+- `discountPercent` 필드를 추가하고, 생성자를 통해 필드에 값을 저장한다.
+- 열거형은 상수로 지정하는 것 외에 일반적으로 생성이 불가능하다. 따라서 생성자에 접근 제어자를 선언할
 
 ---
 References: 김영한의 실전 자바 - 중급 1편
