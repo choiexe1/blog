@@ -17,7 +17,8 @@ date: 2024-09-23
 - `GOLD` -> 20% 할인
 - `DIAMOND` -> 30% 할인
 
-```java
+```java title:ABC
+aaa
 ```
 
 
