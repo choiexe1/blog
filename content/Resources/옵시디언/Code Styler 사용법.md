@@ -2,7 +2,7 @@
 title: 
 tags:
   - obsidian
-publish: false
+publish: true
 date: 2024-09-24
 ---
 ## 타이틀 설정
@@ -18,6 +18,6 @@ date: 2024-09-24
 `fold` 옵션을 사용해 코드블럭이 접혀있는 상태를 나타낼 수 있다.
 
 ---
-References: 
+References: [Obsidian-Code-Styler](https://github.com/mayurankv/Obsidian-Code-Styler)
 
 Links: 
