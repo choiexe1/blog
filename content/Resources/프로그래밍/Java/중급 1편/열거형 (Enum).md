@@ -17,7 +17,7 @@ date: 2024-09-23
 - `GOLD` -> 20% 할인
 - `DIAMOND` -> 30% 할인
 
-```java title:"DiscountService.java"
+```java title="DiscountService.java"
 public class DiscountService {  
   public int discount(String grade, int price) {  
     int discountPercent = 0;  
@@ -45,6 +45,6 @@ public class DiscountService {
 - 데이터 일관성: "GOLD", "gold", "Gold" 등 다양한 형식으로 문자열을 입력할 수 있어 일관성이 떨어진다.
 
 ---
-References: 
+References: 김영한의 실전 자바 - 중급 1편
 
 Links: 
