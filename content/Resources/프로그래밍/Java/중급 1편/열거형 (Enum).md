@@ -94,7 +94,16 @@ public class DiscountService {
 
 쉽게 이야기해서 앞서 봤던 `String`처럼 아무런 문자열이나 다 사용할 수 있는 것이 아니라, 직접 나열한 항목인 `BASIC`, `GOLD`, `DIAMOND`만 사용할 수 있게 된다.
 
+```java title="ClassGrade.java"
+public class ClassGrade {  
+  public static final ClassGrade BASIC = new ClassGrade();  
+  public static final ClassGrade GOLD = new ClassGrade();  
+  public static final ClassGrade DIAMOND = new ClassGrade();  
+}
+```
 
+- 위에 열거된 각각의 항목들은 `static`이므로 어플리케이션 로딩 시점에 각각의 인스턴스가 생성된다.
+- 각각의 상수는 같은 `ClassGrade` 타입이지만, 서로 다른 참조값을 가진다.
 
 ---
 References: 김영한의 실전 자바 - 중급 1편
