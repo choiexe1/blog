@@ -14,4 +14,4 @@ date: 2024-09-25
 ---
 References: 
 
-Links to this page: 
+Links to this page: [[날짜와 시간]]
