@@ -13,4 +13,4 @@ date: 2024-09-24
 ---
 References: 
 
-Links to this page: [[날짜와 시간]] [[협정 세계시 (UTC)]]
+Links to this page: [[날짜와 시간 1]] [[협정 세계시 (UTC)]]

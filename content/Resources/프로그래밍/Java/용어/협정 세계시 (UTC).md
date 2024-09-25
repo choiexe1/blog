@@ -18,4 +18,4 @@ UTC는 원자 시계를 사용하여 측정한 국제적으로 합의 된 시간
 ---
 References: 
 
-Links to this page: [[날짜와 시간]] [[에포크 시간 (Epoch time)]]
+Links to this page: [[날짜와 시간 1]] [[에포크 시간 (Epoch time)]]
