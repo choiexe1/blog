@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Resources/프로그래밍/ide/index.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Resources/프로그래밍/ide/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Resources/프로그래밍/ide/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Resources/프로그래밍/ide/index.md"
               }
             }
           }
@@ -148,12 +148,15 @@
   },
   "active": "5013a60ab6482cb2",
   "lastOpenFiles": [
+    "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
+    "Resources/프로그래밍/ide/index.md",
+    "Resources/프로그래밍/Java/중급 1편/index.md",
+    "index.md",
     "Resources/프로그래밍/Java/중급 1편/열거형 (Enum).md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 복습.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 2.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 1.md",
     "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
-    "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/자료구조/index.md",
     "Resources/프로그래밍/index.md",
@@ -168,17 +171,14 @@
     "Resources/프로그래밍/Java/기본/index.md",
     "Resources/프로그래밍/Java/용어/메서드 오버로딩.md",
     "Resources/프로그래밍/Java/기본/다형성.md",
-    "Resources/프로그래밍/인텔리제이/index.md",
-    "Resources/프로그래밍/인텔리제이/유용한 단축키 모음.md",
     "Areas/index.md",
     "Attached/java-date-02.png",
-    "Resources/프로그래밍/인텔리제이",
+    "Resources/프로그래밍/ide",
     "Resources/프로그래밍/IDE",
     "Attached/java-date-01.png",
     "Attached/java-date-00.png",
     "Resources/프로그래밍/Java/용어/에포크 시간 (Epoch time).md",
     "Resources/프로그래밍/Java/용어/협정 세계시 (UTC).md",
-    "Resources/프로그래밍/Java/중급 1편/불변 객체.md",
     "Resources/Programming/Java/용어",
     "Resources/Programming/Java",
     "Resources/Programming",
