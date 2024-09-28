@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "userIgnoreFilters": [
+    "Attached/",
+    "Templates/"
+  ],
+  "showLineNumber": false,
+  "strictLineBreaks": true
+}
