@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "eed1185c17a4093a",
+            "id": "88b57745c352dfdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/기본/변수의 생명 주기.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,10 +159,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a3199a10ac745a5c",
+  "active": "88b57745c352dfdb",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 1.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 2.md",
+    "Resources/프로그래밍/Java/기본/변수의 생명 주기.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
     "Pasted image 20240930121742.png",
     "Resources/프로그래밍/Java/index.md",
@@ -171,7 +173,6 @@
     "Resources/index.md",
     "Attached/index.md",
     "Attached/Pasted image 20240930121552.png",
-    "Resources/프로그래밍/Java/기본/변수의 생명 주기.md",
     "LocalOuterV2.java",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Attached/variable-lifetime.png",
