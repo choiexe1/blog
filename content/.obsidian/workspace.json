@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/index.md",
                 "mode": "preview",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md"
+                "file": "Resources/프로그래밍/Java/중급 1편/index.md"
               }
             }
           }
@@ -159,9 +159,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "88b57745c352dfdb",
+  "active": "10673dd5476108d3",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
+    "Resources/프로그래밍/Java/중급 1편/Class 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 2.md",
     "Resources/프로그래밍/Java/기본/변수의 생명 주기.md",
@@ -179,7 +180,6 @@
     "Resources/프로그래밍/Java/기본/index.md",
     "Resources/프로그래밍/Java/기본/자바의 메모리 구조.md",
     "Resources/프로그래밍/Java/용어/index.md",
-    "Resources/프로그래밍/Java/중급 1편/Class 클래스.md",
     "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 복습.md",
     "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
