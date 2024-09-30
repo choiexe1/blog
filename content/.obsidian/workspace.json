@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스.md"
+                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 2.md"
               }
             }
           }
@@ -160,6 +160,9 @@
   },
   "active": "a3199a10ac745a5c",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 1.md",
+    "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 2.md",
+    "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
     "Pasted image 20240930121742.png",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/index.md",
@@ -167,7 +170,6 @@
     "Resources/사진과 기억/index.md",
     "Resources/index.md",
     "Attached/index.md",
-    "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
     "Attached/Pasted image 20240930121552.png",
     "Resources/프로그래밍/Java/기본/변수의 생명 주기.md",
     "LocalOuterV2.java",
@@ -189,7 +191,6 @@
     "Resources/프로그래밍/Java/용어/그리니치 평균시 (GMT).md",
     "Resources/프로그래밍/Java/용어/공유 참조.md",
     "Resources/프로그래밍/Java/용어/메서드 오버로딩.md",
-    "Resources/프로그래밍/Java/기본/다형성.md",
     "Attached/java-date-02.png",
     "Resources/프로그래밍/인텔리제이",
     "Resources/프로그래밍/IDE",
@@ -202,7 +203,6 @@
     "Attached/요세미티04.jpg",
     "Attached/요세미티03.jpg",
     "Attached/요세미티02.jpg",
-    "Attached/요세미티05.jpg",
     "Resources/삶의 기록/2023",
     "Resources/삶의 기록/2024",
     "Resources/사진과 기억"
