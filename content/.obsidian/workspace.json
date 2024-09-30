@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 388.5
   },
   "right": {
     "id": "b65733e587ee5721",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md"
+                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스.md"
               }
             }
           }
@@ -149,36 +149,37 @@
   "active": "5013a60ab6482cb2",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/중급 1편/index.md",
-    "Resources/프로그래밍/ide/index.md",
-    "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
-    "index.md",
-    "Resources/프로그래밍/Java/중급 1편/열거형 (Enum).md",
+    "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 복습.md",
+    "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
+    "Resources/프로그래밍/ide/index.md",
+    "Resources/프로그래밍/ide",
+    "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 2.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 1.md",
-    "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
-    "Resources/프로그래밍/Java/index.md",
-    "Resources/프로그래밍/자료구조/index.md",
-    "Resources/프로그래밍/index.md",
-    "Resources/옵시디언/index.md",
-    "Resources/옵시디언/Quartz4 코드블럭 Syntax Highlighting.md",
-    "Resources/옵시디언/옵시디언 콜아웃 마크다운 문법.md",
     "Resources/프로그래밍/Java/용어/index.md",
     "Resources/프로그래밍/Java/용어/포매팅.md",
     "Resources/프로그래밍/Java/용어/파싱.md",
+    "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/Java/용어/그리니치 평균시 (GMT).md",
     "Resources/프로그래밍/Java/용어/공유 참조.md",
     "Resources/프로그래밍/Java/기본/index.md",
     "Resources/프로그래밍/Java/용어/메서드 오버로딩.md",
     "Resources/프로그래밍/Java/기본/다형성.md",
+    "Resources/프로그래밍/인텔리제이/index.md",
+    "Resources/프로그래밍/인텔리제이/유용한 단축키 모음.md",
     "Areas/index.md",
     "Attached/java-date-02.png",
-    "Resources/프로그래밍/ide",
+    "Resources/프로그래밍/index.md",
+    "Resources/프로그래밍/자료구조/index.md",
+    "Resources/프로그래밍/인텔리제이",
     "Resources/프로그래밍/IDE",
     "Attached/java-date-01.png",
     "Attached/java-date-00.png",
     "Resources/프로그래밍/Java/용어/에포크 시간 (Epoch time).md",
     "Resources/프로그래밍/Java/용어/협정 세계시 (UTC).md",
+    "Resources/프로그래밍/Java/중급 1편/불변 객체.md",
+    "Resources/프로그래밍/Java/중급 1편/열거형 (Enum).md",
     "Resources/Programming/Java/용어",
     "Resources/Programming/Java",
     "Resources/Programming",
@@ -192,7 +193,6 @@
     "Resources/삶의 기록/2023",
     "Resources/삶의 기록/2024",
     "Resources/사진과 기억",
-    "Resources/Programming/Java/기본",
-    "Resources/옵시디언"
+    "Resources/Programming/Java/기본"
   ]
 }
