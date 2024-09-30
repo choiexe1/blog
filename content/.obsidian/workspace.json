@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/변수의 생명 주기.md",
+                "file": "Resources/프로그래밍/Java/기본/변수의 생명 주기.md",
                 "mode": "preview",
                 "source": false
               }
@@ -162,7 +162,7 @@
   "active": "a3199a10ac745a5c",
   "lastOpenFiles": [
     "LocalOuterV2.java",
-    "Resources/프로그래밍/Java/중급 1편/변수의 생명 주기.md",
+    "Resources/프로그래밍/Java/기본/변수의 생명 주기.md",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/index.md",
     "Attached/variable-lifetime.png",
