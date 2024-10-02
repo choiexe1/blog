@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/index.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md"
+                "file": "Resources/프로그래밍/Java/중급 1편/익명 클래스.md"
               }
             }
           }
@@ -159,11 +159,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "10673dd5476108d3",
+  "active": "88b57745c352dfdb",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
+    "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
+    "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/Class 클래스.md",
-    "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 2.md",
     "Resources/프로그래밍/Java/기본/변수의 생명 주기.md",
     "Pasted image 20240930121742.png",
@@ -184,14 +186,12 @@
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 복습.md",
     "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
     "Resources/프로그래밍/ide",
-    "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 2.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 1.md",
     "Resources/프로그래밍/Java/용어/포매팅.md",
     "Resources/프로그래밍/Java/용어/파싱.md",
     "Resources/프로그래밍/Java/용어/그리니치 평균시 (GMT).md",
     "Resources/프로그래밍/Java/용어/공유 참조.md",
-    "Resources/프로그래밍/Java/용어/메서드 오버로딩.md",
     "Attached/java-date-02.png",
     "Resources/프로그래밍/인텔리제이",
     "Resources/프로그래밍/IDE",
