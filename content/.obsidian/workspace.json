@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
+                "file": "Resources/프로그래밍/Java/기본/인터페이스.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,9 +158,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "88b57745c352dfdb",
+  "active": "a3199a10ac745a5c",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
+    "Resources/프로그래밍/Java/기본/인터페이스.md",
     "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
@@ -191,7 +191,6 @@
     "Resources/프로그래밍/Java/용어/포매팅.md",
     "Resources/프로그래밍/Java/용어/파싱.md",
     "Resources/프로그래밍/Java/용어/그리니치 평균시 (GMT).md",
-    "Resources/프로그래밍/Java/용어/공유 참조.md",
     "Attached/java-date-02.png",
     "Resources/프로그래밍/인텔리제이",
     "Resources/프로그래밍/IDE",
