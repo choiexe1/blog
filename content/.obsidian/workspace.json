@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 계층.md",
-                "mode": "source",
+                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리 1.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "예외 계층"
+              "title": "예외 처리 1"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 계층.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "예외 계층의 백링크"
+              "title": "예외 처리 1의 백링크"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 계층.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "예외 계층의 나가는 링크"
+              "title": "예외 처리 1의 나가는 링크"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 계층.md"
+                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리 1.md"
               },
               "icon": "lucide-list",
-              "title": "예외 계층 개요"
+              "title": "예외 처리 1 개요"
             }
           }
         ]
@@ -165,7 +165,7 @@
   "active": "b8ad33bbfb9fd515",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/중급 1편/예외 처리가 필요한 이유.md",
-    "Resources/프로그래밍/Java/중급 1편/예외 계층.md",
+    "Resources/프로그래밍/Java/중급 1편/예외 처리 1.md",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/index.md",
     "Attached/index.md",
