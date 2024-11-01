@@ -11,14 +11,12 @@
             "id": "b5b9e8ac881d560d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20240930121742.png"
               },
-              "icon": "lucide-file",
-              "title": "예외 처리"
+              "icon": "lucide-image",
+              "title": "Pasted image 20240930121742"
             }
           }
         ]
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리.md",
+                "file": "Pasted image 20240930121742.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "예외 처리의 백링크"
+              "title": "Pasted image 20240930121742의 백링크"
             }
           },
           {
@@ -112,12 +110,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리.md",
+                "file": "Pasted image 20240930121742.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "예외 처리의 나가는 링크"
+              "title": "Pasted image 20240930121742의 나가는 링크"
             }
           },
           {
@@ -139,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리.md"
+                "file": "Pasted image 20240930121742.png"
               },
               "icon": "lucide-list",
-              "title": "예외 처리 개요"
+              "title": "Pasted image 20240930121742 개요"
             }
           }
         ]
@@ -164,8 +162,10 @@
   },
   "active": "b5b9e8ac881d560d",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
+    "Pasted image 20241101174859.png",
+    "Resources/메모 테크닉/index.md",
     "Resources/프로그래밍/Java/중급 1편/예외 처리.md",
+    "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
     "Resources/프로그래밍/Java/중급 1편/Class 클래스.md",
@@ -179,7 +179,6 @@
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/index.md",
     "Resources/index.md",
-    "Resources/메모 테크닉/index.md",
     "Resources/프로그래밍/Java/기본/인터페이스.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처 2.md",
     "Resources/프로그래밍/Java/기본/변수의 생명 주기.md",
@@ -194,7 +193,6 @@
     "Resources/프로그래밍/Java/기본/자바의 메모리 구조.md",
     "Resources/프로그래밍/Java/용어/index.md",
     "Resources/프로그래밍/ide",
-    "Resources/프로그래밍/Java/중급 1편/날짜와 시간 2.md",
     "Attached/java-date-02.png",
     "Resources/프로그래밍/인텔리제이",
     "Resources/프로그래밍/IDE",
@@ -206,7 +204,6 @@
     "Attached/요세미티01.jpg",
     "Attached/요세미티04.jpg",
     "Attached/요세미티03.jpg",
-    "Attached/요세미티02.jpg",
     "Resources/삶의 기록/2023",
     "Resources/삶의 기록/2024",
     "Resources/사진과 기억"
