@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 1편/예외 처리 1.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,11 +164,11 @@
   },
   "active": "b8ad33bbfb9fd515",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 1편/index.md",
+    "Resources/프로그래밍/Java/중급 1편/예외 처리 1.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 복습.md",
     "Resources/프로그래밍/Java/중급 1편/체크 예외.md",
-    "Resources/프로그래밍/Java/중급 1편/예외 처리 1.md",
     "Resources/프로그래밍/Java/중급 1편/예외 처리가 필요한 이유.md",
-    "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/index.md",
     "Attached/index.md",
     "Attached/예외계층.png",
