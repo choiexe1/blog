@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리 - 이론.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "예외 처리 - 이론"
+              "title": "예외 처리"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리 - 이론.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "예외 처리 - 이론의 백링크"
+              "title": "예외 처리의 백링크"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리 - 이론.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "예외 처리 - 이론의 나가는 링크"
+              "title": "예외 처리의 나가는 링크"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리 - 이론.md"
+                "file": "Resources/프로그래밍/Java/중급 1편/예외 처리.md"
               },
               "icon": "lucide-list",
-              "title": "예외 처리 - 이론 개요"
+              "title": "예외 처리 개요"
             }
           }
         ]
@@ -165,7 +165,7 @@
   "active": "b5b9e8ac881d560d",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
-    "Resources/프로그래밍/Java/중급 1편/예외 처리 - 이론.md",
+    "Resources/프로그래밍/Java/중급 1편/예외 처리.md",
     "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
     "Resources/프로그래밍/Java/중급 1편/Class 클래스.md",
