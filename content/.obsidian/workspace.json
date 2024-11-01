@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/체크 예외.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "체크 예외"
+              "title": "체크 예외와 언체크 예외"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/체크 예외.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "체크 예외의 백링크"
+              "title": "체크 예외와 언체크 예외의 백링크"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/체크 예외.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "체크 예외의 나가는 링크"
+              "title": "체크 예외와 언체크 예외의 나가는 링크"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/체크 예외.md"
+                "file": "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md"
               },
               "icon": "lucide-list",
-              "title": "체크 예외 개요"
+              "title": "체크 예외와 언체크 예외 개요"
             }
           }
         ]
@@ -164,12 +164,12 @@
   },
   "active": "b8ad33bbfb9fd515",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 1편/언체크 예외.md",
+    "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md",
     "Resources/프로그래밍/Java/중급 1편/예외 계층.md",
-    "Resources/프로그래밍/Java/중급 1편/체크 예외.md",
-    "Resources/프로그래밍/Java/중급 1편/무제 파일.md",
+    "Resources/프로그래밍/Java/중급 1편/예외 처리가 필요한 이유.md",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 복습.md",
-    "Resources/프로그래밍/Java/중급 1편/예외 처리가 필요한 이유.md",
     "Resources/index.md",
     "Attached/index.md",
     "Attached/예외계층.png",
