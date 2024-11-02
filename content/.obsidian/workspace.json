@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/예외 계층화.md",
+                "file": "Resources/프로그래밍/Java/중급 1편/예외 계층.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "예외 계층화"
+              "title": "예외 계층"
             }
           }
         ]
@@ -164,10 +164,10 @@
   },
   "active": "c5976a7ffc125170",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 1편/예외 계층화.md",
     "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
     "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/자료구조/index.md",
-    "Resources/프로그래밍/Java/중급 1편/예외 계층화.md",
     "Resources/프로그래밍/Java/기본/다형성.md",
     "Resources/프로그래밍/Java/중급 1편/예외 처리가 필요한 이유.md",
     "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md",
