@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 1편/예외 계층화.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,16 +164,17 @@
   },
   "active": "b8ad33bbfb9fd515",
   "lastOpenFiles": [
-    "Attached/예외-계층화1.png",
-    "Resources/프로그래밍/Java/중급 1편/예외 계층.md",
+    "Resources/프로그래밍/Java/기본/다형성.md",
     "Resources/프로그래밍/Java/중급 1편/예외 계층화.md",
+    "Resources/프로그래밍/Java/중급 1편/예외 처리가 필요한 이유.md",
+    "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md",
+    "Resources/프로그래밍/Java/중급 1편/예외 계층.md",
+    "Attached/예외-계층화1.png",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/index.md",
-    "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 복습.md",
     "Resources/프로그래밍/Java/중급 1편/언체크 예외.md",
-    "Resources/프로그래밍/Java/중급 1편/예외 처리가 필요한 이유.md",
     "Resources/index.md",
     "Attached/index.md",
     "Attached/예외계층.png",
@@ -206,7 +207,6 @@
     "Resources/Programming/Java",
     "Resources/Programming",
     "Attached/요세미티01.jpg",
-    "Attached/요세미티04.jpg",
     "Resources/삶의 기록/2023",
     "Resources/삶의 기록/2024",
     "Resources/사진과 기억"
