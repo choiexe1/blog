@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 2편/제네릭.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,11 +164,12 @@
   },
   "active": "5d2f74cb81b4c220",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 2편/무제 파일.md",
+    "Resources/프로그래밍/Java/중급 2편/제네릭.md",
     "Resources/프로그래밍/Java/용어/index.md",
     "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md",
     "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/Java/index.md",
-    "Resources/프로그래밍/Java/중급 2편/제네릭.md",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/Java/중급 1편/실무 예외 처리 방안.md",
     "Resources/프로그래밍/Java/중급 1편/예외 계층화와 활용.md",
@@ -197,7 +198,6 @@
     "Resources/프로그래밍/Java/중급 1편/익명 클래스.md",
     "Attached/예외처리.png",
     "Attached/지역클래스.png",
-    "Resources/메모 테크닉/index.md",
     "Attached/Pasted image 20240930121552.png",
     "LocalOuterV2.java",
     "Attached/variable-lifetime.png",
