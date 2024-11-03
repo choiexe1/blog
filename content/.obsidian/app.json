@@ -6,5 +6,6 @@
     "Templates/"
   ],
   "showLineNumber": false,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "attachmentFolderPath": "Attached"
 }
