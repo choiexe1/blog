@@ -16,10 +16,25 @@
                 "file": "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "중첩 클래스와 내부 클래스"
+            }
+          },
+          {
+            "id": "181645b0bd5496a1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -93,7 +114,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "중첩 클래스와 내부 클래스의 백링크"
             }
           },
           {
@@ -105,7 +128,9 @@
                 "file": "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "중첩 클래스와 내부 클래스의 나가는 링크"
             }
           },
           {
@@ -116,7 +141,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,7 +153,9 @@
               "type": "outline",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "중첩 클래스와 내부 클래스 개요"
             }
           }
         ]
@@ -146,7 +175,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5013a60ab6482cb2",
+  "active": "181645b0bd5496a1",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/ide/index.md",
