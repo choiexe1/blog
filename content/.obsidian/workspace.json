@@ -13,42 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
+                "file": "Resources/프로그래밍/Java/중급 2편/제네릭.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "중첩 클래스와 내부 클래스"
-            }
-          },
-          {
-            "id": "181645b0bd5496a1",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
-            "id": "52dc5aff408cd67d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "제네릭"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Resources/프로그래밍/Java/중급 2편/제네릭.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "conflict-files-obsidian-git의 백링크"
+              "title": "제네릭의 백링크"
             }
           },
           {
@@ -139,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Resources/프로그래밍/Java/중급 2편/제네릭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "conflict-files-obsidian-git의 나가는 링크"
+              "title": "제네릭의 나가는 링크"
             }
           },
           {
@@ -166,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Resources/프로그래밍/Java/중급 2편/제네릭.md"
               },
               "icon": "lucide-list",
-              "title": "conflict-files-obsidian-git 개요"
+              "title": "제네릭 개요"
             }
           }
         ]
@@ -189,12 +162,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52dc5aff408cd67d",
+  "active": "5013a60ab6482cb2",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 2편/index.md",
+    "Resources/프로그래밍/Java/중급 1편/index.md",
+    "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
     "conflict-files-obsidian-git.md",
     "Resources/프로그래밍/Java/중급 2편/무제 파일.md",
     "Resources/프로그래밍/Java/중급 2편/제네릭.md",
-    "Resources/프로그래밍/Java/중급 2편/index.md",
     "Resources/프로그래밍/Java/중급 2편",
     "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
@@ -214,7 +189,6 @@
     "Attached/예외-계층화1.png",
     "Attached/언체크예외_1.png",
     "Attached/variable-lifetime.png",
-    "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
     "index.md",
@@ -222,7 +196,6 @@
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 복습.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 2.md",
     "Resources/프로그래밍/Java/중급 1편/날짜와 시간 1.md",
-    "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/자료구조/index.md",
     "Resources/프로그래밍/index.md",
