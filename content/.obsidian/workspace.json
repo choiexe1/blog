@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/제네릭.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/중급 2편/컬렉션 프레임워크 - ArrayList.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "제네릭"
+              "title": "컬렉션 프레임워크 - ArrayList"
             }
           }
         ]
@@ -164,15 +164,15 @@
   },
   "active": "5013a60ab6482cb2",
   "lastOpenFiles": [
-    "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
+    "Resources/프로그래밍/Java/중급 2편/index.md",
+    "Resources/프로그래밍/Java/중급 2편/컬렉션 프레임워크 - ArrayList.md",
     "Resources/프로그래밍/Java/중급 2편/제네릭.md",
-    "Resources/프로그래밍/Java/중급 2편/무제 파일.md",
+    "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
     "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/index.md",
     "Resources/사진과 기억/index.md",
     "Resources/옵시디언/index.md",
     "Resources/메모 테크닉/index.md",
-    "Resources/프로그래밍/Java/중급 2편/index.md",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/Java/중급 1편/중첩 클래스와 내부 클래스.md",
     "conflict-files-obsidian-git.md",
