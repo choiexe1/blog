@@ -173,6 +173,39 @@ public class MyArrayListV1 {
 
 우리가 원하는 리스트는 동적으로 저장할 수 있는 크기가 커져야한다. 위의 구현으로는 아직 저장할 수 있는 데이터 크기가 `DEFAULT_CAPACITY`나 [[메서드 오버로딩]]한 생성자의 `initialCapacity` 변수에 의해 고정되어 있다.
 
+### MyArrayListV2 구현
+
+```java title="MyArrayListV2.java"
+package collection.array;  
+  
+import java.util.Arrays;  
+  
+public class MyArrayListV2 {  
+    private static final int DEFAULT_CAPACITY = 5;  
+  
+    private Object[] elementData;  
+    private int size = 0;  
+  
+    public void add(Object o) {  
+        if (size == elementData.length) {  
+            grow();  
+        }  
+  
+        elementData[size] = o;  
+        size++;  
+    }  
+  
+    private void grow() {  
+        int oldCapacity = elementData.length;  
+        int newCapacity = oldCapacity * 2;  
+  
+        elementData = Arrays.copyOf(elementData, newCapacity);  
+    }  
+}
+```
+`MyArrayListV1`과 다른 코드는 동일하므로 삭제하였다. 달라진 부분을 천천히 확인해보자.
+
+- 
 
 
 ---
