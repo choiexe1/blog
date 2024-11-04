@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/빅 오(Big O) 표기법.md",
+                "file": "Resources/프로그래밍/Java/중급 2편/컬렉션 프레임워크 - ArrayList.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "빅 오(Big O) 표기법"
+              "title": "컬렉션 프레임워크 - ArrayList"
             }
           }
         ]
@@ -164,9 +164,9 @@
   },
   "active": "5013a60ab6482cb2",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 2편/빅 오(Big O) 표기법.md",
     "Attached/빅오-01.png",
     "Resources/프로그래밍/Java/중급 2편/컬렉션 프레임워크 - ArrayList.md",
-    "Resources/프로그래밍/Java/중급 2편/빅 오(Big O) 표기법.md",
     "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/자료구조/index.md",
     "Resources/프로그래밍/자료구조/스택 Stack.md",
@@ -201,7 +201,6 @@
     "Attached/예외계층.png",
     "Attached/예외-계층화1.png",
     "Attached/언체크예외_1.png",
-    "Attached/variable-lifetime.png",
     "Resources/프로그래밍/ide",
     "Resources/프로그래밍/IDE",
     "Resources/Programming/Java/용어",
