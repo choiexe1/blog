@@ -32,6 +32,6 @@ date: 2024-10-17
 
 
 ---
-References: 
+References: 김영한의 실전 자바 - 중급 2편
 
 Links to this page: 
