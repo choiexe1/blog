@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 2편/컬렉션 프레임워크 - ArrayList.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -165,15 +165,15 @@
   "active": "5013a60ab6482cb2",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/중급 2편/빅 오(Big O) 표기법.md",
-    "Attached/빅오-01.png",
     "Resources/프로그래밍/Java/중급 2편/컬렉션 프레임워크 - ArrayList.md",
+    "Resources/프로그래밍/Java/중급 2편/제네릭.md",
+    "Attached/빅오-01.png",
     "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/자료구조/index.md",
     "Resources/프로그래밍/자료구조/스택 Stack.md",
     "Resources/프로그래밍/자료구조/큐 Queue.md",
     "Attached/배열-01.png",
     "Attached/Pasted image 20241104170203.png",
-    "Resources/프로그래밍/Java/중급 2편/제네릭.md",
     "Resources/프로그래밍/Java/중급 2편/index.md",
     "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
     "Resources/프로그래밍/index.md",
