@@ -44,6 +44,56 @@ date: 2024-10-17
 3. 배열의 마지막 위치에 데이터 추가
 	- 이 경우 배열이 이동하지 않고 배열의 길이를 사용하면 배열의 마지막 인덱스에 접근할 수 있으므로 한번의 계산으로 위치를 찾을 수 있고, 기존 배열을 이동하지 않으므로 `O(1)`이 된다.
 
+```java title="배열의 데이터 추가 예제"
+public static void main(String[] args) {  
+    int[] arr = new int[5];  
+    arr[0] = 1;  
+    arr[1] = 2;  
+    System.out.println(Arrays.toString(arr));  
+  
+    // 배열의 첫번째 위치에 추가  
+    // 기본 배열의 데이터를 한 칸씩 뒤로 밀고 배열의 첫번째 위치에 추가  
+    int newValue = 3;  
+    addFirst(arr, newValue);  
+  
+    System.out.println(Arrays.toString(arr));  
+  
+    // 배열의 인덱스 위치에 추가  
+    // 기본 배열의 데이터를 한 칸씩 뒤로 밀고 배열의 인덱스 위치에 추가  
+    int index = 4;  
+    addIndex(arr, index, newValue);  
+    System.out.println(Arrays.toString(arr));  
+}  
+  
+private static void addIndex(int[] arr, int index, int newValue) {  
+    for (int i = arr.length - 1; i > index; i--) {  
+        arr[i] = arr[i - 1];  
+    }  
+  
+    arr[index] = newValue;  
+}  
+  
+private static void addFirst(int[] arr, int newValue) {  
+    for (int i = arr.length - 1; i > 0; i--) {  
+        arr[i] = arr[i - 1];  
+    }  
+  
+    arr[0] = newValue;  
+}
+```
+
+## 배열의 한계
+배열은 가장 기본적인 자료구조이고, 특히 인덱스를 사용할 때 최고의 효율이 나온다. 하지만 이런 배열에는 단점이 있다.
+
+배열을 생성하는 시점에 배열의 크기를 미리 정해야 한다는 것이다. 만약 누구나 참여할 수 있는 이벤트를 진행하고 이벤트가 끝나면 추첨을 통해서 당첨자를 정한다고 가정해보자. 
+
+이 때 이벤트에 참여하는 사용자들을 배열에 보관한다고 가정하자. 참여자는 실시간으로 계속 추가되는데 이 때 넉넉하게 길이가 1000인 배열을 사용했는데 예상보다 참여자가 많아서 1000명을 넘게 된다면 더 많은 사용자가 이벤트에 참여하지 못하게 되는 문제가 발생한다. 
+
+그렇다고 처음부터 크기가 너무 큰 배열을 확보하면 메모리가 많이 낭비된다.
+
+배열처럼 처음부터 정적으로 길이가 정해져있는 것이
+
+
 ---
 References: 김영한의 실전 자바 - 중급 2편
 
