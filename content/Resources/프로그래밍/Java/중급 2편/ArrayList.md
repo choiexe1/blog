@@ -114,7 +114,10 @@ private static void addFirst(int[] arr, int newValue) {
 
 보통 배열을 사용한 리스트라고 해서 `ArrayList`라고 부른다.
 
+예제에선 구현을 완성하는 것 보다는 자료 구조 자체를 설명하는 것에 목적을 둔다고 한다.
 
+```java title="MyAr
+```
 
 ---
 References: 김영한의 실전 자바 - 중급 2편
