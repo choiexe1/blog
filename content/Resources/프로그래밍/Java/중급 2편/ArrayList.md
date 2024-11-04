@@ -116,8 +116,64 @@ private static void addFirst(int[] arr, int newValue) {
 
 예제에선 구현을 완성하는 것 보다는 자료 구조 자체를 설명하는 것에 목적을 둔다고 한다.
 
-```java title="MyAr
+```java title="MyArrayListV1.java"
+package collection.array;  
+
+import java.util.Arrays;  
+  
+public class MyArrayListV1 {  
+    private static final int DEFAULT_CAPACITY = 5;  
+  
+    private Object[] elementData;  
+    private int size = 0;  
+  
+    public MyArrayListV1() {  
+        elementData = new Object[DEFAULT_CAPACITY];  
+    }  
+  
+    public MyArrayListV1(int initialCapacity) {  
+        elementData = new Object[initialCapacity];  
+    }  
+  
+    public int size() {  
+        return size;  
+    }  
+  
+    public void add(Object o) {  
+        elementData[size] = o;  
+        size++;  
+    }  
+  
+    public Object get(int index) {  
+        return elementData[index];  
+    }  
+  
+    public Object set(int index, Object element) {  
+        Object oldValue = get(index);  
+        elementData[index] = element;  
+  
+        return oldValue;  
+    }  
+  
+    public int indexOf(Object o) {  
+        for (int i = 0; i < size; i++) {  
+            if (o.equals(elementData[i])) {  
+                return i;  
+            }  
+        }  
+        return -1;  
+    }  
+  
+    public String toString() {  
+        return Arrays.toString(Arrays.copyOf(elementData, size)) +  
+                "," + " size= " + size + ", capacity = " + elementData.length;  
+    }  
+}
 ```
+
+우리가 원하는 리스트는 동적으로 저장할 수 있는 크기가 커져야한다. 위의 구현으로는 아직 저장할 수 있는 데이터 크기가 `DEFAULT_CAPACITY`나 [[메서드 오버로딩]]한 생성자의 `initialCapacity` 변수에 의해 고정되어 있다.
+
+
 
 ---
 References: 김영한의 실전 자바 - 중급 2편
