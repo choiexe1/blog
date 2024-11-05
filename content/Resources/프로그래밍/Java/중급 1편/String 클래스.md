@@ -190,4 +190,4 @@ for (int i = 0; i < 100_000; i++) {
 ---
 References: 김영한의 실전 자바 - 중급 1편
 
-Links: 
+Links to this page: [[노드와 연결, 연결 리스트]] 
