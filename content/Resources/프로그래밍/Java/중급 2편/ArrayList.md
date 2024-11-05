@@ -228,6 +228,85 @@ public class MyArrayListV2 {
 
 삭제도 마찬가지다. 마지막에 있는 데이터를 삭제하면 기존 데이터를 이동하지 않아도 된다. 하지만 중간에 있는 데이터를 삭제하면 빈 자리를 채우기 위해 데이터를 한 칸씩 왼쪽으로 이동해야 한다.
 
+```java title="MyArrayListV3.java"
+  
+public class MyArrayListV3 {  
+    private static final int DEFAULT_CAPACITY = 5;  
+  
+    private Object[] elementData;  
+    private int size = 0;  
+  
+    public MyArrayListV3() {  
+        elementData = new Object[DEFAULT_CAPACITY];  
+    }
+  
+    public void add(Object o) {  
+        if (size == elementData.length) {  
+            grow();  
+        }  
+  
+        elementData[size] = o;  
+        size++;  
+    }  
+  
+    public void add(int index, Object o) {  
+        if (size == elementData.length) {  
+            grow();  
+        }  
+  
+        shiftRightFrom(index);  
+        elementData[index] = o;  
+        size++;  
+    }  
+  
+    private void shiftRightFrom(int index) {  
+        for (int i = size; i > index ; i--) {  
+            elementData[i] = elementData[i - 1];  
+        }  
+    }  
+  
+    public Object remove(int index) {  
+        Object oldValue = get(index);  
+        shiftLeftFrom(index);  
+  
+        size--;  
+        elementData[size] = null;  
+        return oldValue;  
+    }  
+  
+    private void shiftLeftFrom(int index) {  
+        for (int i = index; i < size - 1; i++) {  
+            elementData[i] = elementData[i + 1];  
+        }  
+    }  
+  
+    private void grow() {  
+        int oldCapacity = elementData.length;  
+        int newCapacity = oldCapacity * 2;  
+  
+        elementData = Arrays.copyOf(elementData, newCapacity);  
+    }  
+  
+    public Object get(int index) {  
+        return elementData[index];  
+    }  
+}
+```
+
+값을 왼쪽으로 한 칸씩 이동시키는 메서드와 오른쪽으로 이동하는 메서드를 중점으로 원하는 기능이 구현되었다.
+
+지금까지 만든 자료 구조를 배열 리스트라고 한다. 리스트 자료 구조를 사용하는데 내부의 데이터는 배열에 보관하는 것이다. 이런 배열 리스트는 다음과 같은 특징이 있다.
+
+> [!ㅜㅐ배열 리스트의 빅 오
+- 데이터 추가
+	- **마지막에 추가**: O(1)
+	- **앞, 중간에 추가**: O(n)
+- 데이터 삭제
+	- **마지막에 삭제**: O(1)
+	- **앞, 중간에 삭제**: O(n)
+- **인덱스 조회**: O(1)
+- **데이터 검색**: O(n)
+
 ---
 References: 김영한의 실전 자바 - 중급 2편
 
