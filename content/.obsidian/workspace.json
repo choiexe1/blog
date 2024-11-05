@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,9 +164,9 @@
   },
   "active": "0cbeb1cafdbfa0e9",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/중급 1편/String 클래스.md",
-    "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
     "Resources/프로그래밍/Java/중급 2편/배열과 배열 리스트.md",
+    "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
+    "Resources/프로그래밍/Java/중급 1편/String 클래스.md",
     "Resources/프로그래밍/Java/중급 2편/제네릭.md",
     "Resources/프로그래밍/Java/기본/index.md",
     "Resources/프로그래밍/Java/용어/index.md",
