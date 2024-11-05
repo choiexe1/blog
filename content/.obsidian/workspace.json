@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "노드와 연결, 연결 리스트"
             }
+          },
+          {
+            "id": "c6df279bbfee4820",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +175,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0cbeb1cafdbfa0e9",
+  "active": "c6df279bbfee4820",
   "lastOpenFiles": [
     "Resources/옵시디언/Quartz4 코드블럭 Syntax Highlighting.md",
     "Resources/옵시디언/index.md",
