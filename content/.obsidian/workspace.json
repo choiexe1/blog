@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 2편/리스트.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,6 +164,7 @@
   },
   "active": "0cbeb1cafdbfa0e9",
   "lastOpenFiles": [
+    "Attached/Pasted image 20241105200317.png",
     "Attached/런타임_의존관계.png",
     "Attached/컴파일타임_의존관계.png",
     "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
@@ -201,7 +202,6 @@
     "Attached/체크예외의_부담1.png",
     "Attached/체크예외의_부담.png",
     "Attached/지역클래스.png",
-    "Attached/예외처리.png",
     "Resources/프로그래밍/ide",
     "Resources/프로그래밍/IDE",
     "Resources/Programming/Java/용어",
