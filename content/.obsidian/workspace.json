@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/리스트.md",
+                "file": "Resources/프로그래밍/Java/중급 2편/자바의 리스트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "리스트"
+              "title": "자바의 리스트"
             }
           }
         ]
@@ -164,10 +164,16 @@
   },
   "active": "0546d6a51e3195ca",
   "lastOpenFiles": [
+    "Attached/자바의_리스트.png",
+    "무제 파일.md",
+    "Resources/프로그래밍/Java/중급 2편/자바의 리스트.md",
+    "Resources/프로그래밍/Java/중급 2편/index.md",
+    "Resources/프로그래밍/Java/중급 2편/리스트.md",
+    "Resources/옵시디언/index.md",
+    "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/Java/기본/index.md",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/Java/중급 1편/String 클래스.md",
-    "Resources/프로그래밍/Java/중급 2편/리스트.md",
     "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
     "Resources/프로그래밍/Java/중급 2편/빅 오(Big O) 표기법.md",
     "Resources/프로그래밍/Java/중급 2편/배열과 배열 리스트.md",
@@ -181,19 +187,14 @@
     "Resources/프로그래밍/Java/기본/좋은 객체 지향 프로그래밍이란.md",
     "Resources/프로그래밍/Java/기본/기본 타입과 참조형 타입.md",
     "Resources/프로그래밍/Java/기본/객체 지향 프로그래밍.md",
-    "Resources/프로그래밍/Java/중급 2편/index.md",
     "Resources/옵시디언/Quartz4 코드블럭 Syntax Highlighting.md",
-    "Resources/옵시디언/index.md",
     "Resources/프로그래밍/Java/중급 2편/제네릭.md",
     "Resources/프로그래밍/자료구조/index.md",
     "Resources/프로그래밍/자료구조/스택 Stack.md",
     "Resources/프로그래밍/자료구조/큐 Queue.md",
     "Resources/프로그래밍/Java/index.md",
     "Attached/연결리스트-01.png",
-    "무제 파일.md",
     "Resources/프로그래밍/Java/용어/메서드 오버로딩.md",
-    "Resources/프로그래밍/ide/인텔리제이 유용한 단축키 모음.md",
-    "Resources/프로그래밍/ide/index.md",
     "Attached/빅오-01.png",
     "Attached/배열-01.png",
     "Attached/Pasted image 20241104170203.png",
