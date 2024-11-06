@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/index.md",
+                "file": "Resources/프로그래밍/Java/중급 2편/자바의 리스트.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "자바의 리스트"
             }
           }
         ]
@@ -164,13 +164,13 @@
   },
   "active": "0546d6a51e3195ca",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 2편/index.md",
     "Resources/프로그래밍/Java/중급 2편/자바의 리스트.md",
     "Resources/프로그래밍/Java/중급 2편/리스트 자료구조.md",
     "Attached/자바_이중_연결_리스트.png",
     "Attached/메모리_고속_복사연산.png",
     "Attached/자바의_리스트.png",
     "무제 파일.md",
-    "Resources/프로그래밍/Java/중급 2편/index.md",
     "Resources/옵시디언/index.md",
     "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/Java/기본/index.md",
