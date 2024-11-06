@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
+                "file": "Resources/프로그래밍/Java/중급 2편/리스트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "노드와 연결, 연결 리스트"
+              "title": "리스트"
             }
           }
         ]
@@ -164,9 +164,9 @@
   },
   "active": "0546d6a51e3195ca",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
     "Resources/프로그래밍/Java/중급 2편/빅 오(Big O) 표기법.md",
     "Resources/프로그래밍/Java/중급 2편/배열과 배열 리스트.md",
-    "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
     "Resources/프로그래밍/Java/중급 2편/리스트.md",
     "Resources/프로그래밍/Java/기본/다형성.md",
     "Attached/Pasted image 20241105200317.png",
