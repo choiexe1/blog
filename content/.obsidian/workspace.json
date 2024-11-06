@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b615d4eb3010853a",
+        "id": "1f1815bc61f54c9d",
         "type": "tabs",
         "children": [
           {
-            "id": "0cbeb1cafdbfa0e9",
+            "id": "0546d6a51e3195ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/리스트.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "리스트"
+              "title": "새 탭"
             }
           }
         ]
@@ -162,21 +158,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0cbeb1cafdbfa0e9",
+  "active": "0546d6a51e3195ca",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 2편/리스트.md",
+    "Resources/프로그래밍/Java/기본/다형성.md",
     "Attached/Pasted image 20241105200317.png",
     "Attached/런타임_의존관계.png",
     "Attached/컴파일타임_의존관계.png",
     "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
     "Resources/프로그래밍/Java/용어/index.md",
     "Resources/프로그래밍/Java/용어/컴파일 타임.md",
-    "Resources/프로그래밍/Java/중급 2편/리스트.md",
     "Attached/리스트-추상화-01.png",
     "Resources/프로그래밍/Java/기본/index.md",
     "Resources/프로그래밍/Java/기본/좋은 객체 지향 프로그래밍이란.md",
     "Resources/프로그래밍/Java/기본/기본 타입과 참조형 타입.md",
     "Resources/프로그래밍/Java/기본/객체 지향 프로그래밍.md",
-    "Resources/프로그래밍/Java/기본/다형성.md",
     "Resources/프로그래밍/Java/중급 2편/index.md",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/옵시디언/Quartz4 코드블럭 Syntax Highlighting.md",
@@ -201,7 +197,6 @@
     "LocalOuterV2.java",
     "Attached/체크예외의_부담1.png",
     "Attached/체크예외의_부담.png",
-    "Attached/지역클래스.png",
     "Resources/프로그래밍/ide",
     "Resources/프로그래밍/IDE",
     "Resources/Programming/Java/용어",
