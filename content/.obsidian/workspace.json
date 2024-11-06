@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1f1815bc61f54c9d",
+        "id": "2079d759a4860969",
         "type": "tabs",
         "children": [
           {
-            "id": "0546d6a51e3195ca",
+            "id": "fb82d5c587226123",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 2편/자바의 리스트.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -162,7 +162,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0546d6a51e3195ca",
+  "active": "fb82d5c587226123",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/중급 2편/index.md",
     "Resources/프로그래밍/Java/중급 2편/자바의 리스트.md",
