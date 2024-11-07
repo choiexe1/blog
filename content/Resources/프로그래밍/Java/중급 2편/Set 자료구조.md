@@ -25,15 +25,56 @@ date: 2024-10-26
 > **List**: 장바구니 목록, 순서가 중요한 일련의 이벤트 목록
 > **Set**: 회원 ID 집합, 고유한 항목의 집합
 
-## 직접 구현하는 Set
+## 직접 구현하는 Set 0
 셋을 구현하는 것은 아주 단순하다. 인덱스가 없기 때문에 데이터를 넣고, 데이터가 있는지 확인하고, 중복 유무를 확인하고, 데이터를 삭제하는 정도면 충분하다.
 - `add(value)`: 셋에 값을 추가한다. 중복 데이터는 저장하지 않는다.
 - `contains(value)`: 셋에 값이 있는지 확인한다.
 - `remove(value)`: 셋에 있는 값을 제거한다.
 
-예제에선 최대한 단순하게 셋을 구현한다. `add()`, `contains()`만 구현한다.
+예제에선 최대한 단순하게 셋을 구현한다.
 
+```java title="MyHashSetV0.java"
+import java.util.Arrays;  
+  
+public class MyHashSetV0 {  
+    private int[] elements = new int[10];  
+    private int size;  
+  
+    public boolean add(int value) {  
+        if (contains(value)) {  
+            return false;  
+        }  
+        elements[size] = value;  
+        size++;  
+  
+        return true;  
+    }  
+  
+    public boolean contains(int value) {  
+        for (int e : elements) {  
+            if (value == e) {  
+                return true;  
+            }  
+        }  
+        return false;  
+    }  
+  
+    public int size() {  
+        return size;  
+    }  
+  
+    @Override  
+    public String toString() {  
+        return "MyHashSetV0{" +  
+                "elements=" + Arrays.toString(Arrays.copyOf(elements, size)) +  
+                ", size=" + size +  
+                '}';  
+    }  
+}
+```
 
+- `add()`로 데이터를 추가할 때, 첫 번째 데이터 입력 연산은 `O(1)`이 된다. 그러나 두 번째 데이터부터는 입력 연산이 `O(n)`이 된다. `contains()` 메서드로 해당 데이터의 중복 유무를 체크하기 때문이다.
+- 
 
 ---
 References: 김영한의 실전 자바 - 중급 2편
