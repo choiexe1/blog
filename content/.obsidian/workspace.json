@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 212.5,
+    "collapsed": true
   },
   "right": {
     "id": "b65733e587ee5721",
@@ -179,6 +180,7 @@
   },
   "active": "d69943e18a6493c6",
   "lastOpenFiles": [
+    "Attached/해시-충돌-3.png",
     "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
     "Resources/프로그래밍/Java/중급 2편/해시 알고리즘.md",
     "Resources/프로그래밍/Java/중급 2편/배열과 배열 리스트.md",
@@ -214,7 +216,6 @@
     "Resources/옵시디언/Quartz4 코드블럭 Syntax Highlighting.md",
     "Resources/프로그래밍/Java/중급 2편/제네릭.md",
     "Resources/프로그래밍/자료구조/index.md",
-    "Resources/프로그래밍/자료구조/스택 Stack.md",
     "Resources/프로그래밍/Java/중급 2편",
     "LocalOuterV2.java",
     "Resources/프로그래밍/ide",
