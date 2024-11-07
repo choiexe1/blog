@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Resources/프로그래밍/Java/중급 2편/해시 알고리즘.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "해시 알고리즘"
+            }
+          },
+          {
+            "id": "97b74d9ded66a2d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Resources/프로그래밍/Java/중급 2편/Set 자료구조.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "Set 자료구조"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5,
-    "collapsed": true
+    "width": 212.5
   },
   "right": {
     "id": "b65733e587ee5721",
@@ -163,10 +177,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b40a21e1302f0289",
+  "active": "97b74d9ded66a2d6",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/중급 2편/자바의 리스트.md",
+    "Resources/프로그래밍/Java/중급 2편/해시 알고리즘.md",
     "Resources/프로그래밍/Java/중급 2편/Set 자료구조.md",
+    "Resources/프로그래밍/Java/중급 2편/자바의 리스트.md",
     "무제 파일.md",
     "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
     "Resources/프로그래밍/Java/중급 2편/배열과 배열 리스트.md",
@@ -197,7 +212,6 @@
     "Resources/프로그래밍/자료구조/index.md",
     "Resources/프로그래밍/자료구조/스택 Stack.md",
     "Resources/프로그래밍/자료구조/큐 Queue.md",
-    "Resources/프로그래밍/Java/index.md",
     "Attached/연결리스트-01.png",
     "Attached/빅오-01.png",
     "Attached/배열-01.png",
