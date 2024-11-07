@@ -5,6 +5,9 @@ tags:
   - programming
   - collection-framework
   - data-structure
+  - algorithm
+  - set
+  - hash
 publish: true
 date: 2024-10-26
 ---
@@ -90,4 +93,4 @@ public class MyHashSetV0 {
 ---
 References: 김영한의 실전 자바 - 중급 2편
 
-Links to this page: [[해시 알고리즘]]
+Links to this page: [[해시 알고리즘]], [[해시 알고리즘 2]]
