@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 2편/해시 알고리즘.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5,
-    "collapsed": true
+    "width": 212.5
   },
   "right": {
     "id": "b65733e587ee5721",
@@ -165,6 +164,10 @@
   },
   "active": "b40a21e1302f0289",
   "lastOpenFiles": [
+    "Attached/index.md",
+    "Resources/프로그래밍/Java/중급 2편/해시 알고리즘.md",
+    "Attached/해시-충돌-최악의경우.png",
+    "Attached/해시-충돌-최악의경우.png",
     "Attached/해시-충돌-해결-2.png",
     "Attached/해시-충돌-해결-1.png",
     "Attached/해시-충돌.png",
@@ -172,7 +175,6 @@
     "Attached/해시-알고리즘-2.png",
     "Attached/해시-알고리즘-1.png",
     "Resources/프로그래밍/Java/중급 2편/Set 자료구조.md",
-    "Resources/프로그래밍/Java/중급 2편/해시 알고리즘.md",
     "Resources/프로그래밍/Java/중급 2편/자바의 리스트.md",
     "무제 파일.md",
     "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
@@ -182,7 +184,6 @@
     "Resources/프로그래밍/Java/중급 2편/index.md",
     "Attached/자바_이중_연결_리스트.png",
     "Attached/메모리_고속_복사연산.png",
-    "Attached/자바의_리스트.png",
     "Resources/옵시디언/index.md",
     "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/Java/기본/index.md",
@@ -190,8 +191,6 @@
     "Resources/프로그래밍/Java/중급 1편/String 클래스.md",
     "Resources/프로그래밍/Java/중급 2편/빅 오(Big O) 표기법.md",
     "Resources/프로그래밍/Java/기본/다형성.md",
-    "Attached/Pasted image 20241105200317.png",
-    "Attached/런타임_의존관계.png",
     "Resources/프로그래밍/Java/용어/index.md",
     "Resources/프로그래밍/Java/용어/컴파일 타임.md",
     "Resources/프로그래밍/Java/기본/좋은 객체 지향 프로그래밍이란.md",
