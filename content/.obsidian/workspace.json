@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 2편/자바의 셋.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,6 +164,7 @@
   },
   "active": "8d8749190d94ee1e",
   "lastOpenFiles": [
+    "Attached/rehashing.png",
     "Resources/프로그래밍/Java/중급 2편/해시 알고리즘 3.md",
     "Resources/프로그래밍/Java/중급 2편/해시 알고리즘 2.md",
     "Resources/프로그래밍/Java/중급 2편/해시 알고리즘.md",
