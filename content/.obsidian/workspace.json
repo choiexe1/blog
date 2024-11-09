@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/자바의 셋.md",
+                "file": "Resources/프로그래밍/Java/용어/수학 로그.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "자바의 셋"
+              "title": "수학 로그"
             }
           }
         ]
@@ -164,6 +164,8 @@
   },
   "active": "8d8749190d94ee1e",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 2편/자바의 셋.md",
+    "Resources/프로그래밍/Java/용어/수학 로그.md",
     "Attached/Pasted image 20241109154621.png",
     "Attached/binary-search-trees-bigO.png",
     "Attached/binary-search-tree-example-03.png",
@@ -171,7 +173,6 @@
     "Attached/binary-search-tree-example-01.png",
     "Attached/Pasted image 20241109152617.png",
     "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
-    "Resources/프로그래밍/Java/중급 2편/자바의 셋.md",
     "Attached/tree-structure-implements.png",
     "Attached/tree-structure.png",
     "Attached/linked-hash-set.png",
@@ -182,7 +183,6 @@
     "해시 인덱스.md",
     "Resources/프로그래밍/Java/중급 2편/해시 알고리즘.md",
     "Resources/프로그래밍/Java/중급 1편/Object 클래스.md",
-    "Attached/해시코드-분석.png",
     "Resources/프로그래밍/Java/중급 1편/Wrapper 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/System 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/String 클래스.md",
