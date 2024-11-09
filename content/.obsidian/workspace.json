@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/용어/수학 로그.md",
-                "mode": "source",
+                "file": "Resources/프로그래밍/Java/중급 2편/자바의 셋.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "수학 로그"
+              "title": "자바의 셋"
             }
           }
         ]
@@ -164,10 +164,10 @@
   },
   "active": "8d8749190d94ee1e",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/용어/수학 로그.md",
     "Resources/프로그래밍/Java/중급 2편/해시 알고리즘 3.md",
     "Resources/프로그래밍/Java/중급 2편/자바의 리스트.md",
     "Resources/프로그래밍/Java/중급 2편/자바의 셋.md",
-    "Resources/프로그래밍/Java/용어/수학 로그.md",
     "Attached/Pasted image 20241109154621.png",
     "Attached/binary-search-trees-bigO.png",
     "Attached/binary-search-tree-example-03.png",
