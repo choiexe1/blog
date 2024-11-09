@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 2편/자바의 셋.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,7 +164,7 @@
   },
   "active": "8d8749190d94ee1e",
   "lastOpenFiles": [
-    "Attached/Pasted image 20241109162527.png",
+    "Attached/중위순회.png",
     "Attached/binary-search-tree-improve.png",
     "Attached/binary-search-tree-worst-case.png",
     "Resources/프로그래밍/Java/용어/수학 로그.md",
