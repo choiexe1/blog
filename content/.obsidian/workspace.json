@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/중급 2편/자바의 셋.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,6 +164,7 @@
   },
   "active": "8d8749190d94ee1e",
   "lastOpenFiles": [
+    "Attached/Pasted image 20241109154621.png",
     "Attached/binary-search-trees-bigO.png",
     "Attached/binary-search-tree-example-03.png",
     "Attached/binary-search-tree-example-02.png",
@@ -199,7 +200,6 @@
     "Resources/프로그래밍/Java/중급 1편/지역 클래스.md",
     "Resources/프로그래밍/Java/중급 1편/지역 클래스 - 지역 변수 캡처.md",
     "Resources/프로그래밍/Java/중급 1편/체크 예외와 언체크 예외.md",
-    "Attached/해시코드-1.png",
     "Resources/프로그래밍/Java/중급 2편",
     "LocalOuterV2.java",
     "Resources/프로그래밍/ide",
