@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/자바의 맵 자료구조.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/중급 2편/자바의 스택 자료구조.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "자바의 맵 자료구조"
+              "title": "자바의 스택 자료구조"
             }
           }
         ]
@@ -164,10 +164,12 @@
   },
   "active": "8d8749190d94ee1e",
   "lastOpenFiles": [
+    "Resources/프로그래밍/자료구조/스택 Stack.md",
+    "Resources/프로그래밍/Java/중급 2편/자바의 스택 자료구조.md",
+    "Resources/프로그래밍/Java/중급 2편/자바의 맵 자료구조.md",
     "Attached/hash-map-example.png",
     "Resources/프로그래밍/Java/중급 2편/자바의 리스트 자료구조.md",
     "Resources/프로그래밍/Java/중급 2편/자바의 셋 자료구조.md",
-    "Resources/프로그래밍/Java/중급 2편/자바의 맵 자료구조.md",
     "Attached/collection-framework-map.png",
     "Attached/map-data-structure.png",
     "Resources/프로그래밍/Java/중급 2편/index.md",
@@ -184,7 +186,6 @@
     "Attached/Pasted image 20241109154621.png",
     "Attached/binary-search-trees-bigO.png",
     "Attached/binary-search-tree-example-03.png",
-    "Attached/binary-search-tree-example-02.png",
     "Resources/프로그래밍/Java/중급 2편/노드와 연결, 연결 리스트.md",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/Java/중급 1편/Object 클래스.md",
@@ -199,7 +200,6 @@
     "Resources/프로그래밍/Java/중급 1편/열거형 (Enum).md",
     "Resources/프로그래밍/Java/중급 1편/예외 계층.md",
     "Resources/프로그래밍/Java/중급 1편/예외 계층화와 활용.md",
-    "Resources/프로그래밍/Java/중급 1편/예외 처리가 필요한 이유.md",
     "Resources/프로그래밍/Java/중급 2편",
     "LocalOuterV2.java",
     "Resources/프로그래밍/ide",
