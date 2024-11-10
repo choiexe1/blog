@@ -13,4 +13,4 @@ publish: true
 ---
 References: 김영한의 실전 자바 - 기본편
 
-Links to this page: 
+Links to this page: [[자바의 큐 자료구조]]
