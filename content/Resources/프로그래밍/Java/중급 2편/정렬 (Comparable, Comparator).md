@@ -126,8 +126,47 @@ public interface Comparable<T> {
 	- 두 객체가 같으면 `0`
 	- 현재 객체가 인수로 주어진 객체보다 더 크면 양수, 예(`1`)
 
-```java
+### MyUser 구현
+
+```java title="MyUser.java"
+public class MyUser implements Comparable<MyUser> {  
+    private String id;  
+    private int age;  
+  
+    public MyUser(int age, String id) {  
+        this.age = age;  
+        this.id = id;  
+    }  
+  
+  
+    public int getAge() {  
+        return age;  
+    }  
+  
+    public String getId() {  
+        return id;  
+    }  
+  
+    @Override  
+    public String toString() {  
+        return "MyUser{" +  
+                "age=" + age +  
+                ", id='" + id + '\'' +  
+                '}';  
+    }  
+  
+    @Override  
+    public int compareTo(MyUser o) {  
+        return this.age < o.age ? -1 : (this.age == o.age ? 0 : 1);  
+    }  
+}
 ```
+- `MyUser`는 `Comparable` 인터페이스를 구현한다.
+- `compareTo()` 구현을 보면 여기서는 정렬의 기준을 나이인 `age`로 정했다.
+- `MyUser` 클래스의 기본 정렬 방식을 나이 오름차순으로 정한 것이다.
+- `Comparable`을 통해 구현한 순서를 자연 순서(Natural Ordering)이라 한다.
+
+
 
 ---
 References: 김영한의 실전 자바 - 중급 2편
