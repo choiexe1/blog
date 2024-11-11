@@ -196,8 +196,19 @@ public class JavaIterableMain {
     }  
 }
 ```
-- `run(Iterator<Integer> Iterator)`는  어떤 `Iterator<Integer>`던 사용할 수 있게 된다.
+- `run(Iterator<Integer> Iterator)`는 `Integer`를 다루는 어떤 `Iterator`던 재사용할 수 있게 된다. 다형성을 통해 범용적인 메서드로 만든 것이다.
 
+```title="실행 결과"
+== list iterator ==
+1
+2
+3
+== set iterator ==
+1
+2
+3
+```
+- 핵심은 각각의 자료 구조별로 어떤 `Iterator` 구현체를 반환한다는 것이다.
 ---
 References: 김영한의 실전 자바 - 중급 2편
 
