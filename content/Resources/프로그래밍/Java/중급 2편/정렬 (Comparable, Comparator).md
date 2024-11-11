@@ -190,7 +190,30 @@ Comparable 기본 정렬 = [MyUser{age=10, id='C'}, MyUser{age=20, id='B'}, MyUs
 
 나이가 아니라 `id`로 비교하는 예제를 추가로 만들어본다.
 
+```java
+public class IdComparator implements Comparator<MyUser> {  
+  
+    @Override  
+    public int compare(MyUser o1, MyUser o2) {  
+        return o1.getId().compareTo(o2.getId());  
+    }  
+}
+```
+- `Comparator`를 구현하는 `IdComparator`를 만든다. 이 후에 `Array.sort(array, Comparator)`에 인수로 사용하면 된다.
 
+```java
+Arrays.sort(array, new IdComparator());  
+System.out.println("IdComparator 정렬" + Arrays.toString(array));
+
+// 실행 결과
+// IdComparator 정렬 = [MyUser{age=30, id='A'}, MyUser{age=20, id='B'}, MyUser{age=10, id='C'}]
+```
+
+참고로 비교자를 `Array.sort()`에 전달하면 객체가 기본으로 가지고 있는 `Comparable`을 무시하고 별도로 전달한 비교자를 사용해서 정렬한다.
+
+참고로 앞서 사용했던 `reversed()`는 비교자 구현체에서만 제공된다.
+
+> [!warning] 
 
 ---
 References: 김영한의 실전 자바 - 중급 2편
