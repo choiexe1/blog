@@ -271,6 +271,27 @@ public static void main(String[] args) {
 
 이진 탐색 트리는 데이터를 저장할 때 왼쪽 노드에 저장해야 할 지, 오른쪽 노드에 저장해야 할 지 비교가 필요하다. 따라서 `TreeSet`, `TreeMap`은 `Comparable` 또는 `Comparator`가 필수다.
 
+```java
+MyUser user1 = new MyUser("A", 30);  
+MyUser user2 = new MyUser("B", 20);  
+MyUser user3 = new MyUser("C", 10);  
+  
+TreeSet<MyUser> treeSet1 = new TreeSet<>();  
+treeSet1.add(user1);  
+treeSet1.add(user2);  
+treeSet1.add(user3);  
+  
+System.out.println("Comparable 기본 정렬 = " + treeSet1);  
+  
+TreeSet<MyUser> treeSet2 = new TreeSet<>(new IdComparator());  
+treeSet2.add(user1);  
+treeSet2.add(user2);  
+treeSet2.add(user3);  
+  
+System.out.println("IdComparator 정렬 = " + treeSet2);
+```
+
+만약 별도의 비교자를 제공하지 않고, `TreeSet`으
 
 
 ---
