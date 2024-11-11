@@ -291,7 +291,20 @@ treeSet2.add(user3);
 System.out.println("IdComparator 정렬 = " + treeSet2);
 ```
 
-만약 별도의 비교자를 제공하지 않고, `TreeSet`으
+- `TreeSet` 인스턴스 생성 시 별도의 비교자를 제공하지 않으면 객체가 구현한 `Comparable`을 사용한다.
+- `TreeSet`을 생성할 때 별도의 비교자를 제공하면 `Comparable` 대신 `Comparator`를 사용해서 정렬한다.
+
+> [!warning] 주의
+> 만약 `Comparable`도 구현하지 않고, `Comparator`도 제공하지 않으면 다음과 같은 런타임 오류가 발생한다.
+> 
+> `Exception in thread "main" java.lang.ClassCastException: class collection.compare.MyUser cannot be cast to class java.lang.Comparable (collection.compare.MyUser is in unnamed module of loader 'app'; java.lang.Comparable is in module java.base of loader 'bootstrap')`
+
+> [!note] 정리
+> 자바의 정렬 알고리즘은 매우 복잡하고, 또 거의 완성형에 가깝다. 만약 여기서 더 성능을 높일 수 있다면 아마도 큰 상을 받을 것이다.
+> 
+> 자바는 개발자가 복잡한 정렬 알고리즘은 신경 쓰지 않으면서 정렬의 기준만 간단히 변경할 수 있도록, 정렬의 기준을 `Comparable`, `Comparator` 인터페이스를 통해 추상화해 두었다.
+> 
+> 객체의 정렬이 필요한 경우 `Comparable`을 통해 기본 자연 순서를 제공하자. 자연 순서 외에 다른 정렬 기준이 추가로 필요하면 `Comparator`를 제공하자.
 
 
 ---
