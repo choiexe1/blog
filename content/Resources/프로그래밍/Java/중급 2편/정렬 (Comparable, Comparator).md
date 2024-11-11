@@ -213,7 +213,22 @@ System.out.println("IdComparator 정렬" + Arrays.toString(array));
 
 참고로 앞서 사용했던 `reversed()`는 비교자 구현체에서만 제공된다.
 
-> [!warning] 
+> [!warning]
+> 만약 `Comparable`도 구현하지 않고, `Comparator`도 제공하지 않으면 다음과 같은 런타임 오류가 발생한다.
+> 
+> `java.lang.ClassCastException: class collection.compare.MyUser cannot be cast to class java.lang.Comparable`
+
+
+> [!note] 정리
+> 객체의 기본 정렬 방법은 객체에 `Comparable`을 구현해서 정의한다. 이렇게 하면 객체는 이름 그대로 비교할 수 있는 객체가 되고 기본 정렬 방법을 가진다.
+> 
+> 그런데 기본 정렬 외에 다른 정렬 방법을 사용하고 싶은 경우 `Comparator`를 별도로 구현해서 정렬 메서드에 전달하면 된다. 이 경우 전달한 `Comparator`가 항상 우선권을 가진다.
+> 
+> 자바가 제공하는 `Integer`, `String`같은 기본 객체들은 대부분 `Comparable`을 구현해두었다.
+
+
+
+
 
 ---
 References: 김영한의 실전 자바 - 중급 2편
