@@ -72,8 +72,39 @@ public interface Comparator<T> {
 	- 두 값이 같으면 `0`
 	- 첫 번째 인수가 더 크면 양수, 예(`1`)
 
+백문이 불여일타라고, 비교자를 직접 구현해본다.
 
-
+```java
+public static void main(String[] args) {  
+    Integer[] array = {3, 2, 1};  
+    System.out.println("array = " + Arrays.toString(array));  
+    System.out.println("Comparator 비교");  
+    Arrays.sort(array, new AscComparator());  
+  
+    System.out.println("AScComparator = " + Arrays.toString(array));  
+  
+    Arrays.sort(array, new DescComparator());  
+    System.out.println("DescComparator = " + Arrays.toString(array));  
+  
+    Arrays.sort(array, new AscComparator().reversed());  
+    System.out.println("AscComparator.reversed() = " + Arrays.toString(array));  
+}  
+  
+static class AscComparator implements Comparator<Integer> {  
+    @Override  
+    public int compare(Integer o1, Integer o2) {  
+        return (o1 < o2) ? -1 : ((o1 == o2) ? 0 : 1);  
+    }  
+}  
+  
+static class DescComparator implements Comparator<Integer> {  
+    @Override  
+    public int compare(Integer o1, Integer o2) {  
+        return (o1 < o2) ? 1 : ((o1 == o2) ? 0 : -1);  
+    }  
+}
+```
+- `Arrays.sort()`를 사용할 때, 두 번째 인자로 비교자를 넘겨주면 내부적으로 어떤 값이 더 큰지 두 값을 비교할 때 비교자를 사용한다.
 ---
 References: 김영한의 실전 자바 - 중급 2편
 
