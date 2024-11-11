@@ -162,6 +162,41 @@ while (Iterator.hasNext()) {
 - 자바 `Collection` 인터페이스의 상위에 `Iterable`이 있다는 것은 모든 컬렉션을 `Iterable`과 `Iterator`를 사용해서 순회할 수 있다는 뜻이다.
 - `Map`의 경우 `Key`뿐만 아니라 `Value`까지 있기 때문에 바로 순회할 수는 없다. 대신에 `Key`나 `Value`를 정해서 순회할 수 있는데, `keySet()`, `values()`를 호출하면 `Set`, `Collection`을 반환하기 때문에 `Key`나 `Value`를 정해서 순회할 수 있다. 물론 `Entry`를 `Set` 구조로 반환하는 `entrySet()`도 가능하다.
 
+```java
+import java.util.ArrayList;  
+import java.util.HashSet;  
+import java.util.Iterator;  
+  
+public class JavaIterableMain {  
+    public static void main(String[] args) {  
+        ArrayList<Integer> list = new ArrayList<>();  
+        HashSet<Integer> set = new HashSet<>();  
+  
+        list.add(1);  
+        list.add(2);  
+        list.add(3);  
+        set.add(1);  
+        set.add(2);  
+        set.add(3);  
+  
+        Iterator<Integer> listIterator = list.iterator();  
+        Iterator<Integer> setIterator = set.iterator();  
+  
+        System.out.println("== list iterator ==");  
+        run(listIterator);  
+  
+        System.out.println("== set iterator ==");  
+        run(setIterator);  
+    }  
+  
+    public static void run(Iterator<Integer> iterator) {  
+        while (iterator.hasNext()) {  
+            System.out.println(iterator.next());  
+        }  
+    }  
+}
+```
+- `run(Iterator<Integer> Iterator)`는  어떤 `Iterator<Integer>`던 사용할 수 있게 된다.
 
 ---
 References: 김영한의 실전 자바 - 중급 2편
