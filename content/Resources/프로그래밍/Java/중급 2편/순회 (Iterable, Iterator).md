@@ -155,6 +155,14 @@ while (Iterator.hasNext()) {
 > 
 > 물론 자료구조를 만드는 개발자 입장에서는 `Iterable`, `Iterator`를 구현해야 하니 수고롭겠지만, 해당 자료구조를 사용하는 개발자 입장에서는 매우 편리하다.
 
+## 순회 3 - 자바가 제공하는 Iterable, Iterator
+![[java-provides-data-structure.png]]
+- 자바 컬렉션 프레임워크는 배열 리스트, 연결 리스트, 해시 셋, 연결 해시 셋, 트리 셋 등등 다양한 자료구조를 제공한다.
+- 자바는 컬렉션 프레임워크를 사용하는 개발자가 편리하고 일관된 방법으로 자료구조를 순회할 수 있도록 `Iterable` 클래스를 제공하고, 이미 각각의 구현체에 맞는 `Iterator`도 다 구현해두었다.
+- 자바 `Collection` 인터페이스의 상위에 `Iterable`이 있다는 것은 모든 컬렉션을 `Iterable`과 `Iterator`를 사용해서 순회할 수 있다는 뜻이다.
+- `Map`의 경우 `Key`뿐만 아니라 `Value`까지 있기 때문에 바로 순회할 수는 없다. 대신에 `Key`나 `Value`를 정해서 순회할 수 있는데, `keySet()`, `values()`를 호출하면 `Set`, `Collection`을 반환하기 때문에 `Key`나 `Value`를 정해서 순회할 수 있다. 물론 `Entry`를 `Set` 구조로 반환하는 `entrySet()`도 가능하다.
+
+
 ---
 References: 김영한의 실전 자바 - 중급 2편
 
