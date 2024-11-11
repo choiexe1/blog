@@ -265,9 +265,15 @@ public static void main(String[] args) {
 - `null`이 아닌 비교자를 전달하면 전달한 비교자로 비교할 수 있다.
 
 ### Tree 구조와 정렬
+[[자바의 셋 자료구조#자바가 제공하는 Set 2 - TreeSet|TreeSet]]과 같은 이진 탐색 트리 구조는 데이터를 보관할 때, 데이터를 정렬하면서 보관한다. 따라서 정렬 기준을 제공하는 것이 필수다.
+
+![[tree-structure.png]]
+
+이진 탐색 트리는 데이터를 저장할 때 왼쪽 노드에 저장해야 할 지, 오른쪽 노드에 저장해야 할 지 비교가 필요하다. 따라서 `TreeSet`, `TreeMap`은 `Comparable` 또는 `Comparator`가 필수다.
+
 
 
 ---
 References: 김영한의 실전 자바 - 중급 2편
 
-Links to this page: 
+Links to this page: [[자바의 셋 자료구조]]
