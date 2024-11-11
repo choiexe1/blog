@@ -227,6 +227,8 @@ System.out.println("IdComparator 정렬" + Arrays.toString(array));
 > 자바가 제공하는 `Integer`, `String`같은 기본 객체들은 대부분 `Comparable`을 구현해두었다.
 
 
+## 정렬 3 - Comparable, Comparator
+정렬은 배열 뿐만 아니라 순서가 있는 `List`같은 자료구조에도 사용할 수 있다.
 
 
 
