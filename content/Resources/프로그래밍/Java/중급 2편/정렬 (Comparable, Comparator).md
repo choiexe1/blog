@@ -229,7 +229,42 @@ System.out.println("IdComparator 정렬" + Arrays.toString(array));
 
 ## 정렬 3 - Comparable, Comparator
 정렬은 배열 뿐만 아니라 순서가 있는 `List`같은 자료구조에도 사용할 수 있다.
+```java
+public static void main(String[] args) {  
+    MyUser user1 = new MyUser("A", 30);  
+    MyUser user2 = new MyUser("B", 20);  
+    MyUser user3 = new MyUser("C", 10);  
+  
+    LinkedList<MyUser> list = new LinkedList<>();  
+    list.add(user1);  
+    list.add(user2);  
+    list.add(user3);  
+  
+    System.out.println("기본 데이터 = " + list);  
+  
+    list.sort(null);  
+    System.out.println("Comparable 기본 정렬 = " + list);  
+  
+    list.sort(new IdComparator());  
+    System.out.println("IdComparator 정렬 = " + list);
 
+	Collections.sort(list);
+	System.out.println("Collections.sort() 정렬 = " + list);
+}
+```
+
+**Collections.sort(list)**
+- 리스트는 순서가 있는 컬렉션이므로 정렬할 수 있다.
+- 이 메서드를 사용하면 기본 정렬이 적용된다.
+- 하지만 이 방식보다는 객체 스스로 정렬 메서드를 가지고 있는 `list.sort()` 사용을 더 권장한다. 참고로 둘의 결과는 같다.
+- 비교할 컬렉션 다음 인자로 비교자를 넘기면 전달한 비교자로 비교할 수 있다.
+
+**list.sort(null)**
+- 별도의 비교자가 없으므로 `Comparable`로 비교해서 정렬한다.
+- 자연스러운 순서(Natural Ordering)로 정렬한다.
+- `null`이 아닌 비교자를 전달하면 전달한 비교자로 비교할 수 있다.
+
+### Tree 구조와 정렬
 
 
 ---
