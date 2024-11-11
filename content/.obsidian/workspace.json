@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/순회 (Iterable, Iterator).md",
+                "file": "Resources/프로그래밍/Java/중급 2편/정렬 (Comparable, Comparator).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "순회 (Iterable, Iterator)"
+              "title": "정렬 (Comparable, Comparator)"
             }
           }
         ]
@@ -164,11 +164,12 @@
   },
   "active": "8d8749190d94ee1e",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 2편/순회 (Iterable, Iterator).md",
+    "Resources/프로그래밍/Java/중급 2편/정렬 (Comparable, Comparator).md",
     "Attached/java-provides-data-structure.png",
     "Attached/순회-01.png",
     "Resources/프로그래밍/Java/중급 2편/자바의 큐 자료구조.md",
     "Resources/프로그래밍/Java/중급 2편/index.md",
-    "Resources/프로그래밍/Java/중급 2편/순회 (Iterable, Iterator).md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/자료구조/index.md",
     "Resources/프로그래밍/Java/중급 2편/자바의 리스트 자료구조.md",
@@ -196,7 +197,6 @@
     "Attached/Pasted image 20241109152617.png",
     "Resources/프로그래밍/자료구조/스택 Stack.md",
     "Attached/hash-map-example.png",
-    "Attached/collection-framework-map.png",
     "Resources/프로그래밍/Java/용어/해시 인덱스.md",
     "무제 파일.md",
     "Resources/프로그래밍/Java/용어/수학 로그.md",

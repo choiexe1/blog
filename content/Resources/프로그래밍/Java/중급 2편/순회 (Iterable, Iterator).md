@@ -126,7 +126,7 @@ public static void main(String[] args) {
 > - `Iterable` 인터페이스를 구현한 자료구조를 만든다.
 > - `Iterable` 인터페이스의 구현체는 `Iterator()`를 구현해야 한다. 따라서 만들었던 `Iterator`를 반환하도록 구현한다.
 
-## 순회 2 - 향상된 for문의 비밀
+## 순회 2 - 향상된 for문(for-each)의 비밀
 `Iterable`과 `Iterator`를 사용하면 또 하나의 큰 장점을 얻을 수 있다.
 
 ```java title="for-each"
