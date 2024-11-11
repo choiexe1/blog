@@ -166,6 +166,30 @@ public class MyUser implements Comparable<MyUser> {
 - `MyUser` 클래스의 기본 정렬 방식을 나이 오름차순으로 정한 것이다.
 - `Comparable`을 통해 구현한 순서를 자연 순서(Natural Ordering)이라 한다.
 
+```java
+public static void main(String[] args) {  
+    MyUser user1 = new MyUser("A", 30);  
+    MyUser user2 = new MyUser("B", 20);  
+    MyUser user3 = new MyUser("C", 10);  
+  
+    MyUser[] array = {user1, user2, user3};  
+    System.out.println("초기 데이터 = " + Arrays.toString(array));  
+  
+    Arrays.sort(array);  
+    System.out.println("Comparable 기본 정렬 = " + Arrays.toString(array)); 
+}
+```
+
+```title="실행 결과"
+초기 데이터 = [MyUser{age=30, id='A'}, MyUser{age=20, id='B'}, MyUser{age=10, id='C'}]
+Comparable 기본 정렬 = [MyUser{age=10, id='C'}, MyUser{age=20, id='B'}, MyUser{age=30, id='A'}]
+```
+
+### 다른 방식으로 정렬
+만약 객체가 가지고 있는 `Comparable` 기본 정렬이 아니라, 다른 정렬을 사용하고 싶다면 어떻게 해야할까?
+
+나이가 아니라 `id`로 비교하는 예제를 추가로 만들어본다.
+
 
 
 ---
