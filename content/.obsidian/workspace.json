@@ -49,8 +49,7 @@
               "title": "정렬 (Comparable, Comparator)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,11 +190,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3cf983739afd29fd",
+  "active": "ea77e42cda357e4f",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 1편/열거형 (Enum).md",
     "Resources/프로그래밍/Java/중급 2편/정렬 (Comparable, Comparator).md",
     "Resources/프로그래밍/Java/중급 2편/컬렉션 프레임워크 정리.md",
-    "Resources/프로그래밍/Java/중급 1편/열거형 (Enum).md",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/Java/기본/index.md",
     "Resources/프로그래밍/Java/중급 2편/순회 (Iterable, Iterator).md",
