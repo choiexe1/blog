@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "16de7657e81780c7",
+            "id": "d76e34956fa3e133",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/리스트 자료구조.md",
+                "file": "Resources/프로그래밍/Java/Spring/스프링 입문 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "리스트 자료구조"
-            }
-          },
-          {
-            "id": "248d2ac392dcd3ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/프로그래밍/Java/Spring/스프링 입문.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "스프링 입문"
+              "title": "스프링 입문 2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,10 +162,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "248d2ac392dcd3ca",
+  "active": "d76e34956fa3e133",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/Spring/스프링 입문 1.md",
+    "Resources/프로그래밍/Java/Spring/스프링 입문 2.md",
+    "Resources/프로그래밍/Java/Spring/index.md",
     "Resources/프로그래밍/Java/중급 2편/리스트 자료구조.md",
-    "Resources/프로그래밍/Java/Spring/스프링 입문.md",
     "Resources/프로그래밍/Java/중급 2편/index.md",
     "Resources/프로그래밍/Java/중급 2편/자바의 리스트 자료구조.md",
     "Resources/프로그래밍/Java/중급 2편/순회 (Iterable, Iterator).md",
@@ -194,7 +181,6 @@
     "Resources/프로그래밍/Java/중급 2편/컬렉션 프레임워크 정리.md",
     "Resources/프로그래밍/Java/중급 2편/해시 알고리즘.md",
     "Attached/동작환경.png",
-    "Resources/프로그래밍/Java/Spring/index.md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/Java/중급 1편/index.md",
     "Resources/프로그래밍/Java/Spring",
