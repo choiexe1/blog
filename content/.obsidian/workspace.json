@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/Spring/스프링 입문.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -179,13 +179,13 @@
   },
   "active": "248d2ac392dcd3ca",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/중급 2편/index.md",
+    "Resources/프로그래밍/Java/Spring/스프링 입문.md",
     "Resources/프로그래밍/Java/중급 2편/리스트 자료구조.md",
     "Resources/프로그래밍/Java/중급 2편/자바의 리스트 자료구조.md",
     "Resources/프로그래밍/Java/중급 2편/순회 (Iterable, Iterator).md",
     "Resources/프로그래밍/Java/중급 2편/해시 알고리즘 2.md",
     "Resources/프로그래밍/Java/중급 2편/해시 알고리즘 3.md",
-    "Resources/프로그래밍/Java/중급 2편/index.md",
-    "Resources/프로그래밍/Java/Spring/스프링 입문.md",
     "Attached/spring-start-01.png",
     "Attached/common-web-application-layer-structure.png",
     "Resources/프로그래밍/Java/중급 2편/정렬 (Comparable, Comparator).md",
