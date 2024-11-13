@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/Spring/스프링 입문.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,6 +164,7 @@
   },
   "active": "16de7657e81780c7",
   "lastOpenFiles": [
+    "Attached/동작환경.png",
     "Resources/프로그래밍/Java/Spring/스프링 입문.md",
     "Resources/프로그래밍/Java/Spring/index.md",
     "Resources/프로그래밍/Java/중급 2편/정렬 (Comparable, Comparator).md",
@@ -196,7 +197,6 @@
     "Attached/sort-1.png",
     "Attached/java-provides-data-structure.png",
     "Attached/순회-01.png",
-    "Resources/프로그래밍/자료구조/index.md",
     "Attached/deque.png",
     "Attached/queue-data-struture.png",
     "Attached/Pasted image 20241109235959.png",
