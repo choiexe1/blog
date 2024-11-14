@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "스프링 입문 2"
             }
-          },
-          {
-            "id": "fbecfa1cd60a651d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.6"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,7 +162,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fbecfa1cd60a651d",
+  "active": "d76e34956fa3e133",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/Spring/스프링 입문 1.md",
     "Resources/프로그래밍/Java/Spring/스프링 입문 2.md",
