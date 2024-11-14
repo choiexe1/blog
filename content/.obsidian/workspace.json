@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/Spring/스프링 입문 2.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,6 +164,7 @@
   },
   "active": "d76e34956fa3e133",
   "lastOpenFiles": [
+    "Attached/spring-start-aop-3.png",
     "Attached/spring-start-aop-2.png",
     "Attached/spring-start-aop-1.png",
     "Resources/프로그래밍/Java/기본/인터페이스.md",
@@ -200,7 +201,6 @@
     "Attached/sort-3.png",
     "Attached/sort-2.png",
     "Attached/sort-1.png",
-    "Attached/java-provides-data-structure.png",
     "Resources/프로그래밍/Java/중급 2편",
     "LocalOuterV2.java",
     "Resources/프로그래밍/ide",
