@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/0. 기본/index.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/3. Spring/1. 기본/객체 지향 설계와 스프링.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "객체 지향 설계와 스프링"
             }
           }
         ]
@@ -164,26 +164,26 @@
   },
   "active": "d76e34956fa3e133",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/0. 기본/객체 지향 프로그래밍.md",
-    "Resources/프로그래밍/Java/0. 기본/좋은 객체 지향 프로그래밍이란.md",
-    "Resources/프로그래밍/Java/0. 기본/index.md",
+    "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/객체 지향 설계와 스프링.md",
+    "Resources/프로그래밍/Java/3. Spring/index.md",
     "Resources/프로그래밍/Java/index.md",
-    "Resources/프로그래밍/Java/2. 중급 2편/index.md",
-    "Resources/프로그래밍/Java/1. 중급 1편/index.md",
-    "무제 파일.md",
-    "Resources/프로그래밍/자료구조/index.md",
-    "Resources/프로그래밍/자료구조/큐 Queue.md",
-    "Resources/프로그래밍/자료구조/스택 Stack.md",
-    "Resources/프로그래밍/용어/index.md",
+    "Resources/index.md",
     "Resources/프로그래밍/index.md",
     "Resources/프로그래밍/ide/index.md",
-    "Resources/프로그래밍/Java/3. Spring/index.md",
-    "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
+    "Resources/프로그래밍/자료구조/index.md",
+    "Resources/프로그래밍/용어/index.md",
+    "Resources/프로그래밍/Java/1. 중급 1편/index.md",
+    "Resources/프로그래밍/Java/0. 기본/index.md",
+    "Resources/프로그래밍/Java/0. 기본/객체 지향 프로그래밍.md",
+    "Resources/프로그래밍/Java/0. 기본/좋은 객체 지향 프로그래밍이란.md",
+    "Resources/프로그래밍/Java/2. 중급 2편/index.md",
+    "무제 파일.md",
+    "Resources/프로그래밍/자료구조/큐 Queue.md",
+    "Resources/프로그래밍/자료구조/스택 Stack.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
     "Resources/프로그래밍/Java/0. 기본/입문.md",
     "Resources/프로그래밍/Java/무제 폴더",
-    "Resources/프로그래밍/Java/3. Spring/1. 기본/객체 지향 설계와 스프링.md",
-    "Resources/index.md",
     "Attached/index.md",
     "index.md",
     "Resources/사진과 기억/index.md",
