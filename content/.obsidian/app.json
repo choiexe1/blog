@@ -5,7 +5,7 @@
     "Attached/",
     "Templates/"
   ],
-  "showLineNumber": false,
+  "showLineNumber": true,
   "strictLineBreaks": true,
   "attachmentFolderPath": "Attached",
   "promptDelete": false
