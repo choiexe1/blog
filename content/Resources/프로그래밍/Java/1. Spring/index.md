@@ -1,9 +1,8 @@
 ---
-title: 
+title: 5. Spring
 tags:
   - MOCs
 publish: true
-date: 2024-11-15
 ---
 ```folder-index-content
 ```

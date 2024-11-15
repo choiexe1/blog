@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/Spring/기본/객체 지향 설계와 스프링.md",
+                "file": "Resources/프로그래밍/Java/1. Spring/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "객체 지향 설계와 스프링"
+              "title": "index"
             }
           }
         ]
@@ -164,15 +164,19 @@
   },
   "active": "d76e34956fa3e133",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/Spring/기본/index.md",
-    "Resources/프로그래밍/Java/Spring/입문/index.md",
-    "Resources/프로그래밍/Java/Spring/index.md",
-    "Resources/프로그래밍/Java/기본/index.md",
-    "Resources/프로그래밍/Java/입문.md",
+    "Resources/프로그래밍/Java/0. 기본/index.md",
+    "Resources/프로그래밍/Java/0. 기본/입문.md",
+    "Resources/프로그래밍/Java/1. Spring/index.md",
     "Resources/프로그래밍/Java/index.md",
+    "Resources/프로그래밍/Java/중급 1편/index.md",
+    "Resources/프로그래밍/용어/index.md",
+    "Resources/프로그래밍/Java/무제 폴더",
+    "Resources/프로그래밍/Java/1. Spring/0. 입문/index.md",
+    "Resources/프로그래밍/Java/1. Spring/1. 기본/index.md",
+    "Resources/프로그래밍/Java/1. Spring/1. 기본/객체 지향 설계와 스프링.md",
+    "Resources/프로그래밍/index.md",
     "Resources/프로그래밍/자료구조/index.md",
     "Resources/프로그래밍/ide/index.md",
-    "Resources/프로그래밍/index.md",
     "Resources/index.md",
     "Attached/index.md",
     "index.md",
@@ -180,26 +184,22 @@
     "Resources/메모 테크닉/index.md",
     "Resources/옵시디언/index.md",
     "Resources/프로그래밍/Java/중급 2편/index.md",
-    "Resources/프로그래밍/Java/중급 1편/index.md",
-    "Resources/프로그래밍/Java/용어/index.md",
-    "Resources/프로그래밍/Java/Spring/기본/객체 지향 설계와 스프링.md",
-    "Resources/프로그래밍/Java/Spring/입문/스프링 입문 2.md",
-    "Resources/프로그래밍/Java/Spring/입문/스프링 입문 1.md",
-    "Resources/프로그래밍/Java/Spring/기본",
-    "Resources/프로그래밍/Java/Spring/입문",
+    "Resources/프로그래밍/Java/1. Spring/0. 입문/스프링 입문 2.md",
+    "Resources/프로그래밍/Java/1. Spring/0. 입문/스프링 입문 1.md",
+    "Resources/프로그래밍/Java/1. Spring/1. 기본",
+    "Resources/프로그래밍/Java/1. Spring/0. 입문",
     "Attached/spring-start-aop-3.png",
     "Attached/spring-start-aop-2.png",
     "Attached/spring-start-aop-1.png",
-    "Resources/프로그래밍/Java/기본/인터페이스.md",
-    "Resources/프로그래밍/Java/기본/인터페이스 다중 구현(다중 상속).md",
+    "Resources/프로그래밍/Java/0. 기본/인터페이스.md",
+    "Resources/프로그래밍/Java/0. 기본/인터페이스 다중 구현(다중 상속).md",
     "Attached/spring-start-2.png",
     "Resources/프로그래밍/Java/중급 2편/리스트 자료구조.md",
     "Resources/프로그래밍/Java/중급 2편/자바의 리스트 자료구조.md",
-    "Resources/프로그래밍/Java/중급 2편/순회 (Iterable, Iterator).md",
     "Attached/spring-start-01.png",
     "Attached/common-web-application-layer-structure.png",
     "Attached/동작환경.png",
-    "Resources/프로그래밍/Java/Spring",
+    "Resources/프로그래밍/Java/1. Spring",
     "Attached/collection-framework.png",
     "Attached/sort-3.png",
     "Attached/sort-2.png",
@@ -208,7 +208,6 @@
     "Resources/프로그래밍/ide",
     "Resources/프로그래밍/IDE",
     "Resources/Programming/Java/용어",
-    "Resources/Programming/Java",
-    "Resources/Programming"
+    "Resources/Programming/Java"
   ]
 }
