@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/Spring/입문/index.md",
+                "file": "Resources/프로그래밍/Java/Spring/입문/스프링 입문 2.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "스프링 입문 2"
             }
           }
         ]
@@ -162,10 +162,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d76e34956fa3e133",
+  "active": "10673dd5476108d3",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/Spring/index.md",
+    "Resources/프로그래밍/Java/Spring/기본",
     "Resources/프로그래밍/Java/Spring/입문/index.md",
+    "Resources/프로그래밍/Java/Spring/index.md",
     "Resources/프로그래밍/Java/Spring/입문/스프링 입문 1.md",
     "Resources/프로그래밍/Java/Spring/입문/스프링 입문 2.md",
     "Resources/프로그래밍/Java/Spring/입문",
@@ -199,7 +200,6 @@
     "Attached/collection-framework.png",
     "Resources/프로그래밍/Java/중급 2편/자바의 스택 자료구조.md",
     "Resources/프로그래밍/Java/중급 2편/Set 자료구조.md",
-    "Resources/프로그래밍/Java/중급 2편/자바의 맵 자료구조.md",
     "Attached/sort-3.png",
     "Attached/sort-2.png",
     "Resources/프로그래밍/Java/중급 2편",
