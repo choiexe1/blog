@@ -1,9 +1,8 @@
 ---
-title: 중급 2편
+title: 3. Spring
 tags:
   - MOCs
 publish: true
-date: 2024-10-13
 ---
 ```folder-index-content
 ```
