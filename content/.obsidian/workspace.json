@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 컨테이너와 스프링 빈.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -166,8 +166,9 @@
   },
   "active": "d76e34956fa3e133",
   "lastOpenFiles": [
-    "Attached/index.md",
+    "Attached/spring-container-4.png",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 컨테이너와 스프링 빈.md",
+    "Attached/index.md",
     "Attached/Pasted image 20241117102442.png",
     "Attached/spring-container-3.png",
     "Attached/Pasted image 20241117102438.png",
@@ -182,7 +183,6 @@
     "Attached/spring-basic-테스트-1.png",
     "Attached/spring-basic-예제만들기-5.png",
     "Attached/spring-basic-예제만들기-4.png",
-    "Attached/spring-basic-예제만들기-3.png",
     "Resources/프로그래밍/Java/0. 기본/좋은 객체 지향 프로그래밍이란.md",
     "Resources/프로그래밍/Java/0. 기본/다형성.md",
     "Templates/일반.md",
