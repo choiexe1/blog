@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
+                "file": "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 컨테이너와 스프링 빈.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "스프링 컨테이너와 스프링 빈"
             }
           }
         ]
@@ -165,11 +165,12 @@
   },
   "active": "d76e34956fa3e133",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/1. 중급 1편/index.md",
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/객체 지향 설계와 스프링.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 컨테이너와 스프링 빈.md",
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
+    "Resources/프로그래밍/Java/1. 중급 1편/index.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 핵심 원리.md",
     "Resources/프로그래밍/Java/index.md",
-    "Resources/프로그래밍/Java/3. Spring/1. 기본/객체 지향 설계와 스프링.md",
     "Attached/spring-basic-테스트-1.png",
     "Attached/spring-basic-예제만들기-5.png",
     "Attached/spring-basic-예제만들기-4.png",
@@ -179,7 +180,6 @@
     "Attached/spring-basic-예제만들기-1.png",
     "Resources/프로그래밍/Java/0. 기본/좋은 객체 지향 프로그래밍이란.md",
     "Resources/프로그래밍/Java/0. 기본/다형성.md",
-    "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
     "Templates/일반.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
     "Resources/프로그래밍/Java/3. Spring/index.md",
