@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/1. 기본/싱글톤 컨테이너.md",
+                "file": "Resources/프로그래밍/Java/3. Spring/1. 기본/컴포넌트 스캔과 의존관계 자동 주입.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "싱글톤 컨테이너"
+              "title": "컴포넌트 스캔과 의존관계 자동 주입"
             }
           }
         ]
@@ -165,9 +165,10 @@
   },
   "active": "d76e34956fa3e133",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/싱글톤 컨테이너.md",
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/컴포넌트 스캔과 의존관계 자동 주입.md",
     "Attached/spring-singleton-2.png",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 핵심 원리.md",
-    "Resources/프로그래밍/Java/3. Spring/1. 기본/싱글톤 컨테이너.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 컨테이너와 스프링 빈.md",
     "Attached/spring-singleton-1.png",
     "Attached/spring-container-5.png",
@@ -185,7 +186,6 @@
     "Attached/Pasted image 20241117101426.png",
     "Attached/spring-container-1.png",
     "Resources/프로그래밍/Java/index.md",
-    "Attached/spring-basic-테스트-1.png",
     "Resources/프로그래밍/Java/0. 기본/좋은 객체 지향 프로그래밍이란.md",
     "Resources/프로그래밍/Java/0. 기본/다형성.md",
     "Templates/일반.md",
