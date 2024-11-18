@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 1.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/3. Spring/1. 기본/의존관계 자동 주입.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스프링 입문 1"
+              "title": "의존관계 자동 주입"
             }
           }
         ]
@@ -165,13 +165,15 @@
   },
   "active": "d76e34956fa3e133",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/컴포넌트 스캔과 의존관계 자동 주입.md",
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/의존관계 자동 주입.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/싱글톤 컨테이너.md",
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
+    "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 1.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 컨테이너와 스프링 빈.md",
     "Resources/프로그래밍/Java/3. Spring/index.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 핵심 원리.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/객체 지향 설계와 스프링.md",
-    "Resources/프로그래밍/Java/3. Spring/1. 기본/컴포넌트 스캔과 의존관계 자동 주입.md",
-    "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 1.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 2.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
     "Attached/spring-singleton-2.png",
@@ -179,7 +181,6 @@
     "Attached/spring-container-5.png",
     "Resources/프로그래밍/Java/1. 중급 1편/index.md",
     "Resources/프로그래밍/Java/2. 중급 2편/index.md",
-    "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
     "Attached/index.md",
     "Attached/spring-container-4.png",
     "Attached/Pasted image 20241117102442.png",
@@ -200,7 +201,6 @@
     "Resources/프로그래밍/Java/0. 기본/index.md",
     "Resources/프로그래밍/Java/0. 기본/객체 지향 프로그래밍.md",
     "무제 파일.md",
-    "Resources/프로그래밍/자료구조/큐 Queue.md",
     "Resources/프로그래밍/Java/무제 폴더",
     "Resources/프로그래밍/Java/3. Spring/1. 기본",
     "Resources/프로그래밍/Java/3. Spring/0. 입문",
