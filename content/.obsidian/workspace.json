@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/3. Spring/1. 기본/빈 생명주기 콜백.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "빈 생명주기 콜백"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 212.5,
+    "collapsed": true
   },
   "right": {
     "id": "b65733e587ee5721",
@@ -165,13 +166,15 @@
   },
   "active": "4b9241f22596b08a",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/빈 생명주기 콜백.md",
+    "무제 파일.md",
     "Resources/프로그래밍/Java/3. Spring/index.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/컴포넌트 스캔과 의존관계 자동 주입.md",
     "Resources/프로그래밍/Java/2. 중급 2편/index.md",
     "Resources/프로그래밍/Java/1. 중급 1편/index.md",
     "Resources/프로그래밍/Java/0. 기본/index.md",
     "Resources/프로그래밍/Java/1. 중급 1편/날짜와 시간 1.md",
-    "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/의존관계 자동 주입.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
     "Resources/옵시디언/index.md",
@@ -199,8 +202,6 @@
     "Templates/일반.md",
     "Resources/index.md",
     "Resources/프로그래밍/index.md",
-    "Resources/프로그래밍/ide/index.md",
-    "Resources/프로그래밍/자료구조/index.md",
     "Resources/프로그래밍/Java/무제 폴더",
     "Resources/프로그래밍/Java/3. Spring/1. 기본",
     "Resources/프로그래밍/Java/3. Spring/0. 입문",
