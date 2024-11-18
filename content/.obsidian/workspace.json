@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "78f304b62e2d5fec",
+        "id": "60ebf4d05161d18e",
         "type": "tabs",
         "children": [
           {
-            "id": "d76e34956fa3e133",
+            "id": "4b9241f22596b08a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5,
-    "collapsed": true
+    "width": 212.5
   },
   "right": {
     "id": "b65733e587ee5721",
@@ -164,14 +163,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d76e34956fa3e133",
+  "active": "4b9241f22596b08a",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/컴포넌트 스캔과 의존관계 자동 주입.md",
+    "Resources/프로그래밍/Java/3. Spring/1. 기본/의존관계 자동 주입.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
-    "Resources/프로그래밍/Java/3. Spring/1. 기본/의존관계 자동 주입.md",
     "Resources/옵시디언/index.md",
     "Resources/옵시디언/옵시디언 콜아웃 마크다운 문법.md",
-    "Resources/프로그래밍/Java/3. Spring/1. 기본/컴포넌트 스캔과 의존관계 자동 주입.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/싱글톤 컨테이너.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 1.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 컨테이너와 스프링 빈.md",
