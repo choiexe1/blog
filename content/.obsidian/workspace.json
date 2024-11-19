@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "빈 스코프"
             }
+          },
+          {
+            "id": "f0271da1ce370e66",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +176,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4b9241f22596b08a",
+  "active": "f0271da1ce370e66",
   "lastOpenFiles": [
     "Attached/spring-basic-bean-scope-3.png",
     "Attached/spring-basic-bean-scope-2.png",
