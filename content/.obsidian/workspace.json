@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/웹 서버와 웹 어플리케이션 서버.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -165,9 +165,11 @@
   },
   "active": "7db78a579c5a5ca7",
   "lastOpenFiles": [
-    "Attached/spring-mvc1-servlet.png",
-    "Resources/프로그래밍/용어/웹 어플리케이션 서버.md",
+    "Attached/spring-mvc1-servlet-2.png",
+    "Attached/spring-mvc1-servlet-2.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/웹 서버와 웹 어플리케이션 서버.md",
+    "Attached/spring-mvc1-servlet-1.png",
+    "Resources/프로그래밍/용어/웹 어플리케이션 서버.md",
     "Resources/프로그래밍/용어/웹 서버.md",
     "Resources/프로그래밍/용어/업 캐스팅.md",
     "Resources/프로그래밍/용어/index.md",
@@ -200,8 +202,6 @@
     "Attached/spring-singleton-1.png",
     "Attached/spring-container-5.png",
     "Attached/spring-container-4.png",
-    "Attached/Pasted image 20241117102442.png",
-    "Attached/spring-container-3.png",
     "Resources/프로그래밍/Java/무제 폴더",
     "Resources/프로그래밍/Java/3. Spring/1. 기본",
     "Resources/프로그래밍/Java/3. Spring/0. 입문",
