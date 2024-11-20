@@ -51,6 +51,27 @@ public class HelloServlet extends HttpServlet {
 
 HTTP 요청을 통해 매핑된 URL이 호출되면 서블릿 컨테이너는 `service()` 메서드를 실행한다.
 
+```java
+@Override  
+protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {  
+    System.out.println("HelloServlet.service");  
+    System.out.println("req = " + req);  
+    System.out.println("res = " + res);  
+  
+    String username = req.getParameter("username");  
+    System.out.println("username = " + username);  
+  
+    res.setContentType("text/plain");  
+    res.setCharacterEncoding("utf-8");  
+    res.getWriter().write("hello " + username);  
+}
+```
+
+- `HttpServletRequest`, `HttpServletResponse`는 서블릿에서 구현해놓은 HTTP 기본 스펙이다. 이 두 객체를 이용해 다양한 기능을 구현한다.
+- `req.getParameter`: 쿼리 파라미터를 쉽게 가져올 수 있는 메서드
+- `res.setContentType`: 응답 헤더의 컨텐츠 타입을 설정하는 메서드
+- `res.setCharacterEncoding`: 응답 헤더의 인코딩 유형을 설정하는 메서드
+- `res.getWriter().write()`: 응답 바디를 설정하는 메서드
 
 
 
