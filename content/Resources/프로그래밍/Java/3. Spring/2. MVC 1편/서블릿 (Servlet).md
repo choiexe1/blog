@@ -21,6 +21,33 @@ date: 2024-11-20
 > 스프링 부트는 톰캣 서버를 내장하고 있으므로, 톰캣 서버 설치 없이 편리하게 서블릿 코드를 실행할 수 있다.
 
 
+```java
+@ServletComponentScan  
+@SpringBootApplication  
+public class ServletApplication {  
+
+    public static void main(String[] args) {  
+       SpringApplication.run(ServletApplication.class, args);  
+    }
+    
+}
+```
+- 스프링 부트는 서블릿을 직접 등록해서 사용할 수 있도록 `@ServletComponentScan`을 지원한다.
+
+
+```java
+@WebServlet(name = "helloServlet", urlPatterns = "/hello")  
+public class HelloServlet extends HttpServlet {  
+  
+    @Override  
+    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {  
+        System.out.println("HelloServlet.service");  
+    }  
+}
+```
+- `@WebServlet` 
+
+
 
 ---
 References: 김영한의 스프링 MVC 1편
