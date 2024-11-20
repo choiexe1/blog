@@ -45,7 +45,14 @@ public class HelloServlet extends HttpServlet {
     }  
 }
 ```
-- `@WebServlet` 
+- `@WebServlet` 서블릿 어노테이션
+	- name: 서블릿 이름
+	- urlPatterns: URL 매핑
+
+HTTP 요청을 통해 매핑된 URL이 호출되면 서블릿 컨테이너는 `service()` 메서드를 실행한다.
+
+
+
 
 
 
