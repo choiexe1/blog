@@ -49,6 +49,7 @@ public class HelloServlet extends HttpServlet {
 	- name: 서블릿 이름
 	- urlPatterns: URL 매핑
 - 서블릿 객체로 사용하기 위해서는 `HttpServlet`를 상속 받아야한다.
+- 그리고 `protected` 접근 제어자가 사용된 `service()`를 오버라이드 해야한다. 만약 `public`이 적용된 `service()`를 오버라이드하면 호출되지 않는다.
 
 HTTP 요청을 통해 매핑된 URL이 호출되면 서블릿 컨테이너는 `service()` 메서드를 실행한다.
 
