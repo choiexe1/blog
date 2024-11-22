@@ -14,14 +14,29 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/7. 스프링 MVC - 기본 기능.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "7. 스프링 MVC - 기본 기능"
             }
+          },
+          {
+            "id": "20c1d32b503fbc0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/프로그래밍/Java/1. 중급 1편/String 클래스.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "String 클래스"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,13 +178,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2e04b39ea6024d1a",
+  "active": "20c1d32b503fbc0b",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/7. 스프링 MVC - 기본 기능.md",
     "Resources/프로그래밍/Java/0. 기본/index.md",
     "Resources/프로그래밍/Java/1. 중급 1편/index.md",
     "Resources/프로그래밍/Java/2. 중급 2편/index.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/7. 스프링 MVC - 기본 기능.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/6. 스프링 MVC로 리팩터링.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/컴포넌트 스캔과 의존관계 자동 주입.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
