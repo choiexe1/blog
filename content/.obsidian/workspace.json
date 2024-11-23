@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. HTTP 메세지 컨버터"
+              "title": "9. 요청 매핑 핸들러 어댑터 구조"
             }
           }
         ]
@@ -165,9 +165,10 @@
   },
   "active": "2e04b39ea6024d1a",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 2.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 1.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/7. 스프링 MVC - 기본 기능.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/6. 스프링 MVC로 리팩터링.md",
@@ -194,7 +195,6 @@
     "Attached/spring-basic-front-controller-2.png",
     "Attached/spring-basic-front-contoller-1.png",
     "Resources/프로그래밍/Java/0. 기본/접근 제어자.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
     "Attached/Pasted image 20241120045355.png",
     "Attached/spring-mvc1-thread-1.png",
     "Attached/spring-mvc1-servlet-2.png",
