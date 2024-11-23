@@ -11,17 +11,14 @@
             "id": "f81edd61511a6e46",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "무제 파일.canvas",
-                "viewState": {
-                  "x": 25.051683067532014,
-                  "y": 338.78142747567784,
-                  "zoom": -0.4425743993547771
-                }
+                "file": "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "무제 파일"
+              "icon": "lucide-file",
+              "title": "9. 요청 매핑 핸들러 어댑터 구조"
             }
           }
         ]
@@ -168,12 +165,17 @@
   },
   "active": "f81edd61511a6e46",
   "lastOpenFiles": [
+    "Attached/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.png",
+    "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
+    "Areas/index.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
-    "무제 파일.canvas",
+    "Attached/index.md",
+    "Attached/언체크예외_1.png",
+    "Attached/순회-01.png",
+    "Resources/옵시디언/index.md",
     "Attached/http-message-converter.png",
     "Attached/request-mapping-handler-adapter.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
-    "Attached/index.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/5. 스프링 MVC 구조 이해.md",
     "Attached/Pasted image 20241123205630.png",
     "Attached/Pasted image 20241120045355.png",
@@ -198,12 +200,7 @@
     "Attached/spring-mvc1-springmvc-structure.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/4. MVC 프레임워크 만들기.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/1. 웹 서버와 웹 어플리케이션 서버.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/3. 서블릿, JSP, MVC 패턴.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/2. 서블릿 (Servlet).md",
     "Attached/spring-basic-front-controller-2.png",
-    "Attached/spring-basic-front-contoller-1.png",
-    "Attached/spring-mvc1-thread-1.png",
-    "Attached/spring-mvc1-servlet-2.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편",
     "Resources/프로그래밍/Java/무제 폴더",
     "Resources/프로그래밍/Java/3. Spring/1. 기본",

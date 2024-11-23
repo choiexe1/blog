@@ -7,7 +7,7 @@
 		{"id":"1e49200dd1b353f6","type":"text","text":"**컨트롤러 메서드 실행**\n\n비즈니스 로직 수행 후 결과 반환","x":-142,"y":200,"width":264,"height":74},
 		{"id":"a0f654f6d7619a51","type":"text","text":"**ReturnValueHandler**\n\n컨트롤러 반환 값을 HTTP 응답으로 변환하기","x":-186,"y":300,"width":353,"height":74},
 		{"id":"0588cb1ad5db8906","type":"text","text":"**HttpMessageConverter**\nJSON 등 응답 본문을 변환","x":-131,"y":400,"width":242,"height":55},
-		{"id":"0949489c343425f0","x":-142,"y":480,"width":263,"height":74,"type":"text","text":"**HTTP 응답 전송**\n\n클라이언트에게 응답 데이터 전송"},
+		{"id":"0949489c343425f0","type":"text","text":"**HTTP 응답 전송**\n\n클라이언트에게 응답 데이터 전송","x":-142,"y":480,"width":263,"height":74},
 		{"id":"8d81048ea0fdbe4f","type":"text","text":"**클라이언트 요청**\n","x":-480,"y":187,"width":151,"height":50}
 	],
 	"edges":[
