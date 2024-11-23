@@ -1,6 +1,11 @@
 {
 	"nodes":[
-		{"id":"8d81048ea0fdbe4f","x":-360,"y":-100,"width":250,"height":80,"type":"text","text":"클라이언트 요청\n"}
+		{"id":"1e49200dd1b353f6","x":-244,"y":361,"width":250,"height":60,"type":"text","text":""},
+		{"id":"8d81048ea0fdbe4f","x":-380,"y":-200,"width":151,"height":50,"type":"text","text":"**클라이언트 요청**\n"},
+		{"id":"f7c33f80a0197fa9","x":-380,"y":60,"width":380,"height":74,"type":"text","text":"**HandlerAdapter**\n\n적절한 HandlerAdapter를 찾아 핸들러 실행 준비"},
+		{"id":"630f76a77238f552","x":-380,"y":-100,"width":303,"height":74,"type":"text","text":"**HandlerMapping**\n\n요청 URL에 맞는 핸들러(컨트롤러) 찾기"},
+		{"id":"4093d4e4d5fc58ea","x":-380,"y":200,"width":400,"height":74,"type":"text","text":"**ArgumentResolver**\n\n요청 데이터를 컨트롤러 메서드의 매개변수로 변환하기"},
+		{"id":"aa4d3ef976f8b024","x":60,"y":200,"width":242,"height":55,"type":"text","text":"**HttpMessageConverter**\nJSON 등 요청 본문을 변환"}
 	],
 	"edges":[]
 }
