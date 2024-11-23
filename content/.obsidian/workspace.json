@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -165,6 +165,7 @@
   },
   "active": "f81edd61511a6e46",
   "lastOpenFiles": [
+    "Attached/http-message-converter.png",
     "Attached/request-mapping-handler-adapter.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
     "Attached/index.md",
@@ -200,7 +201,6 @@
     "Attached/spring-mvc1-thread-1.png",
     "Attached/spring-mvc1-servlet-2.png",
     "Attached/spring-mvc1-servlet-2.png",
-    "Attached/spring-mvc1-servlet-1.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편",
     "Resources/프로그래밍/Java/무제 폴더",
     "Resources/프로그래밍/Java/3. Spring/1. 기본",
