@@ -1,11 +1,24 @@
 {
 	"nodes":[
-		{"id":"1e49200dd1b353f6","x":-244,"y":361,"width":250,"height":60,"type":"text","text":""},
-		{"id":"8d81048ea0fdbe4f","x":-380,"y":-200,"width":151,"height":50,"type":"text","text":"**클라이언트 요청**\n"},
-		{"id":"f7c33f80a0197fa9","x":-380,"y":60,"width":380,"height":74,"type":"text","text":"**HandlerAdapter**\n\n적절한 HandlerAdapter를 찾아 핸들러 실행 준비"},
-		{"id":"630f76a77238f552","x":-380,"y":-100,"width":303,"height":74,"type":"text","text":"**HandlerMapping**\n\n요청 URL에 맞는 핸들러(컨트롤러) 찾기"},
-		{"id":"4093d4e4d5fc58ea","x":-380,"y":200,"width":400,"height":74,"type":"text","text":"**ArgumentResolver**\n\n요청 데이터를 컨트롤러 메서드의 매개변수로 변환하기"},
-		{"id":"aa4d3ef976f8b024","x":60,"y":200,"width":242,"height":55,"type":"text","text":"**HttpMessageConverter**\nJSON 등 요청 본문을 변환"}
+		{"id":"630f76a77238f552","type":"text","text":"**HandlerMapping**\n\n요청 URL에 맞는 핸들러(컨트롤러) 찾기","x":-162,"y":-212,"width":303,"height":74},
+		{"id":"f7c33f80a0197fa9","type":"text","text":"**HandlerAdapter**\n\n적절한 HandlerAdapter를 찾아 핸들러 실행 준비","x":-200,"y":-100,"width":380,"height":74},
+		{"id":"4093d4e4d5fc58ea","type":"text","text":"**ArgumentResolver**\n\n요청 데이터를 컨트롤러 메서드의 매개변수로 변환하기","x":-210,"y":20,"width":400,"height":74},
+		{"id":"aa4d3ef976f8b024","type":"text","text":"**HttpMessageConverter**\nJSON 등 요청 본문을 변환","x":-131,"y":120,"width":242,"height":55},
+		{"id":"1e49200dd1b353f6","type":"text","text":"**컨트롤러 메서드 실행**\n\n비즈니스 로직 수행 후 결과 반환","x":-142,"y":200,"width":264,"height":74},
+		{"id":"a0f654f6d7619a51","type":"text","text":"**ReturnValueHandler**\n\n컨트롤러 반환 값을 HTTP 응답으로 변환하기","x":-186,"y":300,"width":353,"height":74},
+		{"id":"0588cb1ad5db8906","type":"text","text":"**HttpMessageConverter**\nJSON 등 응답 본문을 변환","x":-131,"y":400,"width":242,"height":55},
+		{"id":"0949489c343425f0","x":-142,"y":480,"width":263,"height":74,"type":"text","text":"**HTTP 응답 전송**\n\n클라이언트에게 응답 데이터 전송"},
+		{"id":"8d81048ea0fdbe4f","type":"text","text":"**클라이언트 요청**\n","x":-480,"y":187,"width":151,"height":50}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"d28cadb9fcc2f7e4","fromNode":"630f76a77238f552","fromSide":"bottom","toNode":"f7c33f80a0197fa9","toSide":"top"},
+		{"id":"22ffbdd353a18595","fromNode":"f7c33f80a0197fa9","fromSide":"bottom","toNode":"4093d4e4d5fc58ea","toSide":"top"},
+		{"id":"d469602bb28cd195","fromNode":"4093d4e4d5fc58ea","fromSide":"bottom","toNode":"aa4d3ef976f8b024","toSide":"top"},
+		{"id":"093ee800ddb5a8d9","fromNode":"aa4d3ef976f8b024","fromSide":"bottom","toNode":"1e49200dd1b353f6","toSide":"top"},
+		{"id":"193ab365635391f8","fromNode":"a0f654f6d7619a51","fromSide":"bottom","toNode":"0588cb1ad5db8906","toSide":"top"},
+		{"id":"5aa7234fc9978a45","fromNode":"0949489c343425f0","fromSide":"left","toNode":"8d81048ea0fdbe4f","toSide":"bottom"},
+		{"id":"6b66ce2116538212","fromNode":"8d81048ea0fdbe4f","fromSide":"top","toNode":"630f76a77238f552","toSide":"left"},
+		{"id":"3d6e2699f510b962","fromNode":"1e49200dd1b353f6","fromSide":"bottom","toNode":"a0f654f6d7619a51","toSide":"top"},
+		{"id":"5ce6333c134d5a7c","fromNode":"0588cb1ad5db8906","fromSide":"bottom","toNode":"0949489c343425f0","toSide":"top"}
+	]
 }
