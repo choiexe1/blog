@@ -11,14 +11,17 @@
             "id": "f81edd61511a6e46",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
-                "mode": "source",
-                "source": false
+                "file": "무제 파일.canvas",
+                "viewState": {
+                  "x": -18.33775093658795,
+                  "y": 60.107072514371616,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "9. 요청 매핑 핸들러 어댑터 구조"
+              "icon": "lucide-layout-dashboard",
+              "title": "무제 파일"
             }
           }
         ]
@@ -165,6 +168,8 @@
   },
   "active": "f81edd61511a6e46",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
+    "무제 파일.canvas",
     "Attached/http-message-converter.png",
     "Attached/request-mapping-handler-adapter.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
@@ -173,7 +178,6 @@
     "Attached/Pasted image 20241123205630.png",
     "Attached/Pasted image 20241120045355.png",
     "Attached/Pasted image 20241122184438.png",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 2.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 1.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
@@ -199,7 +203,6 @@
     "Attached/spring-basic-front-controller-2.png",
     "Attached/spring-basic-front-contoller-1.png",
     "Attached/spring-mvc1-thread-1.png",
-    "Attached/spring-mvc1-servlet-2.png",
     "Attached/spring-mvc1-servlet-2.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편",
     "Resources/프로그래밍/Java/무제 폴더",
