@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
-                "mode": "source",
+                "file": "Resources/프로그래밍/Java/3. Spring/index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11. PRG Post, Redirect, Get"
+              "title": "index"
             }
           }
         ]
@@ -165,11 +165,11 @@
   },
   "active": "f81edd61511a6e46",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
     "Attached/prg-2.png",
     "Attached/prg-1.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/10. 타임리프 알아보기.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
     "Attached/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.png",
@@ -201,7 +201,6 @@
     "Resources/프로그래밍/Java/1. 중급 1편/불변 객체.md",
     "Resources/프로그래밍/Java/1. 중급 1편/체크 예외와 언체크 예외.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/의존관계 자동 주입.md",
-    "Attached/spring-mvc1-springmvc-structure.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편",
     "Resources/프로그래밍/Java/무제 폴더",
     "Resources/프로그래밍/Java/3. Spring/1. 기본",
