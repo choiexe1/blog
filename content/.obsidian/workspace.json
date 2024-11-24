@@ -11,14 +11,17 @@
             "id": "f81edd61511a6e46",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/index.md",
-                "mode": "preview",
-                "source": false
+                "file": "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
+                "viewState": {
+                  "x": -145,
+                  "y": 171,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-layout-dashboard",
+              "title": "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지"
             }
           }
         ]
@@ -165,6 +168,7 @@
   },
   "active": "f81edd61511a6e46",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/index.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
     "Attached/prg-2.png",
