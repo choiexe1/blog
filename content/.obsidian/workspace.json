@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -166,8 +166,8 @@
   "active": "f81edd61511a6e46",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/Java/3. Spring/index.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편",
     "Resources/프로그래밍/Java/4. Thymeleaf/index.md",
