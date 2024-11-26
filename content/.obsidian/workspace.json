@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "11. PRG Post, Redirect, Get"
             }
+          },
+          {
+            "id": "f56eb204b29b9b8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. 타임리프 기본 기능"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,14 +178,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f81edd61511a6e46",
+  "active": "f56eb204b29b9b8e",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/2. 타임리프 스프링 통합과 폼.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
     "Resources/프로그래밍/Java/2. 중급 2편/index.md",
     "Resources/프로그래밍/Java/1. 중급 1편/index.md",
     "Resources/프로그래밍/Java/1. 중급 1편/실무 예외 처리 방안.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
     "Resources/프로그래밍/Java/3. Spring/index.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편",
