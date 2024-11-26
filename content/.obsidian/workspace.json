@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/2. 타임리프 스프링 통합과 폼.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/메시지, 국제화.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 타임리프 스프링 통합과 폼"
+              "title": "메시지, 국제화"
             }
           }
         ]
@@ -165,9 +165,11 @@
   },
   "active": "a149266397fe16d8",
   "lastOpenFiles": [
+    "무제 파일.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/메시지, 국제화.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/2. 타임리프 스프링 통합과 폼.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/2. 타임리프 스프링 통합과 폼.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/7. 스프링 MVC - 기본 기능.md",
     "Resources/프로그래밍/Java/2. 중급 2편/index.md",
     "Resources/프로그래밍/Java/1. 중급 1편/index.md",
@@ -202,8 +204,6 @@
     "Attached/Pasted image 20241120045355.png",
     "Attached/Pasted image 20241122184438.png",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 2.md",
-    "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 1.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/6. 스프링 MVC로 리팩터링.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편",
     "Resources/프로그래밍/Java/3. Spring/1. 기본",
     "Resources/프로그래밍/Java/3. Spring/0. 입문",
