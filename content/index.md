@@ -15,6 +15,9 @@ date: 2024-09-02
 ##### 저에 대해서
 
 오버워치 프로게이머로 한국([Conbox Gaming](https://liquipedia.net/overwatch/CONBOX))과 미국([LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators), [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant))에서 애셔(Asher)라는 닉네임으로 코치, 선수 활동 경험이 있습니다.
+- 오버워치 프로게이머
+- 
+- `Node.js` 백엔드 개발자로 1년 6개월 간 근무
 
 현재는 자바를 이용한 백엔드 개발자를 목표로 공부하고 있습니다.
 
