@@ -19,11 +19,12 @@ date: 2024-09-02
 	- [LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators)
 	- [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant)
 - `Node.js` 백엔드 개발자로 1년 간 근무
-- 사무직에서 파이썬을 통한 간단한 업무 자동화 경험
+- 사무 직군에서 파이썬을 통한 업무 자동화 경험
 - 웹 크롤링 경험
-- CentOS 환경에서의 배포 환경 구축 경험 (`)
+- CentOS 환경에서의 배포 환경 구축 경험 및 쉘 스크립트를 통한 배포 자동화 (Node.js, Nginx, Shell Script)
 
-현재는 자바와 스프링을 이용한 좋은 백엔드 개발자가 되기 위해서 노력하고 있습니다.
+##### 관심사
+2024.09 - 자바와 스프링을 이용한 좋은 백엔드 개발자가 되기 위해서 노력하고 있습니다.
 
 <br>
 

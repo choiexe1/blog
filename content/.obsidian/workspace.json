@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "5. 오류 코드와 메시지 처리"
             }
           }
         ]
@@ -165,13 +165,14 @@
   },
   "active": "a149266397fe16d8",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/2. 중급 2편/index.md",
+    "Resources/프로그래밍/Java/1. 중급 1편/index.md",
+    "Resources/프로그래밍/Java/0. 기본/index.md",
+    "index.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
-    "Resources/프로그래밍/Java/0. 기본/index.md",
-    "Resources/프로그래밍/Java/1. 중급 1편/index.md",
-    "Resources/프로그래밍/Java/2. 중급 2편/index.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/3. 메시지, 국제화.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/4. 검증, BindingResult.md",
     "Resources/프로그래밍/Java/2. 중급 2편/노드와 연결, 연결 리스트.md",
@@ -195,7 +196,6 @@
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Attached/prg-2.png",
     "Attached/prg-1.png",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/10. 타임리프 알아보기.md",
     "Attached/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.png",
     "Attached/언체크예외_1.png",
     "Attached/순회-01.png",
