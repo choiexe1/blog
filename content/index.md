@@ -18,10 +18,11 @@ date: 2024-09-02
 	- [Conbox Gaming](https://liquipedia.net/overwatch/CONBOX)
 	- [LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators)
 	- [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant)
-- `Node.js` 백엔드 개발자로 1년 간 근무
-- 사무 직군에서 파이썬을 통한 업무 자동화 경험
+- `Node.js` 백엔드 개발자로 근무
 - 웹 크롤링 경험
+- Selenium을 통한 웹 업무 자동화
 - CentOS 환경에서의 배포 환경 구축 경험 및 쉘 스크립트를 통한 배포 자동화 (Node.js, Nginx, Shell Script)
+- 사무 직군에서 파이썬을 통한 업무 자동화 경험
 
 ##### 관심사
 2024.09 - 자바와 스프링을 이용한 좋은 백엔드 개발자가 되기 위해서 노력하고 있습니다.
