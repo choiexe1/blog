@@ -14,16 +14,16 @@ date: 2024-09-02
 ---
 ##### 저에 대해서
 
-- 오버워치 프로게이머
+- 국내외 오버워치 프로게이머로 활동
 	- [Conbox Gaming](https://liquipedia.net/overwatch/CONBOX)
 	- [LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators)
 	- [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant)
-- `Node.js` 백엔드 개발자로 근무
-- 웹 크롤링 경험
+- 퍼블리셔 교육 수료 후 퍼블리셔로 입사
+- 퍼블리셔에서 Node.js 백엔드 개발자로 전환
+- MVC 구조의 웹 어플리케이션 개발
 - Selenium을 통한 웹 업무 자동화
 - CentOS 환경에서의 배포 환경 구축 경험 및 쉘 스크립트를 통한 배포 자동화 (Node.js, Nginx, Shell Script)
 - 사무 직군에서 파이썬을 통한 업무 자동화 경험
-
 
 _모바일 환경에서는 탐색기를 지원하지 않으므로 하단에 위치한 공개 폴더 링크를 이용해주세요._
 ###### 링크
