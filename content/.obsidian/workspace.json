@@ -13,12 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
+                "file": "index.md",
                 "mode": "preview",
+                "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. 오류 코드와 메시지 처리"
+              "title": "index"
             }
           }
         ]
