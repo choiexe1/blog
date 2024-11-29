@@ -30,7 +30,7 @@ Obsidian -->|글 작성| Local --> |원격 저장소 자동 푸시| Github --> |
 	- [LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators)
 	- [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant)
 - 퍼블리셔 교육 수료 후 퍼블리셔로 입사
-- 퍼블리셔에서 Node.js 백엔드 개발자로 전환
+- 퍼블리셔에서 학습 후 Node.js 백엔드 개발자로 전환
 - MVC 구조의 웹 어플리케이션 개발
 - Selenium을 통한 웹 업무 자동화
 - CentOS 환경에서의 배포 환경 구축 경험 및 쉘 스크립트를 통한 배포 자동화 (Node.js, Nginx, Shell Script)
