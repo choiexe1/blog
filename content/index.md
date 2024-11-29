@@ -9,7 +9,7 @@ date: 2024-09-02
 
 이 웹사이트는 [quartz](https://quartz.jzhao.xyz)로 생성된 마크다운 기반의 정적 블로그입니다.
 
-제가 사용하는 노트 앱인 [obsidian](https://obsidian.md)을 통해 기록하고 싶은 것들을 자동으로 퍼블리싱 하는 용도로 사용 됩니다. 블로그의 퍼블리싱 구조는 다음과 같습니다.
+제가 사용하는 노트 앱인 [obsidian](https://obsidian.md)을 통해 기록하고 싶은 것들을 자동으로 퍼블리싱 하는 용도로 사용 됩니다. 이 블로그의 퍼블리싱 구조는 다음과 같습니다.
 
 ```mermaid
 graph LR

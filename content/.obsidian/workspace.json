@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/6. Bean Validation.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "6. Bean Validation"
             }
           }
         ]
@@ -166,8 +166,8 @@
   },
   "active": "a149266397fe16d8",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/6. Bean Validation.md",
     "index.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/6. Bean Validation.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
     "Areas/index.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/4. 검증, BindingResult.md",
