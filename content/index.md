@@ -14,7 +14,7 @@ date: 2024-09-02
 ---
 ##### 저에 대해서
 
-- 오버워치 프로게이머 출신 
+- 오버워치 프로게이머
 	- [Conbox Gaming](https://liquipedia.net/overwatch/CONBOX)
 	- [LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators)
 	- [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant)
@@ -24,10 +24,6 @@ date: 2024-09-02
 - CentOS 환경에서의 배포 환경 구축 경험 및 쉘 스크립트를 통한 배포 자동화 (Node.js, Nginx, Shell Script)
 - 사무 직군에서 파이썬을 통한 업무 자동화 경험
 
-##### 관심사
-2024.09 - 자바와 스프링 프레임워크를 사용하는 백엔드 개발자가 되기 위해서 노력하고 있습니다.
-
-<br>
 
 _모바일 환경에서는 탐색기를 지원하지 않으므로 하단에 위치한 공개 폴더 링크를 이용해주세요._
 ###### 링크
