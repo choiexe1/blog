@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -205,7 +205,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "10673dd5476108d3",
+  "active": "4de5a0419de261ea",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/3. Spring/1. 기본/스프링 핵심 원리.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
