@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/3. 메시지, 국제화.md",
+                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/4. 검증, BindingResult.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 메시지, 국제화"
+              "title": "4. 검증, BindingResult"
             }
           }
         ],
@@ -180,11 +180,13 @@
   },
   "active": "d94098ff618c3e60",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/3. 메시지, 국제화.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/7. 스프링 MVC - 기본 기능.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/3. 서블릿, JSP, MVC 패턴.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/1. 웹 서버와 웹 어플리케이션 서버.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/3. 메시지, 국제화.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/2. 타임리프 스프링 통합과 폼.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
@@ -198,7 +200,6 @@
     "Resources/프로그래밍/Java/3. Spring/1. 기본/빈 생명주기 콜백.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/스프링 입문 2.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/index.md",
     "Attached/session-2.png",
     "Attached/session-1.png",
@@ -207,7 +208,6 @@
     "Resources/프로그래밍/Java/0. 기본/접근 제어자.md",
     "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
     "Resources/프로그래밍/Java/3. Spring/0. 입문/index.md",
-    "Resources/프로그래밍/Java/3. Spring/4. JPA 활용 1/1. 도메인 분석 설계.md",
     "Attached/jap1-2.png",
     "Attached/jpa1-1.png",
     "Resources/프로그래밍/Java/3. Spring/4. JPA 활용 1",
