@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
+                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. 오류 코드와 메시지 처리"
+              "title": "8. 로그인 처리 2 - 필터와 인터셉터"
             }
           },
           {
@@ -180,8 +180,8 @@
   "active": "4de5a0419de261ea",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/6. Bean Validation.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/4. 검증, BindingResult.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
