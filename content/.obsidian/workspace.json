@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
+                "file": "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/1. 웹 서버와 웹 어플리케이션 서버.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 타임리프 기본 기능"
+              "title": "1. 웹 서버와 웹 어플리케이션 서버"
             }
           }
         ],
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "@Configuration",
+                "query": "정적",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,6 +181,9 @@
   },
   "active": "d94098ff618c3e60",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/3. 서블릿, JSP, MVC 패턴.md",
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/1. 웹 서버와 웹 어플리케이션 서버.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/3. 메시지, 국제화.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/2. 타임리프 스프링 통합과 폼.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
@@ -206,11 +210,8 @@
     "Resources/프로그래밍/Java/3. Spring/4. JPA 활용 1/1. 도메인 분석 설계.md",
     "Attached/jap1-2.png",
     "Attached/jpa1-1.png",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
     "Resources/프로그래밍/Java/3. Spring/index.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/7. 스프링 MVC - 기본 기능.md",
     "Resources/프로그래밍/Java/3. Spring/4. JPA 활용 1",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
     "Attached/bean-validation-1.png",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편",
     "Resources/프로그래밍/Java/4. Thymeleaf",
