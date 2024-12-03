@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -179,11 +179,12 @@
   },
   "active": "4de5a0419de261ea",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
     "Attached/spring-interceptor-2.png",
     "Attached/spring-interceptor-1.png",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/6. Bean Validation.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/4. 검증, BindingResult.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
@@ -218,7 +219,6 @@
     "Attached/prg-2.png",
     "Attached/prg-1.png",
     "Attached/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.png",
-    "Attached/언체크예외_1.png",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편",
     "Resources/프로그래밍/Java/3. Spring/1. 기본",
     "Resources/프로그래밍/Java/3. Spring/0. 입문",
