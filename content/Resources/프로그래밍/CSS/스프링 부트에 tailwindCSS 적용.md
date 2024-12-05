@@ -52,6 +52,8 @@ module.exports = {
 
 `"../templates/**/*.html"`은 `tailwind.config.js`의 위치의 디렉토리 바깥의 `templates` 폴더 내의 모든 `.html` 파일을 스캔한다는 의미다.
 
+뒤에서 배울 
+
 ### 정적 CSS 파일 생성
 초기화 설정 덕분에 어떤 파일의 클래스 정보를 스캔할 지 설정되었다. 다음으로 기본 CSS 파일을 제공해야한다.
 
