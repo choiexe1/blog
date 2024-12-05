@@ -72,6 +72,22 @@ npx tailwindcss -i ./css/main.css -o ./css/output.css --watch
 
 `--watch`는 `main.css`의 변경을 감지하고 다시 정적 CSS 파일을 빌드하는 것이다. 핫 리로드 기능이다.
 
+편의를 위해서 `package.json`에 `npm script`로 정의해도 된다. 나는 다음과 같이 정의했다.
+
+```json
+{  
+  "devDependencies": {  
+    "tailwindcss": "^3.4.16"  
+  },  
+  "scripts": {  
+    "css:build": "npx tailwindcss -i ./css/main.css -o ./css/output.css",  
+    "css:watch": "npx tailwindcss -i ./css/main.css -o ./css/output.css --watch",  
+    "css:minify": "npx tailwindcss -o ./css/output.css --minify"  
+  }  
+}
+```
+
+`css:minify`는 정적 CSS 파일을 minify하여 최적화 해주는 것이다. minify는 띄어쓰기나 탭 등을 없애준다. 스크립트 실행은 `package.json`이 있는 경로에서 `npm run css:build`와 같이 사용하면 된다.
 
 ---
 References: 
