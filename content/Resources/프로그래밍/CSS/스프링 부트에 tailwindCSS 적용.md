@@ -29,7 +29,36 @@ npm install -D tailwindcss
 ```
 
 ### tailwindCSS 초기화
-설치 과정이 끝나면, 이제 tailwindCSS가 어떤 형식의 파일에서 
+설치 과정이 끝나면, 이제 tailwindCSS가 어떤 형식의 템플릿에서 클래스 정보를 스캔해야 하는지 경로를 설정 해주어야 한다.
+
+설정 파일 생성을 위해 다음의 명령어를 `tailwindCSS`를 설치한 경로에서 실행한다.
+
+```bash
+npx tailwindcss init
+```
+
+해당 명령어 실행이 끝나면 `tailwind.config.js` 파일이 생성되는데, 본인이 사용할 템플릿 경로를 다음과 같이 설정하면 된다.
+
+```js
+/** @type {import('tailwindcss').Config} */  
+module.exports = {  
+    content: ["../templates/**/*.html"],  
+    theme: {  
+        extend: {},  
+    },  
+    plugins: [],  
+}
+```
+
+`"../templates/**/*.html"`은 `tailwind.config.js`의 위치의 디렉토리 바깥의 `templates` 폴더 내의 모든 `.html` 파일을 스캔한다는 의미다.
+
+### 정적 CSS 파일 생성
+초기화 설정 덕분에 어떤 파일의 클래스 정보를 스캔할 지 설정되었다. 다음으로 기본 CSS 파일을 제공해야한다.
+
+**static/css/base.css**
+
+```
+```
 
 ---
 References: 
