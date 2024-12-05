@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/CSS/스프링 부트에 tailwindCSS 적용.md",
+                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/4. 검증, BindingResult.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스프링 부트에 tailwindCSS 적용"
+              "title": "4. 검증, BindingResult"
             }
           }
         ],
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#field",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,8 +181,8 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
-    "Resources/프로그래밍/CSS/tailwindCSS 기본.md",
     "Resources/프로그래밍/CSS/스프링 부트에 tailwindCSS 적용.md",
+    "Resources/프로그래밍/CSS/tailwindCSS 기본.md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/index.md",
     "Resources/프로그래밍/index.md",
