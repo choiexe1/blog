@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/CSS/TailwindCSS 레이어와 @apply.md",
-                "mode": "source",
+                "file": "Resources/프로그래밍/CSS/TailwindCSS 기본.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TailwindCSS 레이어와 @apply"
+              "title": "TailwindCSS 기본"
             }
           }
         ]
@@ -166,9 +166,10 @@
   "active": "78258d6fd4d8b4ad",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/index.md",
-    "Resources/프로그래밍/CSS/TailwindCSS 레이어와 @apply.md",
-    "Resources/프로그래밍/CSS",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/index.md",
+    "Resources/프로그래밍/index.md",
+    "Resources/프로그래밍/CSS/TailwindCSS 기본.md",
+    "Resources/프로그래밍/CSS",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/2. 타임리프 스프링 통합과 폼.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/7. 스프링 MVC - 기본 기능.md",
@@ -194,7 +195,6 @@
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/10. 타임리프 알아보기.md",
     "Attached/spring-interceptor-2.png",
     "Attached/spring-interceptor-1.png",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/3. 메시지, 국제화.md",
     "Attached/session-2.png",
     "Attached/session-1.png",
     "Attached/jap1-2.png",

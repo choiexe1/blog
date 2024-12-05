@@ -3,7 +3,6 @@ title:
 tags:
   - css
   - tailwindcss
-  - tailwindcss-layer
 publish: true
 date: 2024-12-05
 ---
@@ -54,12 +53,18 @@ date: 2024-12-05
 
 
 ## @apply 디렉티브
-이 `@apply`는 테일윈드에서 중요한 역할을 하는데, 테일윈드에 적용된 유틸리티 클래스를 다른 클래스에도 적용해주는 기능을 한다.
+이 `@apply`는 테일윈드에서 가장 중요한 역할을 하는데, 테일윈드에 적용된 유틸리티 클래스를 다른 클래스에도 적용해주는 기능을 한다.
 
-이 디렉티브 덕분에 앞서 컴포넌트 레이어에서 테일윈드에 정의된 유틸리티 클래스를 사용하는 것이다.
+이 디렉티브 덕분에 앞서 컴포넌트 레이어에서 테일윈드에 정의된 유틸리티 클래스를 다음과 같이 사용하는 것이다.
 
+```css
+@layer components {    
+    .btn {  
+       @apply py-1 px-2 border border-gray-400 rounded-md hover:bg-gray-500 hover:text-white transition-all duration-200
+    }  
+}
 ```
-```
+
 
 ---
 References: [테일윈드 공식 문서 - Functions & Directive](https://tailwindcss.com/docs/functions-and-directives)
