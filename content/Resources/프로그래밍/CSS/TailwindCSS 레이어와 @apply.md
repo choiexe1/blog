@@ -7,7 +7,7 @@ tags:
 publish: true
 date: 2024-12-05
 ---
-## @Layer
+## @Layer 디렉티브
 
 테일윈드 CSS에서 `@Layer`는 스타일을 구성할 때 사용하는 키워드이다. 레이어는 기본적으로 다음과 같이 세 가지로 나누어진다.
 
@@ -25,6 +25,12 @@ date: 2024-12-05
 
  쉽게 말해 여러 곳에서 재사용 될 수 있는 UI 컴포넌트를 정의할 때 사용한다. 다음은 예시로 스프링 부트 기능 연습 사이트에서 구현한 버튼 클래스이다.
 
+```css
+@layer components {    
+    .btn {  
+       @apply py-1 px-2 border border-gray-400 rounded-md hover:bg-gray-500 hover:text-white transition-all duration-200
+    }  
+}
 ```
 
 ### utilities
@@ -47,7 +53,15 @@ date: 2024-12-05
 ```
 
 
+## @apply 디렉티브
+이 `@apply`는 테일윈드에서 중요한 역할을 하는데, 테일윈드에 적용된 유틸리티 클래스를 다른 클래스에도 적용해주는 기능을 한다.
+
+이 디렉티브 덕분에 앞서 컴포넌트 레이어에서 테일윈드에 정의된 유틸리티 클래스를 사용하는 것이다.
+
+```
+```
+
 ---
-References: 
+References: [테일윈드 공식 문서 - Functions & Directive](https://tailwindcss.com/docs/functions-and-directives)
 
 Links to this page: 

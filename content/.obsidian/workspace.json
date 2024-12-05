@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/CSS/TailwindCSS 레이어.md",
+                "file": "Resources/프로그래밍/CSS/TailwindCSS 레이어와 @apply.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TailwindCSS 레이어"
+              "title": "TailwindCSS 레이어와 @apply"
             }
           }
         ]
@@ -166,7 +166,7 @@
   "active": "78258d6fd4d8b4ad",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/index.md",
-    "Resources/프로그래밍/CSS/TailwindCSS 레이어.md",
+    "Resources/프로그래밍/CSS/TailwindCSS 레이어와 @apply.md",
     "Resources/프로그래밍/CSS",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/index.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
