@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "(id=",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,7 +178,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8415b391d5f10ed2",
+  "active": "10673dd5476108d3",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/4. 검증, BindingResult.md",
