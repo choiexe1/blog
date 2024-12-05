@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
+                "file": "Resources/프로그래밍/Java/2. 중급 2편/자바의 큐 자료구조.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 타임리프 기본 기능"
+              "title": "자바의 큐 자료구조"
             }
           }
         ],
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "타임리프 기본 기능",
+                "query": "자료구조",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,6 +181,7 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/10. 타임리프 알아보기.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
@@ -208,7 +209,6 @@
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/2. 서블릿 (Servlet).md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/3. 서블릿, JSP, MVC 패턴.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/4. MVC 프레임워크 만들기.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/5. 스프링 MVC 구조 이해.md",
     "Attached/spring-interceptor-2.png",
     "Attached/spring-interceptor-1.png",
     "Attached/session-2.png",
