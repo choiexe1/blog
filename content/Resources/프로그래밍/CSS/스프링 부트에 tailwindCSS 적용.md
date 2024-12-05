@@ -55,10 +55,23 @@ module.exports = {
 ### 정적 CSS 파일 생성
 초기화 설정 덕분에 어떤 파일의 클래스 정보를 스캔할 지 설정되었다. 다음으로 기본 CSS 파일을 제공해야한다.
 
-**static/css/base.css**
+```css title="resources/static/css/main.css"
+@tailwind base;
+@tailwind components;  
+@tailwind utilities;
+```
+
+테일윈드는 클래스 정보 스캔 후, 이 `main.css`를 기준으로 정적 CSS 파일을 생성한다. 컴파일 과정과 유사하다. (클래스 정보인 유틸리티 클래스를 읽어서 웹 브라우저가 이해하도록 CSS로 변환)
+
+다음의 명령어를 실행하면 이 `main.css`를 기준으로 해당 경로에 `output.css`가 생성된다.
 
 ```
+npx tailwindcss -i ./css/main.css -o ./css/output.css
+npx tailwindcss -i ./css/main.css -o ./css/output.css --watch
 ```
+
+`--watch`는 `main.css`의 변경을 감지하고 다시 정적 CSS 파일을 빌드하는 것이다. 핫 리로드 기능이다.
+
 
 ---
 References: 
