@@ -52,8 +52,6 @@ module.exports = {
 
 `"../templates/**/*.html"`은 `tailwind.config.js`의 위치의 디렉토리 바깥의 `templates` 폴더 내의 모든 `.html` 파일을 스캔한다는 의미다.
 
-뒤에서 배울 
-
 ### 정적 CSS 파일 생성
 초기화 설정 덕분에 어떤 파일의 클래스 정보를 스캔할 지 설정되었다. 다음으로 기본 CSS 파일을 제공해야한다.
 
@@ -72,7 +70,7 @@ npx tailwindcss -i ./css/main.css -o ./css/output.css
 npx tailwindcss -i ./css/main.css -o ./css/output.css --watch
 ```
 
-`--watch`는 `main.css`의 변경을 감지하고 다시 정적 CSS 파일을 빌드하는 것이다. 핫 리로드 기능이다.
+`--watch`는 `main.css` 파일이나 앞서 지정한 `"../templates/**/*.html"` 파일들의 변경을 감지하고 다시 정적 CSS 파일을 빌드하는 것이다. 핫 리로드 기능이다.
 
 편의를 위해서 `package.json`에 `npm script`로 정의해도 된다. 나는 다음과 같이 정의했다.
 
