@@ -75,7 +75,7 @@ date: 2024-12-05
 ```css
 .btn {  
     @apply py-1 px-2 border border-gray-400 rounded-md hover:bg-gray-500 hover:text-white transition-all duration-200;  
-    @apply sm:bg-red-500 md:bg-blue-500;   /** variant **/
+    @apply sm:bg-red-500 md:bg-blue-500;   /* variant */
 }
 ```
 
