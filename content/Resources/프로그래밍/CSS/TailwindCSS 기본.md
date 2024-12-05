@@ -68,7 +68,18 @@ date: 2024-12-05
 ```
 
 ## 반응형
-테일윈드
+테일윈드 CSS는 `variant`를 통해 컴포넌트 클래스나 유틸리티 클래스에 반응형 디자인을 적용 할 수 있다.
+
+다음의 컴포넌트 클래스인 `.btn`은 스크린 사이즈에 따라 배경 색이 변경되도록 `variant`가 적용되어 있다.
+
+```css
+.btn {  
+    @apply py-1 px-2 border border-gray-400 rounded-md hover:bg-gray-500 hover:text-white transition-all duration-200;  
+    @apply sm:bg-red-500 md:bg-blue-500;   /** variant **/
+}
+```
+
+
 
 ---
 References: [테일윈드 공식 문서 - Functions & Directive](https://tailwindcss.com/docs/functions-and-directives)
