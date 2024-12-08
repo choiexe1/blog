@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "정상 흐름",
+                "query": "@Init",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,11 +180,12 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/9. 예외 처리와 오류 페이지.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/10. API 예외 처리.md",
     "Resources/프로그래밍/Java/1. 중급 1편/예외 처리가 필요한 이유.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/5. 스프링 MVC 구조 이해.md",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/10. API 예외 처리.md",
     "Resources/프로그래밍/Java/0. 기본/다형성.md",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/9. 예외 처리와 오류 페이지.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/9. 요청 매핑 핸들러 어댑터 구조.md",
@@ -204,7 +206,6 @@
     "Resources/프로그래밍/index.md",
     "Resources/프로그래밍/CSS",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/6. Bean Validation.md",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "index.md",
     "Resources/프로그래밍/Java/3. Spring/index.md",
