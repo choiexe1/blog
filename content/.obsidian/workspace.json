@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/10. API 예외 처리.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "정상 흐름",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,8 +179,10 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/0. 기본/다형성.md",
+    "Resources/프로그래밍/Java/1. 중급 1편/예외 처리가 필요한 이유.md",
+    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/5. 스프링 MVC 구조 이해.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/10. API 예외 처리.md",
+    "Resources/프로그래밍/Java/0. 기본/다형성.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/9. 예외 처리와 오류 페이지.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/index.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
@@ -207,8 +209,6 @@
     "index.md",
     "Resources/프로그래밍/Java/3. Spring/index.md",
     "Resources/프로그래밍/Java/0. 기본/index.md",
-    "Resources/프로그래밍/Java/3. Spring/1. 기본/index.md",
-    "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/1. 웹 서버와 웹 어플리케이션 서버.md",
     "Attached/spring-interceptor-2.png",
     "Attached/spring-interceptor-1.png",
     "Attached/session-2.png",
