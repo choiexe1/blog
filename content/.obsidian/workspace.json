@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/빈 스코프.md",
+                "file": "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "빈 스코프"
+              "title": "7. 로그인 처리 1 - 쿠키와 세션"
             }
           },
           {
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "@PostCon",
+                "query": "세션",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,10 +180,11 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/2. 서블릿 (Servlet).md",
+    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/빈 스코프.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/빈 생명주기 콜백.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/11. 스프링 타입 컨버터.md",
-    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/빈 스코프.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/9. 예외 처리와 오류 페이지.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/10. API 예외 처리.md",
@@ -205,7 +206,6 @@
     "Resources/프로그래밍/Java/김영한-강의-정리/index.md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/0. 기본/index.md",
-    "Resources/프로그래밍/Java/김영한-강의-정리/0. 기본/static.md",
     "Resources/프로그래밍/Java/김영한-강의-정리",
     "Attached/exception-resolver-2.png",
     "Attached/exception-resolver-1.png",
