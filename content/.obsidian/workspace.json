@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/11. 스프링 타입 컨버터.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "8. HTTP 메세지 컨버터"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,12 +177,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2dd1664ec0301e9b",
+  "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/11. 스프링 타입 컨버터.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/9. 예외 처리와 오류 페이지.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/10. API 예외 처리.md",
-    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/index.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/의존관계 자동 주입.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/index.md",
