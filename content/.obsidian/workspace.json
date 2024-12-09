@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/11. 스프링 타입 컨버터.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5110321044922,
-    "collapsed": true
+    "width": 302.5110321044922
   },
   "right": {
     "id": "b65733e587ee5721",
