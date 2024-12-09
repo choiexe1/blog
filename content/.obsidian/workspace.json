@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "11. 스프링 타입 컨버터"
             }
-          },
-          {
-            "id": "feb50d8bc3c4f4d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/9. 예외 처리와 오류 페이지.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "9. 예외 처리와 오류 페이지"
-            }
           }
         ]
       }
@@ -179,8 +165,12 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/의존관계 자동 주입.md",
+    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/9. 예외 처리와 오류 페이지.md",
+    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/10. API 예외 처리.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/11. 스프링 타입 컨버터.md",
+    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
+    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/index.md",
+    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/의존관계 자동 주입.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/index.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/index.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/0. 입문/index.md",
@@ -194,17 +184,13 @@
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/빈 스코프.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/빈 생명주기 콜백.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/객체 지향 설계와 스프링.md",
-    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/index.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/1. 웹 서버와 웹 어플리케이션 서버.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
-    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/10. API 예외 처리.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/index.md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/0. 기본/index.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/0. 기본/static.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/0. 기본/instanceof 키워드.md",
-    "Resources/프로그래밍/Java/김영한-강의-정리/0. 기본/final.md",
-    "Resources/프로그래밍/Java/김영한-강의-정리/0. 기본/패키지.md",
     "Resources/프로그래밍/Java/김영한-강의-정리",
     "Attached/exception-resolver-2.png",
     "Attached/exception-resolver-1.png",
