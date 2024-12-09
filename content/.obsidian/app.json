@@ -8,5 +8,6 @@
   "showLineNumber": true,
   "strictLineBreaks": true,
   "attachmentFolderPath": "Attached",
-  "promptDelete": false
+  "promptDelete": false,
+  "readableLineLength": false
 }
