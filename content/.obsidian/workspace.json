@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/10. API 예외 처리.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/11. 스프링 타입 컨버터.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10. API 예외 처리"
+              "title": "11. 스프링 타입 컨버터"
             }
           },
           {
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "@Init",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,8 +87,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,9 +179,10 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
-    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/9. 예외 처리와 오류 페이지.md",
     "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/10. API 예외 처리.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/11. 스프링 타입 컨버터.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/9. 예외 처리와 오류 페이지.md",
+    "Resources/프로그래밍/Java/3. Spring/3. MVC 2편/5. 오류 코드와 메시지 처리.md",
     "Resources/프로그래밍/Java/1. 중급 1편/예외 처리가 필요한 이유.md",
     "Resources/프로그래밍/Java/3. Spring/2. MVC 1편/5. 스프링 MVC 구조 이해.md",
     "Resources/프로그래밍/Java/0. 기본/다형성.md",
@@ -209,7 +209,6 @@
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "index.md",
     "Resources/프로그래밍/Java/3. Spring/index.md",
-    "Resources/프로그래밍/Java/0. 기본/index.md",
     "Attached/spring-interceptor-2.png",
     "Attached/spring-interceptor-1.png",
     "Attached/session-2.png",
