@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 아키텍쳐.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -165,6 +165,7 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
+    "Attached/multiple-security-filter-chain.png",
     "Attached/filter-chain-proxy.png",
     "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
@@ -208,7 +209,6 @@
     "Attached/bean-validation-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/3. MVC 2편",
     "Resources/프로그래밍/Java/4. Thymeleaf",
-    "Attached/prg-2.png",
     "Resources/프로그래밍/Java/김영한의 스프링/2. MVC 1편",
     "Resources/프로그래밍/Java/김영한의 스프링/1. 기본",
     "Resources/프로그래밍/Java/김영한의 스프링/0. 입문"
