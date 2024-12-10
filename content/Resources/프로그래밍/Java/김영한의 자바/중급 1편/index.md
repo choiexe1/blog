@@ -1,5 +1,5 @@
 ---
-title: 1. 중급 1편
+title: 중급 1편
 tags:
   - MOCs
 publish: true

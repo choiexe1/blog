@@ -1,5 +1,5 @@
 ---
-title: 1. 기본
+title: 기본
 tags:
   - MOCs
 publish: true

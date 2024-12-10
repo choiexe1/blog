@@ -1,5 +1,5 @@
 ---
-title: 2. MVC 1편
+title: MVC 1편
 tags:
   - MOCs
 publish: true

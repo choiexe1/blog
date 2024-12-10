@@ -1,5 +1,5 @@
 ---
-title: 2. 중급 2편
+title: 중급 2편
 tags:
   - MOCs
 publish: true

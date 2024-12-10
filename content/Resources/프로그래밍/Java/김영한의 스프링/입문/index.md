@@ -1,5 +1,5 @@
 ---
-title: 0. 입문
+title: 입문
 tags:
   - MOCs
 publish: true
