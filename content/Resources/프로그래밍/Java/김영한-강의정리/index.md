@@ -1,5 +1,5 @@
 ---
-title: 
+title: 김영한-강의정리
 tags:
   - MOCs
 publish: true
