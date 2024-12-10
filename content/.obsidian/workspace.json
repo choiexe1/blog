@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/index.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 아키텍쳐.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "스프링 시큐리티 아키텍쳐"
             }
           }
         ]
@@ -165,9 +165,10 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/2. 중급 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/1. 중급 1편/index.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/2. MVC 1편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/1. 기본/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/0. 입문/index.md",
@@ -175,7 +176,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/3. Spring/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/0. 기본/index.md",
     "Resources/프로그래밍/Java/김영한의 자바",
-    "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 아키텍쳐.md",
     "Resources/프로그래밍/Java/김영한의 스프링/2. MVC 1편/4. MVC 프레임워크 만들기.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 가이드 알아보기.md",
