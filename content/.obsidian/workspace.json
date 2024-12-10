@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한-강의-정리/2. 중급 2편/자바의 맵 자료구조.md",
+                "file": "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/11. 스프링 타입 컨버터.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "자바의 맵 자료구조"
+              "title": "11. 스프링 타입 컨버터"
             }
           },
           {
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#collection-framework  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,8 +87,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,6 +179,7 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한-강의-정리/2. 중급 2편/자바의 맵 자료구조.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/2. 중급 2편/순회 (Iterable, Iterator).md",
     "Resources/프로그래밍/Java/김영한-강의-정리/2. 중급 2편/자바의 큐 자료구조.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/8. HTTP 메세지 컨버터.md",
@@ -205,7 +205,6 @@
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/스프링 컨테이너와 스프링 빈.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/1. 기본/객체 지향 설계와 스프링.md",
     "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/2. MVC 1편/1. 웹 서버와 웹 어플리케이션 서버.md",
-    "Resources/프로그래밍/Java/김영한-강의-정리/3. Spring/3. MVC 2편/1. 타임리프 기본 기능.md",
     "Resources/프로그래밍/Java/김영한-강의-정리",
     "Attached/exception-resolver-2.png",
     "Attached/exception-resolver-1.png",
