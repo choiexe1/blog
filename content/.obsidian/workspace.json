@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "index.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -165,6 +165,8 @@
   },
   "active": "8415b391d5f10ed2",
   "lastOpenFiles": [
+    "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
+    "index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/13. 예제로 구현하는 파일 업로드, 다운로드.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/12. 파일 업로드.md",
     "Attached/form-file-upload-3.png",
@@ -196,12 +198,10 @@
     "Resources/프로그래밍/Java/김영한의 자바/중급 2편/자바의 맵 자료구조.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 2편/순회 (Iterable, Iterator).md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 2편/자바의 큐 자료구조.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/8. HTTP 메세지 컨버터.md",
     "Resources/프로그래밍/Java/김영한의 스프링",
     "Attached/exception-resolver-2.png",
     "Attached/exception-resolver-1.png",
     "Resources/프로그래밍/CSS",
-    "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Attached/spring-interceptor-2.png",
     "Attached/spring-interceptor-1.png",
     "Attached/session-2.png",

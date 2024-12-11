@@ -4,7 +4,6 @@ tags:
 publish: true
 date: 2024-09-02
 ---
-
 #### 제이의 지식정원에 오신걸 환영합니다.
 
 이 웹사이트는 [quartz](https://quartz.jzhao.xyz)로 생성된 마크다운 기반의 정적 블로그입니다.
@@ -31,10 +30,12 @@ Obsidian -->|글 작성| Local --> |원격 저장소 자동 푸시| Github --> |
 	- [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant)
 - 퍼블리셔 교육 수료 후 퍼블리셔로 입사
 - 퍼블리셔에서 학습 후 Node.js 백엔드 개발자로 전환
-- MVC 구조의 웹 어플리케이션 개발
+- Node.js로 MVC 구조의 웹 어플리케이션 개발
 - Selenium을 통한 웹 업무 자동화
 - CentOS 환경에서의 배포 환경 구축 경험 및 쉘 스크립트를 통한 배포 자동화 (Node.js, Nginx, Shell Script)
 - 사무 직군에서 파이썬을 통한 업무 자동화 경험
+
+깊이 있는 개발자가 되고 싶습니다. 언제쯤 깊이가 있다고 말 할 수 있을진 모르겠지만
 
 _모바일 환경에서는 탐색기를 지원하지 않으므로 하단에 위치한 공개 폴더 링크를 이용해주세요._
 ###### 링크
