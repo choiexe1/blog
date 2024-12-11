@@ -6,6 +6,8 @@ date: 2024-09-02
 ---
 #### 제이의 지식정원에 오신걸 환영합니다.
 
+깊이 있는 개발자가 되고 싶은 제이입니다.
+
 이 웹사이트는 [quartz](https://quartz.jzhao.xyz)로 생성된 마크다운 기반의 정적 블로그입니다.
 
 제가 사용하는 노트 앱인 [obsidian](https://obsidian.md)을 통해 기록하고 싶은 것들을 자동으로 퍼블리싱 하는 용도로 사용 됩니다. 이 블로그의 퍼블리싱 구조는 다음과 같습니다.
@@ -24,7 +26,7 @@ Obsidian -->|글 작성| Local --> |원격 저장소 자동 푸시| Github --> |
 ---
 ##### 저에 대해서
 
-- 국내외 오버워치 프로게이머로 활동
+- 국내외 오버워치 프로게이머로 활동, 다음의 팀에서 활동함
 	- [Conbox Gaming](https://liquipedia.net/overwatch/CONBOX)
 	- [LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators)
 	- [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant)
@@ -34,11 +36,6 @@ Obsidian -->|글 작성| Local --> |원격 저장소 자동 푸시| Github --> |
 - Selenium을 통한 웹 업무 자동화
 - CentOS 환경에서의 배포 환경 구축 경험 및 쉘 스크립트를 통한 배포 자동화 (Node.js, Nginx, Shell Script)
 - 사무 직군에서 파이썬을 통한 업무 자동화 경험
-
-##### 목표
-저는 불편함을 해결하고 그 과정에서 각종 소프트웨어 공학 지식들이 적용되고 편리해지는 것을 느꼈을 때 비로소 성취감을 느낍니다.
-
-깊이 있는 개발자가 되서 오래도록 재밌는 개발을 하고 싶습니다.
 
 _모바일 환경에서는 탐색기를 지원하지 않으므로 하단에 위치한 공개 폴더 링크를 이용해주세요._
 ###### 링크
