@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/index.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/DB 1편/1. JDBC 이해.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "1. JDBC 이해"
             }
           }
         ]
@@ -166,22 +166,25 @@
   },
   "active": "9d6887c8da250812",
   "lastOpenFiles": [
-    "Resources/프로그래밍/index.md",
-    "Resources/프로그래밍/Java/index.md",
-    "Resources/index.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/11. 스프링 타입 컨버터.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/13. 예제로 구현하는 파일 업로드, 다운로드.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/index.md",
-    "index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/DB 1편/1. JDBC 이해.md",
+    "Resources/프로그래밍/Java/김영한의 자바/중급 2편/Set 자료구조.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/DB 1편/index.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/2. 타임리프 스프링 통합과 폼.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/3. 메시지, 국제화.md",
+    "Resources/프로그래밍/Java/index.md",
+    "Resources/프로그래밍/index.md",
+    "Resources/index.md",
+    "index.md",
     "Attached/jdbc-3.png",
-    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/13. 예제로 구현하는 파일 업로드, 다운로드.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/12. 파일 업로드.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/10. API 예외 처리.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/11. 스프링 타입 컨버터.md",
     "Attached/jdbc-2.png",
     "Attached/jdbc-1.png",
-    "Resources/프로그래밍/Java/김영한의 스프링/DB 1편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/index.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/간단 스프링 시큐리티 가이드.md",
@@ -193,9 +196,6 @@
     "Resources/프로그래밍/용어/index.md",
     "Resources/프로그래밍/자료구조/스택 Stack.md",
     "Resources/프로그래밍/자료구조/index.md",
-    "Resources/프로그래밍/ide/index.md",
-    "Resources/프로그래밍/CSS/tailwindCSS 기본.md",
-    "Resources/프로그래밍/CSS/스프링 부트에 tailwindCSS 적용.md",
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Attached/form-file-upload-3.png",
     "Attached/form-file-upload-2.png",

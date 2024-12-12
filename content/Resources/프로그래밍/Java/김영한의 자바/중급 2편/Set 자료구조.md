@@ -93,4 +93,4 @@ public class MyHashSetV0 {
 ---
 References: 김영한의 실전 자바 - 중급 2편
 
-Links to this page: [[해시 알고리즘]], [[해시 알고리즘 2]]
+Links to this page: [[해시 알고리즘]], [[해시 알고리즘 2]], [[1. JDBC 이해]]
