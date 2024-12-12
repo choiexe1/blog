@@ -1,9 +1,9 @@
 ---
-title: ide
+title: 김영한의 DB
 tags:
   - MOCs
-publish: false
-date: 2024-09-25
+publish: true
+date: 12-08
 ---
 ```folder-index-content
 ```

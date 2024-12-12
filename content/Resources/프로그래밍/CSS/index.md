@@ -1,9 +1,9 @@
 ---
-title: ide
+title: 
 tags:
   - MOCs
-publish: false
-date: 2024-09-25
+publish: true
+date: 2024-12-05
 ---
 ```folder-index-content
 ```
