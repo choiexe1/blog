@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -192,6 +192,7 @@
   },
   "active": "d5a8ec4c6c53558a",
   "lastOpenFiles": [
+    "Attached/transaction-5.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
@@ -223,7 +224,6 @@
     "Resources/프로그래밍/CSS/스프링 부트에 tailwindCSS 적용.md",
     "Resources/프로그래밍/CSS/tailwindCSS 기본.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/index.md",
     "Resources/프로그래밍/Java/김영한의 DB",
     "Attached/transaction-4.png",
     "Attached/transaction-3.png",
