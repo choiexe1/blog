@@ -167,8 +167,9 @@
   },
   "active": "9d6887c8da250812",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 스프링/DB 1편/1. JDBC 이해.md",
+    "Resources/프로그래밍/용어/풀.md",
     "Resources/프로그래밍/Java/김영한의 스프링/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/DB 1편/1. JDBC 이해.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/11. 스프링 타입 컨버터.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/13. 예제로 구현하는 파일 업로드, 다운로드.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
@@ -196,7 +197,6 @@
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 2편/index.md",
     "Resources/프로그래밍/용어/index.md",
-    "Resources/프로그래밍/자료구조/스택 Stack.md",
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Attached/form-file-upload-3.png",
     "Attached/form-file-upload-2.png",
