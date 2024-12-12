@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/index.md",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "3. 트랜잭션 이해"
             }
           }
         ],
@@ -155,14 +155,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/프로그래밍/Java/중급 2편/제네릭.md"
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md"
               },
               "icon": "lucide-list",
-              "title": "제네릭 개요"
+              "title": "3. 트랜잭션 이해 개요"
             }
           },
           {
-            "id": "7bad483071e63b86",
+            "id": "9299442bf585f28b",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,9 +192,9 @@
   },
   "active": "d5a8ec4c6c53558a",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 DB/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
-    "Resources/프로그래밍/Java/김영한의 DB/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/index.md",
