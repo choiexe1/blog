@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 트랜잭션 이해"
+              "title": "4. 트랜잭션 적용"
             }
           }
         ],
@@ -155,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md"
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md"
               },
               "icon": "lucide-list",
-              "title": "3. 트랜잭션 이해 개요"
+              "title": "4. 트랜잭션 적용 개요"
             }
           },
           {
@@ -192,8 +192,8 @@
   },
   "active": "d5a8ec4c6c53558a",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
     "Attached/lock-6.png",
