@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 스프링/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5110321044922,
-    "collapsed": true
+    "width": 237.5110321044922
   },
   "right": {
     "id": "b65733e587ee5721",
