@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/5. 스프링과 문제 해결 - 트랜잭션.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5110321044922,
-    "collapsed": true
+    "width": 237.5110321044922
   },
   "right": {
     "id": "b65733e587ee5721",
