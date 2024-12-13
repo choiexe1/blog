@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "쓰레드",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,9 +191,10 @@
   },
   "active": "d5a8ec4c6c53558a",
   "lastOpenFiles": [
-    "Attached/transaction-11.png",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/1. 웹 서버와 웹 어플리케이션 서버.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/5. 스프링과 문제 해결 - 트랜잭션.md",
+    "Attached/transaction-11.png",
     "Attached/transaction-10.png",
     "Attached/transaction-9.png",
     "Attached/transaction-8.png",
@@ -208,7 +210,6 @@
     "Attached/lock-6.png",
     "Attached/lock-5.png",
     "Attached/lock-4.png",
-    "Attached/lock-3.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
     "Resources/프로그래밍/Java/index.md",
