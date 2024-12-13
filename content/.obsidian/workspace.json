@@ -24,20 +24,20 @@
         ]
       },
       {
-        "id": "54693f3804e4d200",
+        "id": "df518da27e22ac2d",
         "type": "tabs",
         "children": [
           {
-            "id": "d5a8ec4c6c53558a",
+            "id": "2358c00bc7449ecb",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "데이터베이스 트랜잭션.canvas",
                 "viewState": {
-                  "x": 553.8449629657702,
-                  "y": -136.86600350215488,
-                  "zoom": -0.01928932064074794
+                  "x": 618.6272914195013,
+                  "y": -70.86173138740352,
+                  "zoom": -0.19244179506529316
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -197,10 +197,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d5a8ec4c6c53558a",
+  "active": "2358c00bc7449ecb",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
     "데이터베이스 트랜잭션.canvas",
+    "3. 트랜잭션 이해^467ce7.md",
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
@@ -235,7 +236,6 @@
     "Resources/사진과 기억/index.md",
     "Resources/프로그래밍/용어/index.md",
     "Resources/프로그래밍/CSS/index.md",
-    "Resources/프로그래밍/ide/index.md",
     "Resources/프로그래밍/Java/김영한의 DB",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편",
     "Resources/프로그래밍/Java/김영한의 자바",
