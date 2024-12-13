@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/5. 스프링과 문제 해결 - 트랜잭션.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -190,6 +190,9 @@
   },
   "active": "d5a8ec4c6c53558a",
   "lastOpenFiles": [
+    "Attached/transaction-14.png",
+    "Attached/transaction-13.png",
+    "Attached/transaction-12.png",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/1. 웹 서버와 웹 어플리케이션 서버.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/5. 스프링과 문제 해결 - 트랜잭션.md",
@@ -207,8 +210,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
     "Attached/lock-6.png",
-    "Attached/lock-5.png",
-    "Attached/lock-4.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
     "Resources/프로그래밍/Java/index.md",
@@ -225,7 +226,6 @@
     "Resources/프로그래밍/자료구조/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/스택 Stack.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 2편/자바의 큐 자료구조.md",
-    "Resources/프로그래밍/CSS/스프링 부트에 tailwindCSS 적용.md",
     "Resources/프로그래밍/Java/김영한의 DB",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편",
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
