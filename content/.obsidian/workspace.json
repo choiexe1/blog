@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 자바/중급 2편/index.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/6. 트랜잭션 문제 해결 - 트랜잭션 AOP 이해.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "6. 트랜잭션 문제 해결 - 트랜잭션 AOP 이해"
             }
           },
           {
@@ -188,12 +188,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "10673dd5476108d3",
+  "active": "c58eace592cec9cf",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 자바/중급 1편/index.md",
-    "Resources/프로그래밍/Java/김영한의 자바/index.md",
-    "Resources/프로그래밍/Java/김영한의 DB/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
+    "Resources/프로그래밍/Java/김영한의 DB/index.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/index.md",
+    "Resources/프로그래밍/Java/김영한의 자바/index.md",
+    "Resources/프로그래밍/Java/김영한의 자바/중급 1편/index.md",
+    "Resources/프로그래밍/Java/김영한의 자바/중급 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/6. 트랜잭션 문제 해결 - 트랜잭션 AOP 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/5. 스프링과 문제 해결 - 트랜잭션.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md",
@@ -226,7 +228,6 @@
     "Attached/index.md",
     "Areas/index.md",
     "Areas/글쓰기.md",
-    "Areas/집중해야 하는 것.md",
     "Resources/프로그래밍/Java/김영한의 DB",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편",
     "Resources/프로그래밍/Java/김영한의 자바",
