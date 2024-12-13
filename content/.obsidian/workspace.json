@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/6. 트랜잭션 문제 해결 - 트랜잭션 AOP 이해.md",
+                "file": "Resources/프로그래밍/Java/김영한의 자바/중급 2편/index.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. 트랜잭션 문제 해결 - 트랜잭션 AOP 이해"
+              "title": "index"
             }
           },
           {
@@ -188,24 +188,27 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c58eace592cec9cf",
+  "active": "10673dd5476108d3",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 자바/중급 1편/index.md",
+    "Resources/프로그래밍/Java/김영한의 자바/index.md",
+    "Resources/프로그래밍/Java/김영한의 DB/index.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/6. 트랜잭션 문제 해결 - 트랜잭션 AOP 이해.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/5. 스프링과 문제 해결 - 트랜잭션.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
     "Attached/transaction-aop-2.png",
     "Attached/transaction-aop-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/입문/스프링 입문 2.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/6. 트랜잭션 문제 해결 - 트랜잭션 AOP 이해.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/8. 로그인 처리 2 - 필터와 인터셉터.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/5. 스프링과 문제 해결 - 트랜잭션.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md",
     "데이터베이스 트랜잭션 주요 개념 정리.canvas",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
     "3. 트랜잭션 이해^467ce7.md",
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
-    "Resources/프로그래밍/Java/김영한의 자바/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/체크 예외와 언체크 예외.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/객체 지향 설계와 스프링.md",
-    "Resources/프로그래밍/Java/김영한의 자바/중급 1편/index.md",
     "Attached/transaction-14.png",
     "Attached/transaction-13.png",
     "Attached/transaction-12.png",
@@ -216,11 +219,7 @@
     "Attached/transaction-8.png",
     "Attached/transaction-7.png",
     "Resources/프로그래밍/Java/김영한의 자바/기본/큐 Queue.md",
-    "Resources/프로그래밍/Java/김영한의 DB/index.md",
     "무제 파일.md",
-    "Attached/transaction-6.png",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/index.md",
     "Resources/index.md",
