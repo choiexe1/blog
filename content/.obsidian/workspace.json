@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "무제 파일.canvas",
+                "file": "트랜잭션.canvas",
                 "viewState": {
-                  "x": 315.2094782205424,
-                  "y": -34.39162347637298,
+                  "x": 486.91208531460467,
+                  "y": -118.17422091383713,
                   "zoom": -0.02190890195530221
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "무제 파일"
+              "title": "트랜잭션"
             }
           }
         ]
@@ -177,10 +177,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d5a8ec4c6c53558a",
+  "active": "10673dd5476108d3",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/5. 스프링과 문제 해결 - 트랜잭션.md",
-    "무제 파일.canvas",
+    "트랜잭션.canvas",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/체크 예외와 언체크 예외.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/객체 지향 설계와 스프링.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/index.md",
