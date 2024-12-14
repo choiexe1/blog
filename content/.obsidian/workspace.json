@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ExceptionHandler",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,15 +176,15 @@
   },
   "active": "c58eace592cec9cf",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/10. API 예외 처리.md",
+    "Resources/프로그래밍/Java/김영한의 자바/중급 1편/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/8. 자바 예외 이해.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/10. API 예외 처리.md",
     "Attached/uncheck-exception-1.png",
     "Attached/check-exception-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/9. 예외 처리와 오류 페이지.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/예외 계층화와 활용.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/예외 계층.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/체크 예외와 언체크 예외.md",
-    "Resources/프로그래밍/Java/김영한의 자바/중급 1편/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/예외 처리가 필요한 이유.md",
     "데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/7. 스프링 부트의 자동 리소스 등록.md",
