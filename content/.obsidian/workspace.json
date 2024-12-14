@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술.md",
-                "mode": "source",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 시작.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 데이터 접근 기술"
+              "title": "1. 데이터 접근 기술 시작"
             }
           }
         ]
@@ -177,7 +177,7 @@
   "active": "c58eace592cec9cf",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 시작.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/10. JdbcTemplate.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/9. 스프링과 문제 해결 - 예외 처리, 반복.md",
