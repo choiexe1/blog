@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/프로젝트/물류 서비스 프로젝트 설계.md",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "물류 서비스 프로젝트 설계"
+              "title": "index"
             }
           }
         ]
@@ -176,15 +176,17 @@
   },
   "active": "1ba282869669cd39",
   "lastOpenFiles": [
-    "Resources/프로그래밍/프로젝트/ㅇ.md",
+    "Resources/프로그래밍/Java/김영한의 자바/index.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
+    "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/프로젝트/물류 서비스 프로젝트 설계.md",
     "Resources/프로그래밍/프로젝트/index.md",
+    "Resources/프로그래밍/프로젝트/ㅇ.md",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/CSS/index.md",
     "Resources/프로그래밍/index.md",
     "Resources/프로그래밍/프로젝트",
     "Resources/index.md",
-    "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/5. JPA.md",
     "Attached/jpa-4.png",
     "Attached/jpa-3.png",
@@ -197,7 +199,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/2. 스프링 JdbcTemplate.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 시작.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/10. JdbcTemplate.md",
     "Attached/transaction-test-1.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/7. 스프링 부트의 자동 리소스 등록.md",
@@ -210,7 +211,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/9. 스프링과 문제 해결 - 예외 처리, 반복.md",
     "Areas/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편",
     "데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Attached/spring-data-access-exception-layer-1.png",
