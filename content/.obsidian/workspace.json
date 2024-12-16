@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/프로젝트/ㅇ.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/프로젝트/물류 서비스 프로젝트 설계.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ㅇ"
+              "title": "물류 서비스 프로젝트 설계"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "1ba282869669cd39",
   "lastOpenFiles": [
-    "Resources/프로그래밍/프로젝트/index.md",
     "Resources/프로그래밍/프로젝트/ㅇ.md",
+    "Resources/프로그래밍/프로젝트/물류 서비스 프로젝트 설계.md",
+    "Resources/프로그래밍/프로젝트/index.md",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/CSS/index.md",
     "Resources/프로그래밍/index.md",
@@ -210,7 +211,6 @@
     "Areas/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
     "Resources/프로그래밍/Java/김영한의 스프링/index.md",
-    "Areas/글쓰기.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편",
     "데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Attached/spring-data-access-exception-layer-1.png",
