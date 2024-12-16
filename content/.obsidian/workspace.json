@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/5. JPA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. MyBatis"
+              "title": "5. JPA"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "1ba282869669cd39",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/3. 데이터 접근 기술 -  테스트.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/5. JPA.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/3. 데이터 접근 기술 -  테스트.md",
     "Attached/mybatis-1.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/2. 스프링 JdbcTemplate.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 시작.md",
