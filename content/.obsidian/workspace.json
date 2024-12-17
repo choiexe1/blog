@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/3. 데이터 접근 기술 -  테스트.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 데이터 접근 기술 -  테스트"
+              "title": "1. 타임리프 기본 기능"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "object",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,9 +177,9 @@
   },
   "active": "a1c7cf0e85731860",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/3. 데이터 접근 기술 -  테스트.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/9. 스프링과 문제 해결 - 예외 처리, 반복.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/7. 스프링 부트의 자동 리소스 등록.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/3. 데이터 접근 기술 -  테스트.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
