@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/4. 검증, BindingResult.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "4. 검증, BindingResult"
             }
           }
         ]
@@ -176,9 +176,13 @@
   },
   "active": "a1c7cf0e85731860",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/5. 오류 코드와 메시지 처리.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/6. Bean Validation.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/4. 검증, BindingResult.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/11. PRG Post, Redirect, Get.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
     "Resources/프로그래밍/Java/김영한의 스프링/index.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/2. 스프링 JdbcTemplate.md",
@@ -198,10 +202,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/5. JPA.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/6. 스프링 데이터 JPA.md",
     "무제 파일.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 시작.md",
-    "Resources/프로그래밍/Java/김영한의 DB/index.md",
-    "Resources/프로그래밍/프로젝트/물류 서비스 프로젝트 설계.md",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/프로젝트",
     "Attached/jpa-4.png",
