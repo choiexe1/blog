@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b9aa3956378c5b99",
+        "id": "c42af2f88fb48972",
         "type": "tabs",
         "children": [
           {
-            "id": "1ba282869669cd39",
+            "id": "a1c7cf0e85731860",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/3. 데이터 접근 기술 -  테스트.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3. 데이터 접근 기술 -  테스트"
+              "title": "새 탭"
             }
           }
         ]
@@ -175,8 +171,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "dbfe849003939774",
+  "active": "a1c7cf0e85731860",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/3. 데이터 접근 기술 -  테스트.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
@@ -193,7 +190,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/6. 스프링 데이터 JPA.md",
     "무제 파일.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/3. 데이터 접근 기술 -  테스트.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 시작.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/2. 스프링 JdbcTemplate.md",
     "Resources/프로그래밍/Java/김영한의 DB/index.md",
