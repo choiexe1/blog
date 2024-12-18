@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 사용법.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스프링 시큐리티 사용법"
+              "title": "7. 로그인 처리 1 - 쿠키와 세션"
             }
           }
         ],
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "session",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,6 +192,8 @@
   },
   "active": "d94f23da2015ea9b",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/2. 서블릿 (Servlet).md",
+    "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 사용법.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
     "Resources/프로그래밍/프로젝트/index.md",
     "Resources/프로그래밍/프로젝트/물류 서비스 프로젝트 설계.md",
@@ -198,7 +201,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/2. 타임리프 스프링 통합과 폼.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
-    "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 사용법.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 아키텍쳐.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
@@ -216,7 +218,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/7. 스프링 부트의 자동 리소스 등록.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/5. 스프링과 문제 해결 - 트랜잭션.md",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/프로젝트",
     "Attached/jpa-4.png",
