@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "70639b43b6bf1cd0",
+        "id": "3b823bbf4e65457e",
         "type": "tabs",
         "children": [
           {
-            "id": "e9cf0481e6ad6fc5",
+            "id": "58c10c01897f8643",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티.md",
+                "file": "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 사용법.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스프링 시큐리티"
+              "title": "스프링 시큐리티 사용법"
             }
           }
         ]
@@ -174,10 +174,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e9cf0481e6ad6fc5",
+  "active": "58c10c01897f8643",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 아키텍쳐.md",
-    "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티.md",
+    "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 사용법.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/9. 예외 처리와 오류 페이지.md",
