@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. 로그인 처리 1 - 쿠키와 세션"
+              "title": "1. 타임리프 기본 기능"
             }
           }
         ],
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "session",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,6 +192,7 @@
   },
   "active": "d94f23da2015ea9b",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/2. 서블릿 (Servlet).md",
     "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 사용법.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
@@ -203,7 +204,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/스프링 시큐리티 아키텍쳐.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/9. 예외 처리와 오류 페이지.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/6. Bean Validation.md",
