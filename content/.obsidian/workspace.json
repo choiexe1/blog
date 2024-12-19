@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/index.md",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "4. MyBatis"
             }
           }
         ]
@@ -176,13 +176,13 @@
   },
   "active": "58c10c01897f8643",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 DB/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/2. 타임리프 스프링 통합과 폼.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
-    "Resources/프로그래밍/Java/김영한의 DB/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/7. 로그인 처리 1 - 쿠키와 세션.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/2. 서블릿 (Servlet).md",
