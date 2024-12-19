@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "datetimefor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,7 +174,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "58c10c01897f8643",
+  "active": "10673dd5476108d3",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
     "Resources/프로그래밍/Java/김영한의 DB/index.md",
