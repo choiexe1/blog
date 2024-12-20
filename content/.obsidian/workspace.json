@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3b823bbf4e65457e",
+        "id": "5bbec87b1930c77d",
         "type": "tabs",
         "children": [
           {
-            "id": "58c10c01897f8643",
+            "id": "6c155eacb3124041",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "4. MyBatis"
+              "title": "새 탭"
             }
           }
         ]
@@ -175,13 +171,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "58c10c01897f8643",
+  "active": "6c155eacb3124041",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 시작.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/6. Bean Validation.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/11. 스프링 타입 컨버터.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
     "Resources/프로그래밍/Java/김영한의 DB/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/2. 타임리프 스프링 통합과 폼.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
