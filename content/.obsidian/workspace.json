@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/2. 스프링 JdbcTemplate.md",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 스프링 JdbcTemplate"
+              "title": "4. MyBatis"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DataAccessE",
+                "query": "mybatis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,11 +177,12 @@
   },
   "active": "6c155eacb3124041",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 시작.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/2. 스프링 JdbcTemplate.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/3. 메시지, 국제화.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/9. 예외 처리와 오류 페이지.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 시작.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/6. Bean Validation.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/11. 스프링 타입 컨버터.md",
     "Resources/프로그래밍/Java/김영한의 DB/index.md",
@@ -202,7 +203,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/4. 검증, BindingResult.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/5. 오류 코드와 메시지 처리.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/index.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/프로젝트",
     "Attached/jpa-4.png",
