@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/6. Spring Data JPA.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,6 +176,7 @@
   },
   "active": "6c155eacb3124041",
   "lastOpenFiles": [
+    "Attached/spring-data-jpa-2.png",
     "Attached/spring-data-jpa-1.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
     "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
@@ -215,7 +216,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편",
     "Attached/spring-data-access-exception-layer-1.png",
     "Attached/database-exception-1.png",
-    "Attached/uncheck-exception-1.png",
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/프로그래밍/Java/김영한의 DB",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편",
