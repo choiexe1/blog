@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/8. 데이터 접근 기술 - 활용 방안.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,8 +176,9 @@
   },
   "active": "6c155eacb3124041",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/6. 스프링 데이터 JPA.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/8. 데이터 접근 기술 - 활용 방안.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/6. 스프링 데이터 JPA.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/5. JPA.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/7. Querydsl.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 - 시작.md",
@@ -204,7 +205,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/8. 자바 예외 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/4. MyBatis.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/2. 스프링 JdbcTemplate.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/10. JdbcTemplate.md",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/프로젝트",
     "Attached/jpa-4.png",
