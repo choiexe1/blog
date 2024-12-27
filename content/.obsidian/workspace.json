@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/6. 트랜잭션 문제 해결 - 트랜잭션 AOP 이해.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. 트랜잭션 문제 해결 - 트랜잭션 AOP 이해"
+              "title": "11. 스프링 트랜잭션 전파"
             }
           }
         ]
@@ -176,14 +176,18 @@
   },
   "active": "6c155eacb3124041",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/10. 예외와 트랜잭션 커밋, 롤백.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/9. 스프링 트랜잭션 이해.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/6. 트랜잭션 문제 해결 - 트랜잭션 AOP 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/5. 스프링과 문제 해결 - 트랜잭션.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/1. JDBC 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/10. JdbcTemplate.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/2. 커넥션 풀과 데이터소스 이해.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/1. 데이터 접근 기술 - 시작.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/2. 스프링 JdbcTemplate.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/3. 데이터 접근 기술 -  테스트.md",
@@ -192,8 +196,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/6. 스프링 데이터 JPA.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/7. Querydsl.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/8. 데이터 접근 기술 - 활용 방안.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/9. 스프링 트랜잭션 이해.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/10. 예외와 트랜잭션 커밋, 롤백.md",
     "Attached/transaction-exception-1.png",
     "Resources/사진과 기억/index.md",
     "index.md",
@@ -201,8 +203,6 @@
     "Resources/사진과 기억/21년 4월 전주와 담양.md",
     "Resources/사진과 기억/24년 9월 일산호수공원.md",
     "Resources/사진과 기억/19년 5월 요세미티 국립공원.md",
-    "Resources/프로그래밍/Java/김영한의 DB/index.md",
-    "Resources/프로그래밍/Java/스프링 시큐리티/index.md",
     "Resources/메모",
     "데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
