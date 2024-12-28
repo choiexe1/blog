@@ -69,10 +69,9 @@ public interface ItemMapper extends ItemRepository {
 
 이게 왜 짜증나냐면, 기분 좋게 리팩터링 하고 있는데 저 자잘한 파라미터가 지 멋대로 변경되서 코드가 정상적으로 작동하지 않는다는거다. 물론 하나 하나 찾아서 바꿔주면 된다. 그런데 이게 버그인지 인텔리제이의 의도대로 작동한 것인지 궁금해서 조금 찾아보고 남겨놓는다.
 
-#### 레퍼런스
-1. [Why-does-IDEA-changes-parameter-names-when-implementing-generic-interface](https://youtrack.jetbrains.com/issue/IJPL-58024/Why-does-IDEA-changes-parameter-names-when-implementing-generic-interface)
 
-문제 원인은 **타입 정보를 기준으로 한 자동 변수명 생성**이다.
+문제 원인은 **타입 정보를 기준으로 한 자동 변수명 생성**이라고 하는데
+
 - `IRepository`의 `ID` 타입은 `Long` 타입으로 구체화 되었다.
 - IDE는 실제 타입(Long)을 보고 임시 변수명을 aLong으로 생성한다.
 - 이 과정에서 원래 메서드의 변수명 정보는 무시된다.
@@ -83,5 +82,7 @@ public interface ItemMapper extends ItemRepository {
 
 ---
 References: 
+
+1. [Why-does-IDEA-changes-parameter-names-when-implementing-generic-interface](https://youtrack.jetbrains.com/issue/IJPL-58024/Why-does-IDEA-changes-parameter-names-when-implementing-generic-interface)
 
 Links to this page: 
