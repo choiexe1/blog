@@ -34,7 +34,44 @@ public interface ItemRepository extends IRepository<Item, Long, SearchItemDTO, U
 }
 ```
 
-추상화된 `IRepository`를 통해서 중복된 코드를 획기적으로 줄이긴 했는데, 다음이 무
+추상화된 `IRepository`를 통해서 중복된 코드를 획기적으로 줄이긴 했는데, 다음이 문제였다.
+
+```java
+@Mapper  
+public interface ItemMapper extends ItemRepository {  
+    @Override  
+    List<Item> findItemsByWarehouseId(Long warehouseId);  
+  
+    @Override  
+    Long save(Item item);  
+  
+    @Override  
+    Optional<Item> findById(Long aLong);  
+  
+    @Override  
+    List<Item> findAll();  
+  
+    @Override  
+    List<Item> findAll(SearchItemDTO searchItemDTO);  
+  
+    @Override  
+    int findAllCount(SearchItemDTO searchItemDTO);  
+  
+    @Override  
+    void update(Long aLong, UpdateItemDTO updateItemDTO);  
+  
+    @Override  
+    void delete(Long aLong);  
+}
+```
+
+현재 프로젝트에서는 MyBatis를 사용하는 중이라 이 매퍼가 필요하다. 매퍼는 XML과 SQL을 매핑하면서 실제 매퍼 객체도 만드는 데에 사용된다.
+
+이상한 부분은 매개변수의 `Long aLong`이다. 왜냐하면 `IRepository`에서 정의하기로는 분명 `ID` 타입의 `id`라고 정의해뒀는데 구현 시에 `Long aLong` 이렇게 바뀌는 것이다. 왜 바뀌는 것일까?
+
+
+
+
 
 ---
 References: 
