@@ -37,8 +37,8 @@
               "state": {
                 "file": "스프링 트랜잭션 전파.canvas",
                 "viewState": {
-                  "x": 1421.3596505265618,
-                  "y": 282.9261874490318,
+                  "x": -56.337935965952056,
+                  "y": 141.52581494845475,
                   "zoom": -0.32240644262783824
                 }
               },
@@ -199,10 +199,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c1707f53f9cd56ba",
+  "active": "6c155eacb3124041",
   "lastOpenFiles": [
-    "스프링 트랜잭션 전파.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
+    "스프링 트랜잭션 전파.canvas",
     "Attached/spring-transaction-propagation-1.png",
     "Attached/스프링 트랜잭션 전파.png",
     "스프링 트랜잭션 전파.png",
