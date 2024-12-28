@@ -35,9 +35,9 @@
               "state": {
                 "file": "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
                 "viewState": {
-                  "x": 655.5,
-                  "y": 165.5,
-                  "zoom": -1.5472959130833257
+                  "x": 17.065310883184953,
+                  "y": 143.57816883124684,
+                  "zoom": -0.5890584012872176
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -197,10 +197,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "220123d3ffa6841f",
+  "active": "1bc5896f0f463755",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/12. 스프링 트랜잭션 전파 활용.md",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/12. 스프링 트랜잭션 전파 활용.md",
     "Resources/마인드맵/index.md",
     "Attached/spring-transaction-propagation-7.png",
     "Attached/spring-transaction-propagation-6.png",
