@@ -37,8 +37,8 @@
               "state": {
                 "file": "스프링 트랜잭션 전파.canvas",
                 "viewState": {
-                  "x": 293.7958150232074,
-                  "y": 284.25216048049015,
+                  "x": 321.6733638275178,
+                  "y": 875.2561951318294,
                   "zoom": -0.4522839130634878
                 }
               },
@@ -201,9 +201,9 @@
   },
   "active": "c1707f53f9cd56ba",
   "lastOpenFiles": [
-    "Attached/spring-transaction-propagation-3.png",
     "스프링 트랜잭션 전파.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
+    "Attached/spring-transaction-propagation-3.png",
     "Attached/spring-transaction-propagation-2.png",
     "Attached/spring-transaction-propagation-1.png",
     "Attached/스프링 트랜잭션 전파.png",
@@ -240,7 +240,6 @@
     "Resources/메모",
     "Attached/tx-1.png",
     "Attached/spring-data-jpa-2.png",
-    "Attached/spring-data-jpa-1.png",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/프로젝트",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편",
