@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
-                "mode": "preview",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/12. 스프링 트랜잭션 전파 활용.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11. 스프링 트랜잭션 전파"
+              "title": "12. 스프링 트랜잭션 전파 활용"
             }
           }
         ]
@@ -176,11 +176,13 @@
   },
   "active": "220123d3ffa6841f",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/12. 스프링 트랜잭션 전파 활용.md",
+    "Resources/마인드맵/index.md",
+    "Resources/프로그래밍/index.md",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
-    "Resources/마인드맵/index.md",
     "Resources/마인드맵",
     "Attached/spring-transaction-propagation-3.png",
     "Attached/spring-transaction-propagation-2.png",
@@ -212,7 +214,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/8. 데이터 접근 기술 - 활용 방안.md",
     "Attached/transaction-exception-1.png",
     "Resources/사진과 기억/index.md",
-    "index.md",
     "Resources/메모",
     "Attached/tx-1.png",
     "Attached/spring-data-jpa-2.png",
