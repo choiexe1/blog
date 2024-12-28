@@ -1,11 +1,25 @@
 {
 	"nodes":[
-		{"id":"e98a5984b0a8890d","type":"text","text":"# 스프링 트랜잭션","x":0,"y":0,"width":400,"height":500},
-		{"id":"7a53b40e5d11c46f","type":"text","text":"무엇인가?","x":600,"y":-200,"width":115,"height":56},
-		{"id":"f9ba58da901ce5be","type":"text","text":"트랜잭션이 이미 진행 중일 때, 트랜잭션을 또 수행하면 어떻게 동작할 지 결정하는 것","x":1000,"y":-200,"width":340,"height":56}
+		{"id":"6338c9ae72746833","type":"text","text":"기본동작","x":408,"y":2,"width":111,"height":28},
+		{"id":"e98a5984b0a8890d","type":"text","text":"# 스프링 트랜잭션","x":0,"y":0,"width":208,"height":35,"color":"1"},
+		{"id":"7a53b40e5d11c46f","type":"text","text":"무엇인가?","x":408,"y":-102,"width":115,"height":28,"color":"2"},
+		{"id":"f9ba58da901ce5be","type":"text","text":"트랜잭션이 이미 진행 중일 때, 트랜잭션을 또 수행하면 어떻게 동작할 지 결정하는 것","x":723,"y":-12,"width":340,"height":56},
+		{"id":"1e4309e44dca1d96","type":"text","text":"핵심 개념","x":408,"y":140,"width":111,"height":28,"color":"2"},
+		{"id":"d50ec87e502e0a07","type":"text","text":"내부 트랜잭션","x":719,"y":106,"width":139,"height":28},
+		{"id":"7655921ee12f7ffe","type":"text","text":"외부 트랜잭션","x":719,"y":174,"width":139,"height":28},
+		{"id":"1696937747b0328d","type":"text","text":"이미 진행중인 트랜잭션 내부에서 트랜잭션이 시작되면 내부 트랜잭션이라 한다.","x":1058,"y":-34,"width":322,"height":56},
+		{"id":"8351e1c2fb10da64","type":"text","text":"첫 트랜잭션이라고 이해하면 쉽다.","x":1058,"y":64,"width":263,"height":28},
+		{"id":"634dad8bcb7543db","type":"text","text":"스프링의 경우 외부 트랜잭션과 내부 트랜잭션을 묶어서 하나의 트랜잭션으로 만들어준다.","x":719,"y":-34,"width":200,"height":100}
 	],
 	"edges":[
-		{"id":"b71f89df4e2c23ea","fromNode":"e98a5984b0a8890d","fromSide":"right","toNode":"7a53b40e5d11c46f","toSide":"left"},
-		{"id":"72080e6d5b88b4d1","fromNode":"7a53b40e5d11c46f","fromSide":"right","toNode":"f9ba58da901ce5be","toSide":"left"}
+		{"id":"b71f89df4e2c23ea","fromNode":"e98a5984b0a8890d","fromSide":"right","toNode":"7a53b40e5d11c46f","toSide":"left","color":"1"},
+		{"id":"72080e6d5b88b4d1","fromNode":"7a53b40e5d11c46f","fromSide":"right","toNode":"f9ba58da901ce5be","toSide":"left","color":"2"},
+		{"id":"d6052e264a37852f","fromNode":"e98a5984b0a8890d","fromSide":"right","toNode":"1e4309e44dca1d96","toSide":"left","color":"1"},
+		{"id":"efed202be0fb3f1e","fromNode":"1e4309e44dca1d96","fromSide":"right","toNode":"7655921ee12f7ffe","toSide":"left","color":"2"},
+		{"id":"c4a14a16b47fb7ee","fromNode":"1e4309e44dca1d96","fromSide":"right","toNode":"d50ec87e502e0a07","toSide":"left","color":"2"},
+		{"id":"4a8a62ea226b35cf","fromNode":"d50ec87e502e0a07","fromSide":"right","toNode":"1696937747b0328d","toSide":"left"},
+		{"id":"bbbd79c23429b158","fromNode":"7655921ee12f7ffe","fromSide":"right","toNode":"8351e1c2fb10da64","toSide":"left"},
+		{"id":"WTyyMQZxNPkX","fromNode":"e98a5984b0a8890d","fromSide":"right","toNode":"6338c9ae72746833","toSide":"left"},
+		{"id":"e43a139cfcaf4513","fromNode":"6338c9ae72746833","fromSide":"right","toNode":"634dad8bcb7543db","toSide":"left"}
 	]
 }
