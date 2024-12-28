@@ -1,15 +1,21 @@
 {
 	"nodes":[
-		{"id":"3596caa7dbad24e3","type":"text","text":"핵심 개념","x":338,"y":-40,"width":250,"height":60},
+		{"id":"a33e6bc6f14b8420","type":"text","text":"#### 스프링 트랜잭션 전파 기본 동작\n스프링의 경우 외부 트랜잭션과 내부 트랜잭션을 묶어서 하나의 트랜잭션을 만들어준다.\n\n내부 트랜잭션이 외부 트랜잭션에 참여하는 것이다.\n\n","x":1304,"y":165,"width":316,"height":217},
+		{"id":"067f044930e3864b","type":"text","text":"#### 내부 트랜잭션\n내부 트랜잭션은 이미 시작한 트랜잭션 내부에서 시작된 트랜잭션을 의미한다.","x":1304,"y":-38,"width":316,"height":183},
+		{"id":"0bc7b7373e8b4d03","type":"text","text":"#### 외부 트랜잭션\n\n외부 트랜잭션은 트랜잭션을 첫 시작한 트랜잭션을 의미한다.\n\n","x":1304,"y":-241,"width":316,"height":183},
 		{"id":"76be464454f2d15d","type":"text","text":"# 스프링 트랜잭션","x":-112,"y":-103,"width":250,"height":60,"color":"1"},
-		{"id":"247258597ebd8a39","type":"text","text":"#### 무엇인가?\n\n트랜잭션이 이미 수행 중일 때, 새로운 트랜잭션이 시작되면 어떻게 동작할 것인지 결정하는 것\n","x":338,"y":-208,"width":369,"height":105},
-		{"id":"292dd9d4cc919877","type":"text","text":"#### 물리 트랜잭션\n\n실제 커넥션을 통해 데이터베이스에 적용되는 트랜잭션을 뜻한다.\n\n","x":788,"y":-120,"width":250,"height":166},
-		{"id":"6f5143255dafd309","type":"text","text":"논리 트랜잭션","x":788,"y":94,"width":250,"height":60}
+		{"id":"247258597ebd8a39","type":"text","text":"#### 무엇인가?\n\n트랜잭션이 이미 수행 중일 때, 새로운 트랜잭션이 시작되면 어떻게 동작할 것인지 결정하는 것\n","x":338,"y":-205,"width":369,"height":105},
+		{"id":"3596caa7dbad24e3","type":"text","text":"#### 핵심 개념","x":338,"y":-80,"width":114,"height":60},
+		{"id":"6f5143255dafd309","type":"text","text":"#### 논리 트랜잭션\n\n스프링 트랜잭션 매니저를 통해 트랜잭션을 사용하는 단위이다.\n\n단순히 트랜잭션이 하나인 경우엔 논리나 물리 트랜잭션으로 구분하지는 않는다.\n","x":788,"y":63,"width":316,"height":183},
+		{"id":"292dd9d4cc919877","type":"text","text":"#### 물리 트랜잭션\n\n실제 커넥션을 통해 데이터베이스에 적용되는 트랜잭션을 뜻한다.\n","x":788,"y":-95,"width":293,"height":104}
 	],
 	"edges":[
 		{"id":"Mu-3MQZObwLf","fromNode":"76be464454f2d15d","fromSide":"right","toNode":"247258597ebd8a39","toSide":"left"},
 		{"id":"4zV4MQZ8k3Sq","fromNode":"76be464454f2d15d","fromSide":"right","toNode":"3596caa7dbad24e3","toSide":"left"},
 		{"id":"FEY4MQZ1axRk","fromNode":"3596caa7dbad24e3","fromSide":"right","toNode":"6f5143255dafd309","toSide":"left"},
-		{"id":"yQa4MQZe9E9r","fromNode":"3596caa7dbad24e3","fromSide":"right","toNode":"292dd9d4cc919877","toSide":"left"}
+		{"id":"yQa4MQZe9E9r","fromNode":"3596caa7dbad24e3","fromSide":"right","toNode":"292dd9d4cc919877","toSide":"left"},
+		{"id":"7jN5MQZvYIgo","fromNode":"6f5143255dafd309","fromSide":"right","toNode":"0bc7b7373e8b4d03","toSide":"left"},
+		{"id":"WAP5MQZ2Itv4","fromNode":"6f5143255dafd309","fromSide":"right","toNode":"067f044930e3864b","toSide":"left"},
+		{"id":"Duh5MQZQhEnZ","fromNode":"6f5143255dafd309","fromSide":"right","toNode":"a33e6bc6f14b8420","toSide":"left"}
 	]
 }
