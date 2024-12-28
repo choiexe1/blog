@@ -4,46 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f76a7f24f7d6c6f4",
+        "id": "391d01016d578bb4",
         "type": "tabs",
-        "dimension": 54.03225806451613,
         "children": [
           {
-            "id": "c1707f53f9cd56ba",
+            "id": "220123d3ffa6841f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "11. 스프링 트랜잭션 전파"
-            }
-          }
-        ]
-      },
-      {
-        "id": "5bbec87b1930c77d",
-        "type": "tabs",
-        "dimension": 45.96774193548387,
-        "children": [
-          {
-            "id": "6c155eacb3124041",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "스프링 트랜잭션 전파.canvas",
-                "viewState": {
-                  "x": 321.6733638275178,
-                  "y": 875.2561951318294,
-                  "zoom": -0.4522839130634878
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "스프링 트랜잭션 전파"
             }
           }
         ]
@@ -199,10 +174,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c1707f53f9cd56ba",
+  "active": "220123d3ffa6841f",
   "lastOpenFiles": [
-    "스프링 트랜잭션 전파.canvas",
+    "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
+    "Resources/마인드맵/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
+    "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
+    "Resources/마인드맵",
     "Attached/spring-transaction-propagation-3.png",
     "Attached/spring-transaction-propagation-2.png",
     "Attached/spring-transaction-propagation-1.png",
@@ -210,8 +188,7 @@
     "스프링 트랜잭션 전파.png",
     "Attached/index.md",
     "Attached/스프링 트랜잭션 전파.png",
-    "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
-    "데이터베이스 트랜잭션 주요 개념 정리.canvas",
+    "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/9. 스프링 트랜잭션 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/10. 예외와 트랜잭션 커밋, 롤백.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/11. 스프링 타입 컨버터.md",
@@ -236,7 +213,6 @@
     "Attached/transaction-exception-1.png",
     "Resources/사진과 기억/index.md",
     "index.md",
-    "Resources/사진과 기억/23년 6월 교토.md",
     "Resources/메모",
     "Attached/tx-1.png",
     "Attached/spring-data-jpa-2.png",
@@ -247,7 +223,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편",
     "Resources/프로그래밍/Java/김영한의 자바",
     "Resources/프로그래밍/Java/스프링 시큐리티",
-    "Resources/프로그래밍/Java/김영한의 스프링",
-    "Resources/프로그래밍/CSS"
+    "Resources/프로그래밍/Java/김영한의 스프링"
   ]
 }
