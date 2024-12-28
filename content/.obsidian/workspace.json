@@ -15,23 +15,13 @@
               "state": {
                 "file": "무제 파일.canvas",
                 "viewState": {
-                  "x": 1115.8687828884758,
-                  "y": 166.4613568444327,
+                  "x": 592.0485501441583,
+                  "y": 73.51213753603963,
                   "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "무제 파일"
-            }
-          },
-          {
-            "id": "114cdfeaf8693d0c",
-            "type": "leaf",
-            "state": {
-              "type": "cm-changelog-view",
-              "state": {},
-              "icon": "rocket",
-              "title": "Changelog of Canvas Mindmap"
             }
           }
         ]
