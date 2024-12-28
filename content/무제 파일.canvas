@@ -1,13 +1,15 @@
 {
 	"nodes":[
-		{"id":"e98a5984b0a8890d","type":"text","text":"# 스프링 트랜잭션","x":0,"y":0,"width":208,"height":35,"color":"1"},
-		{"id":"5cdb9f439074d15d","type":"text","text":"#### 논리 트랜잭션\n스프링의 트랜잭션 매니저를 통해 트랜잭션을 사용하는 단위\n\n트랜잭션 진행 중에 트랜잭션을 또 수행하는 경우 나타나게 되는 개념","x":745,"y":351,"width":400,"height":200},
-		{"id":"bf1f4912ff994303","type":"text","text":"#### 물리 트랜잭션\n\n실제 데이터베이스에 적용되는 트랜잭션 단위, 실제 커넥션을 통해서 트랜잭션을 시작하고 실제 커넥션을 통해서 커밋, 롤백하는 단위","x":775,"y":80,"width":400,"height":200},
-		{"id":"c4530a49b9e43784","type":"text","text":"#### 무엇인가?\n트랜잭션이 수행중일때 새로운 트랜잭션이 시작되면 어떻게 동작할 것인지 결정하는 것\n","x":427,"y":-216,"width":400,"height":200},
-		{"id":"f161b6b6441ec0c9","type":"text","text":"핵심 개념","x":303,"y":51,"width":400,"height":200}
+		{"id":"3596caa7dbad24e3","type":"text","text":"핵심 개념","x":338,"y":-40,"width":250,"height":60},
+		{"id":"76be464454f2d15d","type":"text","text":"# 스프링 트랜잭션","x":-112,"y":-103,"width":250,"height":60,"color":"1"},
+		{"id":"247258597ebd8a39","type":"text","text":"#### 무엇인가?\n\n트랜잭션이 이미 수행 중일 때, 새로운 트랜잭션이 시작되면 어떻게 동작할 것인지 결정하는 것\n","x":338,"y":-208,"width":369,"height":105},
+		{"id":"292dd9d4cc919877","type":"text","text":"#### 물리 트랜잭션\n\n실제 커넥션을 통해 데이터베이스에 적용되는 트랜잭션을 뜻한다.\n\n","x":788,"y":-120,"width":250,"height":166},
+		{"id":"6f5143255dafd309","type":"text","text":"논리 트랜잭션","x":788,"y":94,"width":250,"height":60}
 	],
 	"edges":[
-		{"id":"d0380271c4a9ecf8","fromNode":"e98a5984b0a8890d","fromSide":"right","toNode":"c4530a49b9e43784","toSide":"left"},
-		{"id":"0395ee8ee69f4ae4","fromNode":"e98a5984b0a8890d","fromSide":"right","toNode":"f161b6b6441ec0c9","toSide":"left"}
+		{"id":"Mu-3MQZObwLf","fromNode":"76be464454f2d15d","fromSide":"right","toNode":"247258597ebd8a39","toSide":"left"},
+		{"id":"4zV4MQZ8k3Sq","fromNode":"76be464454f2d15d","fromSide":"right","toNode":"3596caa7dbad24e3","toSide":"left"},
+		{"id":"FEY4MQZ1axRk","fromNode":"3596caa7dbad24e3","fromSide":"right","toNode":"6f5143255dafd309","toSide":"left"},
+		{"id":"yQa4MQZe9E9r","fromNode":"3596caa7dbad24e3","fromSide":"right","toNode":"292dd9d4cc919877","toSide":"left"}
 	]
 }
