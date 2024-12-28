@@ -2,24 +2,26 @@
 	"nodes":[
 		{"id":"76be464454f2d15d","type":"text","text":"# 스프링 트랜잭션","x":-112,"y":-103,"width":208,"height":60,"color":"1"},
 		{"id":"247258597ebd8a39","type":"text","text":"#### 무엇인가?\n\n트랜잭션이 이미 수행 중일 때, 새로운 트랜잭션이 시작되면 어떻게 동작할 것인지 결정하는 것\n","x":189,"y":-357,"width":369,"height":105},
-		{"id":"122fadf6adc856a0","type":"text","text":"#### 트랜잭션 참여\n내부 트랜잭션이 외부 트랜잭션에 참여한다는 뜻은 내부 트랜잭션이 외부 트랜잭션을 그대로 이어받아서 따른다는 뜻이다.\n\n","x":39,"y":186,"width":254,"height":164},
-		{"id":"3b0f4903c6c7a9a7","x":321,"y":-93,"width":288,"height":102,"type":"text","text":"#### 트랜잭션 단위\n스프링은 트랜잭션의 단위를 나눠서 이해하기 쉽도록 구분한다.\n"},
-		{"id":"ad5efffb3a82881c","type":"text","text":"#### 외부 트랜잭션\n\n외부 트랜잭션은 트랜잭션을 첫 시작한 트랜잭션을 의미한다.\n\n","x":1076,"y":52,"width":293,"height":104},
-		{"id":"9db0456439719010","type":"text","text":"#### 내부 트랜잭션\n내부 트랜잭션은 이미 시작한 트랜잭션 내부에서 시작된 트랜잭션을 의미한다.","x":1076,"y":277,"width":293,"height":104},
+		{"id":"3b0f4903c6c7a9a7","type":"text","text":"#### 트랜잭션 단위\n스프링은 트랜잭션의 단위를 나눠서 이해하기 쉽도록 구분한다.\n","x":321,"y":-93,"width":288,"height":102},
 		{"id":"292dd9d4cc919877","type":"text","text":"#### 물리 트랜잭션\n\n실제 커넥션을 통해 데이터베이스에 수행하는 트랜잭션을 뜻한다.\n","x":711,"y":-252,"width":293,"height":104},
-		{"id":"7bea52704402297b","type":"text","text":"#### 스프링 트랜잭션 전파 원칙\n모든 논리 트랜잭션이 커밋되야 물리 트랜잭션이 커밋된다.\n\n하나의 논리 트랜잭션이라도 롤백되면 물리 트랜잭션도 롤백된다.","x":-335,"y":96,"width":293,"height":181},
-		{"id":"901c30b0307d8921","type":"text","text":"#### 스프링 트랜잭션 전파 기본 동작\n스프링의 경우 외부 트랜잭션과 내부 트랜잭션을 묶어서 하나의 트랜잭션을 만들어준다.\n\n내부 트랜잭션이 외부 트랜잭션에 참여하는 것이다.\n\n하나의 물리 트랜잭션 내에 논리 트랜잭션이 여러 개 존재 하는 것이라고 볼 수 있다.\n\n\n","x":-335,"y":329,"width":293,"height":301},
-		{"id":"ae26347036869416","type":"text","text":"#### 논리 트랜잭션\n\n스프링 트랜잭션 매니저를 통해 트랜잭션을 사용하는 단위이다.\n\n단순히 트랜잭션이 하나인 경우엔 논리나 물리 트랜잭션으로 구분하지는 않는다.\n","x":558,"y":65,"width":293,"height":242}
+		{"id":"ae26347036869416","type":"text","text":"#### 논리 트랜잭션\n\n스프링 트랜잭션 매니저를 통해 트랜잭션을 사용하는 단위이다.\n\n단순히 트랜잭션이 하나인 경우엔 논리나 물리 트랜잭션으로 구분하지는 않는다.\n","x":558,"y":65,"width":293,"height":242},
+		{"id":"ad5efffb3a82881c","type":"text","text":"#### 외부 트랜잭션\n\n외부 트랜잭션은 트랜잭션을 첫 시작한 트랜잭션을 의미한다.\n\n","x":1040,"y":80,"width":293,"height":104},
+		{"id":"9db0456439719010","type":"text","text":"#### 내부 트랜잭션\n내부 트랜잭션은 이미 시작한 트랜잭션 내부에서 시작된 트랜잭션을 의미한다.","x":1040,"y":268,"width":293,"height":104},
+		{"id":"6619c15aec728caa","x":1460,"y":-49,"width":431,"height":211,"type":"text","text":"#### 물리 트랜잭션 관리\n스프링은 처음 트랜잭션을 시작한 **외부 트랜잭션**이 물리 트랜잭션을 관리하도록 한다. 외부 트랜잭션이 커밋해야 커밋된다는 의미다.\n\n무슨 말이냐면, 내부 트랜잭션에서 `commit()`을 해도 커밋되지 않는다는 것이다."},
+		{"id":"edcc396a7ab7b1a4","type":"text","text":"#### 트랜잭션 참여\n내부 트랜잭션이 외부 트랜잭션에 참여한다는 뜻은 내부 트랜잭션이 외부 트랜잭션을 그대로 이어받아서 따른다는 뜻이다.\n\n","x":1460,"y":238,"width":254,"height":164},
+		{"id":"7bea52704402297b","type":"text","text":"#### 스프링 트랜잭션 전파 원칙\n모든 논리 트랜잭션이 커밋되야 물리 트랜잭션이 커밋된다.\n\n하나의 논리 트랜잭션이라도 롤백되면 물리 트랜잭션도 롤백된다.","x":-50,"y":74,"width":293,"height":181},
+		{"id":"901c30b0307d8921","type":"text","text":"#### 스프링 트랜잭션 전파 기본 동작\n스프링의 경우 외부 트랜잭션과 내부 트랜잭션을 묶어서 하나의 트랜잭션을 만들어준다.\n\n내부 트랜잭션이 외부 트랜잭션에 참여하는 것이다.\n\n하나의 물리 트랜잭션 내에 논리 트랜잭션이 여러 개 존재 하는 것이라고 볼 수 있다.\n\n\n","x":-50,"y":307,"width":293,"height":301}
 	],
 	"edges":[
 		{"id":"Mu-3MQZObwLf","fromNode":"76be464454f2d15d","fromSide":"right","toNode":"247258597ebd8a39","toSide":"left"},
 		{"id":"pU__MQZSJ5ag","fromNode":"ae26347036869416","fromSide":"right","toNode":"ad5efffb3a82881c","toSide":"left"},
 		{"id":"i-BANQZMTs1i","fromNode":"ae26347036869416","fromSide":"right","toNode":"9db0456439719010","toSide":"left"},
-		{"id":"032594d5d31297cc","fromNode":"76be464454f2d15d","fromSide":"bottom","toNode":"122fadf6adc856a0","toSide":"top"},
 		{"id":"1fa6b379e0830179","fromNode":"3b0f4903c6c7a9a7","fromSide":"top","toNode":"292dd9d4cc919877","toSide":"left"},
 		{"id":"258b408dbdfe2f20","fromNode":"3b0f4903c6c7a9a7","fromSide":"bottom","toNode":"ae26347036869416","toSide":"left"},
 		{"id":"59f57cdf3937217f","fromNode":"76be464454f2d15d","fromSide":"right","toNode":"3b0f4903c6c7a9a7","toSide":"left"},
 		{"id":"ef5e02c657139fb1","fromNode":"76be464454f2d15d","fromSide":"bottom","toNode":"7bea52704402297b","toSide":"top"},
-		{"id":"182c647e856dc468","fromNode":"7bea52704402297b","fromSide":"bottom","toNode":"901c30b0307d8921","toSide":"top"}
+		{"id":"182c647e856dc468","fromNode":"7bea52704402297b","fromSide":"bottom","toNode":"901c30b0307d8921","toSide":"top"},
+		{"id":"3b77eef3b84d1367","fromNode":"ad5efffb3a82881c","fromSide":"right","toNode":"6619c15aec728caa","toSide":"left"},
+		{"id":"a6d4a7acbd5a3402","fromNode":"9db0456439719010","fromSide":"right","toNode":"edcc396a7ab7b1a4","toSide":"left"}
 	]
 }
