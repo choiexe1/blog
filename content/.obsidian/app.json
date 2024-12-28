@@ -9,5 +9,5 @@
   "strictLineBreaks": true,
   "attachmentFolderPath": "Attached",
   "promptDelete": false,
-  "readableLineLength": false
+  "readableLineLength": true
 }
