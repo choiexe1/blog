@@ -15,9 +15,9 @@
               "state": {
                 "file": "스프링 트랜잭션 전파.canvas",
                 "viewState": {
-                  "x": 869.5,
-                  "y": 84.5,
-                  "zoom": -0.21603692629662447
+                  "x": 512.0838474785518,
+                  "y": 28.568429358804444,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -38,8 +38,7 @@
               "title": "11. 스프링 트랜잭션 전파"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,11 +191,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a1ce773c2d67d2ec",
+  "active": "6c155eacb3124041",
   "lastOpenFiles": [
-    "스프링 트랜잭션 전파.canvas",
-    "스프링 트랜잭션 전파.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
+    "스프링 트랜잭션 전파.canvas",
+    "Attached/스프링 트랜잭션 전파.png",
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/9. 스프링 트랜잭션 이해.md",
