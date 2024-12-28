@@ -3,7 +3,7 @@ title:
 tags:
   - java
   - intellij
-publish: false
+publish: true
 date: 2024-12-29
 ---
 새벽에 코딩하다가 문득 이상한 점을 발견했다. 
@@ -69,11 +69,32 @@ public interface ItemMapper extends ItemRepository {
 
 이게 왜 짜증나냐면, 저 자잘한 파라미터가 지 멋대로 변경되서 코드가 정상적으로 작동하지 않는다는거다. 물론 하나 하나 찾아서 바꿔주면 된다. 
 
-그래서 `IRepository`의 파라미터를 `id`가 아니라 다른것으로 변경하니까 잘 작동한다.
 
+- 그래서 `IRepository`의 파라미터를 `id`가 아니라 다른것으로 변경하니까 잘 작동한다.
+- `IRepository`의 제네릭 타입 `ID`를 `IDType`으로 다음과 같이 바꿨더니 IDE가 생성하는 파라미터 이름이 정상적이다.
 
+```java
+  
+public interface IRepository<T, IDType, SearchDTO, UpdateDTO> {  
+    IDType save(T t);  
+  
+    Optional<T> findById(IDType id);  
+  
+    List<T> findAll();  
+  
+    List<T> findAll(SearchDTO searchDTO);  
+  
+    int findAllCount(SearchDTO searchDTO);  
+  
+    void update(IDType id, UpdateDTO updateDTO);  
+  
+    void delete(IDType id);  
+}
+```
 
-그런데 이게 버그인지 인텔리제이의 의도대로 작동한 것인지.. 조금 찾아봤는데 해결하는 방법이 없다.
+그런데 이게 버그인지 인텔리제이의 의도대로 작동한 것인지..
+
+내 생각엔 버그같다.
 
 ---
 References: 
