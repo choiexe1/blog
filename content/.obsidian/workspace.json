@@ -37,8 +37,8 @@
               "state": {
                 "file": "스프링 트랜잭션 전파.canvas",
                 "viewState": {
-                  "x": 1329.7032257761484,
-                  "y": 466.3115856729366,
+                  "x": 283.8807309678601,
+                  "y": 17.539574098990602,
                   "zoom": -0.3651665759848253
                 }
               },
@@ -202,8 +202,8 @@
   "active": "6c155eacb3124041",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
-    "Attached/spring-transaction-propagation-2.png",
     "스프링 트랜잭션 전파.canvas",
+    "Attached/spring-transaction-propagation-2.png",
     "Attached/spring-transaction-propagation-1.png",
     "Attached/스프링 트랜잭션 전파.png",
     "스프링 트랜잭션 전파.png",
