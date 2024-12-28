@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"e98a5984b0a8890d","type":"text","text":"# 스프링 트랜잭션","x":0,"y":0,"width":400,"height":500},
+		{"id":"7a53b40e5d11c46f","type":"text","text":"무엇인가?","x":600,"y":-200,"width":115,"height":56},
+		{"id":"f9ba58da901ce5be","type":"text","text":"트랜잭션이 이미 진행 중일 때, 트랜잭션을 또 수행하면 어떻게 동작할 지 결정하는 것","x":1000,"y":-200,"width":340,"height":56}
+	],
+	"edges":[
+		{"id":"b71f89df4e2c23ea","fromNode":"e98a5984b0a8890d","fromSide":"right","toNode":"7a53b40e5d11c46f","toSide":"left"},
+		{"id":"72080e6d5b88b4d1","fromNode":"7a53b40e5d11c46f","fromSide":"right","toNode":"f9ba58da901ce5be","toSide":"left"}
+	]
+}
