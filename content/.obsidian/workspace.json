@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "무제 파일.canvas",
+                "file": "스프링 트랜잭션 전파.canvas",
                 "viewState": {
-                  "x": 359.69741592288244,
-                  "y": 75.42599427257386,
-                  "zoom": 0
+                  "x": 861.0033478407903,
+                  "y": -7.366491720150076,
+                  "zoom": -0.173575495166651
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "무제 파일"
+              "title": "스프링 트랜잭션 전파"
             }
           }
         ]
@@ -180,7 +180,7 @@
   "active": "6c155eacb3124041",
   "lastOpenFiles": [
     "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
-    "무제 파일.canvas",
+    "스프링 트랜잭션 전파.canvas",
     "스프링 트랜잭션 전파.canvas",
     "데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
