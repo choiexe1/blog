@@ -15,16 +15,31 @@
               "state": {
                 "file": "스프링 트랜잭션 전파.canvas",
                 "viewState": {
-                  "x": 1171.2957294687073,
-                  "y": 79.44144176974156,
-                  "zoom": -0.4218745429455737
+                  "x": 869.5,
+                  "y": 84.5,
+                  "zoom": -0.21603692629662447
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "스프링 트랜잭션 전파"
             }
+          },
+          {
+            "id": "a1ce773c2d67d2ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11. 스프링 트랜잭션 전파"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,13 +192,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6c155eacb3124041",
+  "active": "a1ce773c2d67d2ec",
   "lastOpenFiles": [
-    "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "스프링 트랜잭션 전파.canvas",
-    "스프링 트랜잭션 전파.canvas",
-    "데이터베이스 트랜잭션 주요 개념 정리.canvas",
+    "스프링 트랜잭션 전파.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
+    "스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
+    "데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/9. 스프링 트랜잭션 이해.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/10. 예외와 트랜잭션 커밋, 롤백.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/11. 스프링 타입 컨버터.md",
@@ -220,7 +235,6 @@
     "Attached/jpa-3.png",
     "Attached/jpa-2.png",
     "Attached/jpa-1.png",
-    "Attached/Pasted image 20241217010903.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편",
     "Resources/프로그래밍/Java/김영한의 DB",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편",
