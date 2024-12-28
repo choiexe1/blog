@@ -11,7 +11,7 @@
   "create": {
     "createFloat": true,
     "createCustomChildNode": true,
-    "childNodeWidth": 200,
+    "childNodeWidth": 400,
     "childNodeHeight": 100,
     "floatGap": 100,
     "floatWidth": 200,

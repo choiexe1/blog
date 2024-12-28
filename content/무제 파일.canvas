@@ -2,12 +2,12 @@
 	"nodes":[
 		{"id":"e98a5984b0a8890d","type":"text","text":"# 스프링 트랜잭션","x":0,"y":0,"width":208,"height":35,"color":"1"},
 		{"id":"7f31c00892f56a7b","type":"text","text":"무엇인가?","x":408,"y":-140,"width":200,"height":100},
-		{"id":"b150dac7caadfc06","type":"text","text":"트랜잭션이 수행중일때 새로운 트랜잭션이 시작되면 어떻게 동작할 것인지 결정하는 것","x":808,"y":-140,"width":200,"height":100},
-		{"id":"065fdbef98f8ce44","type":"text","text":"핵심 개념","x":408,"y":70,"width":200,"height":100},
-		{"id":"ca466e6bdf78dfb3","type":"text","text":"물리 트랜잭션","x":808,"y":140,"width":200,"height":100},
-		{"id":"ca2c80e928a2be4a","type":"text","text":"논리 트랜잭션","x":808,"y":0,"width":200,"height":100},
-		{"id":"0eeed265c234f35b","type":"text","text":"실제 데이터베이스에 적용되는 트랜잭션 단위, 실제 커넥션을 통해서 트랜잭션을 시작하고 실제 커넥션을 통해서 커밋, 롤백하는 단위","x":1208,"y":140,"width":330,"height":100},
-		{"id":"1452ba00c2b85d86","type":"text","text":"스프링의 트랜잭션 매니저를 통해 트랜잭션을 사용하는 단위\n\n트랜잭션 진행 중에 트랜잭션을 또 수행하게 되면","x":1208,"y":0,"width":330,"height":100}
+		{"id":"b150dac7caadfc06","type":"text","text":"트랜잭션이 수행중일때 새로운 트랜잭션이 시작되면 어떻게 동작할 것인지 결정하는 것","x":808,"y":-150,"width":200,"height":120},
+		{"id":"065fdbef98f8ce44","type":"text","text":"핵심 개념","x":408,"y":80,"width":200,"height":100},
+		{"id":"ca466e6bdf78dfb3","type":"text","text":"물리 트랜잭션","x":808,"y":150,"width":200,"height":100},
+		{"id":"ca2c80e928a2be4a","type":"text","text":"논리 트랜잭션","x":808,"y":10,"width":200,"height":100},
+		{"id":"9f9dc12fa70a80cd","type":"text","text":"실제 데이터베이스에 적용되는 트랜잭션 단위, 실제 커넥션을 통해서 트랜잭션을 시작하고 실제 커넥션을 통해서 커밋, 롤백하는 단위","x":1208,"y":150,"width":200,"height":100},
+		{"id":"cfeec4d3029b5a8c","type":"text","text":"스프링의 트랜잭션 매니저를 통해 트랜잭션을 사용하는 단위\n\n트랜잭션 진행 중에 트랜잭션을 또 수행하는 경우 나타나게 되는 개념","x":1208,"y":-130,"width":400,"height":150}
 	],
 	"edges":[
 		{"id":"8771cb531828d2ef","fromNode":"e98a5984b0a8890d","fromSide":"right","toNode":"7f31c00892f56a7b","toSide":"left"},
@@ -15,7 +15,7 @@
 		{"id":"d76b542d809f6480","fromNode":"e98a5984b0a8890d","fromSide":"right","toNode":"065fdbef98f8ce44","toSide":"left"},
 		{"id":"33bdf1a1017aa6cd","fromNode":"065fdbef98f8ce44","fromSide":"right","toNode":"ca466e6bdf78dfb3","toSide":"left"},
 		{"id":"a9d59df6cf943c44","fromNode":"065fdbef98f8ce44","fromSide":"right","toNode":"ca2c80e928a2be4a","toSide":"left"},
-		{"id":"917a221336672db6","fromNode":"ca466e6bdf78dfb3","fromSide":"right","toNode":"0eeed265c234f35b","toSide":"left"},
-		{"id":"0028c20c0eac232f","fromNode":"ca2c80e928a2be4a","fromSide":"right","toNode":"1452ba00c2b85d86","toSide":"left"}
+		{"id":"2986565cac7693de","fromNode":"ca466e6bdf78dfb3","fromSide":"right","toNode":"9f9dc12fa70a80cd","toSide":"left"},
+		{"id":"bf999960679f71d3","fromNode":"ca2c80e928a2be4a","fromSide":"right","toNode":"cfeec4d3029b5a8c","toSide":"left"}
 	]
 }
