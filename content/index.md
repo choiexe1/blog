@@ -22,7 +22,7 @@ Obsidian -->|글 작성| Local --> |원격 저장소 자동 푸시| Github --> |
 ```
 
 ---
-##### 저에 대해서
+##### 소개
 
 - 한국과 북미에서 오버워치 프로게이머로 활동
 	- [Conbox Gaming](https://liquipedia.net/overwatch/CONBOX)
@@ -36,13 +36,11 @@ Obsidian -->|글 작성| Local --> |원격 저장소 자동 푸시| Github --> |
 - 사무 직군에서 파이썬을 통한 업무 자동화 경험
 - 사무 직군에서 퇴사 후 Java로 다시 개발 공부 시작
 
+##### EMAIL: choiexe1@gmail.com
+
 _모바일 환경에서는 탐색기를 지원하지 않으므로 하단에 위치한 공개 폴더 링크를 이용해주세요._
 ###### 링크
 [Github](https://github.com/choiexe1)
 
 ###### 공개 폴더
 - [[Resources/index|Resource]]
-
----
-
-___블로그 내용 중 틀린 부분은 [메일 보내기](mailto:choiexe1@gmail.com)를 눌러 메일을 보내주시면 빠른 시일 내에 수정하도록 하겠습니다.___
