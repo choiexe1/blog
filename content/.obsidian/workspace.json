@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -37,8 +37,8 @@
               "state": {
                 "file": "스프링 트랜잭션 전파.canvas",
                 "viewState": {
-                  "x": -389.27728639306196,
-                  "y": 207.80840941542937,
+                  "x": -118.9643203572931,
+                  "y": 209.12060827968068,
                   "zoom": -0.3651665759848253
                 }
               },
@@ -199,10 +199,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6c155eacb3124041",
+  "active": "c1707f53f9cd56ba",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
+    "Attached/spring-transaction-propagation-2.png",
     "스프링 트랜잭션 전파.canvas",
+    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
     "Attached/spring-transaction-propagation-1.png",
     "Attached/스프링 트랜잭션 전파.png",
     "스프링 트랜잭션 전파.png",
