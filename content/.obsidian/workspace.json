@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/메모/인텔리제이 IDE 변수명 버그?.md",
+                "file": "Resources/메모/인텔리제이 IDE 변수명 자동 생성 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "인텔리제이 IDE 변수명 버그?"
+              "title": "인텔리제이 IDE 변수명 자동 생성 문제"
             }
           }
         ]
@@ -177,7 +177,7 @@
   "active": "1bc5896f0f463755",
   "lastOpenFiles": [
     "Resources/메모/index.md",
-    "Resources/메모/인텔리제이 IDE 변수명 버그?.md",
+    "Resources/메모/인텔리제이 IDE 변수명 자동 생성 문제.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
