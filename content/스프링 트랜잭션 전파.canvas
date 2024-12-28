@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"8473635cc3c62617","type":"text","text":"내부 트랜잭션","x":794,"y":-131,"width":257,"height":60},
+		{"id":"71efad3de0f77b1a","type":"text","text":"외부 트랜잭션","x":794,"y":-211,"width":257,"height":60},
+		{
+			"id":"22fff5fe2b2b50c2",
+			"type":"text",
+			"text":"# 스프링 트랜잭션 전파",
+			"styleAttributes":{},
+			"x":-120,
+			"y":-171,
+			"width":257,
+			"height":60,
+			"color":"1"
+		},
+		{"id":"f4f72935dc161119","type":"text","text":"스프링 트랜잭션 전파란?","x":337,"y":-251,"width":206,"height":60,"color":"2"},
+		{"id":"cbbe68c0f495fd8a","type":"text","text":"기존 트랜잭션과 별도의 새로운 트랜잭션을 진행해야할지?","x":1100,"y":-270,"width":413,"height":66},
+		{"id":"58cb938760439fb3","type":"text","text":"기존 트랜잭션을 이어 받아 수행할지?","x":1100,"y":-356,"width":284,"height":66},
+		{
+			"id":"f3dffe8085400d8e",
+			"type":"text",
+			"text":"트랜잭션이 이미 진행 중일 때 트랜잭션이 또 수행되는 경우 어떻게 동작할 것인지 결정하는 것",
+			"styleAttributes":{},
+			"x":620,
+			"y":-303,
+			"width":371,
+			"height":66
+		},
+		{"id":"f50f5ca6fd5dc18d","type":"text","text":"주요 개념\n","x":337,"y":-171,"width":257,"height":60}
+	],
+	"edges":[
+		{"id":"xwAvMQZsW4R4","fromNode":"f3dffe8085400d8e","fromSide":"right","toNode":"58cb938760439fb3","toSide":"left"},
+		{"id":"DoFvMQZx7gpb","fromNode":"f3dffe8085400d8e","fromSide":"right","toNode":"cbbe68c0f495fd8a","toSide":"left"},
+		{"id":"w5fvMQZHgm8S","fromNode":"22fff5fe2b2b50c2","fromSide":"right","toNode":"f4f72935dc161119","toSide":"left"},
+		{"id":"ecfe0f7c2fc43020","fromNode":"f4f72935dc161119","fromSide":"right","toNode":"f3dffe8085400d8e","toSide":"left"},
+		{"id":"GE3vMQZfFfHK","fromNode":"22fff5fe2b2b50c2","fromSide":"right","toNode":"f50f5ca6fd5dc18d","toSide":"left"},
+		{"id":"lohwMQZm4tbS","fromNode":"f50f5ca6fd5dc18d","fromSide":"right","toNode":"71efad3de0f77b1a","toSide":"left"},
+		{"id":"yZkwMQZ2tuWP","fromNode":"f50f5ca6fd5dc18d","fromSide":"right","toNode":"8473635cc3c62617","toSide":"left"}
+	],
+	"metadata":{}
+}
