@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"0544f1859d409e04","x":120,"y":-220,"width":140,"height":31,"type":"text","text":"## 무엇인가?\n"},
+		{"id":"22fff5fe2b2b50c2","x":-120,"y":-146,"width":187,"height":35,"type":"text","text":"# 트랜잭션 전파"},
+		{"id":"f3dffe8085400d8e","x":300,"y":-306,"width":438,"height":86,"type":"text","text":"### 트랜잭션이 이미 진행 중일 때 트랜잭션이 또 수행되는 경우 어떻게 동작할 것인지 결정하는 것"}
+	],
+	"edges":[
+		{"id":"d392ebc2c115bef9","fromNode":"22fff5fe2b2b50c2","fromSide":"top","toNode":"0544f1859d409e04","toSide":"left"},
+		{"id":"2e1fe828c80d2871","fromNode":"0544f1859d409e04","fromSide":"top","toNode":"f3dffe8085400d8e","toSide":"left"}
+	]
+}
