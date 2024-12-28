@@ -32,7 +32,7 @@
   "resize": {
     "autoResize": true,
     "widthAutoResize": true,
-    "maxWidth": 500
+    "maxWidth": 640
   },
   "advanced": {
     "transferToCommands": false,
