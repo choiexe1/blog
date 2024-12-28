@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -37,8 +37,8 @@
               "state": {
                 "file": "스프링 트랜잭션 전파.canvas",
                 "viewState": {
-                  "x": 353.73254495247284,
-                  "y": 342.79501296953737,
+                  "x": 293.7958150232074,
+                  "y": 284.25216048049015,
                   "zoom": -0.4522839130634878
                 }
               },
