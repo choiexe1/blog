@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 DB/DB 2편/12. 스프링 트랜잭션 전파 활용.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,6 +176,7 @@
   },
   "active": "220123d3ffa6841f",
   "lastOpenFiles": [
+    "Attached/spring-transaction-propagation-6.png",
     "index.md",
     "Resources/프로그래밍/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/12. 스프링 트랜잭션 전파 활용.md",
@@ -214,7 +215,6 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/5. JPA.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/6. 스프링 데이터 JPA.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/7. Querydsl.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/8. 데이터 접근 기술 - 활용 방안.md",
     "Attached/transaction-exception-1.png",
     "Resources/메모",
     "Resources/프로그래밍/프로젝트/무제 폴더",
