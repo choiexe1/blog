@@ -15,34 +15,16 @@
               "state": {
                 "file": "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
                 "viewState": {
-                  "x": 655.5,
-                  "y": 165.5,
+                  "x": 732.9574060928362,
+                  "y": 122.46810772620236,
                   "zoom": -1.0785864808580177
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "스프링 트랜잭션 전파"
             }
-          },
-          {
-            "id": "07721f14fc574cae",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Resources/마인드맵/쓰레드 로컬.canvas",
-                "viewState": {
-                  "x": -496.3808199325611,
-                  "y": 141.12067912972987,
-                  "zoom": -0.18845104321160439
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "쓰레드 로컬"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,11 +177,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "07721f14fc574cae",
+  "active": "fcf655795b55625b",
   "lastOpenFiles": [
+    "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/메모/index.md",
     "Resources/메모/인텔리제이 IDE 변수명 자동 생성 버그.md",
-    "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
