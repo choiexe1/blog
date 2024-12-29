@@ -35,8 +35,7 @@
               "title": "빈 스코프"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,10 +189,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "cbc4a33edba94cb0",
+  "active": "c6de7bf9017637a5",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/1. 로그 추적기.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/1. 로그 추적기.md",
     "Attached/log-tracker-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
     "Resources/메모/인텔리제이 IDE 변수명 자동 생성 문제.md",
