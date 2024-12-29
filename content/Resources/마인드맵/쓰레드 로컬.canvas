@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"2ddbbd91273dc543","x":-141,"y":-156,"width":333,"height":60,"color":"1","type":"text","text":"# 쓰레드 로컬 (ThreadLocal)"}
+	],
+	"edges":[]
+}
