@@ -20,6 +20,23 @@
               "icon": "lucide-file",
               "title": "2. 쓰레드 로컬과 동시성 문제"
             }
+          },
+          {
+            "id": "07721f14fc574cae",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Resources/마인드맵/쓰레드 로컬.canvas",
+                "viewState": {
+                  "x": 25.5,
+                  "y": -126,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "쓰레드 로컬"
+            }
           }
         ]
       }
@@ -177,8 +194,8 @@
   "active": "fcf655795b55625b",
   "lastOpenFiles": [
     "Resources/마인드맵/쓰레드 로컬.canvas",
-    "Resources/마인드맵/무제 파일.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
+    "Resources/마인드맵/무제 파일.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/1. 로그 추적기.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
     "Attached/log-tracker-1.png",
