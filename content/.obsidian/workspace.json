@@ -11,14 +11,17 @@
             "id": "fcf655795b55625b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
-                "mode": "preview",
-                "source": false
+                "file": "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
+                "viewState": {
+                  "x": 655.5,
+                  "y": 165.5,
+                  "zoom": -1.0785864808580177
+                }
               },
-              "icon": "lucide-file",
-              "title": "2. 쓰레드 로컬과 동시성 문제"
+              "icon": "lucide-layout-dashboard",
+              "title": "스프링 트랜잭션 전파"
             }
           },
           {
@@ -29,8 +32,8 @@
               "state": {
                 "file": "Resources/마인드맵/쓰레드 로컬.canvas",
                 "viewState": {
-                  "x": 17.304670461356288,
-                  "y": -3.0484521840874006,
+                  "x": 144.23326010631808,
+                  "y": 207.53761699959915,
                   "zoom": -0.5016218308464845
                 }
               },
@@ -194,8 +197,11 @@
   },
   "active": "07721f14fc574cae",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
+    "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "Resources/마인드맵/쓰레드 로컬.canvas",
+    "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
+    "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
     "Attached/thread-local-3.png",
     "Attached/thread-local-2.png",
     "Attached/thread-local-1.png",
@@ -207,8 +213,6 @@
     "Resources/메모/인텔리제이 IDE 변수명 자동 생성 문제.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/index.md",
-    "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
-    "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/4. 검증, BindingResult.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/6. Bean Validation.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/5. 오류 코드와 메시지 처리.md",
@@ -231,7 +235,6 @@
     "Attached/spring-transaction-propagation-6.png",
     "Attached/spring-transaction-propagation-5.png",
     "Attached/spring-transaction-propagation-4.png",
-    "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/마인드맵",
     "Attached/spring-transaction-propagation-3.png",
     "Attached/spring-transaction-propagation-2.png",
