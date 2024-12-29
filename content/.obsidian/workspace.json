@@ -32,9 +32,9 @@
               "state": {
                 "file": "Resources/마인드맵/쓰레드 로컬.canvas",
                 "viewState": {
-                  "x": 144.23326010631808,
-                  "y": 207.53761699959915,
-                  "zoom": -0.5016218308464845
+                  "x": -496.3808199325611,
+                  "y": 141.12067912972987,
+                  "zoom": -0.18845104321160439
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -197,8 +197,10 @@
   },
   "active": "07721f14fc574cae",
   "lastOpenFiles": [
-    "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
+    "Resources/메모/index.md",
+    "Resources/메모/인텔리제이 IDE 변수명 자동 생성 버그.md",
     "Resources/마인드맵/쓰레드 로컬.canvas",
+    "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
@@ -210,7 +212,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
     "Attached/log-tracker-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
-    "Resources/메모/인텔리제이 IDE 변수명 자동 생성 문제.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/4. 검증, BindingResult.md",
@@ -218,7 +219,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/5. 오류 코드와 메시지 처리.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/Java/김영한의 스프링/index.md",
-    "Resources/메모/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/입문/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급",

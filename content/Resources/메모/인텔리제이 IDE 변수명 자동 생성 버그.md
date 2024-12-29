@@ -68,12 +68,13 @@ public interface ItemMapper extends ItemRepository {
 
 현재 프로젝트에서는 `MyBatis`를 사용해보는 중이라 이 매퍼가 필요하다. 매퍼는 XML로 작성된 SQL과 소스코드를 매핑하면서 실제 매퍼 객체를 만드는 데에 사용된다. 이상한 부분은 매개변수의 `Long aLong`이다. 왜냐하면 `IRepository`에서 정의하기로는 분명 `ID` 타입의 `id`라고 정의해뒀는데 구현 시에 `Long aLong` 이렇게 바뀌는 것이다.
 
-이게 왜 짜증나냐면, 저 자잘한 파라미터가 지 멋대로 변경되서 코드가 정상적으로 작동하지 않는다는거다. 물론 하나 하나 찾아서 바꿔주면 된다. 
+이게 왜 짜증나냐면, 저 파라미터가 이상하게 변경되서 코드가 정상적으로 작동하지 않는다. 하나 하나 바꿔주어야 한다. 해결법을 찾아봐도 도통 답이 나오질 않는다.
 
+#### 결론
 
 - 그래서 `IRepository`의 파라미터를 `id`가 아니라 다른것으로 변경하니까 잘 작동한다.
 - `IRepository`의 제네릭 타입 `ID`를 `IDType`으로 다음과 같이 바꿨더니 IDE가 생성하는 파라미터 이름이 정상적이다.
-
+- 내부적으로 대소문자 구분을 하지 않는 것인지 제네릭 타입명인 `ID`와 파라미터 이름인 `id`가 동일해서 발생했던걸로 예상된다.
 ```java
   
 public interface IRepository<T, IDType, SearchDTO, UpdateDTO> {  
