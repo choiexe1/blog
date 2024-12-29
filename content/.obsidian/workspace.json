@@ -29,8 +29,8 @@
               "state": {
                 "file": "Resources/마인드맵/쓰레드 로컬.canvas",
                 "viewState": {
-                  "x": 395.41223023044654,
-                  "y": -75.19933985087687,
+                  "x": 402.4059138810385,
+                  "y": -71.70249802558122,
                   "zoom": -0.19427023697817317
                 }
               },
@@ -195,6 +195,9 @@
   "lastOpenFiles": [
     "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
+    "Attached/thread-local-3.png",
+    "Attached/thread-local-2.png",
+    "Attached/thread-local-1.png",
     "Resources/마인드맵/무제 파일.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/1. 로그 추적기.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
@@ -231,9 +234,6 @@
     "Resources/마인드맵",
     "Attached/spring-transaction-propagation-3.png",
     "Attached/spring-transaction-propagation-2.png",
-    "Attached/spring-transaction-propagation-1.png",
-    "Attached/스프링 트랜잭션 전파.png",
-    "스프링 트랜잭션 전파.png",
     "Resources/메모",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/프로젝트",
