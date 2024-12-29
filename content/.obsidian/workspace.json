@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9fe52f5827a7caa7",
+        "id": "7a6e8818cfefa08e",
         "type": "tabs",
         "children": [
           {
-            "id": "1bc5896f0f463755",
+            "id": "c6de7bf9017637a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/4. 검증, BindingResult.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "4. 검증, BindingResult"
+              "title": "새 탭"
             }
           }
         ]
@@ -174,11 +170,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1bc5896f0f463755",
+  "active": "c6de7bf9017637a5",
   "lastOpenFiles": [
+    "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
+    "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
+    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/4. 검증, BindingResult.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/6. Bean Validation.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/5. 오류 코드와 메시지 처리.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/4. 검증, BindingResult.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/11. PRG Post, Redirect, Get.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/index.md",
@@ -199,14 +197,12 @@
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/12. 스프링 트랜잭션 전파 활용.md",
-    "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "Resources/마인드맵/index.md",
     "Attached/spring-transaction-propagation-7.png",
     "Attached/spring-transaction-propagation-6.png",
     "Attached/spring-transaction-propagation-5.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
     "Attached/spring-transaction-propagation-4.png",
-    "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/마인드맵",
     "Attached/spring-transaction-propagation-3.png",
@@ -216,7 +212,6 @@
     "스프링 트랜잭션 전파.png",
     "Attached/index.md",
     "Attached/스프링 트랜잭션 전파.png",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/9. 스프링 트랜잭션 이해.md",
     "Resources/메모",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/프로젝트",

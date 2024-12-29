@@ -1,14 +1,14 @@
 {
 	"nodes":[
-		{"id":"630f76a77238f552","type":"text","text":"**HandlerMapping**\n\n요청 URL에 맞는 핸들러(컨트롤러) 찾기","x":-162,"y":-212,"width":303,"height":74},
-		{"id":"f7c33f80a0197fa9","type":"text","text":"**HandlerAdapter**\n\n적절한 HandlerAdapter를 찾아 핸들러 실행 준비","x":-200,"y":-100,"width":380,"height":74},
-		{"id":"4093d4e4d5fc58ea","type":"text","text":"**ArgumentResolver**\n\n요청 데이터를 컨트롤러 메서드의 매개변수로 변환하기","x":-210,"y":20,"width":400,"height":74},
-		{"id":"aa4d3ef976f8b024","type":"text","text":"**HttpMessageConverter**\nJSON 등 요청 본문을 변환","x":-131,"y":120,"width":242,"height":55},
-		{"id":"1e49200dd1b353f6","type":"text","text":"**컨트롤러 메서드 실행**\n\n비즈니스 로직 수행 후 결과 반환","x":-142,"y":200,"width":264,"height":74},
 		{"id":"a0f654f6d7619a51","type":"text","text":"**ReturnValueHandler**\n\n컨트롤러 반환 값을 HTTP 응답으로 변환하기","x":-186,"y":300,"width":353,"height":74},
 		{"id":"0588cb1ad5db8906","type":"text","text":"**HttpMessageConverter**\nJSON 등 응답 본문을 변환","x":-131,"y":400,"width":242,"height":55},
 		{"id":"0949489c343425f0","type":"text","text":"**HTTP 응답 전송**\n\n클라이언트에게 응답 데이터 전송","x":-142,"y":480,"width":263,"height":74},
-		{"id":"8d81048ea0fdbe4f","type":"text","text":"**클라이언트 요청**\n","x":-480,"y":187,"width":151,"height":50}
+		{"id":"8d81048ea0fdbe4f","type":"text","text":"**클라이언트 요청**\n","x":-480,"y":187,"width":151,"height":50},
+		{"id":"630f76a77238f552","type":"text","text":"**HandlerMapping**\n\n요청 URL에 맞는 핸들러(컨트롤러) 찾기","x":-181,"y":-260,"width":342,"height":72},
+		{"id":"f7c33f80a0197fa9","type":"text","text":"**HandlerAdapter**\n\n적절한 HandlerAdapter를 찾아 핸들러 실행 준비","x":-200,"y":-120,"width":380,"height":74},
+		{"id":"4093d4e4d5fc58ea","type":"text","text":"**ArgumentResolver**\n\n요청 데이터를 컨트롤러 메서드의 매개변수로 변환하기","x":-210,"y":0,"width":400,"height":74},
+		{"id":"aa4d3ef976f8b024","type":"text","text":"**HttpMessageConverter**\nJSON 등 요청 본문을 변환","x":-131,"y":100,"width":242,"height":55},
+		{"id":"1e49200dd1b353f6","type":"text","text":"**컨트롤러 메서드 실행**\n\n비즈니스 로직 수행 후 결과 반환","x":-141,"y":187,"width":264,"height":74}
 	],
 	"edges":[
 		{"id":"d28cadb9fcc2f7e4","fromNode":"630f76a77238f552","fromSide":"bottom","toNode":"f7c33f80a0197fa9","toSide":"top"},
