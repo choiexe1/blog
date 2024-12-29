@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -29,8 +29,8 @@
               "state": {
                 "file": "Resources/마인드맵/쓰레드 로컬.canvas",
                 "viewState": {
-                  "x": 25.5,
-                  "y": -126,
+                  "x": 408.55524178650387,
+                  "y": -238.06403350137109,
                   "zoom": 0
                 }
               },
@@ -38,7 +38,8 @@
               "title": "쓰레드 로컬"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,10 +192,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "fcf655795b55625b",
+  "active": "07721f14fc574cae",
   "lastOpenFiles": [
-    "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
+    "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/마인드맵/무제 파일.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/1. 로그 추적기.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
