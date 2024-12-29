@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/1. 로그 추적기.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,6 +176,7 @@
   },
   "active": "c6de7bf9017637a5",
   "lastOpenFiles": [
+    "Attached/log-tracker-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/1. 로그 추적기.md",
     "Resources/메모/인텔리제이 IDE 변수명 자동 생성 문제.md",
@@ -215,7 +216,6 @@
     "Attached/spring-transaction-propagation-1.png",
     "Attached/스프링 트랜잭션 전파.png",
     "스프링 트랜잭션 전파.png",
-    "Attached/index.md",
     "Attached/스프링 트랜잭션 전파.png",
     "Resources/메모",
     "Resources/프로그래밍/프로젝트/무제 폴더",
