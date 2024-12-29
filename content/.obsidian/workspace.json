@@ -11,14 +11,17 @@
             "id": "fcf655795b55625b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Resources/마인드맵/Xmind 링크.md",
-                "mode": "source",
-                "source": false
+                "file": "Resources/마인드맵/쓰레드 로컬.canvas",
+                "viewState": {
+                  "x": 20,
+                  "y": 79.5,
+                  "zoom": -0.5115971879097879
+                }
               },
-              "icon": "lucide-file",
-              "title": "Xmind 링크"
+              "icon": "lucide-layout-dashboard",
+              "title": "쓰레드 로컬"
             }
           }
         ]
