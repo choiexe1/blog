@@ -3,6 +3,7 @@ title:
 tags:
   - java
   - intellij
+  - bug
 publish: true
 date: 2024-12-29
 ---
@@ -91,10 +92,6 @@ public interface IRepository<T, IDType, SearchDTO, UpdateDTO> {
     void delete(IDType id);  
 }
 ```
-
-그런데 이게 버그인지 인텔리제이의 의도대로 작동한 것인지..
-
-내 생각엔 버그같다.
 
 ---
 References: 
