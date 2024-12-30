@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 전략 패턴.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. 전략 패턴"
+              "title": "index"
             }
           },
           {
@@ -218,8 +218,8 @@
   },
   "active": "ae2dd457f8248cb3",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/3. 템플릿 메서드 패턴과 콜백 패턴.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 전략 패턴.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/3. 템플릿 메서드 패턴과 콜백 패턴.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 2편/제네릭.md",
