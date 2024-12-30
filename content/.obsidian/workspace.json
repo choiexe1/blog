@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/마인드맵/index.md",
+                "file": "Resources/프로그래밍/Java/김영한의 자바/중급 2편/제네릭.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "제네릭"
             }
           }
         ]
@@ -176,12 +176,16 @@
   },
   "active": "fcf655795b55625b",
   "lastOpenFiles": [
-    "Resources/마인드맵/Xmind 링크.md",
-    "Resources/마인드맵/index.md",
-    "Resources/마인드맵/쓰레드 로컬.canvas",
-    "Resources/프로그래밍/index.md",
+    "Resources/프로그래밍/Java/김영한의 자바/기본/index.md",
+    "Resources/프로그래밍/Java/김영한의 자바/중급 1편/index.md",
+    "Resources/프로그래밍/Java/김영한의 자바/중급 2편/index.md",
+    "Resources/프로그래밍/Java/김영한의 자바/index.md",
     "Resources/프로그래밍/Java/index.md",
+    "Resources/프로그래밍/index.md",
     "Resources/메모/index.md",
+    "Resources/마인드맵/index.md",
+    "Resources/마인드맵/Xmind 링크.md",
+    "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
     "Resources/프로그래밍/Java/김영한의 DB/index.md",
@@ -206,10 +210,7 @@
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/6. Bean Validation.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/5. 오류 코드와 메시지 처리.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 1편/11. PRG Post, Redirect, Get.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/기본/index.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/입문/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급",
-    "index.md",
     "Attached/spring-transaction-propagation-7.png",
     "Attached/spring-transaction-propagation-6.png",
     "Attached/spring-transaction-propagation-5.png",
