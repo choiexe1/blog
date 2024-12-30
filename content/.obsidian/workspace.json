@@ -11,17 +11,14 @@
             "id": "d22f93ef6938c5c6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Resources/마인드맵/쓰레드 로컬.canvas",
-                "viewState": {
-                  "x": 107.14268044447601,
-                  "y": 123.07134022223806,
-                  "zoom": -0.5115971879097879
-                }
+                "file": "Resources/마인드맵/Xmind 링크.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "쓰레드 로컬"
+              "icon": "lucide-file",
+              "title": "Xmind 링크"
             }
           }
         ]
@@ -180,6 +177,8 @@
   "active": "d22f93ef6938c5c6",
   "lastOpenFiles": [
     "Resources/마인드맵/index.md",
+    "Resources/마인드맵/Xmind 링크.md",
+    "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
     "Resources/메모/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/1. 로그 추적기.md",
@@ -197,15 +196,12 @@
     "Resources/프로그래밍/Java/김영한의 자바/중급 2편/제네릭.md",
     "Resources/프로그래밍/Java/index.md",
     "Resources/프로그래밍/index.md",
-    "Resources/마인드맵/Xmind 링크.md",
-    "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/11. 스프링 트랜잭션 전파.md",
     "Resources/프로그래밍/Java/김영한의 DB/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/13. 예제로 구현하는 파일 업로드, 다운로드.md",
     "Resources/메모/인텔리제이 IDE 변수명 자동 생성 버그.md",
-    "Resources/메모/무제 파일.md",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
