@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/index.md",
+                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/3. 트랜잭션 이해.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "3. 트랜잭션 이해"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "락 타임아웃",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,6 +177,7 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Resources/프로그래밍/index.md",
     "Resources/마인드맵/index.md",
     "index.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/중첩 클래스와 내부 클래스.md",
@@ -205,7 +207,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/index.md",
-    "Resources/프로그래밍/Java/김영한의 자바/중급 2편/index.md",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "Attached/thread-local-3.png",
     "Attached/thread-local-2.png",
