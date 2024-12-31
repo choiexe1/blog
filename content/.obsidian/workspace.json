@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Resources/프로그래밍/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -176,6 +176,8 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Resources/마인드맵/index.md",
+    "index.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/중첩 클래스와 내부 클래스.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/익명 클래스.md",
     "Resources/index.md",
@@ -190,7 +192,6 @@
     "Attached/template-method-1.png",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/2. 스프링 JdbcTemplate.md",
     "Resources/프로그래밍/Java/김영한의 DB/DB 1편/10. JdbcTemplate.md",
-    "Resources/마인드맵/index.md",
     "Resources/마인드맵/Xmind.md",
     "Resources/메모/index.md",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
@@ -205,7 +206,6 @@
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 2편/index.md",
-    "Resources/프로그래밍/Java/김영한의 자바/중급 1편/index.md",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "Attached/thread-local-3.png",
     "Attached/thread-local-2.png",
