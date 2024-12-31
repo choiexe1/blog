@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 템플릿 콜백 패턴.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -177,9 +177,9 @@
   "active": "5323c96e46160084",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 전략 패턴.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/3. 템플릿 메서드 패턴.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 템플릿 콜백 패턴.md",
     "무제 파일.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/3. 템플릿 메서드 패턴.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/익명 클래스.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
     "Attached/strategy-1.png",
