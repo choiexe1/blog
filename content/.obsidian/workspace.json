@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,6 +176,8 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Attached/proxy-4.png",
+    "Attached/proxy-3.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/3. 템플릿 메서드 패턴과 콜백 패턴.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
     "Attached/proxy-2.png",
@@ -215,7 +217,6 @@
     "Attached/log-tracker-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급",
     "Attached/spring-transaction-propagation-7.png",
-    "Attached/spring-transaction-propagation-6.png",
     "Resources/마인드맵",
     "Resources/메모",
     "Resources/프로그래밍/프로젝트/무제 폴더",
