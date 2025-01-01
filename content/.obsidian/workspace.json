@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/메모/index.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "4. 프록시 패턴과 데코레이터 패턴"
             }
           }
         ]
@@ -176,10 +176,10 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Resources/메모/index.md",
     "Resources/마인드맵/index.md",
     "Resources/메모/배포 시 타임존.md",
     "Resources/메모/인텔리제이 IDE 변수명 자동 생성 버그.md",
-    "Resources/메모/index.md",
     "Resources/마인드맵/Xmind.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
     "Attached/proxy-4.png",
