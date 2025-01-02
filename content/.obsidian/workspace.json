@@ -11,17 +11,14 @@
             "id": "5323c96e46160084",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
-                "viewState": {
-                  "x": 962.0169976924171,
-                  "y": -670.1943491793937,
-                  "zoom": -0.9455628833324978
-                }
+                "file": "Resources/메모/배개예정.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "데이터베이스 트랜잭션 주요 개념 정리"
+              "icon": "lucide-file",
+              "title": "배개예정"
             }
           }
         ]
@@ -179,12 +176,18 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Resources/메모/index.md",
+    "Resources/메모/배개예정.md",
+    "Resources/프로그래밍/index.md",
+    "Resources/index.md",
+    "Resources/마인드맵/index.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/index.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
+    "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/마인드맵/Xmind.md",
-    "Resources/마인드맵/index.md",
-    "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
     "Attached/proxy-factory-6.png",
     "Attached/proxy-factory-5.png",
     "Attached/proxy-factory-4.png",
@@ -192,7 +195,6 @@
     "Attached/proxy-factory-2.png",
     "Attached/proxy-factory-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
     "Attached/proxy-17.png",
     "Attached/proxy-16.png",
     "Attached/proxy-15.png",
@@ -213,10 +215,6 @@
     "Resources/프로그래밍/Java/김영한의 자바/기본/생성자.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/기본/index.md",
-    "Resources/프로그래밍/Java/김영한의 자바/기본/다형성.md",
-    "Resources/메모/index.md",
-    "Resources/메모/배포 시 타임존.md",
     "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/프로그래밍/Java/김영한의 스프링/고급",
     "Resources/마인드맵",
