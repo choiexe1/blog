@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,6 +176,8 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Attached/proxy-6.png",
+    "Attached/Pasted image 20250102092429.png",
     "Attached/proxy-5.png",
     "Resources/메모/index.md",
     "Resources/마인드맵/index.md",
@@ -214,8 +216,6 @@
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "Attached/thread-local-3.png",
     "Attached/thread-local-2.png",
-    "Attached/thread-local-1.png",
-    "Attached/log-tracker-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급",
     "Resources/마인드맵",
     "Resources/메모",
