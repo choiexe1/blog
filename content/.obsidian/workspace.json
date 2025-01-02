@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "5. 동적 프록시 기술"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
     "Resources/마인드맵/Xmind.md",
     "Attached/proxy-17.png",
