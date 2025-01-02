@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/사진과 기억/교토.md",
-                "mode": "source",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/7. 빈 후처리기.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "교토"
+              "title": "7. 빈 후처리기"
             }
           }
         ]
@@ -176,13 +176,13 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Resources/메모/index.md",
+    "Resources/메모/모듈화 학습법.md",
+    "Resources/사진과 기억/index.md",
+    "Resources/사진과 기억/교토.md",
     "Resources/사진과 기억/요세미티 국립공원.md",
     "Resources/사진과 기억/일산 호수공원.md",
     "Resources/사진과 기억/전주와 담양.md",
-    "Resources/사진과 기억/교토.md",
-    "Resources/메모/모듈화 학습법.md",
-    "Resources/사진과 기억/index.md",
-    "Resources/메모/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/7. 빈 후처리기.md",
     "Attached/bean-post-processor-2.png",
     "Attached/bean-post-processor-1.png",
