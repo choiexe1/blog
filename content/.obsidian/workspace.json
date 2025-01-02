@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "5. 동적 프록시 기술"
             }
           }
         ]
@@ -176,8 +176,10 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/3. 템플릿 메서드 패턴과 콜백 패턴.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
+    "index.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/상속과 메서드 오버라이딩.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/상속.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/입문.md",
@@ -204,7 +206,6 @@
     "Resources/메모/인텔리제이 IDE 변수명 자동 생성 버그.md",
     "Attached/proxy-4.png",
     "Attached/proxy-3.png",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/3. 템플릿 메서드 패턴과 콜백 패턴.md",
     "Attached/proxy-2.png",
     "Resources/프로그래밍/Java/김영한의 자바/기본/추상 클래스와 추상 메서드.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/익명 클래스.md",
@@ -212,7 +213,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 전략 패턴.md",
     "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/9. 스프링 트랜잭션 이해.md",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
