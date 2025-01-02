@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,8 +176,8 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 자바/기본/상속과 메서드 오버라이딩.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
+    "Resources/프로그래밍/Java/김영한의 자바/기본/상속과 메서드 오버라이딩.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/상속.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/입문.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/자바의 메모리 구조.md",
