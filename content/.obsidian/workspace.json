@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,12 +176,12 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Resources/마인드맵/Xmind.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
     "Attached/proxy-factory-2.png",
     "Attached/proxy-factory-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
-    "Resources/마인드맵/Xmind.md",
     "Attached/proxy-17.png",
     "Attached/proxy-16.png",
     "Attached/proxy-15.png",
@@ -209,7 +209,6 @@
     "Resources/마인드맵/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/다형성.md",
     "Attached/proxy-10.png",
-    "Attached/proxy-9.png",
     "Resources/메모/index.md",
     "Resources/메모/배포 시 타임존.md",
     "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
