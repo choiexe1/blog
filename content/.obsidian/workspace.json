@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,6 +176,7 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Attached/proxy-10.png",
     "Attached/proxy-9.png",
     "Attached/proxy-8.png",
     "Attached/proxy-7.png",
@@ -206,7 +207,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/MVC 2편/2. 타임리프 스프링 통합과 폼.md",
     "무제 파일.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
-    "Attached/strategy-1.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
     "Resources/프로그래밍/index.md",
     "index.md",
