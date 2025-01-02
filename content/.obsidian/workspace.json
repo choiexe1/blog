@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "정적 내부 클래스\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,9 +177,10 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 자바/중급 1편/중첩 클래스와 내부 클래스.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/3. 템플릿 메서드 패턴과 콜백 패턴.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
     "index.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/상속과 메서드 오버라이딩.md",
     "Resources/프로그래밍/Java/김영한의 자바/기본/상속.md",
@@ -212,7 +214,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 템플릿 콜백 패턴.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 전략 패턴.md",
     "Resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
-    "Resources/프로그래밍/Java/김영한의 DB/DB 2편/index.md",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
