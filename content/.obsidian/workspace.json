@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,6 +176,8 @@
   },
   "active": "5323c96e46160084",
   "lastOpenFiles": [
+    "Attached/proxy-17.png",
+    "Attached/proxy-16.png",
     "Attached/proxy-15.png",
     "Attached/proxy-14.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/1. 로그 추적기.md",
@@ -206,8 +208,6 @@
     "Attached/proxy-9.png",
     "Attached/proxy-8.png",
     "Attached/proxy-7.png",
-    "Attached/proxy-6.png",
-    "Attached/Pasted image 20250102092429.png",
     "Resources/메모/index.md",
     "Resources/메모/배포 시 타임존.md",
     "Resources/메모/인텔리제이 IDE 변수명 자동 생성 버그.md",
