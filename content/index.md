@@ -3,8 +3,7 @@ title: 제이의 기술 블로그
 tags: 
 publish: true
 date: 
-sorting-spec: "order-desc: created"
-comment: false
+comments: false
 ---
 이 웹사이트는 [quartz](https://quartz.jzhao.xyz)로 생성된 마크다운 기반의 정적 블로그입니다.
 

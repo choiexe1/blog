@@ -1,3 +1,61 @@
 {
-  "items": []
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1735887149757,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1735887149757,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1735887149757,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1735887149757,
+                  "path": "resources/노트/블로그 수정.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1735887149757,
+                  "path": "resources/노트/모듈화 학습법.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1735887149757,
+                  "path": "resources/노트/배포 시 타임존.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1735887149757,
+                  "path": "resources/노트/인텔리제이 IDE 변수명 자동 생성 버그.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1735887149757,
+                  "path": "resources/노트/인텔리제이 유용한 단축키 모음.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1735887149757,
+                  "path": "resources/노트/index.md",
+                  "subpath": "#^-"
+                }
+              ],
+              "title": "\\\\노트"
+            }
+          ],
+          "title": "\\\\resources"
+        }
+      ],
+      "title": "sortspec"
+    }
+  ]
 }
