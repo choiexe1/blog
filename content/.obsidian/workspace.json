@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/마인드맵/Xmind.md",
+                "file": "resources/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Xmind"
+              "title": "index"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/마인드맵/Xmind.md",
+                "file": "resources/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Xmind의 백링크"
+              "title": "index의 백링크"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "resources/마인드맵/Xmind.md",
+                "file": "resources/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Xmind의 나가는 링크"
+              "title": "index의 나가는 링크"
             }
           },
           {
@@ -187,35 +187,35 @@
   },
   "active": "34646632fae5923b",
   "lastOpenFiles": [
-    "resources/마인드맵/index.md",
-    "resources/index.md",
-    "resources/마인드맵/Xmind.md",
-    "resources/메모/index.md",
-    "resources/메모/블로그 수정.md",
     "resources/프로그래밍/index.md",
+    "resources/index.md",
+    "resources/메모/index.md",
+    "resources/마인드맵/index.md",
+    "resources/마인드맵/Xmind.md",
+    "resources/메모/블로그 수정.md",
+    "resources/메모/인텔리제이 유용한 단축키 모음.md",
+    "resources/메모/인텔리제이 IDE 변수명 자동 생성 버그.md",
     "resources/메모/배포 시 타임존.md",
     "resources/메모/모듈화 학습법.md",
-    "resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
-    "resources/마인드맵/스프링 트랜잭션 전파.canvas",
-    "resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
+    "resources/메모/Quartz4 코드블럭 Syntax Highlighting.md",
+    "resources/메모/Quartz4 콜아웃.md",
+    "resources/프로그래밍/용어/index.md",
+    "resources/프로그래밍/css/index.md",
+    "resources/프로그래밍/css/tailwindCSS 기본.md",
+    "resources/프로그래밍/css/스프링 부트에 tailwindCSS 적용.md",
     "resources/프로그래밍/java/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/하나의 프록시, 여러 어드바이저 적용.md",
+    "resources/프로그래밍/용어/협정 세계시 (UTC).md",
+    "resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
+    "resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
+    "resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "resources/프로그래밍/java/김영한의 DB/index.md",
     "resources/프로그래밍/java/스프링 시큐리티/index.md",
     "resources/프로그래밍/java/스프링 시큐리티/스프링 시큐리티 아키텍쳐.md",
     "resources/프로그래밍/java/스프링 시큐리티/간단 스프링 시큐리티 가이드.md",
     "resources/프로그래밍/java/스프링 시큐리티/스프링 시큐리티 정리.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/index.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 1편/index.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/스프링 JdbcTemplate.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/데이터 접근 기술 -  테스트.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/MyBatis.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/JPA.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/스프링 데이터 JPA.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/Querydsl.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/데이터 접근 기술 - 활용 방안.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/스프링 트랜잭션 이해.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/스프링 트랜잭션 전파.md",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편/예외와 트랜잭션 커밋, 롤백.md",
     "Attached/메모리_고속_복사연산.png",
     "private",
     "LocalOuterV2.java",

@@ -36,6 +36,24 @@
                     }
                   ],
                   "title": "java"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1735881858409,
+                  "path": "resources/프로그래밍/index.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1735881858409,
+                  "items": [],
+                  "title": "용어"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1735881858409,
+                  "items": [],
+                  "title": "css"
                 }
               ],
               "title": "프로그래밍"

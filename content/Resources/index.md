@@ -4,7 +4,7 @@ tags:
   - MOCs
 publish: true
 date: 
-sorting-spec: "order-desc: created"
+sorting-spec:
 ---
 
 ```folder-index-content
