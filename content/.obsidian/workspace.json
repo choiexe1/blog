@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/무제 파일ㅇㅇㅇ.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/지금.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제 파일ㅇㅇㅇ"
+              "title": "지금"
             }
           },
           {
@@ -203,10 +203,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "10673dd5476108d3",
+  "active": "18627416d6061b7e",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/무제 파일ㅇㅇㅇ.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/지금.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
     "Templates/일반.md",
     "Templates/기록.md",
@@ -235,7 +236,6 @@
     "Resources/마인드맵/index.md",
     "Resources/메모/index.md",
     "Resources/메모/모듈화 학습법.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
     "Attached/bean-post-processor-2.png",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
