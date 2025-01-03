@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제 파일.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/무제 파일ㅇㅇㅇ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제 파일"
+              "title": "무제 파일ㅇㅇㅇ"
             }
           },
           {
@@ -203,10 +203,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "18627416d6061b7e",
+  "active": "10673dd5476108d3",
   "lastOpenFiles": [
     "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
-    "무제 파일.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/무제 파일ㅇㅇㅇ.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
     "Templates/일반.md",
     "Templates/기록.md",

@@ -27,20 +27,41 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-      sortFn: (a, b) => {
-        const dateA = a.file?.frontmatter?.date ? new Date(a.file.frontmatter.date) : new Date(0);
-        const dateB = b.file?.frontmatter?.date ? new Date(b.file.frontmatter.date) : new Date(0);
+    Component.DesktopOnly(
+      Component.Explorer({
+        sortFn: (a, b) => {
+          const dateA = a.file?.frontmatter?.date
+            ? new Date(a.file.frontmatter.date.replace(" ", "T"))
+            : new Date(0);
+          const dateB = b.file?.frontmatter?.date
+            ? new Date(b.file.frontmatter.date.replace(" ", "T"))
+            : new Date(0);
 
-        return dateB.getTime() - dateA.getTime();
-      },
-      order: ["sort", "filter", "map"],
-    })),
+          return dateB.getTime() - dateA.getTime();
+        },
+        order: ["sort", "filter", "map"],
+      })
+    ),
   ],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+  ],
+  afterBody: [
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recent Notes", // 최근 게시물 제목
+        limit: 5, // 표시할 최근 게시물 수
+        showTags: true, // 태그 표시 여부
+        linkToMore: "/tags", // 더 보기 링크
+        sort: (f1, f2) => {
+          const date1 = new Date(f1.frontmatter.date.replace(" ", "T"));
+          const date2 = new Date(f2.frontmatter.date.replace(" ", "T"));
+          return date2.getTime() - date1.getTime(); // 날짜 기준으로 내림차순 정렬
+        },
+      })
+    ),
   ],
 };
 
@@ -56,15 +77,36 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-      sortFn: (a, b) => {
-        const dateA = a.file?.frontmatter?.date ? new Date(a.file.frontmatter.date) : new Date(0);
-        const dateB = b.file?.frontmatter?.date ? new Date(b.file.frontmatter.date) : new Date(0);
+    Component.DesktopOnly(
+      Component.Explorer({
+        sortFn: (a, b) => {
+          const dateA = a.file?.frontmatter?.date
+            ? new Date(a.file.frontmatter.date.replace(" ", "T"))
+            : new Date(0);
+          const dateB = b.file?.frontmatter?.date
+            ? new Date(b.file.frontmatter.date.replace(" ", "T"))
+            : new Date(0);
 
-        return dateB.getTime() - dateA.getTime();
-      },
-      order: ["sort", "filter", "map"], // 적용할 함수의 순서
-    })),
+          return dateB.getTime() - dateA.getTime();
+        },
+        order: ["sort", "filter", "map"],
+      })
+    ),
   ],
   right: [],
+  afterBody: [
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recent Notes", // 최근 게시물 제목
+        limit: 5, // 표시할 최근 게시물 수
+        showTags: true, // 태그 표시 여부
+        linkToMore: "/tags", // 더 보기 링크
+        sort: (f1, f2) => {
+          const date1 = new Date(f1.frontmatter.date.replace(" ", "T"));
+          const date2 = new Date(f2.frontmatter.date.replace(" ", "T"));
+          return date2.getTime() - date1.getTime(); // 날짜 기준으로 내림차순 정렬
+        },
+      })
+    ),
+  ],
 };
