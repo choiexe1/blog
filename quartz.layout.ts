@@ -21,7 +21,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-
   ],
   left: [
     Component.PageTitle(),
@@ -43,23 +42,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
-  afterBody: [
-    Component.RecentNotes({ // 최근 노트 컴포넌트 추가
-          title: "최근 글",
-          limit: 5,
-          showTags: true,
-          linkToMore: "tags/recent-notes", // '더 보기' 링크 추가
-          sort: (f1, f2) => {
-               const dateA = f1.file?.frontmatter?.date ? new Date(f1.file.frontmatter.date.replace(" ", "T")) : new Date(0);
-               const dateB = f2.file?.frontmatter?.date ? new Date(f2.file.frontmatter.date.replace(" ", "T")) : new Date(0);
-
-               return dateB.getTime() - dateA.getTime();
-          },
-        }),
-  ],
 };
 
-// components for pages that display lists of pages (e.g. tags or folders)
+// components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
@@ -78,7 +63,7 @@ export const defaultListPageLayout: PageLayout = {
 
         return dateB.getTime() - dateA.getTime();
       },
-      order: ["sort", "filter", "map"],
+      order: ["sort", "filter", "map"], // 적용할 함수의 순서
     })),
   ],
   right: [],
