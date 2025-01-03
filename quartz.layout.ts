@@ -26,7 +26,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+        sortFn: (a, b) => {
+            const dateA = Date.parse(a.file?.frontmatter?.date || '0');
+              const dateB = Date.parse(b.file?.frontmatter?.date || '0');
+              return dateB - dateA; // 최신 날짜 우선(내림차순)
+          },
+      })),
   ],
   right: [
     Component.Graph(),
@@ -34,14 +40,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
   ],
 }
-
-Component.Explorer({
-  sortFn: (a, b) => {
-    const dateA = a.file?.frontmatter?.date ? new Date(a.file.frontmatter.date) : 0
-    const dateB = b.file?.frontmatter?.date ? new Date(b.file.frontmatter.date) : 0
-    return dateB.getTime() - dateA.getTime()
-  },
-})
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
