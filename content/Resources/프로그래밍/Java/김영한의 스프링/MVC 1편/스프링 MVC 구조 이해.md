@@ -1,12 +1,12 @@
 ---
-title:
+title: 
 tags:
   - java
   - programming
   - spring
   - mvc
 publish: true
-date: 2024-11-22
+date: 2024-11-22 00:00
 ---
 
 ## 직접 만든 프레임워크와 스프링 MVC 구조 비교

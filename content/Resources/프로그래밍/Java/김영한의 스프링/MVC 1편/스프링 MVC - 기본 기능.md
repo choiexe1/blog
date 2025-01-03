@@ -1,5 +1,5 @@
 ---
-title:
+title: 
 tags:
   - java
   - programming
@@ -7,7 +7,7 @@ tags:
   - mvc
   - logging
 publish: true
-date: 2024-11-22
+date: 2024-11-22 00:02
 ---
 
 ## 로깅 간단히 알아보기

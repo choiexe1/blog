@@ -208,4 +208,4 @@ public static void main(String[] args) {
 
 References: 김영한의 실전 자바 - 중급 1편
 
-Links: [[래퍼 클래스]], [[7. 스프링 MVC - 기본 기능]]
+Links: [[래퍼 클래스]], [[스프링 MVC - 기본 기능]]
