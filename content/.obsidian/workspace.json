@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "127dafcc360b7f0a",
+        "id": "dab300c2b3ae082b",
         "type": "tabs",
         "children": [
           {
-            "id": "7dbcce9e03e3cf20",
+            "id": "58a6dcc4fb859348",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "resources/프로그래밍/java/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "index"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "resources/프로그래밍/java/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "index의 백링크"
             }
           },
           {
@@ -107,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "resources/프로그래밍/java/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "index의 나가는 링크"
             }
           },
           {
@@ -168,36 +174,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7dbcce9e03e3cf20",
+  "active": "58a6dcc4fb859348",
   "lastOpenFiles": [
+    "resources/프로그래밍/java/김영한의 자바/중급 1편/index.md",
+    "resources/프로그래밍/java/김영한의 자바/중급 1편/날짜와 시간 2.md",
+    "resources/프로그래밍/java/김영한의 자바/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/index.md",
+    "resources/프로그래밍/java/index.md",
+    "resources/프로그래밍/index.md",
+    "resources/프로그래밍/용어/index.md",
+    "resources/프로그래밍/용어/다형성.md",
+    "resources/추억들/index.md",
+    "resources/프로그래밍/css/index.md",
+    "resources/추억들/전주와 담양.md",
+    "resources/마인드맵/index.md",
+    "resources/노트/index.md",
+    "resources/index.md",
+    "Attached/index.md",
+    "index.md",
     "Templates/기록.md",
     "Templates/일반.md",
-    "index.md",
-    "resources/마인드맵/index.md",
-    "resources/index.md",
-    "resources/프로그래밍/index.md",
     "resources/asd/ff.md",
     "resources/asd/zzz.md",
-    "resources/노트/index.md",
     "resources/asd",
     "private/asd.md",
-    "Attached/index.md",
     "resources/프로그래밍/java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
-    "resources/추억들/index.md",
     "resources/노트/인텔리제이 유용한 단축키 모음.md",
     "resources/노트/블로그 수정.md",
     "LocalOuterV2.java",
     "private/글쓰기.md",
-    "resources/노트/모듈화 학습법.md",
-    "resources/노트/인텔리제이 IDE 변수명 자동 생성 버그.md",
-    "resources/노트/배포 시 타임존.md",
-    "resources/프로그래밍/용어/index.md",
-    "resources/마인드맵/Xmind.md",
-    "resources/메모/Quartz4 코드블럭 Syntax Highlighting.md",
-    "resources/메모/Quartz4 콜아웃.md",
-    "resources/프로그래밍/css/index.md",
-    "resources/프로그래밍/css/tailwindCSS 기본.md",
-    "resources/프로그래밍/css/스프링 부트에 tailwindCSS 적용.md",
     "resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "resources/마인드맵/스프링 트랜잭션 전파.canvas",
