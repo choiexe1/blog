@@ -18,6 +18,7 @@
     "Attached",
     "Templates"
   ],
+  "excludePatterns": [],
   "recursionLimit": 1,
   "headlineLimit": 6,
   "indexFileUserSpecified": true,
