@@ -1,5 +1,5 @@
 ---
-title: CSS
+title: css
 tags:
   - MOCs
 publish: true

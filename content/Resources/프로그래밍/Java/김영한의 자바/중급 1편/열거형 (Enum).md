@@ -269,7 +269,7 @@ public class DiscountService {
 
 위의 `DiscountService`를 보면 할인율 계산을 위해 `Grade`가 가지고 있는 데이터인 `discountPercent`의 값을 꺼내서 사용한다.
 
-객체 지향 관점에서 이렇게 자신의 데이터를 외부에 노출하는 것 보다는, `Grade` 클래스가 자신의 할인율을 어떻게 계산하는지 스스로 관리하는 것이 [[Resources/프로그래밍/Java/김영한의 자바/기본/캡슐화|캡슐화]] 원칙에 더 맞다.
+객체 지향 관점에서 이렇게 자신의 데이터를 외부에 노출하는 것 보다는, `Grade` 클래스가 자신의 할인율을 어떻게 계산하는지 스스로 관리하는 것이 [[resources/프로그래밍/java/김영한의 자바/기본/캡슐화|캡슐화]] 원칙에 더 맞다.
 
 ```java title="Grade.java"
 public enum Grade {
@@ -355,4 +355,4 @@ public enum HttpStatus {
 
 References: 김영한의 실전 자바 - 중급 1편
 
-Links: [[자바의 메모리 구조#메서드 영역]], [[static#static import]], [[Resources/프로그래밍/Java/김영한의 자바/기본/캡슐화|캡슐화]]
+Links: [[자바의 메모리 구조#메서드 영역]], [[static#static import]], [[resources/프로그래밍/java/김영한의 자바/기본/캡슐화|캡슐화]]

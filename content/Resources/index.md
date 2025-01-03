@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: resources
 tags:
   - MOCs
 publish: true

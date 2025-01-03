@@ -52,6 +52,6 @@ publish: true
 
 ---
 
-References: [[Resources/프로그래밍/Java/김영한의 자바/기본/캡슐화|캡슐화]]
+References: [[resources/프로그래밍/java/김영한의 자바/기본/캡슐화|캡슐화]]
 
 Links: [[static]] [[자바의 메모리 구조]]
