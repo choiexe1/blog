@@ -1,8 +1,8 @@
 ---
 title: 안녕하세요!
-tags:
+tags: 
 publish: true
-date: 2024-09-02
+date:
 ---
 
 #### 제이의 지식정원에 오신걸 환영합니다.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/글쓰기.md",
+                "file": "Resources/프로그래밍/Java/index.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "글쓰기"
+              "title": "index"
             }
           }
         ]
@@ -174,12 +174,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "10673dd5476108d3",
+  "active": "45f5700ac8299ebe",
   "lastOpenFiles": [
+    "Resources/프로그래밍/index.md",
+    "Resources/프로그래밍/Java/index.md",
+    "Resources/프로그래밍/ide/index.md",
+    "Resources/프로그래밍/CSS/index.md",
+    "Resources/프로그래밍/용어/index.md",
+    "Resources/사진과 기억/index.md",
+    "Resources/메모/index.md",
     "Resources/index.md",
-    "Resources/마인드맵/index.md",
-    "Attached/index.md",
     "private/글쓰기.md",
+    "Attached/index.md",
+    "index.md",
+    "Resources/마인드맵/index.md",
     "Areas/index.md",
     "private",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
@@ -195,14 +203,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/고급/무제 파일ㅇㅇㅇ.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/지금.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/나우.md",
-    "Templates/일반.md",
-    "Templates/기록.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/기본/index.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/기본/스프링 컨테이너와 스프링 빈.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 생명주기 콜백.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/기본/객체 지향 설계와 스프링.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/입문/index.md",
     "LocalOuterV2.java",
     "Attached/bean-post-processor-1.png",
     "Attached/auto-bean-post-processor-1.png",
