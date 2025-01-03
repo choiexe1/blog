@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "date": "text",
-    "comment": "checkbox"
+    "comment": "checkbox",
+    "comments": "text"
   }
 }
