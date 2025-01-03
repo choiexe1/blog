@@ -3,7 +3,7 @@ title: 기본
 tags:
   - MOCs
 publish: true
-date: 2024-11-15
+date: 
 sorting-spec: "order-desc: created"
 ---
 

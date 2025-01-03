@@ -1,5 +1,5 @@
 ---
-title:
+title: 
 tags:
   - java
   - programming
@@ -8,7 +8,7 @@ tags:
   - transaction
   - database
 publish: true
-date: 2024-12-13
+date: 2024-12-13 00:01
 ---
 
 ## 트랜잭션 문제 해결 - 트랜잭션 AOP 이해

@@ -3,7 +3,8 @@ title: DB 1편
 tags:
   - MOCs
 publish: true
-date: 12-08
+date: 
+sorting-spec: "order-desc: created"
 ---
 
 ```folder-index-content

@@ -1,5 +1,5 @@
 ---
-title:
+title: 
 tags:
   - java
   - programming
@@ -7,7 +7,7 @@ tags:
   - jdbc
   - database
 publish: true
-date: 2024-12-08
+date: 2024-12-08 00:00
 ---
 
 ## 어플리케이션과 데이터베이스 기본 통신 구조
@@ -601,4 +601,4 @@ void crud() throws SQLException {
 
 References: 김영한의 스프링 DB 1편
 
-Links to this page: [[Set 자료구조]], [[2. 커넥션 풀과 데이터소스 이해]]
+Links to this page: [[Set 자료구조]], [[커넥션 풀과 데이터소스 이해]]

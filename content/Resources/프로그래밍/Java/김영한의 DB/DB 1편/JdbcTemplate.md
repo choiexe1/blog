@@ -1,5 +1,5 @@
 ---
-title:
+title: 
 tags:
   - java
   - programming
@@ -7,7 +7,7 @@ tags:
   - jdbc
   - database
 publish: true
-date: 2024-12-14
+date: 2024-12-14 00:02
 ---
 
 ## JDBC 반복 문제 해결 - JDBC Template
