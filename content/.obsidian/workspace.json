@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dab300c2b3ae082b",
+        "id": "bbc61422645bb260",
         "type": "tabs",
         "children": [
           {
-            "id": "58a6dcc4fb859348",
+            "id": "8bfb3002a47937b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/일반.md",
+                "file": "resources/프로그래밍/java/김영한의 스프링/고급/@Aspect AOP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "일반"
+              "title": "@Aspect AOP"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/일반.md",
+                "file": "resources/프로그래밍/java/김영한의 스프링/고급/하나의 프록시, 여러 어드바이저 적용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "일반의 백링크"
+              "title": "하나의 프록시, 여러 어드바이저 적용의 백링크"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/일반.md",
+                "file": "resources/프로그래밍/java/김영한의 스프링/고급/하나의 프록시, 여러 어드바이저 적용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "일반의 나가는 링크"
+              "title": "하나의 프록시, 여러 어드바이저 적용의 나가는 링크"
             }
           },
           {
@@ -152,6 +152,18 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "0578ff2a4ed47644",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "resources/프로그래밍/java/김영한의 스프링/고급/@Aspect AOP.md"
+              },
+              "icon": "lucide-list",
+              "title": "@Aspect AOP 개요"
+            }
           }
         ],
         "currentTab": 2
@@ -174,36 +186,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58a6dcc4fb859348",
+  "active": "8bfb3002a47937b9",
   "lastOpenFiles": [
-    "index.md",
-    "Templates/일반.md",
-    "resources/프로그래밍/java/김영한의 스프링/고급/@Aspect AOP.md",
-    "resources/프로그래밍/java/김영한의 스프링/고급/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/동적 프록시 기술.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/프록시 패턴과 데코레이터 패턴.md",
     "resources/프로그래밍/java/김영한의 스프링/고급/하나의 프록시, 여러 어드바이저 적용.md",
-    "resources/프로그래밍/java/김영한의 스프링/고급/스프링이 제공하는 빈 후처리기.md",
-    "resources/프로그래밍/java/김영한의 스프링/고급/빈 후처리기.md",
+    "resources/용어/Definitions.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/@Aspect AOP.md",
     "resources/프로그래밍/java/김영한의 스프링/고급/프록시 팩토리.md",
-    "resources/프로그래밍/java/김영한의 스프링/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/빈 후처리기.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/스프링이 제공하는 빈 후처리기.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/템플릿 메서드 패턴과 콜백 패턴.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/로그 추적기.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/쓰레드 로컬과 동시성 문제.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/index.md",
+    "resources/프로그래밍/java/스프링 시큐리티/index.md",
+    "resources/프로그래밍/java/김영한의 DB/index.md",
+    "resources/프로그래밍/java/김영한의 자바/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/입문/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/MVC 1편/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/기본/index.md",
+    "resources/추억들/index.md",
+    "resources/용어/정의.md",
+    "resources/프로그래밍/용어/index.md",
+    "resources/마인드맵/index.md",
     "resources/프로그래밍/java/index.md",
     "resources/프로그래밍/index.md",
     "resources/index.md",
-    "resources/노트/index.md",
-    "resources/노트/인텔리제이 IDE 변수명 자동 생성 버그.md",
-    "resources/노트/인텔리제이 유용한 단축키 모음.md",
-    "resources/노트/배포 시 타임존.md",
-    "resources/노트/모듈화 학습법.md",
-    "resources/노트/블로그 수정.md",
-    "resources/프로그래밍/용어/index.md",
-    "resources/프로그래밍/java/김영한의 자바/index.md",
-    "resources/프로그래밍/java/김영한의 자바/중급 1편/index.md",
-    "resources/프로그래밍/java/김영한의 자바/중급 1편/날짜와 시간 2.md",
-    "resources/프로그래밍/용어/다형성.md",
-    "resources/추억들/index.md",
-    "resources/프로그래밍/css/index.md",
-    "resources/추억들/전주와 담양.md",
-    "resources/asd",
+    "resources/용어",
+    "Templates/일반.md",
     "LocalOuterV2.java",
+    "resources/asd",
     "resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "resources/마인드맵/스프링 트랜잭션 전파.canvas",
@@ -224,7 +237,6 @@
     "resources/노트",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/프로젝트",
-    "resources/프로그래밍/java/김영한의 DB/DB 2편",
-    "resources/프로그래밍/java/김영한의 DB"
+    "resources/프로그래밍/java/김영한의 DB/DB 2편"
   ]
 }

@@ -8,7 +8,6 @@ tags:
   - aop
 publish: true
 date: 2025-01-03 19:44
-comments: fal
 ---
 ## 배경
 - 스프링 어플리케이션에 프록시를 적용하려면 `Advisor`를 만들어서 스프링 빈으로 등록하면 된다.
