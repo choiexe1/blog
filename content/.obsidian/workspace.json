@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/9. 하나의 프록시, 여러 어드바이저 적용.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/3. 템플릿 메서드 패턴과 콜백 패턴.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. 하나의 프록시, 여러 어드바이저 적용"
+              "title": "3. 템플릿 메서드 패턴과 콜백 패턴"
             }
           },
           {
@@ -205,8 +205,9 @@
   },
   "active": "dce7fa55908e2b06",
   "lastOpenFiles": [
-    "Resources/마인드맵/Xmind.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/9. 하나의 프록시, 여러 어드바이저 적용.md",
+    "Resources/마인드맵/Xmind.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/8. 스프링이 제공하는 빈 후처리기.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/7. 빈 후처리기.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
@@ -243,7 +244,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/고급/1. 로그 추적기.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
     "Resources/프로그래밍/Java/김영한의 자바/중급 1편/중첩 클래스와 내부 클래스.md",
-    "index.md",
     "Resources/마인드맵/쓰레드 로컬.canvas",
     "Resources/프로그래밍/Java/김영한의 스프링/고급",
     "Resources/마인드맵",

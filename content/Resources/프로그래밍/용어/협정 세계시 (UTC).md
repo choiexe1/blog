@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 tags:
   - terminology
 publish: true
@@ -7,6 +7,7 @@ date: 2024-09-24
 ---
 
 ## 협정 세계시(Universal Time Coordinated, UTC)
+
 역사적으로 [[그리니치 평균시 (GMT)]]가 국제적인 시간 표준으로 사용 되었고, UTC가 나중에 이를 대체하기 위해 도입되었다.
 
 둘 다 경도 0˚에 위치한 영국의 그리니치 천문대를 기준으로 하며 이로 인해 실질적으로 같은 시간대를 나타낸다.
@@ -16,6 +17,7 @@ UTC는 원자 시계를 사용하여 측정한 국제적으로 합의 된 시간
 일반적으로 사용할 때는 GMT와 UTC는 거의 차이가 없기 때문에 GMT와 UTC가 종종 같은 의미로 사용될 수 있지만 정밀한 시간 측정과 국제적인 표준에 관해서는 UTC가 선호된다.
 
 ---
-References: 
+
+References:
 
 Links to this page: [[날짜와 시간 1]] [[에포크 시간 (Epoch time)]]

@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 tags:
   - java
   - intellij
@@ -7,62 +7,63 @@ tags:
 publish: true
 date: 2024-12-29
 ---
-새벽에 코딩하다가 문득 이상한 점을 발견했다. 
+
+새벽에 코딩하다가 문득 이상한 점을 발견했다.
 
 리포지토리 레이어에 중복된 코드가 너무 많아서, 해당하는 공통 영역 부분을 다음과 같이 추상화해서 제공하기로 결정했다.
 
 ```java
-public interface IRepository<T, ID, SearchDTO, UpdateDTO> {  
-    ID save(T t);  
-  
-    Optional<T> findById(ID id);  
-  
-    List<T> findAll();  
-  
-    List<T> findAll(SearchDTO searchDTO);  
-  
-    int findAllCount(SearchDTO searchDTO);  
-  
-    void update(ID id, UpdateDTO updateDTO);  
-  
-    void delete(ID id);  
+public interface IRepository<T, ID, SearchDTO, UpdateDTO> {
+    ID save(T t);
+
+    Optional<T> findById(ID id);
+
+    List<T> findAll();
+
+    List<T> findAll(SearchDTO searchDTO);
+
+    int findAllCount(SearchDTO searchDTO);
+
+    void update(ID id, UpdateDTO updateDTO);
+
+    void delete(ID id);
 }
 ```
 
 ```java
-public interface ItemRepository extends IRepository<Item, Long, SearchItemDTO, UpdateItemDTO> {  
-    List<Item> findItemsByWarehouseId(Long warehouseId);  
+public interface ItemRepository extends IRepository<Item, Long, SearchItemDTO, UpdateItemDTO> {
+    List<Item> findItemsByWarehouseId(Long warehouseId);
 }
 ```
 
 추상화된 `IRepository`를 통해서 중복된 코드를 획기적으로 줄이긴 했는데, 다음이 문제였다.
 
 ```java
-@Mapper  
-public interface ItemMapper extends ItemRepository {  
-    @Override  
-    List<Item> findItemsByWarehouseId(Long warehouseId);  
-  
-    @Override  
-    Long save(Item item);  
-  
-    @Override  
-    Optional<Item> findById(Long aLong);  
-  
-    @Override  
-    List<Item> findAll();  
-  
-    @Override  
-    List<Item> findAll(SearchItemDTO searchItemDTO);  
-  
-    @Override  
-    int findAllCount(SearchItemDTO searchItemDTO);  
-  
-    @Override  
-    void update(Long aLong, UpdateItemDTO updateItemDTO);  
-  
-    @Override  
-    void delete(Long aLong);  
+@Mapper
+public interface ItemMapper extends ItemRepository {
+    @Override
+    List<Item> findItemsByWarehouseId(Long warehouseId);
+
+    @Override
+    Long save(Item item);
+
+    @Override
+    Optional<Item> findById(Long aLong);
+
+    @Override
+    List<Item> findAll();
+
+    @Override
+    List<Item> findAll(SearchItemDTO searchItemDTO);
+
+    @Override
+    int findAllCount(SearchItemDTO searchItemDTO);
+
+    @Override
+    void update(Long aLong, UpdateItemDTO updateItemDTO);
+
+    @Override
+    void delete(Long aLong);
 }
 ```
 
@@ -75,26 +76,28 @@ public interface ItemMapper extends ItemRepository {
 - 그래서 `IRepository`의 파라미터를 `id`가 아니라 다른것으로 변경하니까 잘 작동한다.
 - `IRepository`의 제네릭 타입 `ID`를 `IDType`으로 다음과 같이 바꿨더니 IDE가 생성하는 파라미터 이름이 정상적이다.
 - 내부적으로 대소문자 구분을 하지 않는 것인지 제네릭 타입명인 `ID`와 파라미터 이름인 `id`가 동일해서 발생했던걸로 예상된다.
+
 ```java
-  
-public interface IRepository<T, IDType, SearchDTO, UpdateDTO> {  
-    IDType save(T t);  
-  
-    Optional<T> findById(IDType id);  
-  
-    List<T> findAll();  
-  
-    List<T> findAll(SearchDTO searchDTO);  
-  
-    int findAllCount(SearchDTO searchDTO);  
-  
-    void update(IDType id, UpdateDTO updateDTO);  
-  
-    void delete(IDType id);  
+
+public interface IRepository<T, IDType, SearchDTO, UpdateDTO> {
+    IDType save(T t);
+
+    Optional<T> findById(IDType id);
+
+    List<T> findAll();
+
+    List<T> findAll(SearchDTO searchDTO);
+
+    int findAllCount(SearchDTO searchDTO);
+
+    void update(IDType id, UpdateDTO updateDTO);
+
+    void delete(IDType id);
 }
 ```
 
 ---
-References: 
 
-Links to this page: 
+References:
+
+Links to this page:

@@ -14,10 +14,7 @@
   "renderFolderBold": true,
   "renderFolderItalic": false,
   "useBulletPoints": true,
-  "excludeFolders": [
-    "Attached",
-    "Templates"
-  ],
+  "excludeFolders": ["Attached", "Templates"],
   "recursionLimit": 1,
   "headlineLimit": 6,
   "indexFileUserSpecified": true,

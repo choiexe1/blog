@@ -1,14 +1,15 @@
 ---
-title: 
+title:
 tags:
   - java
   - programming
 publish: true
 date: 2024-09-21
 ---
+
 ## String 클래스
 
-`String` 클래스는 문자로 이루어진 배열을 쉽게 다루기 위해 제공하는 클래스다. 
+`String` 클래스는 문자로 이루어진 배열을 쉽게 다루기 위해 제공하는 클래스다.
 
 소문자로 시작하는 기본형 타입과 다르게, `String` 클래스는 대문자로 시작한다, 즉 참조형 타입이라는 것이다.
 
@@ -46,12 +47,12 @@ public static void main(String[] args) {
 위 내용은 [[Object 클래스#동일성(Identity)과 동등성(Equality)|Object 클래스 > 동일성과 동등성]]을 참고할 수 있다.
 
 ```java
-public static void main(String[] args) {  
-  String str1 = "hello";  
-  String str2 = "hello";  
-  
-  System.out.println("리터럴 == 비교: " + (str1 == str2));  
-  System.out.println("리터럴 equals 비교: " + (str1.equals(str2)));  
+public static void main(String[] args) {
+  String str1 = "hello";
+  String str2 = "hello";
+
+  System.out.println("리터럴 == 비교: " + (str1 == str2));
+  System.out.println("리터럴 equals 비교: " + (str1.equals(str2)));
 }
 
 // 출력 결과
@@ -75,17 +76,16 @@ public static void main(String[] args) {
 
 **String이 불변으로 설계된 이유**
 
-앞서 문자열 풀이 잠깐 언급 되었다. 
+앞서 문자열 풀이 잠깐 언급 되었다.
 
 만약 문자열 풀에 있는 `String` 인스턴스의 값이 중간에 변경되면 같은 문자열을 참조하고 있는 변수들의 값도 함께 변경되는 [[사이드 이펙트]]를 방지한다.
 
-> [!note]
-> `String` 클래스는 문자열을 쉽게 다룰 수 있게 자바에서 특별 대우를 해주는 클래스다.
-> 
+> [!note] > `String` 클래스는 문자열을 쉽게 다룰 수 있게 자바에서 특별 대우를 해주는 클래스다.
+>
 > 불변 객체이다.
-> 
-> 리터럴 문자열은 메모리 효율성과 성능 최적화를 위해 문자열 풀에 보관된 채로 여러 곳에 사용된다. 
-> 
+>
+> 리터럴 문자열은 메모리 효율성과 성능 최적화를 위해 문자열 풀에 보관된 채로 여러 곳에 사용된다.
+>
 > 문자열 간 비교 연산시 `equals()` 메소드만 사용하여야 한다.
 
 ## StringBuilder
@@ -96,7 +96,7 @@ public static void main(String[] args) {
 
 `StringBuilder` 클래스는 위 문제를 해결하기 위해 존재한다. 불변 객체가 아니라 가변 객체인것이다.
 
-물론 가변 객체인만큼 사이드 이펙트가 발생하지 않게 주의 해야한다. 
+물론 가변 객체인만큼 사이드 이펙트가 발생하지 않게 주의 해야한다.
 
 따라서 `StringBuilder`는 보통 문자열을 변경하는 동안만 사용하다가, 변경이 끝나면 안전한 불변 객체인 `String` 객체로 변환 하는 것이 좋다.
 
@@ -124,7 +124,6 @@ String result = str1 + str2;
 String result = new StringBuilder().append(str1).append(str2).toString();
 ```
 
-
 문자열 변수의 경우, 그 안에 어떤 값이 들어있는지 컴파일 시점에는 알 수 없기 때문에 단순하게 합칠 수 없다.
 
 이런 경우 예를 들면 위와 같이 최적화를 수행 한다. 다만 최적화 방식은 자바 버전에 따라 달라진다.
@@ -132,22 +131,22 @@ String result = new StringBuilder().append(str1).append(str2).toString();
 **String 최적화가 어려운 경우**
 
 ```java
-public static void main(String[] args) {  
-  long startTime = System.currentTimeMillis();  
-  String result = "";  
-  
-  for (int i = 0; i < 100_000; i++) {  
-    result += "Hello, Java ";  
-  }  
-  
-  long endTime = System.currentTimeMillis();  
-  
-  System.out.println("result = "+ result);  
-  System.out.println("time = " + (endTime - startTime) + "ms");  
+public static void main(String[] args) {
+  long startTime = System.currentTimeMillis();
+  String result = "";
+
+  for (int i = 0; i < 100_000; i++) {
+    result += "Hello, Java ";
+  }
+
+  long endTime = System.currentTimeMillis();
+
+  System.out.println("result = "+ result);
+  System.out.println("time = " + (endTime - startTime) + "ms");
 }
 ```
 
-위와 같이 루프 안에서 문자열을 더하는 경우에는 최적화가 이루어지지 않는다. 
+위와 같이 루프 안에서 문자열을 더하는 경우에는 최적화가 이루어지지 않는다.
 
 대략 다음과 같이 최적화가 된다.
 
@@ -161,13 +160,13 @@ for (int i = 0; i < 100_000; i++) {
 
 반복문의 내부에서는 최적화가 되는 것 같아 보이지만 반복 횟수만큼 객체를 생성해야 한다.
 
-반복문 내에서 문자열 연결은 런타임에 연결할 문자열의 개수와 내용이 결정된다. 
+반복문 내에서 문자열 연결은 런타임에 연결할 문자열의 개수와 내용이 결정된다.
 
 왜냐하면 컴파일러 입장에서는 얼마나 많은 반복이 일어날지, 각 반복에서 문자열이 어떻게 변할지 예측할 수 없다. 따라서 이런 상황에서는 최적화가 어렵다.
 
 따라서 `StringBuilder` 객체에 `append()` 메소드로 문자열을 연결하는 연산, 그것을 다시 `String` 객체로 변환하는 작업을 10만번 한 것이다.
 
-이럴 때는 직접 `StringBuilder`를 사용하면 된다. 
+이럴 때는 직접 `StringBuilder`를 사용하면 된다.
 
 내 게임용 윈도우 데스크탑 기준, `String` 사용 시 `6440ms`가 걸렸지만 `StringBuilder`를 사용했을땐 `3ms`밖에 걸리지 않았다.
 
@@ -180,14 +179,14 @@ for (int i = 0; i < 100_000; i++) {
 - 복잡한 문자열의 특정 부분을 변경해야 할 때
 - 매우 긴 대용량 문자열을 다룰 때
 
-> [!note]
-> `StringBuilder` 클래스는 문자열을 가변으로 다룰 수 있게 해주는 클래스다.
-> 
+> [!note] > `StringBuilder` 클래스는 문자열을 가변으로 다룰 수 있게 해주는 클래스다.
+>
 > 문자열을 동적으로 다뤄야 하는 상황에서 사용한다.
-> 
+>
 > 특정 상황들을 제외하고는 컴파일러가 최적화하므로 일반적으로 `+` 연산을 사용하면 된다.
 
 ---
+
 References: 김영한의 실전 자바 - 중급 1편
 
-Links to this page: [[노드와 연결, 연결 리스트]] 
+Links to this page: [[노드와 연결, 연결 리스트]]

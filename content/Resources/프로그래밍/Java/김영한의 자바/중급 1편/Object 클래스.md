@@ -1,18 +1,19 @@
 ---
-title: 
+title:
 tags:
   - java
   - programming
 date: 2024-09-17
 publish: true
 ---
-자바에서 모든 클래스의 최상위 부모 클래스는 항상 Object 클래스이다.
 
+자바에서 모든 클래스의 최상위 부모 클래스는 항상 Object 클래스이다.
 
 > [!Note]
 > 클래스 생성 시, 상속 관계에 상위 부모가 없다면 암묵적으로 Object 클래스를 상속 받는다.
 
 ## 자바에서 Object 클래스가 최상위 부모 클래스인 이유
+
 - 공통 기능 제공
 - 다형성의 기본 구현
 
@@ -23,7 +24,6 @@ publish: true
 막상 만든다고 하더라도 개발자마다 서로 다른 이름의 메서드를 만들어서 일관성이 없을 것이다.
 
 따라서 `Object` 클래스는 모든 객체의 최상위 부모 클래스이기 때문에 모든 객체는 공통 기능을 편리하게 제공 받는다.
-
 
 **다형성의 기본 구현**
 
@@ -36,28 +36,29 @@ publish: true
 
 따라서 사용하고자 하는 메서드 내부에서 [[다운 캐스팅]]을 통하여 변환한 뒤에나 `Dog` 클래스의 `sound()`나 `Car` 클래스의 `move()` 메서드를 사용할 수 있게 된다.
 
-> [!note]
-> `Object` 클래스를 이용하면 [[다형적 참조]]는 가능하지만, 기존에 `Object` 클래스에 정의되지 않은 메서드는 [[메서드 오버라이딩]]이 불가능하므로 다형성에 한계가 있다.
+> [!note] > `Object` 클래스를 이용하면 [[다형적 참조]]는 가능하지만, 기존에 `Object` 클래스에 정의되지 않은 메서드는 [[메서드 오버라이딩]]이 불가능하므로 다형성에 한계가 있다.
 
 ## .toString()
+
 `Object` 클래스에서 제공하는 메서드 중 하나이며 객체의 정보를 출력해준다. 클래스 정보와 참조값을 제공하지만 이 정보만으로는 객체의 상태를 적절히 나타내지 못한다. 그래서 보통 `toString()`을 재정의해서 보다 유용한 정보를 제공하는 것이 일반적이다.
+
 ```java
-public class Dog {  
-  private String dogName;  
-  private int age;  
-  
-  public Dog(String dogName, int age) {  
-    this.dogName = dogName;  
-    this.age = age;  
-  }  
-  
-  @Override  
-  public String toString() {  
-    return "Dog{" +  
-        "dogName='" + dogName + '\'' +  
-        ", age=" + age +  
-        '}';  
-  }  
+public class Dog {
+  private String dogName;
+  private int age;
+
+  public Dog(String dogName, int age) {
+    this.dogName = dogName;
+    this.age = age;
+  }
+
+  @Override
+  public String toString() {
+    return "Dog{" +
+        "dogName='" + dogName + '\'' +
+        ", age=" + age +
+        '}';
+  }
 }
 
 // 출력
@@ -66,17 +67,15 @@ public class Dog {
 
 ```
 
-> [!tip]
-> `System.out.println()` 메서드는 내부에서 `Object` 클래스의 `toString()` 메서드를 호출한다.
+> [!tip] > `System.out.println()` 메서드는 내부에서 `Object` 클래스의 `toString()` 메서드를 호출한다.
 
 ## 동일성(Identity)과 동등성(Equality)
 
-> [!note]
-> **자바는 두 객체가 같다라는 표현을 두가지로 분리해서 제공한다.**
-> 
+> [!note] > **자바는 두 객체가 같다라는 표현을 두가지로 분리해서 제공한다.**
+>
 > 동일성
 > `==` 연산자를 사용해서 두 객체의 참조가 동일한 객체를 가리키고 있는지 확인
-> 
+>
 > 동등성
 > `equals()` 메서드를 사용하여 두 객체가 논리적으로 동등한지 확인
 
@@ -88,19 +87,21 @@ public class Dog {
 User user1 = new UserV1("id-100");
 User user2 = new UserV1("id-100");
 ```
+
 위 예시 코드에서, `User` 객체인 `user1`과 `user2`는 참조값이 같지 않으므로 동일하지 않다. 그러나 논리적으로 보았을 때는 두 객체가 모두 `User` 객체이므로 동등하다.
 
 그러나 실제로 아래 코드를 실행해보면 예상과는 다른 결과가 출력된다.
+
 ```java
-public class EqualsMainV1 {  
-  
-  public static void main(String[] args) {  
-    UserV1 user1 = new UserV1("id-100");  
-    UserV1 user2 = new UserV1("id-100");  
-  
-    System.out.println("identity = " + (user1 == user2));  
-    System.out.println("equality = " + (user1.equals(user2)));  
-  }  
+public class EqualsMainV1 {
+
+  public static void main(String[] args) {
+    UserV1 user1 = new UserV1("id-100");
+    UserV1 user2 = new UserV1("id-100");
+
+    System.out.println("identity = " + (user1 == user2));
+    System.out.println("equality = " + (user1.equals(user2)));
+  }
 }
 
 // 출력 결과
@@ -115,19 +116,19 @@ public class EqualsMainV1 {
 따라서 동등성 비교를 사용하고 싶으면 `equals()`를 재정의 해야한다. 그렇지 않으면 `Object`는 동일성 비교를 기본으로 제공한다.
 
 ```java
-public class UserV2 {  
-  private String id;  
-  
-  public UserV2(String id) {  
-    this.id = id;  
-  }  
-  
-  @Override  
-  public boolean equals(Object obj) {  
-    UserV2 user = (UserV2) obj;  
-  
-    return id.equals(user.id);  
-  }  
+public class UserV2 {
+  private String id;
+
+  public UserV2(String id) {
+    this.id = id;
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    UserV2 user = (UserV2) obj;
+
+    return id.equals(user.id);
+  }
 }
 ```
 
@@ -141,4 +142,4 @@ public class UserV2 {
 
 References: 김영한의 실전 자바 - 중급 1편
 
-Links: 
+Links:

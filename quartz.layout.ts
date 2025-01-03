@@ -35,6 +35,14 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
+Component.Explorer({
+  sortFn: (a, b) => {
+    const dateA = a.file?.frontmatter?.date ? new Date(a.file.frontmatter.date) : 0
+    const dateB = b.file?.frontmatter?.date ? new Date(b.file.frontmatter.date) : 0
+    return dateB.getTime() - dateA.getTime()
+  },
+})
+
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
