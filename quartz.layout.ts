@@ -47,33 +47,18 @@ export const defaultContentPageLayout: PageLayout = {
           provider: 'giscus',
           options: {
             // from data-repo
-            repo: 'jackyzha0/quartz',
+            repo: 'choiexe1/blog',
             // from data-repo-id
-            repoId: 'MDEwOlJlcG9zaXRvcnkzODcyMTMyMDg',
+            repoId: 'R_kgDOMmPPeQ',
             // from data-category
             category: 'Announcements',
             // from data-category-id
-            categoryId: 'DIC_kwDOFxRnmM4B-Xg6',
+            categoryId: 'DIC_kwDOMmPPec4ClsFo',
           }
     }),
   ],
 };
 
-<script src="https://giscus.app/client.js"
-        data-repo="choiexe1/blog"
-        data-repo-id="R_kgDOMmPPeQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOMmPPec4ClsFo"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="dark"
-        data-lang="ko"
-        crossorigin="anonymous"
-        async>
-</script>
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
