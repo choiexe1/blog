@@ -6,7 +6,7 @@
   "autoRenameIndexFile": true,
   "includeFileContent": false,
   "hideIndexFiles": false,
-  "indexFileInitText": "---\ntitle: \ntags: MOCs\npublish: true\ndate: \"\"\n---\n```folder-index-content\n```",
+  "indexFileInitText": "---\ntitle: \ntags: MOCs\npublish: true\nsort-spec: order-desc: created\ndate: \"\"\n---\n```folder-index-content\n```",
   "autoPreviewMode": false,
   "sortIndexFiles": "Alphabetically",
   "sortHeaders": "Disabled",
@@ -14,7 +14,10 @@
   "renderFolderBold": true,
   "renderFolderItalic": false,
   "useBulletPoints": true,
-  "excludeFolders": ["Attached", "Templates"],
+  "excludeFolders": [
+    "Attached",
+    "Templates"
+  ],
   "recursionLimit": 1,
   "headlineLimit": 6,
   "indexFileUserSpecified": true,

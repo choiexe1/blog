@@ -1,7 +1,10 @@
 {
   "alwaysUpdateLinks": true,
   "spellcheck": false,
-  "userIgnoreFilters": ["Attached/", "Templates/"],
+  "userIgnoreFilters": [
+    "Attached/",
+    "Templates/"
+  ],
   "showLineNumber": true,
   "strictLineBreaks": true,
   "attachmentFolderPath": "Attached",
