@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/마인드맵/Xmind.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/9. 하나의 프록시, 여러 어드바이저 적용.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Xmind"
+              "title": "9. 하나의 프록시, 여러 어드바이저 적용"
             }
           },
           {
@@ -205,6 +205,7 @@
   },
   "active": "dce7fa55908e2b06",
   "lastOpenFiles": [
+    "Resources/마인드맵/Xmind.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/9. 하나의 프록시, 여러 어드바이저 적용.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/8. 스프링이 제공하는 빈 후처리기.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/7. 빈 후처리기.md",
@@ -227,7 +228,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/index.md",
     "Resources/프로그래밍/Java/김영한의 자바/index.md",
     "Resources/프로그래밍/index.md",
-    "Resources/마인드맵/Xmind.md",
     "Resources/메모/배포 시 타임존.md",
     "Resources/index.md",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
