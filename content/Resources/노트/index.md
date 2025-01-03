@@ -1,5 +1,5 @@
 ---
-title: 메모
+title: 노트
 tags:
   - MOCs
 publish: true

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/index.md",
-                "mode": "source",
+                "file": "resources/마인드맵/index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/index.md",
+                "file": "resources/마인드맵/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "resources/index.md",
+                "file": "resources/마인드맵/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -165,7 +165,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -187,19 +188,21 @@
   },
   "active": "34646632fae5923b",
   "lastOpenFiles": [
+    "resources/노트/index.md",
     "resources/프로그래밍/index.md",
-    "resources/index.md",
-    "resources/메모/index.md",
     "resources/마인드맵/index.md",
+    "resources/추억들/index.md",
+    "resources/index.md",
+    "resources/노트/블로그 수정.md",
+    "resources/프로그래밍/용어/index.md",
+    "index.md",
     "resources/마인드맵/Xmind.md",
-    "resources/메모/블로그 수정.md",
-    "resources/메모/인텔리제이 유용한 단축키 모음.md",
-    "resources/메모/인텔리제이 IDE 변수명 자동 생성 버그.md",
-    "resources/메모/배포 시 타임존.md",
-    "resources/메모/모듈화 학습법.md",
+    "resources/노트/인텔리제이 유용한 단축키 모음.md",
+    "resources/노트/인텔리제이 IDE 변수명 자동 생성 버그.md",
+    "resources/노트/배포 시 타임존.md",
+    "resources/노트/모듈화 학습법.md",
     "resources/메모/Quartz4 코드블럭 Syntax Highlighting.md",
     "resources/메모/Quartz4 콜아웃.md",
-    "resources/프로그래밍/용어/index.md",
     "resources/프로그래밍/css/index.md",
     "resources/프로그래밍/css/tailwindCSS 기본.md",
     "resources/프로그래밍/css/스프링 부트에 tailwindCSS 적용.md",
@@ -214,8 +217,6 @@
     "resources/프로그래밍/java/김영한의 DB/index.md",
     "resources/프로그래밍/java/스프링 시큐리티/index.md",
     "resources/프로그래밍/java/스프링 시큐리티/스프링 시큐리티 아키텍쳐.md",
-    "resources/프로그래밍/java/스프링 시큐리티/간단 스프링 시큐리티 가이드.md",
-    "resources/프로그래밍/java/스프링 시큐리티/스프링 시큐리티 정리.md",
     "Attached/메모리_고속_복사연산.png",
     "private",
     "LocalOuterV2.java",
@@ -231,7 +232,7 @@
     "Resources/마인드맵/쓰레드 로컬.canvas",
     "resources/프로그래밍/java/김영한의 스프링/고급",
     "resources/마인드맵",
-    "resources/메모",
+    "resources/노트",
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/프로젝트",
     "resources/프로그래밍/java/김영한의 DB/DB 2편",

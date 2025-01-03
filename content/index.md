@@ -2,7 +2,8 @@
 title: 안녕하세요!
 tags: 
 publish: true
-date:
+date: 
+sorting-spec: "order-desc: created"
 ---
 
 #### 제이의 지식정원에 오신걸 환영합니다.
