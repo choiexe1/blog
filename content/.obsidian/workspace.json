@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/9. 하나의 프록시, 여러 어드바이저 적용.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/8. 스프링이 제공하는 빈 후처리기.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. 하나의 프록시, 여러 어드바이저 적용"
+              "title": "8. 스프링이 제공하는 빈 후처리기"
             }
           },
           {
@@ -205,10 +205,10 @@
   },
   "active": "dce7fa55908e2b06",
   "lastOpenFiles": [
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/8. 스프링이 제공하는 빈 후처리기.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/9. 하나의 프록시, 여러 어드바이저 적용.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/7. 빈 후처리기.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/9. 하나의 프록시, 여러 어드바이저 적용.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/8. 스프링이 제공하는 빈 후처리기.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
     "Attached/auto-bean-post-processor-1.png",
     "Resources/마인드맵/index.md",
     "Resources/메모/index.md",
