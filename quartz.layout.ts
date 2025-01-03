@@ -1,7 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -26,7 +25,29 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(
+      Component.Explorer({
+        sortFn: (a, b) => {
+          // 1. 파일 vs 폴더 구분
+          if (a.type === "folder" && b.type === "file") return -1
+          if (a.type === "file" && b.type === "folder") return 1
+
+          // 2. 파일인 경우, date로 오름차순 정렬
+          if (a.type === "file" && b.type === "file") {
+            const dateA = new Date(a.frontmatter?.date || "1970-01-01")
+            const dateB = new Date(b.frontmatter?.date || "1970-01-01")
+
+            // 날짜 파싱 로그 확인
+            console.log(`Comparing: ${dateA} vs ${dateB}`)
+
+            return dateA.getTime() - dateB.getTime() // 오름차순으로 정렬
+          }
+
+          // 3. 폴더 이름 기준으로 정렬
+          return a.name.localeCompare(b.name)
+        },
+      })
+    ),
   ],
   right: [
     Component.Graph(),
@@ -34,17 +55,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
   ],
 }
-
-Component.Explorer({
-  title: "Explorer",
-  folderClickBehavior: "collapse",
-  folderDefaultState: "collapsed",
-  useSavedState: true,
-
-  filterFn: (node) => node.name !== "tags", // 'tags' 폴더 제외
-  mapFn: undefined,
-  order: ["filter", "map", "sort"],
-});
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
@@ -54,23 +64,29 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
+    Component.DesktopOnly(
+      Component.Explorer({
         sortFn: (a, b) => {
-            // 파일과 폴더를 구분하여 정렬
-            if (a.type === "folder" && b.type === "file") return -1;
-            if (a.type === "file" && b.type === "folder") return 1;
+          // 1. 파일 vs 폴더 구분
+          if (a.type === "folder" && b.type === "file") return -1
+          if (a.type === "file" && b.type === "folder") return 1
 
-            // 파일인 경우 date를 기준으로 정렬
-            if (a.type === "file" && b.type === "file") {
-              const dateA = new Date(a.frontmatter.date || 0);
-              const dateB = new Date(b.frontmatter.date || 0);
-              return dateB.getTime() - dateA.getTime(); // 최신순 정렬
-            }
+          // 2. 파일인 경우, date로 오름차순 정렬
+          if (a.type === "file" && b.type === "file") {
+            const dateA = new Date(a.frontmatter?.date || "1970-01-01")
+            const dateB = new Date(b.frontmatter?.date || "1970-01-01")
 
-            // 폴더인 경우 이름을 기준으로 정렬
-            return a.name.localeCompare(b.name);
-          },
-      })),
+            // 날짜 파싱 로그 확인
+            console.log(`Comparing: ${dateA} vs ${dateB}`)
+
+            return dateA.getTime() - dateB.getTime() // 오름차순으로 정렬
+          }
+
+          // 3. 폴더 이름 기준으로 정렬
+          return a.name.localeCompare(b.name)
+        },
+      })
+    ),
   ],
   right: [],
 }
