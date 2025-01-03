@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/기본/스프링 컨테이너와 스프링 빈.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스프링 컨테이너와 스프링 빈"
+              "title": "빈 스코프"
             }
           },
           {
@@ -205,6 +205,8 @@
   },
   "active": "dce7fa55908e2b06",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/기본/스프링 컨테이너와 스프링 빈.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 생명주기 콜백.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/객체 지향 설계와 스프링.md",
@@ -226,7 +228,6 @@
     "Resources/마인드맵/Xmind.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/8. 스프링이 제공하는 빈 후처리기.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/7. 빈 후처리기.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
     "Resources/마인드맵/index.md",
     "Resources/메모/index.md",
     "Resources/메모/모듈화 학습법.md",
@@ -235,7 +236,6 @@
     "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
     "Resources/사진과 기억/index.md",
     "Resources/사진과 기억/교토.md",
-    "Resources/사진과 기억/요세미티 국립공원.md",
     "Attached/bean-post-processor-2.png",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
