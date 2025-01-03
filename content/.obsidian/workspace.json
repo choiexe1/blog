@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/프로그래밍/index.md",
+                "file": "Attached/index.md",
                 "mode": "preview",
                 "source": false
               },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/프로그래밍/index.md",
+                "file": "Attached/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "resources/프로그래밍/index.md",
+                "file": "Attached/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -188,10 +188,10 @@
   },
   "active": "34646632fae5923b",
   "lastOpenFiles": [
-    "resources/마인드맵/index.md",
     "resources/추억들/index.md",
-    "resources/노트/index.md",
     "resources/프로그래밍/index.md",
+    "resources/마인드맵/index.md",
+    "resources/노트/index.md",
     "resources/index.md",
     "resources/노트/블로그 수정.md",
     "resources/프로그래밍/용어/index.md",
