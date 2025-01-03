@@ -1,1 +1,6 @@
-["obsidian-git", "obsidian-folder-index", "mermaid-tools"]
+[
+  "obsidian-git",
+  "obsidian-folder-index",
+  "mermaid-tools",
+  "custom-sort"
+]

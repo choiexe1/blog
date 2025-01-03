@@ -8,14 +8,9 @@ date: 2024-09-17
 publish: true
 ---
 
-> [!note] abc
-
-> [!abstract] 
-> 
+> [!note]
 
 > [!summary]
-
-> [!Tldr]
 
 > [!info]
 
