@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/마인드맵/index.md",
+                "file": "resources/index.md",
                 "mode": "preview",
+                "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "1",
+                "query": "1.",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/마인드맵/index.md",
+                "file": "resources/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,9 +113,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "resources/마인드맵/index.md",
+                "file": "resources/index.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
               "title": "index의 나가는 링크"
@@ -166,8 +166,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,16 +186,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dbfe849003939774",
+  "active": "34646632fae5923b",
   "lastOpenFiles": [
+    "index.md",
+    "resources/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
+    "resources/마인드맵/index.md",
     "resources/추억들/index.md",
     "resources/프로그래밍/index.md",
     "resources/노트/index.md",
     "resources/노트/인텔리제이 유용한 단축키 모음.md",
     "resources/노트/블로그 수정.md",
-    "resources/마인드맵/index.md",
-    "resources/index.md",
-    "index.md",
     "LocalOuterV2.java",
     "private/글쓰기.md",
     "resources/노트/모듈화 학습법.md",
