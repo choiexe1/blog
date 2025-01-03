@@ -57,6 +57,30 @@
                 }
               ],
               "title": "프로그래밍"
+            },
+            {
+              "type": "group",
+              "ctime": 1735884909107,
+              "items": [],
+              "title": "노트"
+            },
+            {
+              "type": "group",
+              "ctime": 1735884909107,
+              "items": [],
+              "title": "마인드맵"
+            },
+            {
+              "type": "group",
+              "ctime": 1735884909107,
+              "items": [],
+              "title": "추억들"
+            },
+            {
+              "type": "file",
+              "ctime": 1735884909107,
+              "path": "resources/index.md",
+              "subpath": "#^-"
             }
           ],
           "title": "resources"

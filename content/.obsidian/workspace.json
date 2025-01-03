@@ -13,9 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/index.md",
-                "mode": "preview",
-                "backlinks": true,
+                "file": "resources/마인드맵/index.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -74,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/index.md",
+                "file": "resources/마인드맵/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "resources/index.md",
+                "file": "resources/마인드맵/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -132,18 +132,6 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          },
-          {
-            "id": "68da53cd6d856b9a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 DB/DB 1편/4. 트랜잭션 적용.md"
-              },
-              "icon": "lucide-list",
-              "title": "4. 트랜잭션 적용 개요"
             }
           },
           {
@@ -166,7 +154,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -186,15 +175,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34646632fae5923b",
+  "active": "c1e2452787198d3f",
   "lastOpenFiles": [
-    "index.md",
-    "resources/index.md",
-    "resources/프로그래밍/java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
-    "resources/마인드맵/index.md",
-    "resources/추억들/index.md",
-    "resources/프로그래밍/index.md",
+    "resources/asd/ff.md",
+    "resources/asd/zzz.md",
     "resources/노트/index.md",
+    "resources/asd",
+    "index.md",
+    "private/asd.md",
+    "Attached/index.md",
+    "resources/index.md",
+    "resources/프로그래밍/index.md",
+    "resources/마인드맵/index.md",
+    "resources/프로그래밍/java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
+    "resources/추억들/index.md",
     "resources/노트/인텔리제이 유용한 단축키 모음.md",
     "resources/노트/블로그 수정.md",
     "LocalOuterV2.java",
@@ -202,7 +196,6 @@
     "resources/노트/모듈화 학습법.md",
     "resources/노트/인텔리제이 IDE 변수명 자동 생성 버그.md",
     "resources/노트/배포 시 타임존.md",
-    "Attached/index.md",
     "resources/프로그래밍/용어/index.md",
     "resources/마인드맵/Xmind.md",
     "resources/메모/Quartz4 코드블럭 Syntax Highlighting.md",
@@ -212,9 +205,6 @@
     "resources/프로그래밍/css/스프링 부트에 tailwindCSS 적용.md",
     "resources/프로그래밍/java/index.md",
     "resources/프로그래밍/java/김영한의 스프링/index.md",
-    "resources/프로그래밍/java/김영한의 스프링/고급/index.md",
-    "resources/프로그래밍/java/김영한의 스프링/고급/하나의 프록시, 여러 어드바이저 적용.md",
-    "resources/프로그래밍/용어/협정 세계시 (UTC).md",
     "resources/마인드맵/스프링 MVC의 매핑 핸들러 어댑터 구조 이미지.canvas",
     "resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "resources/마인드맵/스프링 트랜잭션 전파.canvas",
@@ -236,7 +226,6 @@
     "Resources/프로그래밍/프로젝트/무제 폴더",
     "Resources/프로그래밍/프로젝트",
     "resources/프로그래밍/java/김영한의 DB/DB 2편",
-    "resources/프로그래밍/java/김영한의 DB",
-    "resources/프로그래밍/java/김영한의 DB/DB 1편"
+    "resources/프로그래밍/java/김영한의 DB"
   ]
 }
