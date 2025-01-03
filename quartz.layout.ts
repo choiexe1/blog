@@ -28,9 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
         sortFn: (a, b) => {
-            const dateA = Date.parse(a.file?.frontmatter?.date || '0');
-              const dateB = Date.parse(b.file?.frontmatter?.date || '0');
-              return dateB - dateA; // 최신 날짜 우선(내림차순)
+              console.log(a.file?.frontmatter?.date);
           },
       })),
   ],
