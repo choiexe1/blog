@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,7 +187,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34646632fae5923b",
+  "active": "dbfe849003939774",
   "lastOpenFiles": [
     "resources/추억들/index.md",
     "resources/프로그래밍/index.md",
