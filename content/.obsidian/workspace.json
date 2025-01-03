@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
+                "file": "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. 프록시 팩토리"
+              "title": "index"
             }
           },
           {
-            "id": "dce7fa55908e2b06",
+            "id": "18627416d6061b7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
-                "mode": "preview",
+                "file": "무제 파일.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "빈 스코프"
+              "title": "무제 파일"
             }
           },
           {
@@ -203,14 +203,19 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "dce7fa55908e2b06",
+  "active": "18627416d6061b7e",
   "lastOpenFiles": [
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
+    "무제 파일.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/6. 프록시 팩토리.md",
+    "Templates/일반.md",
+    "Templates/기록.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/고급/9. 하나의 프록시, 여러 어드바이저 적용.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/기본/index.md",
+    "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/스프링 컨테이너와 스프링 빈.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 생명주기 콜백.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/기본/빈 스코프.md",
     "Resources/프로그래밍/Java/김영한의 스프링/기본/객체 지향 설계와 스프링.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/기본/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/입문/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/입문/스프링 입문 1.md",
     "Resources/프로그래밍/Java/김영한의 스프링/입문/스프링 입문 2.md",
@@ -224,18 +229,13 @@
     "Attached/Pasted image 20241217010903.png",
     "Attached/Pasted image 20250102092429.png",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/2. 쓰레드 로컬과 동시성 문제.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/9. 하나의 프록시, 여러 어드바이저 적용.md",
     "Resources/마인드맵/Xmind.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/8. 스프링이 제공하는 빈 후처리기.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/7. 빈 후처리기.md",
     "Resources/마인드맵/index.md",
     "Resources/메모/index.md",
     "Resources/메모/모듈화 학습법.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/index.md",
     "Resources/프로그래밍/Java/김영한의 스프링/고급/4. 프록시 패턴과 데코레이터 패턴.md",
-    "Resources/프로그래밍/Java/김영한의 스프링/고급/5. 동적 프록시 기술.md",
-    "Resources/사진과 기억/index.md",
-    "Resources/사진과 기억/교토.md",
     "Attached/bean-post-processor-2.png",
     "Resources/마인드맵/데이터베이스 트랜잭션 주요 개념 정리.canvas",
     "Resources/마인드맵/스프링 트랜잭션 전파.canvas",
