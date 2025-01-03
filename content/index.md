@@ -4,7 +4,7 @@ tags:
 publish: true
 date: 
 sorting-spec: "order-desc: created"
-comment: "false"
+comment: false
 ---
 
 #### 제이의 기술 블로그에 오신걸 환영합니다.

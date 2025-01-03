@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1dbbbe03190f141d",
+        "id": "45483f3141617c9f",
         "type": "tabs",
         "children": [
           {
-            "id": "34646632fae5923b",
+            "id": "2967da74ebd3c0c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/마인드맵/index.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "1.",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/마인드맵/index.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "resources/마인드맵/index.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -175,8 +174,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1e2452787198d3f",
+  "active": "2967da74ebd3c0c4",
   "lastOpenFiles": [
+    "resources/마인드맵/index.md",
+    "resources/index.md",
+    "resources/프로그래밍/index.md",
     "resources/asd/ff.md",
     "resources/asd/zzz.md",
     "resources/노트/index.md",
@@ -184,9 +186,6 @@
     "index.md",
     "private/asd.md",
     "Attached/index.md",
-    "resources/index.md",
-    "resources/프로그래밍/index.md",
-    "resources/마인드맵/index.md",
     "resources/프로그래밍/java/김영한의 스프링/MVC 2편/1. 타임리프 기본 기능.md",
     "resources/추억들/index.md",
     "resources/노트/인텔리제이 유용한 단축키 모음.md",
