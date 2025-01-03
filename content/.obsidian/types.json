@@ -5,6 +5,6 @@
     "tags": "tags",
     "date": "text",
     "comment": "checkbox",
-    "comments": "text"
+    "comments": "checkbox"
   }
 }

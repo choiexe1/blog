@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Templates/일반.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "일반"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Templates/일반.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index의 백링크"
+              "title": "일반의 백링크"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Templates/일반.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "index의 나가는 링크"
+              "title": "일반의 나가는 링크"
             }
           },
           {
@@ -176,6 +176,7 @@
   },
   "active": "58a6dcc4fb859348",
   "lastOpenFiles": [
+    "index.md",
     "Templates/일반.md",
     "resources/프로그래밍/java/김영한의 스프링/고급/@Aspect AOP.md",
     "resources/프로그래밍/java/김영한의 스프링/고급/index.md",
@@ -187,7 +188,6 @@
     "resources/프로그래밍/java/index.md",
     "resources/프로그래밍/index.md",
     "resources/index.md",
-    "index.md",
     "resources/노트/index.md",
     "resources/노트/인텔리제이 IDE 변수명 자동 생성 버그.md",
     "resources/노트/인텔리제이 유용한 단축키 모음.md",

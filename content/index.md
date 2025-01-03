@@ -3,11 +3,12 @@ title: 제이의 기술 블로그
 tags: 
 publish: true
 date: 
-comments: "false"
+comments: false
 ---
+
 이 웹사이트는 [quartz](https://quartz.jzhao.xyz)로 생성된 마크다운 기반의 정적 블로그입니다.
 
-제가 사용하는 노트 앱인 [obsidian](https://obsidian.md)을 통해 퍼블리싱 하는 용도로 사용 됩니다. 
+제가 사용하는 노트 앱인 [obsidian](https://obsidian.md)을 통해 퍼블리싱 하는 용도로 사용 됩니다.
 
 이 블로그의 퍼블리싱 구조는 다음과 같습니다.
 
