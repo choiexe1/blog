@@ -3,7 +3,8 @@ title: resources
 tags:
   - MOCs
 publish: true
-date:
+date: 
+sorting-spec:
 ---
 
 ```folder-index-content
