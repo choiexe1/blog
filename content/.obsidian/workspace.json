@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attached/index.md",
+                "file": "index.md",
                 "mode": "preview",
                 "source": false
               },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attached/index.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attached/index.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -188,11 +188,12 @@
   },
   "active": "34646632fae5923b",
   "lastOpenFiles": [
-    "resources/추억들/index.md",
-    "resources/프로그래밍/index.md",
-    "resources/마인드맵/index.md",
-    "resources/노트/index.md",
     "resources/index.md",
+    "resources/노트/index.md",
+    "resources/마인드맵/index.md",
+    "resources/프로그래밍/index.md",
+    "Attached/index.md",
+    "resources/추억들/index.md",
     "resources/노트/블로그 수정.md",
     "resources/프로그래밍/용어/index.md",
     "index.md",
@@ -216,7 +217,6 @@
     "resources/마인드맵/스프링 트랜잭션 전파.canvas",
     "resources/프로그래밍/java/김영한의 DB/index.md",
     "resources/프로그래밍/java/스프링 시큐리티/index.md",
-    "resources/프로그래밍/java/스프링 시큐리티/스프링 시큐리티 아키텍쳐.md",
     "Attached/메모리_고속_복사연산.png",
     "private",
     "LocalOuterV2.java",
