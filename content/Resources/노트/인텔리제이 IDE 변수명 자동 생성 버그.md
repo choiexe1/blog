@@ -1,11 +1,11 @@
 ---
-title:
+title: 
 tags:
   - java
   - intellij
   - bug
 publish: true
-date: 2024-12-29
+date: 2024-12-29 00:00
 ---
 
 새벽에 코딩하다가 문득 이상한 점을 발견했다.

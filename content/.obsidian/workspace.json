@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "preview",
+                "file": "resources/노트/블로그 수정.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "블로그 수정"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "resources/노트/블로그 수정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index의 백링크"
+              "title": "블로그 수정의 백링크"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "resources/노트/블로그 수정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index의 나가는 링크"
+              "title": "블로그 수정의 나가는 링크"
             }
           },
           {
@@ -188,20 +188,20 @@
   },
   "active": "34646632fae5923b",
   "lastOpenFiles": [
-    "resources/index.md",
     "resources/노트/index.md",
-    "resources/마인드맵/index.md",
-    "resources/프로그래밍/index.md",
-    "Attached/index.md",
-    "resources/추억들/index.md",
+    "resources/노트/모듈화 학습법.md",
     "resources/노트/블로그 수정.md",
-    "resources/프로그래밍/용어/index.md",
-    "index.md",
-    "resources/마인드맵/Xmind.md",
     "resources/노트/인텔리제이 유용한 단축키 모음.md",
     "resources/노트/인텔리제이 IDE 변수명 자동 생성 버그.md",
     "resources/노트/배포 시 타임존.md",
-    "resources/노트/모듈화 학습법.md",
+    "resources/마인드맵/index.md",
+    "resources/프로그래밍/index.md",
+    "resources/index.md",
+    "index.md",
+    "Attached/index.md",
+    "resources/추억들/index.md",
+    "resources/프로그래밍/용어/index.md",
+    "resources/마인드맵/Xmind.md",
     "resources/메모/Quartz4 코드블럭 Syntax Highlighting.md",
     "resources/메모/Quartz4 콜아웃.md",
     "resources/프로그래밍/css/index.md",

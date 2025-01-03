@@ -1,12 +1,12 @@
 ---
 title: 안녕하세요!
-tags: 
+tags:
 publish: true
-date: 
+date:
 sorting-spec: "order-desc: created"
 ---
 
-#### 제이의 지식정원에 오신걸 환영합니다.
+#### 제이의 기술 블로그에 오신걸 환영합니다.
 
 이 웹사이트는 [quartz](https://quartz.jzhao.xyz)로 생성된 마크다운 기반의 정적 블로그입니다.
 
@@ -30,9 +30,9 @@ Obsidian -->|글 작성| Local --> |원격 저장소 자동 푸시| Github --> |
 ##### 소개
 
 - 한국과 북미에서 오버워치 프로게이머로 활동
-  - [Conbox Gaming](https://liquipedia.net/overwatch/CONBOX)
-  - [LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators)
-  - [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant)
+    - [Conbox Gaming](https://liquipedia.net/overwatch/CONBOX)
+    - [LA Gladiators](https://liquipedia.net/overwatch/Los_Angeles_Gladiators)
+    - [Toronto Defiants](https://liquipedia.net/overwatch/Toronto_Defiant)
 - 퍼블리셔 교육 수료 후 퍼블리셔로 입사
 - 퍼블리셔에서 학습 후 Node.js 백엔드 개발자로 전환
 - Node.js로 MVC 구조의 웹 어플리케이션 개발
