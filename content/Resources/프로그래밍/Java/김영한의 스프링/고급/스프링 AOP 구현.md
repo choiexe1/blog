@@ -233,14 +233,202 @@ public class AspectV4Pointcut {
 ```
 
 #### 어드바이스 순서
+
+^aaa8a2
+
 - 어드바이스는 기본적으로 순서를 보장하지 않는다.
 - 순서를 지정하고 싶으면 `@Aspect` 적용 단위로 `org.springframework.core.annotation.@Order` 어노테이션을 적용해야 한다.
-- 문제는 이것은 **어드바이스 단위가 아니라 클래스 단위로 적용**한다는 점이다.
+- 문제는 `@Order` 어노테이션이 **어드바이스 단위가 아니라 클래스 단위로 적용**된다는 점이다.
 - 그래서 지금처럼 하나의 애스펙트에 여러 어드바이스가 있으면 **순서를 보장 받을 수 없다.**
 - 따라서 **애스펙트를 별도의 클래스로 분리**해야한다.
+
+```java
+@Slf4j  
+public class AspectV5Order {  
+    @Order(1)  
+    @Aspect  
+    public static class TransactionAspect {  
+        @Around("hello.aop.order.aop.Pointcuts.allOrderAndService()")  
+        public Object doTransaction(ProceedingJoinPoint joinPoint) throws Throwable {  
+            try {  
+                log.info("[트랜잭션 시작] {}", joinPoint.getSignature());  
+                Object result = joinPoint.proceed();  
+                log.info("[트랜잭션 커밋] {}", joinPoint.getSignature());  
+                return result;  
+            } catch (Exception e) {  
+                log.info("[트랜잭션 롤백] {}", joinPoint.getSignature());  
+                throw e;  
+            } finally {  
+                log.info("[리소스 반환]");  
+            }  
+        }  
+    }  
+  
+    @Order(2)  
+    @Aspect  
+    public static class LogAspect {  
+        @Around("hello.aop.order.aop.Pointcuts.allOrder()")  
+        public Object doLog(ProceedingJoinPoint joinPoint) throws Throwable {  
+            log.info("[log] {}", joinPoint.getSignature());  
+  
+            return joinPoint.proceed();  
+        }  
+    }  
+}
+```
+- `AspectV5Order`는 `Aspect`를 담는 껍데기 클래스이다. 따라서 `@Aspect`를 제거한다.
+- 내부에 [[중첩 클래스와 내부 클래스#정적 중첩 클래스 (Static Nested Class)|정적 중첩 클래스]]를 사용해서 `@Aspect`를 정의한다.
+- 이 `@Aspect`는 클래스이므로 `@Order` 어노테이션을 적용할 수 있다.
+- 실행해보면 예상한대로 순서를 지켜서 작동한다.
+
+#### 어드바이스의 종류
+- `@Around`: 메서드 호출 전 후에 수행, 가장 강력한 어드바이스, 조인 포인트 실행 여부 선택, 반환 값 변환, 예외 변환 등이 가능
+	- `@Before`: 조인 포인트 실행 이전에 실행
+	- `@AfterReturning`: 조인 포인트가 정상 완료후 실행
+	- `@AfterThrowing`: 메서드가 예외를 던지는 경우 실행
+	- `@After`: 조인 포인트가 정상 또는 예외에 관계 없이 실행 (finally)
+- 크게 `@Around`와 그 하위 어드바이스가 존재하는데, `@Around`에서 개념을 분리한 것이다.
+- 한 마디로 `@Around`로 모두 처리할 수 있지만, 개념적으로 분리한 것이라 볼 수 있다.
+
+```java title="@Around로 분리한 어드바이스 예시"
+@Around("hello.aop.order.aop.Pointcuts.allOrderAndService()")  
+public Object doTransaction(ProceedingJoinPoint joinPoint) throws Throwable {  
+    try {  
+        // @Before  
+        log.info("[트랜잭션 시작] {}", joinPoint.getSignature());  
+        Object result = joinPoint.proceed();  
+  
+        // @AfterReturning  
+        log.info("[트랜잭션 커밋] {}", joinPoint.getSignature());  
+        return result;  
+    } catch (Exception e) {  
+        // @AfterThrowing  
+        log.info("[트랜잭션 롤백] {}", joinPoint.getSignature());  
+        throw e;  
+    } finally {  
+        // @After  
+        log.info("[리소스 반환]");  
+    }  
+}
+```
+- 분리된 어드바이스는 주석으로 확인할 수 있다. 이렇게 개념적으로 분리한 것이다.
+- 이 부분은 주석 처리하고, 다양한 어드바이스를 사용해본다.
+```java
+@Slf4j  
+@Aspect  
+public class AspectV6Advice {  
+    @Before("hello.aop.order.aop.Pointcuts.allOrderAndService()")  
+    public void doBefore(JoinPoint joinPoint) {  
+        log.info("[before] {}", joinPoint.getSignature());  
+    }  
+  
+    @AfterReturning(value = "hello.aop.order.aop.Pointcuts.allOrderAndService()", returning = "result")  
+    public void doReturn(JoinPoint joinPoint, Object result) {  
+        log.info("[return] {} return = {}", joinPoint.getSignature(), result);  
+    }  
+  
+    @AfterThrowing(value = "hello.aop.order.aop.Pointcuts.allOrderAndService()", throwing = "ex")  
+    public void doThrowing(JoinPoint joinPoint, Exception ex) {  
+        log.info("[exception] {} message = {}", ex);  
+        // 암묵적으로 throw ex 한다.  
+    }  
+  
+    @After("hello.aop.order.aop.Pointcuts.allOrderAndService()")  
+    public void doAfter(JoinPoint joinPoint) {  
+        log.info("[after] {}", joinPoint.getSignature());  
+    }  
+}
+```
+- 복잡해보이지만 사실 `@Around`를 제외한 나머지 어드바이스들은 `@Around`가 할 수 있는 일의 일부만 제공하는 것 뿐이다.
+- `@AfterReturning`이나 `@AfterThrowing`은 반환 값이나 예외의 이름을 메서드 파라미터 정의와 일치 시켜 사용한다.
+
+#### 참고 정보 획득
+- 모든 어드바이스는 `org.aspectj.lang.JoinPoint`를 첫 번째 파라미터에 사용할 수 있다. (생략 가능)
+- 단 `@Around`는 `ProceedingJoinPoint`를 사용해야 한다.
+
+**JoinPoint 인터페이스 주요 기능**
+- `getArgs()`: 메서드 인수 반환
+- `getThis()`: 프록시 객체 반환
+- `getTarget()`: 대상 객체 반환
+- `getSignature()`: 조언되는 메서드에 대한 설명 반환 (`void hello.aop.order.OrderService.orderItem(String)`)
+- `toString()`: 조언되는 방법에 대한 유용한 설명 반환 (`execution(void hello.aop.order.OrderService.orderItem(String))`)
+
+**ProceedingJoinPoint 인터페이스 주요 기능**
+- `ProceedingJoinPoint`는 `JoinPoint`의 하위 타입이다.
+- `proceed()`: 다음 어드바이스나 타겟을 호출한다.
+
+#### @Before - 조인 포인트 실행 전
+```java
+@Before("hello.aop.order.aop.Pointcuts.allOrderAndService()")  
+public void doBefore(JoinPoint joinPoint) {  
+    log.info("[before] {}", joinPoint.getSignature());  
+}
+```
+- `@Around`와 다르게 작업 흐름을 변경할 수 없다.
+- `@Around`는 `ProceedingJoinPoint.proceed()`를 호출해야 다음 대상이 호출된다. 만약 호출하지 않으면 다음 대상이 호출되지 않는다.
+- 반면 `@Before`는 `ProceedingJoinPoint.proceed()` 자체를 사용하지 않는다. 메서드 종료시 자동으로 다음 타겟이 호출된다. 
+- 물론 예외가 발생하면 다음 코드가 호출되지는 않는다.
+
+#### @AfterReturning - 조인 포인트 메서드 실행이 정상적으로 반환 될 때 실행
+```java
+@AfterReturning(value = "hello.aop.order.aop.Pointcuts.allOrderAndService()", returning = "result")  
+public void doReturn(JoinPoint joinPoint, Object result) {  
+    log.info("[return] {} return = {}", joinPoint.getSignature(), result);  
+}
+```
+- `returning` 속성에 사용된 이름은 어드바이스 메서드의 매개변수 이름과 일치해야 한다.
+- `returning` 절은 지정된 타입의 값을 반환하는 메서드만 대상으로 실행한다.
+	- 예를 들어 `doReturn`의 매개변수 `result`의 타입은 `Object`이다. `Object`는 자바에서 최상위 객체이므로 그 하위 타입까지 모두 이 `doReturn()` 어드바이스가 적용된다.
+	- 반면 매개변수 `result`의 지정 타입이 `String`이라면 `String`을 반환하는 메서드만 대상으로 `doReturn()` 어드바이스가 실행 된다.
+
+#### @AfterThrowing - 조인 포인트 메서드 실행이 예외를 던져서 종료될 때 실행
+```java
+@AfterThrowing(value = "hello.aop.order.aop.Pointcuts.allOrderAndService()", throwing = "ex")  
+public void doThrowing(JoinPoint joinPoint, Exception ex) {  
+    log.info("[exception] {} message = {}", ex);  
+    // 암묵적으로 throw ex 한다.  
+}
+```
+- 어노테이션의 `throwing` 속성에 사용된 이름은 어드바이스 메서드의 매개변수 이름과 일치해야 한다.
+- 앞서 `returning`과 마찬가지로, 매개변수로 지정된 타입과 맞는 예외를 대상으로 실행 된다.
+
+#### @After - 메서드 실행이 종료되면 실행
+- `finally`처럼 메서드 실행이 종료(반환 또는 예외)되면 실행된다.
+- 일반적을 리소스를 해제하는 데 사용된다. (커넥션 반환 같은 경우)
+
+#### @Around
+- 메서드의 실행의 주변에서 실행된다. 메서드 실행 전후에 작업을 수행한다.
+	- 조인 포인트  실행 여부 선택: `joinPoint.proceed()` 호출
+	- 전달 값 변환: `joinPoint.proceed(args[])`
+	- 반환 값 변환
+	- 예외 변환
+	- 트랜잭션처럼 `try-catch-finally` 모두 들어가는 구문 처리 가능
+- 어드바이스의 첫 번째 파라미터는 `ProceedingJoinPoint`를 사용해야 한다.
+- `proceed()`를 통해 대상을 실행한다.
+- `proceed()`는 여러번 실행할 수도 있다. (재시도)
+
+#### 어드바이스 실행 순서
+![[aop-8.png]]
+- 동일한 `@Aspect` 안에 동일한 조인 포인트의 우선 순위이다.
+- 실행 순서: `@Around`, `@Before`, `@After`, `@AfterReturning`, `@AfterThrowing`
+- 어드바이스가 적용 되는 순서는 이렇게 적용되지만, 호출 순서와 반환 순서는 반대다.
+- 물론 `@Aspect` 안에 동일한 종류의 어드바이스가 2개 있으면 순서가 보장되지 않는다. 이 경우 [[#^aaa8a2|어드바이스 순서]]를 참고하자.
+
+
+#### @Around 외에 다른 어드바이스가 존재하는 이유
+- `@Around` 어드바이스는 `joinPoint.proceed()`를 호출하지 않으면 타겟을 호출하지 않는다.
+- 다른 어드바이스들은 `joinPoint.proceed()`를 호출하는 고민을 하지 않아도 된다.
+
+**실수 가능성**
+- `@Around`는 가장 넓은 기능을 제공한다. 그런만큼 실수할 가능성이 크다.
+- 다른 어드바이스는 기능은 적지만 실수할 가능성이 낮다.
+
+**코드의 의도 파악**
+- 다른 어드바이스, 예를 들어 `@Before`를 사용하면 조인 포인트 실행 전에 실행하려고 하는 어드바이스인 것을 명확히 파악할 수 있다.
+- 반면 `@Around`는 코드를 모두 읽어보아야 파악할 수 있다.
 
 ---
 
 References: 김영한의 스프링 핵심 원리 - 고급편
 
-Links to this page: [[스프링 AOP 이론]]
+Links to this page: [[스프링 AOP 이론]], [[중첩 클래스와 내부 클래스]]
