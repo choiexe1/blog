@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/프로그래밍/java/김영한의 스프링/고급/스프링 AOP 구현.md",
-                "mode": "preview",
+                "file": "resources/프로그래밍/java/김영한의 스프링/고급/스프링 AOP 포인트컷.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스프링 AOP 구현"
+              "title": "스프링 AOP 포인트컷"
             }
           }
         ],
@@ -217,9 +217,10 @@
   },
   "active": "3422d5000968e99c",
   "lastOpenFiles": [
+    "resources/프로그래밍/java/김영한의 스프링/고급/스프링 AOP 구현.md",
+    "resources/프로그래밍/java/김영한의 스프링/고급/스프링 AOP 포인트컷.md",
     "Attached/aop-8.png",
     "resources/프로그래밍/java/김영한의 자바/중급 1편/중첩 클래스와 내부 클래스.md",
-    "resources/프로그래밍/java/김영한의 스프링/고급/스프링 AOP 구현.md",
     "resources/프로그래밍/java/김영한의 스프링/고급/스프링 AOP 이론.md",
     "resources/프로그래밍/java/김영한의 스프링/기본/컴포넌트 스캔과 의존관계 자동 주입.md",
     "resources/프로그래밍/java/김영한의 스프링/고급/프록시 패턴과 데코레이터 패턴.md",
@@ -236,7 +237,6 @@
     "Attached/aop-1.png",
     "Attached/aspect-aop-3.png",
     "Attached/aspect-aop-2.png",
-    "Attached/aspect-aop-1.png",
     "resources/프로그래밍/java/김영한의 스프링/고급/스프링이 제공하는 빈 후처리기.md",
     "resources/프로그래밍/java/김영한의 스프링/고급/동적 프록시 기술.md",
     "resources/프로그래밍/java/김영한의 스프링/고급/하나의 프록시, 여러 어드바이저 적용.md",
