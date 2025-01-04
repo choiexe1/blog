@@ -70,7 +70,7 @@ public class MemberServiceImpl implements MemberService {
 }
 ```
 
-#### execution 1 - 정확히 매칭
+#### 정확히 매칭
 ```java
 @Slf4j  
 @SpringBootTest  
@@ -85,7 +85,7 @@ public class ExecutionTest {
   
     @Test  
     void printMethod() {  
-        // public java.lang.String hello.aop.order.aop.member.MemberServiceImpl.hello(java.lang.String)  
+        // public java.lang.String hello.aop.member.MemberServiceImpl.hello(java.lang.String)
         log.info("helloMethod = {}", helloMethod);  
     }  
 }
@@ -95,7 +95,7 @@ public class ExecutionTest {
 ```java
 @Test  
 void exactMatch() {  
-    // public java.lang.String hello.aop.order.aop.member.MemberServiceImpl.hello(java.lang.String)에 정확히 매치  
+    // public java.lang.String hello.aop.member.MemberServiceImpl.hello(java.lang.String)에 정확히 매치  
     pointcut.setExpression("execution(public String hello.aop.member.MemberServiceImpl.hello(String))");  
     assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
 }
@@ -108,6 +108,104 @@ void exactMatch() {
 	- 파라미터: `(String)`
 	- 예외?: 생략
 - `MemberServiceImpl.hello(String)` 메서드와 포인트컷 표현식의 모든 내용이 정확하게 일치한다. 따라서 `true`를 반환하므로 테스트를 통과한다.
+
+#### 가장 많이 생략한 포인트컷
+```java
+@Test  
+void allMatch() {  
+    pointcut.setExpression("execution(* *(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
+}
+```
+- **매칭 조건**
+	- 접근제어자?: 생략
+	- 반환타입: `*`
+	- 선언타입?: 생략
+	- 메서드이름: `*`
+	- 파라미터: `(..)`
+	- 예외?: 생략
+- 파라미터에서 `..`은 파라미터의 타입과 파라미터 수가 상관없다는 뜻이다.
+
+#### 이름으로 매치
+```java
+@Test  
+void nameMatch() {  
+    pointcut.setExpression("execution(* hello(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
+}
+
+@Test  
+void namePatternMatch() {  
+    pointcut.setExpression("execution(* hel*(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
+}
+
+@Test  
+void namePatternMatch2() {  
+    pointcut.setExpression("execution(* *el*(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
+}
+```
+- 메서드 이름으로 매치하는 포인트컷이다.
+- 이름의 앞 뒤에 `*`을 사용해 와일드카드로 사용할 수 있다.
+
+#### 패키지 매칭
+```java
+@Test  
+void packageExactMatch1() {  
+    pointcut.setExpression("execution(* hello.aop.member.MemberServiceImpl.*o*(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
+}
+
+@Test  
+void packageExactMatch2() {  
+    pointcut.setExpression("execution(* hello.aop.member.*.*(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
+}
+
+@Test  
+void packageExactFalse() {  
+    pointcut.setExpression("execution(* hello.aop.*.*(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isFalse();  
+}  
+  
+@Test  
+void packageMatchSubPackage1() {  
+    pointcut.setExpression("execution(* hello.aop.member..*.*(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
+}  
+  
+@Test  
+void packageMatchSubPackage2() {  
+    pointcut.setExpression("execution(* hello.aop..*.*(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
+}
+```
+- `hello.aop.member.*(1).*(2)`
+	- `(1)`: 타입
+	- `(2)`: 메서드 이름
+- 패키지에서 `.`과 `..`의 차이를 이해해야 한다.
+- `.`: 정확히 해당 위치의 패키지
+- `..`: 해당 위치의 패키지와 그 하위 패키지도 포함
+
+#### 타입 매치
+```java
+@Test  
+void typeExactMatch() {  
+    pointcut.setExpression("execution(* hello.aop.member.MemberServiceImpl.*(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
+}  
+  
+@Test  
+void typeSuperMatch() {  
+    pointcut.setExpression("execution(* hello.aop.member.MemberService.*(..))");  
+    assertThat(pointcut.matches(helloMethod, MemberServiceImpl.class)).isTrue();  
+}
+```
+- `typeExactMatch()`는 타입 정보가 정확하게 일치하기 때문에 매칭된다.
+- `typeSuperMatch()`는 부모 타입을 선언해도 그 자식 타입은 매칭된다.
+	- `MemberServiceImpl`은 `MemberService` 인터페이스를 구현한 자식 타입이다.
+	- 따라서 매칭된다.
 
 
 ---
